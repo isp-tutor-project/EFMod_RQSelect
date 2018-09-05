@@ -1,0 +1,180 @@
+{
+	"SScene1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>In this lesson, we will ask you to set up and evaluate experiments.</p>",
+					"text": "In this lesson, we will ask you to set up and evaluate experiments.",
+					"cueSet": "...............a...................................................",
+					"templateRef": {},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track2}}</p>",
+					"text": "{{$EFO_EG_?|track2}}",
+					"cueSet": "............................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track2": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track3}}</p>",
+					"text": "{{$EFO_EG_?|track3}}",
+					"cueSet": "............................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track3": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track4": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track4}}</p>",
+					"text": "{{$EFO_EG_?|track4}}",
+					"cueSet": ".........................................................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track4": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track5": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track5}}</p>",
+					"text": "{{$EFO_EG_?|track5}}",
+					"cueSet": ".................................................................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track5": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track6": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track6}}</p>",
+					"text": "{{$EFO_EG_?|track6}}",
+					"cueSet": "....................................................................................................................................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track6": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track7": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track7}}</p>",
+					"text": "{{$EFO_EG_?|track7}}",
+					"cueSet": "....................................................................................................................................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track7": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track8": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>You will set up (but not run) an experiment on the computer to answer the research question that you have selected.</p>",
+					"text": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
+					"cueSet": "...................................................................................................................",
+					"templateRef": {},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track9": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>Let’s begin by focusing on one area of science</p>",
+					"text": "Let’s begin by focusing on one area of science",
+					"cueSet": "..............................................",
+					"templateRef": {},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			}
+		}
+	}
+}

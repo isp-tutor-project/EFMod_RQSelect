@@ -1,0 +1,16 @@
+{
+    "_LIBRARY": {
+        "eflist": {},
+        "eftext": {
+            "STextBox1": {
+                "src": "$$EFX.html_text"
+            },
+            "STextBox2": {
+                "src": "$$EFX.html_text1"
+            }
+        },
+        "efinput": {},
+        "eftable": {},
+        "efdata": {}
+    }
+}

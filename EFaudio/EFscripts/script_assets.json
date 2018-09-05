@@ -1,0 +1,372 @@
+{
+	"SScene1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>In this lesson, we will ask you to set up and evaluate experiments.</p>",
+					"text": "In this lesson, we will ask you to set up and evaluate experiments.",
+					"cueSet": "...............a...................................................",
+					"templateRef": {},
+					"templates": {},
+					"segments": [
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "0",
+								"SSML": "In this lesson, we will ask you to set up and evaluate experiments.",
+								"cues": [
+									{
+										"name": "a",
+										"offset": 0.22727272727272727,
+										"relTime": 908.125
+									}
+								],
+								"duration": 3995.75,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track2}}</p>",
+					"text": "{{$EFO_EG_?|track2}}",
+					"cueSet": "............................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track2": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {
+						"$EFO_EG_?|track2": {
+							"EGAtrack2": "But first you will select a general area for the experiment.",
+							"EGBtrack2": "But first we will select a general area for the experiment."
+						}
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_EG_?|track2",
+							"EGAtrack2": {
+								"fileid": "0a",
+								"SSML": "But first you will select a general area for the experiment.",
+								"cues": [],
+								"duration": 3160.25,
+								"trim": 0,
+								"volume": 1
+							},
+							"EGBtrack2": {
+								"fileid": "0b",
+								"SSML": "But first we will select a general area for the experiment.",
+								"cues": [],
+								"duration": 3209.625,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track3}}</p>",
+					"text": "{{$EFO_EG_?|track3}}",
+					"cueSet": "............................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track3": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {
+						"$EFO_EG_?|track3": {
+							"EGAtrack3": "For example, you might select the general area of psychology.",
+							"EGBtrack3": "For example, we might select the general area of psychology."
+						}
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_EG_?|track3",
+							"EGAtrack3": {
+								"fileid": "0a",
+								"SSML": "For example, you might select the general area of psychology.",
+								"cues": [],
+								"duration": 3333.0416666666665,
+								"trim": 0,
+								"volume": 1
+							},
+							"EGBtrack3": {
+								"fileid": "0b",
+								"SSML": "For example, we might select the general area of psychology.",
+								"cues": [],
+								"duration": 3346.1666666666665,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track4": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track4}}</p>",
+					"text": "{{$EFO_EG_?|track4}}",
+					"cueSet": ".........................................................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track4": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {
+						"$EFO_EG_?|track4": {
+							"EGAtrack4": "After you select the general area, you will then select a specific topic within that area.",
+							"EGBtrack4": "After we select the general area, we will then select a specific topic within that area."
+						}
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_EG_?|track4",
+							"EGAtrack4": {
+								"fileid": "0a",
+								"SSML": "After you select the general area, you will then select a specific topic within that area.",
+								"cues": [],
+								"duration": 4616.458333333333,
+								"trim": 0,
+								"volume": 1
+							},
+							"EGBtrack4": {
+								"fileid": "0b",
+								"SSML": "After we select the general area, we will then select a specific topic within that area.",
+								"cues": [],
+								"duration": 4645.833333333333,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track5": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track5}}</p>",
+					"text": "{{$EFO_EG_?|track5}}",
+					"cueSet": ".................................................................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track5": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {
+						"$EFO_EG_?|track5": {
+							"EGAtrack5": "For example, within the general area of psychology, you might select the topic attention to color.",
+							"EGBtrack5": "For example, within the general area of psychology, we might select the topic attention to color."
+						}
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_EG_?|track5",
+							"EGAtrack5": {
+								"fileid": "0a",
+								"SSML": "For example, within the general area of psychology, you might select the topic attention to color.",
+								"cues": [],
+								"duration": 5458.708333333333,
+								"trim": 0,
+								"volume": 1
+							},
+							"EGBtrack5": {
+								"fileid": "0b",
+								"SSML": "For example, within the general area of psychology, we might select the topic attention to color.",
+								"cues": [],
+								"duration": 5436.791666666667,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track6": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track6}}</p>",
+					"text": "{{$EFO_EG_?|track6}}",
+					"cueSet": "....................................................................................................................................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track6": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {
+						"$EFO_EG_?|track6": {
+							"EGAtrack6": "Within that topic, you will select a research question.",
+							"EGBtrack6": "Within that topic, we will select a research question."
+						}
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_EG_?|track6",
+							"EGAtrack6": {
+								"fileid": "0a",
+								"SSML": "Within that topic, you will select a research question.",
+								"cues": [],
+								"duration": 2670.4583333333335,
+								"trim": 0,
+								"volume": 1
+							},
+							"EGBtrack6": {
+								"fileid": "0b",
+								"SSML": "Within that topic, we will select a research question.",
+								"cues": [],
+								"duration": 2988.5416666666665,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track7": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_?|track7}}</p>",
+					"text": "{{$EFO_EG_?|track7}}",
+					"cueSet": "....................................................................................................................................................................................",
+					"templateRef": {
+						"$EFO_EG_?|track7": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"templates": {
+						"$EFO_EG_?|track7": {
+							"EGAtrack7": "For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+							"EGBtrack7": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?"
+						}
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_EG_?|track7",
+							"EGAtrack7": {
+								"fileid": "0a",
+								"SSML": "For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+								"cues": [],
+								"duration": 8157.791666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"EGBtrack7": {
+								"fileid": "0b",
+								"SSML": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+								"cues": [],
+								"duration": 7960.625,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track8": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>You will set up (but not run) an experiment on the computer to answer the research question that you have selected.</p>",
+					"text": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
+					"cueSet": "...................................................................................................................",
+					"templateRef": {},
+					"templates": {},
+					"segments": [
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "0",
+								"SSML": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
+								"cues": [],
+								"duration": 5564.791666666667,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			},
+			"track9": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>Let’s begin by focusing on one area of science</p>",
+					"text": "Let’s begin by focusing on one area of science",
+					"cueSet": "..............................................",
+					"templateRef": {},
+					"templates": {},
+					"segments": [
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "0",
+								"SSML": "Let’s begin by focusing on one area of science",
+								"cues": [],
+								"duration": 3069.9166666666665,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					]
+				}
+			}
+		}
+	}
+}

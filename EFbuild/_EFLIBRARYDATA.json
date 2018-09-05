@@ -1,0 +1,50 @@
+{
+	"_LIBRARY": {
+		"eflist": {},
+		"eftext": {
+			"STextBox1": {
+				"src": "$$EFX.html_text",
+				"htmlData": {
+					"style": {
+						"[stextbox1].outerContainer": {
+							"text-align": "center",
+							"user-select": "none",
+							"color": "white",
+							"font-family": "'pangolin'",
+							"font-size": "47px",
+							"height": "112px",
+							"width": "506px"
+						},
+						"[stextbox1] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p>test</p>\n    "
+				}
+			},
+			"STextBox2": {
+				"src": "$$EFX.html_text1",
+				"htmlData": {
+					"style": {
+						"[stextbox2].outerContainer": {
+							"text-align": "center",
+							"user-select": "none",
+							"color": "white",
+							"font-family": "'pangolin'",
+							"font-size": "21px",
+							"height": "158px",
+							"width": "274px"
+						},
+						"[stextbox2] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+				}
+			}
+		},
+		"efinput": {},
+		"eftable": {},
+		"efdata": {}
+	}
+}

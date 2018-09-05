@@ -1,0 +1,219 @@
+
+{
+
+	"SNavigator":
+	{	
+		"COMMENT":"ISP Navigation Panel...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Welcome...",
+                    "type":"moduleRef",
+                    "subtype":"module", 
+                	"name":"NOOP",
+					"edges":
+							[
+							]
+					}															
+		},		
+            
+		"CModules":
+		{
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+            
+            "NOOP":{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"actionname":"NOOP", "features":""}
+				]
+			}			
+		}
+	},
+	
+	
+
+	"SScene1":
+	{	
+		"COMMENT":"TED Introduction sequence...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Welcome...",
+                    "type":"module",
+                    "name":"RQSelectIntro",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1", "autostep":true, "stepdelay":750,  "features":""},
+                        {"trackname":"track2", "autostep":true, "stepdelay":750,  "features":""},
+                        {"trackname":"track3", "autostep":true, "stepdelay":750,  "features":""},
+                        {"trackname":"track4", "autostep":true, "stepdelay":750,  "features":""},
+                        {"trackname":"track5", "autostep":true, "stepdelay":750,  "features":""},
+                        {"trackname":"track6", "autostep":true, "stepdelay":750,  "features":""},
+                        {"trackname":"track7", "autostep":true, "stepdelay":750,  "features":""},
+                        {"trackname":"track8", "autostep":true, "stepdelay":750,  "features":""},
+                        {"trackname":"track9", "autostep":false, "stepdelay":750,  "features":""}
+
+                    ],                        
+                    "edges":
+							[
+								{"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					
+										
+			"NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    "type":"moduleRef",
+                    "subtype":"module", 
+                    "name":"NEXTSCENE",
+                    "edges":
+                            [
+                            ]
+                    }															
+		},		
+			
+		"CModules":
+		{		
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+            
+            "NEXTSCENE":{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"actionname":"NOOP", "features":""}
+				]
+			}			
+		
+		}
+	},
+	
+	
+	"SScene2":
+	{	
+		"COMMENT":"Today we're going to...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+                "type":"moduleRef",
+                "subtype":"module", 
+                "name":"NOOP",
+					 "edges":
+							[
+							]
+					}
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+            
+            "NOOP":{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"actionname":"NOOP", "features":""}
+				]
+			}			
+
+		}		
+	},
+
+	"SScene3":
+	{	
+		"COMMENT":"Today we're going to...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+                "type":"moduleRef",
+                "subtype":"module", 
+					"name":"NOOP",
+					 "edges":
+							[
+							]
+					}
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+            
+            "NOOP":{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"actionname":"NOOP", "features":""}
+				]
+			}			
+
+		}		
+	},
+
+	"SScene4":
+	{	
+		"COMMENT":"Today we're going to...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+                "type":"moduleRef",
+                "subtype":"module", 
+					"name":"NOOP",
+					 "edges":
+							[
+							]
+					}
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+            
+            "NOOP":{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"actionname":"NOOP", "features":""}
+				]
+			}			
+
+		}		
+	}
+}
+
+
+
+
+
+

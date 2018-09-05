@@ -1,0 +1,29 @@
+{
+    "MODULEDATA":"v1.0.0",
+    "_ONTOLOGY": {    
+        "EG": {
+            "A": {
+                "type": "choice",                
+                "pronoun": "you",
+                "track2":"But first you will select a general area for the experiment.",
+                "track3":"For example, you might select the general area of psychology.",
+                "track4":"After you select the general area, you will then select a specific topic within that area.",
+                "track5":"For example, within the general area of psychology, you might select the topic attention to color.",
+                "track6":"Within that topic, you will select a research question.",
+                "track7":"For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?"
+            },
+            "B": {
+                "type": "no choice",
+                "pronoun": "we",
+                "track2":"But first we will select a general area for the experiment.",
+                "track3":"For example, we might select the general area of psychology.",
+                "track4":"After we select the general area, we will then select a specific topic within that area.",
+                "track5":"For example, within the general area of psychology, we might select the topic attention to color.",
+                "track6":"Within that topic, we will select a research question.",
+                "track7":"For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?"
+            }
+
+        }
+        
+    }
+}
