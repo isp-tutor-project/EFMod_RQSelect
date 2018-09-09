@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1920" height="1200" currentTimeline="1" xflVersion="2.96" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 18.0 build 115" majorVersion="18" buildNumber="115" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="8927091D547A30DADEC29278A6AEC965">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1920" height="1200" currentTimeline="1" xflVersion="2.96" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 18.0 build 115" majorVersion="18" buildNumber="115" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="F2AAB060E6A643B152F88DFFCB60C58D">
      <folders>
           <DOMFolderItem name="____componentassets____" itemID="5ad28523-00000243"/>
           <DOMFolderItem name="_HTMLControls" itemID="5b6f4063-000003e9" isExpanded="true"/>
@@ -10,12 +10,13 @@
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components" itemID="5b6f403c-000003c9"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets" itemID="5b68a267-00000548"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons" itemID="532c6375-000002d1"/>
-          <DOMFolderItem name="_Tutor Global Scenes" itemID="5b8db57f-00000793" isExpanded="true"/>
+          <DOMFolderItem name="_Tutor Global Scenes" itemID="5b8db57f-00000793"/>
           <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e" isExpanded="true"/>
-          <DOMFolderItem name="Assets/Custom Controls" itemID="5b8dc464-00000811" isExpanded="true"/>
+          <DOMFolderItem name="Assets/Custom Controls" itemID="5b8dc464-00000811"/>
           <DOMFolderItem name="Assets/Custom Controls/IntroControl Assets" itemID="5b8dc78f-000008fa"/>
           <DOMFolderItem name="Assets/images" itemID="5b900825-000017f5"/>
           <DOMFolderItem name="Exports" itemID="5b60aa1c-0000045f" isExpanded="true"/>
+          <DOMFolderItem name="Imports" itemID="5b904cc5-0000221b" isExpanded="true"/>
           <DOMFolderItem name="Scene Assets" itemID="5ae24ea6-00000248"/>
           <DOMFolderItem name="Scene Assets/TC_TScene__SignIn" itemID="5ae3761f-00000407"/>
           <DOMFolderItem name="Scene Assets/TC_TScene__SoundCheck" itemID="5ae37625-00000409"/>
@@ -36,7 +37,7 @@
           <DOMBitmapItem name="Scene Assets/TC_TScene_HeadPhoneCheck/klahrlogo.png" itemID="5ae2612c-00000278" sourceLastImported="1316734659" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Scene Assets/TC_TScene_HeadPhoneCheck/klahrlogo.png" bitmapDataHRef="M 5 1536013696.dat" frameRight="1640" frameBottom="800"/>
           <DOMBitmapItem name="Scene Assets/TC_TScene__SignIn/loginIcon.png" itemID="5ad382f5-000002cf" sourceLastImported="1402699026" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Scene Assets/TC_TScene__SignIn/loginIcon.png" bitmapDataHRef="M 6 1536013696.dat" frameRight="2560" frameBottom="2560"/>
           <DOMBitmapItem name="Scene Assets/TC_TScene__SoundCheck/SpkrIcon.png" itemID="5ae265bf-00000311" sourceLastImported="1359503119" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Scene Assets/TC_TScene__SoundCheck/SpkrIcon.png" bitmapDataHRef="M 13 1536013696.dat" frameRight="8000" frameBottom="6000"/>
-          <DOMBitmapItem name="Assets/images/tshirtstickfigures.png" itemID="5b902ec4-00001a48" sourceExternalFilepath="E:/Projects/EdForge/ISP_TUTOR/EFMod_RQSelect/LIBRARY/Assets/images/tshirtstickfigures.png" sourceLastImported="1536166282" externalFileSize="57452" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/images/tshirtstickfigures.png" bitmapDataHRef="M 15 1536096843.dat" frameRight="11000" frameBottom="8000"/>
+          <DOMBitmapItem name="Assets/images/tshirtstickfigures.png" itemID="5b902ec4-00001a48" sourceLastImported="1536166282" externalFileSize="57452" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/images/tshirtstickfigures.png" bitmapDataHRef="M 15 1536096843.dat" frameRight="11000" frameBottom="8000"/>
           <DOMBitmapItem name="____componentassets____/TutorModule" itemID="5ad39ecb-000002ce" sourceLastImported="1512163249" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="____componentassets____/TutorModule.png" bitmapDataHRef="M 3 1523818176.dat" frameLeft="140" frameTop="1720" frameRight="780" frameBottom="2360"/>
      </media>
      <symbols>
@@ -88,8 +89,9 @@
           <Include href="Assets/Custom Controls/TC_TIntroControl__RQIntro.xml" loadImmediate="false" itemID="5b8e7c4d-00000f40" lastModified="1536090741"/>
           <Include href="Assets/Custom Controls/TC_TObject__RedShirtGraphic.xml" loadImmediate="false" itemID="5b900aa2-00001989" lastModified="1536166562"/>
           <Include href="Assets/ForceSpriteSheet-Kludge.xml" loadImmediate="false" itemID="5b900969-00001914" lastModified="1536166256"/>
+          <Include href="Imports/TL_Algae__AlgaeTopic.xml" loadImmediate="false" itemID="5b918552-0000071a" lastModified="1536263506"/>
           <Include href="Scene Assets/TC_TScene__SignIn/IconSignIn.xml" loadImmediate="false" itemID="5ae36986-00000383" lastModified="1524853134"/>
-          <Include href="Scenes/TC_TScene__Scene1.xml" loadImmediate="false" itemID="5b8db5f5-000007c2" lastModified="1536170416"/>
+          <Include href="Scenes/TC_TScene__Scene1.xml" loadImmediate="false" itemID="5b8db5f5-000007c2" lastModified="1536266112"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1536023912"/>
      </symbols>
      <timelines>
@@ -185,7 +187,7 @@
                                                   <Point x="50" y="50"/>
                                              </transformationPoint>
                                              <parametersAsXML><![CDATA[   <property id="compositionID">
-      <Inspectable name="compositionID" variable="compositionID" category="" verbose="0" defaultValue="8927091D547A30DADEC29278A6AEC965" type="String"/>
+      <Inspectable name="compositionID" variable="compositionID" category="" verbose="0" defaultValue="F2AAB060E6A643B152F88DFFCB60C58D" type="String"/>
    </property>
    <property id="__ComponentType__">
       <Inspectable name="__ComponentType__" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
@@ -204,7 +206,7 @@
      </scripts>
      <persistentData>
           <PD n="TestMovieChecked" v="Browser"/>
-          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+          <PD n="CreateJSToolkit_timelinedata" v="version 0.1 loop true"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory/>

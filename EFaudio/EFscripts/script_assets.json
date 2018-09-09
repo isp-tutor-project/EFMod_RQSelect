@@ -19,10 +19,10 @@
 									{
 										"name": "a",
 										"offset": 0.22727272727272727,
-										"relTime": 908.125
+										"relTime": 814.5170454545454
 									}
 								],
-								"duration": 3995.75,
+								"duration": 3583.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -59,7 +59,7 @@
 								"fileid": "0a",
 								"SSML": "But first you will select a general area for the experiment.",
 								"cues": [],
-								"duration": 3160.25,
+								"duration": 2952,
 								"trim": 0,
 								"volume": 1
 							},
@@ -67,7 +67,7 @@
 								"fileid": "0b",
 								"SSML": "But first we will select a general area for the experiment.",
 								"cues": [],
-								"duration": 3209.625,
+								"duration": 2992.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -112,7 +112,7 @@
 								"fileid": "0b",
 								"SSML": "For example, we might select the general area of psychology.",
 								"cues": [],
-								"duration": 3346.1666666666665,
+								"duration": 3510.1666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -149,7 +149,7 @@
 								"fileid": "0a",
 								"SSML": "After you select the general area, you will then select a specific topic within that area.",
 								"cues": [],
-								"duration": 4616.458333333333,
+								"duration": 4836.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -157,7 +157,7 @@
 								"fileid": "0b",
 								"SSML": "After we select the general area, we will then select a specific topic within that area.",
 								"cues": [],
-								"duration": 4645.833333333333,
+								"duration": 4638.458333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -194,7 +194,7 @@
 								"fileid": "0a",
 								"SSML": "For example, within the general area of psychology, you might select the topic attention to color.",
 								"cues": [],
-								"duration": 5458.708333333333,
+								"duration": 5172.791666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -202,7 +202,7 @@
 								"fileid": "0b",
 								"SSML": "For example, within the general area of psychology, we might select the topic attention to color.",
 								"cues": [],
-								"duration": 5436.791666666667,
+								"duration": 5355,
 								"trim": 0,
 								"volume": 1
 							}
@@ -239,7 +239,7 @@
 								"fileid": "0a",
 								"SSML": "Within that topic, you will select a research question.",
 								"cues": [],
-								"duration": 2670.4583333333335,
+								"duration": 2996.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -247,7 +247,7 @@
 								"fileid": "0b",
 								"SSML": "Within that topic, we will select a research question.",
 								"cues": [],
-								"duration": 2988.5416666666665,
+								"duration": 2926.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -284,7 +284,7 @@
 								"fileid": "0a",
 								"SSML": "For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 								"cues": [],
-								"duration": 8157.791666666667,
+								"duration": 8150.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -292,7 +292,7 @@
 								"fileid": "0b",
 								"SSML": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 								"cues": [],
-								"duration": 7960.625,
+								"duration": 7849.458333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -322,7 +322,7 @@
 								"fileid": "0",
 								"SSML": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
 								"cues": [],
-								"duration": 5564.791666666667,
+								"duration": 5773.333333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -352,7 +352,7 @@
 								"fileid": "0",
 								"SSML": "Let’s begin by focusing on one area of science",
 								"cues": [],
-								"duration": 3069.9166666666665,
+								"duration": 2882.5,
 								"trim": 0,
 								"volume": 1
 							}
