@@ -204,7 +204,7 @@
                     </DOMStaticText>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="Scene Assets/TC_TScene__SignIn/IconSignIn">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene__SignIn/IconSignIn">
                   <matrix>
                     <Matrix tx="792" ty="402.85"/>
                   </matrix>

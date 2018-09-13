@@ -1,0 +1,104 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene4" itemID="5b983a09-0000054e" lastModified="1536879381">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TScene__Scene4">
+      <layers>
+        <DOMLayer name="Stitle" color="#009999" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle">
+                  <matrix>
+                    <Matrix a="15.6449890136719" d="3.35833740234375" tx="177.75" ty="143.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Svar4">
+                  <matrix>
+                    <Matrix a="9.402587890625" d="0.477325439453125" tx="603.4" ty="841.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/images/TC_TObject__arrow" name="Sarrow4">
+                  <matrix>
+                    <Matrix tx="467.25" ty="835.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="52.5" y="30.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Svar3">
+                  <matrix>
+                    <Matrix a="9.402587890625" d="0.477325439453125" tx="603.4" ty="753.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/images/TC_TObject__arrow" name="Sarrow3">
+                  <matrix>
+                    <Matrix tx="467.25" ty="747.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="52.5" y="30.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Svar2">
+                  <matrix>
+                    <Matrix a="9.402587890625" d="0.477325439453125" tx="603.4" ty="665.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/images/TC_TObject__arrow" name="Sarrow2">
+                  <matrix>
+                    <Matrix tx="467.25" ty="658.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="52.5" y="30.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Svar1">
+                  <matrix>
+                    <Matrix a="9.402587890625" d="0.477325439453125" tx="603.4" ty="577.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/images/TC_TObject__arrow" name="Sarrow1">
+                  <matrix>
+                    <Matrix tx="467.25" ty="570.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="52.5" y="30.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="SceneRegion" color="#00FFFF" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn">
+                  <transformationPoint>
+                    <Point x="960" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

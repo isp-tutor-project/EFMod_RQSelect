@@ -2,6 +2,111 @@
 	"_LIBRARY": {
 		"eflist": {},
 		"eftext": {
+			"STitle": {
+				"src": "$$EFX.html_text2",
+				"htmlData": {
+					"style": {
+						"[stitle].outerContainer": {
+							"text-align": "center",
+							"user-select": "none",
+							"color": "rgb(0, 0, 0)",
+							"font-weight": "bold",
+							"font-family": "'PT Sans'",
+							"font-size": "41px",
+							"height": "158px",
+							"width": "274px"
+						},
+						"[stitle] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+				}
+			},
+			"Svar1": {
+				"src": "$$EFX.html_text3",
+				"htmlData": {
+					"style": {
+						"[svar1].outerContainer": {
+							"text-align": "left",
+							"user-select": "none",
+							"color": "rgb(0, 0, 0)",
+							"font-weight": "bold",
+							"font-family": "'PT Sans'",
+							"font-size": "41px",
+							"height": "158px",
+							"width": "274px"
+						},
+						"[svar1] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+				}
+			},
+			"Svar2": {
+				"src": "$$EFX.html_text3",
+				"htmlData": {
+					"style": {
+						"[svar2].outerContainer": {
+							"text-align": "left",
+							"user-select": "none",
+							"color": "rgb(0, 0, 0)",
+							"font-weight": "bold",
+							"font-family": "'PT Sans'",
+							"font-size": "41px",
+							"height": "158px",
+							"width": "274px"
+						},
+						"[svar2] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+				}
+			},
+			"Svar3": {
+				"src": "$$EFX.html_text3",
+				"htmlData": {
+					"style": {
+						"[svar3].outerContainer": {
+							"text-align": "left",
+							"user-select": "none",
+							"color": "rgb(0, 0, 0)",
+							"font-weight": "bold",
+							"font-family": "'PT Sans'",
+							"font-size": "41px",
+							"height": "158px",
+							"width": "274px"
+						},
+						"[svar3] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+				}
+			},
+			"Svar4": {
+				"src": "$$EFX.html_text3",
+				"htmlData": {
+					"style": {
+						"[svar4].outerContainer": {
+							"text-align": "left",
+							"user-select": "none",
+							"color": "rgb(0, 0, 0)",
+							"font-weight": "bold",
+							"font-family": "'PT Sans'",
+							"font-size": "41px",
+							"height": "158px",
+							"width": "274px"
+						},
+						"[svar4] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+				}
+			},
 			"STextBox1": {
 				"src": "$$EFX.html_text",
 				"htmlData": {
@@ -45,6 +150,67 @@
 		},
 		"efinput": {},
 		"eftable": {},
-		"efdata": {}
+		"efdata": {
+			"S3StitleC": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?|withinarea}}{{$EFO_EG_A?|selecttopic}}</p>"
+				},
+				"templateRef": {
+					"S_A?|withinarea": "$EFM_selectedArea.ontologyKey",
+					"EG_A?|selecttopic": "$EFT_experimentalGroup.ontologyKey"
+				}
+			},
+			"S3StitleNC": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?|withinarea}}{{$EFO_S_A?_T?|wewillselect}}{{$EFO_EG_A?|selecttopic}}</p>"
+				},
+				"templateRef": {
+					"S_A?|withinarea": "$EFM_selectedArea.ontologyKey",
+					"S_A?_T?|wewillselect": "$EFM_selectedTopic.ontologyKey",
+					"EG_A?|selecttopic": "$EFT_experimentalGroup.ontologyKey"
+				}
+			},
+			"S4Stitle": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|belowarevariables}}{{$EFO_EG_A?|cantest}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|belowarevariables": "$EFM_selectedTopic.ontologyKey",
+					"EG_A?|cantest": "$EFT_experimentalGroup.ontologyKey"
+				}
+			},
+			"S4Svar1": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumVar1}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"S4Svar2": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumVar2}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"S4Svar3": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumVar3}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"S4Svar4": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumVar4}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+				}
+			}
+		}
 	}
 }

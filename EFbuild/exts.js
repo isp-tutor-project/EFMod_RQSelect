@@ -131,6 +131,16 @@ System.register("thermite/TIntroControl", ["core/CEFTimeLine", "thermite/TObject
                             break;
                     }
                 }
+                set alpha(value) {
+                    this._alpha = value;
+                    if (this.STextBox1 && this.STextBox2) {
+                        this.STextBox1.alpha = value;
+                        this.STextBox2.alpha = value;
+                    }
+                }
+                get alpha() {
+                    return this._alpha;
+                }
                 captureLogState(obj = null) {
                     obj = super.captureLogState(obj);
                     return obj;
@@ -154,6 +164,70 @@ System.register("thermite/TIntroControl", ["core/CEFTimeLine", "thermite/TObject
                 }
             };
             exports_1("TIntroControl", TIntroControl);
+        }
+    };
+});
+System.register("thermite/TMaterialIcon", ["core/CEFTimeLine", "thermite/TObject", "util/CUtil"], function (exports_2, context_2) {
+    "use strict";
+    var CEFTimeLine_2, TObject_2, CUtil_2, TMaterialIcon;
+    var __moduleName = context_2 && context_2.id;
+    return {
+        setters: [
+            function (CEFTimeLine_2_1) {
+                CEFTimeLine_2 = CEFTimeLine_2_1;
+            },
+            function (TObject_2_1) {
+                TObject_2 = TObject_2_1;
+            },
+            function (CUtil_2_1) {
+                CUtil_2 = CUtil_2_1;
+            }
+        ],
+        execute: function () {
+            TMaterialIcon = class TMaterialIcon extends TObject_2.TObject {
+                constructor() {
+                    super();
+                    this.init3();
+                }
+                TMaterialIconInitialize() {
+                    this.TObjectInitialize.call(this);
+                    this.init3();
+                }
+                initialize() {
+                    this.TObjectInitialize.call(this);
+                    this.init3();
+                }
+                init3() {
+                    this.traceMode = true;
+                    if (this.traceMode)
+                        CUtil_2.CUtil.trace("TMaterialIcon:Constructor");
+                    this.effectTimeLine = new CEFTimeLine_2.CEFTimeLine(null, null, { "useTicks": false, "loop": false, "paused": true }, this.tutorDoc);
+                    this.effectTweens = new Array();
+                }
+                Destructor() {
+                    super.Destructor();
+                }
+                captureLogState(obj = null) {
+                    obj = super.captureLogState(obj);
+                    return obj;
+                }
+                captureXMLState() {
+                    let stateVal = { controller: {} };
+                    let controller = stateVal.controller;
+                    return stateVal;
+                }
+                restoreXMLState(stateVal) {
+                }
+                compareXMLState(stateVal) {
+                    var bTest = true;
+                    return bTest;
+                }
+                deSerializeObj(objData) {
+                    console.log("deserializing: TMaterialIcon Custom Control");
+                    super.deSerializeObj(objData);
+                }
+            };
+            exports_2("TMaterialIcon", TMaterialIcon);
         }
     };
 });

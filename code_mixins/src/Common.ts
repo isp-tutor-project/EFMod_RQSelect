@@ -71,6 +71,8 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         // Scene State methods
         //
 
+        public $onAction(target:string, evt:string) {}
+
 		public $updateNav() : void {
 
 			// Update the Navigation

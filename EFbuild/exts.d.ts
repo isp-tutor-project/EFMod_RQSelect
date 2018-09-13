@@ -21,6 +21,7 @@ declare module "thermite/TIntroControl" {
         private SELECTEDnoARROW;
         private SELECTED2noARROW;
         private currState;
+        private _alpha;
         constructor();
         TIntroControlInitialize(): void;
         initialize(): void;
@@ -30,6 +31,32 @@ declare module "thermite/TIntroControl" {
         hostScene: TScene;
         private hideall;
         gotoState(state: number): void;
+        alpha: number;
+        captureLogState(obj?: any): Object;
+        captureXMLState(): any;
+        restoreXMLState(stateVal: any): void;
+        compareXMLState(stateVal: any): boolean;
+        deSerializeObj(objData: any): void;
+    }
+}
+declare module "thermite/TMaterialIcon" {
+    import { TObject } from "thermite/TObject";
+    import { THtmlText } from "thermite/THtmlText";
+    export class TMaterialIcon extends TObject {
+        protected STextBox1: THtmlText;
+        protected STextBox2: THtmlText;
+        protected SboxNormal: TObject;
+        protected SboxSelect: TObject;
+        protected SbubbleNormal: TObject;
+        protected SbubbleSelect: TObject;
+        protected SboxShadow: TObject;
+        protected SbubbleShadow: TObject;
+        private currState;
+        constructor();
+        TMaterialIconInitialize(): void;
+        initialize(): void;
+        private init3;
+        Destructor(): void;
         captureLogState(obj?: any): Object;
         captureXMLState(): any;
         restoreXMLState(stateVal: any): void;

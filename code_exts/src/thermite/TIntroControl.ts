@@ -66,6 +66,7 @@ export class TIntroControl extends TObject
     private SELECTED2noARROW:number        = 7;        // Box Select no Arrow
     
     private currState:number;                   // current state
+    private _alpha:number;
 
 
 	constructor()
@@ -233,6 +234,25 @@ export class TIntroControl extends TObject
         }
     }
 
+
+    // When you have HTML subcomponents you need to override
+    // tween targets for the HTMLELements to respond to changes
+    // 
+    public set alpha(value:number) {
+
+        this._alpha = value;
+
+        if(this.STextBox1 && this.STextBox2) {
+
+            this.STextBox1.alpha = value;
+            this.STextBox2.alpha = value;
+        }
+    }
+    
+    public get alpha() : number {
+
+        return this._alpha;
+    }
     
 //*************** Logging state management
 	

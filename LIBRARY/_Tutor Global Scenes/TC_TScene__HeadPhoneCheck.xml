@@ -6,22 +6,22 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene_HeadPhoneCheck/Headphones.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene_HeadPhoneCheck/Headphones.png">
                   <matrix>
                     <Matrix tx="763" ty="244"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene_HeadPhoneCheck/cmulogo.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene_HeadPhoneCheck/cmulogo.png">
                   <matrix>
                     <Matrix tx="813" ty="980"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene_HeadPhoneCheck/ieslogo.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene_HeadPhoneCheck/ieslogo.png">
                   <matrix>
                     <Matrix tx="646" ty="980"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene_HeadPhoneCheck/klahrlogo.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene_HeadPhoneCheck/klahrlogo.png">
                   <matrix>
                     <Matrix tx="1192" ty="980"/>
                   </matrix>

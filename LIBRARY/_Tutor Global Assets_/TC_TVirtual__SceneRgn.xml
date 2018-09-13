@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/TC_TVirtual__SceneRgn" itemID="5b7745af-0000037b" sourceFlashFilepath="../EFMod_Algae/EFMod_Algae.xfl" sourceLibraryItemHRef="_Tutor Global Assets_/TC_TVirtual__SceneRgn" sourceLastModified="1534543279" lastModified="1536014047" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/TC_TVirtual__SceneRgn" itemID="5b7745af-0000037b" sourceFlashFilepath="../EFMod_Algae/EFMod_Algae.xfl" sourceLibraryItemHRef="_Tutor Global Assets_/TC_TVirtual__SceneRgn" sourceLastModified="1534543279" lastModified="1536529831" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="TC_TVirtual__SceneRgn">
       <layers>
@@ -13,7 +13,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMRectangleObject objectWidth="1920" objectHeight="1200" x="-1" y="1" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="-240" bottomRightRadius="-240">
+                <DOMRectangleObject objectWidth="1920" objectHeight="1200" x="-1" y="1" lockFlag="true">
                   <matrix>
                     <Matrix tx="1" ty="-1"/>
                   </matrix>

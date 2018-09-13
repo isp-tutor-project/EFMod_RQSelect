@@ -2,6 +2,22 @@
     "_LIBRARY": {
         "eflist": {},
         "eftext": {
+            "STitle": {
+                "src": "$$EFX.html_text2"
+            },
+            "Svar1": {
+                "src": "$$EFX.html_text3"
+            },
+            "Svar2": {
+                "src": "$$EFX.html_text3"
+            },
+            "Svar3": {
+                "src": "$$EFX.html_text3"
+            },
+            "Svar4": {
+                "src": "$$EFX.html_text3"
+            },
+
             "STextBox1": {
                 "src": "$$EFX.html_text"
             },
@@ -9,8 +25,72 @@
                 "src": "$$EFX.html_text1"
             }
         },
+
         "efinput": {},
         "eftable": {},
-        "efdata": {}
+        "efdata": {
+
+            "S3StitleC": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?|withinarea}}{{$EFO_EG_A?|selecttopic}}</p>"
+                },
+                "templateRef": {
+                    "S_A?|withinarea": "$EFM_selectedArea.ontologyKey",
+                    "EG_A?|selecttopic": "$EFT_experimentalGroup.ontologyKey"
+                }
+            },
+            "S3StitleNC": {
+                "htmlData":{
+					"html": "<p>{{$EFO_S_A?|withinarea}}{{$EFO_S_A?_T?|wewillselect}}{{$EFO_EG_A?|selecttopic}}</p>"
+                },
+                "templateRef": {
+                    "S_A?|withinarea": "$EFM_selectedArea.ontologyKey",
+                    "S_A?_T?|wewillselect": "$EFM_selectedTopic.ontologyKey",
+                    "EG_A?|selecttopic": "$EFT_experimentalGroup.ontologyKey"
+                }
+            },
+            "S4Stitle": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|belowarevariables}}{{$EFO_EG_A?|cantest}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|belowarevariables": "$EFM_selectedTopic.ontologyKey",
+                    "EG_A?|cantest": "$EFT_experimentalGroup.ontologyKey"
+                }
+            },
+            "S4Svar1": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumVar1}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "S4Svar2": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumVar2}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "S4Svar3": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumVar3}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "S4Svar4": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumVar4}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+                }
+            }
+
+        }
     }
 }

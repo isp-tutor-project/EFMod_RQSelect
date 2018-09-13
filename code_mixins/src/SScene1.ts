@@ -22,7 +22,8 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         
         public $preEnterScene() {
             // Development only - define experimental group assignment
-            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A");
+            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+            this.assertFeature("FTR_CHOICE");
             this.Sintro4.gotoState(CONST.NORMALnoARROW);
             this.Ssample.hidden = true;
         }

@@ -9,37 +9,37 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon0.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck/icon0.png">
                   <matrix>
                     <Matrix tx="632" ty="939"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon3.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck/icon3.png">
                   <matrix>
                     <Matrix tx="996" ty="939"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon4.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck/icon4.png">
                   <matrix>
                     <Matrix tx="874" ty="939"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon5.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck/icon5.png">
                   <matrix>
                     <Matrix tx="753" ty="939"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon6.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck/icon6.png">
                   <matrix>
                     <Matrix tx="1238" ty="939"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/iconStar.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck/iconStar.png">
                   <matrix>
                     <Matrix tx="1117" ty="939"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/SpkrIcon.png">
+                <DOMBitmapInstance libraryItemName="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck/SpkrIcon.png">
                   <matrix>
                     <Matrix tx="760" ty="350"/>
                   </matrix>

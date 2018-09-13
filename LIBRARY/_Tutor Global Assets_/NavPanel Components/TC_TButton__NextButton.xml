@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__NextButton" itemID="5b68a24f-00000546" symbolType="button" lastModified="1534617895" lastUniqueIdentifier="15">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__NextButton" itemID="5b68a24f-00000546" symbolType="button" lastModified="1536790179" lastUniqueIdentifier="15">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="TC_TButton__NextButton" currentFrame="4">
+    <DOMTimeline name="TC_TButton__NextButton">
       <layers>
-        <DOMLayer name="SpinButtonUp" color="#808080" autoNamed="false">
+        <DOMLayer name="SpinButtonUp" color="#808080" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navnextup">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navnextup" selected="true">
                   <matrix>
                     <Matrix tx="-101" ty="-75.05"/>
                   </matrix>
@@ -59,7 +59,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="SpinButtonDisabled" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="SpinButtonDisabled" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements/>
