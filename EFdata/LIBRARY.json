@@ -23,7 +23,76 @@
             },
             "STextBox2": {
                 "src": "$$EFX.html_text1"
-            }
+            },
+
+            "S8Title": [
+                {
+                    "id": "A",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue1"
+                },
+                {
+                    "id": "B",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue2"
+                },
+                {
+                    "id": "C",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue3"
+                },
+                {
+                    "id": "D",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue4"
+                }
+            ],
+
+            "S8subTitle1": [
+                {
+                    "id": "A",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue1a"
+                },
+                {
+                    "id": "B",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue2a"
+                },
+                {
+                    "id": "C",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue3a"
+                },
+                {
+                    "id": "D",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue4a"
+                }
+            ],
+
+            "S8subTitle2": [
+                {
+                    "id": "A",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue1b"
+                },
+                {
+                    "id": "B",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue2b"
+                },
+                {
+                    "id": "C",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue3b"
+                },
+                {
+                    "id": "D",
+                    "src": "$$EFX.html_text",
+                    "datasource": "$EFL_efdata.enumValue4b"
+                }
+            ]
         },
 
         "efinput": {},
@@ -71,7 +140,7 @@
                     "html": "<p>{{$EFO_S_A?_T?|enumVar2}}</p>"
                 },
                 "templateRef": {
-                    "S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+                    "S_A?_T?|enumVar2": "$EFM_selectedTopic.ontologyKey"
                 }
             },
             "S4Svar3": {
@@ -79,7 +148,7 @@
                     "html": "<p>{{$EFO_S_A?_T?|enumVar3}}</p>"
                 },
                 "templateRef": {
-                    "S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+                    "S_A?_T?|enumVar3": "$EFM_selectedTopic.ontologyKey"
                 }
             },
             "S4Svar4": {
@@ -87,7 +156,107 @@
                     "html": "<p>{{$EFO_S_A?_T?|enumVar4}}</p>"
                 },
                 "templateRef": {
-                    "S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+                    "S_A?_T?|enumVar4": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+
+
+
+            "enumValue1": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue1}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue1": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue2": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue2}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue2": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue3": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue3}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue3": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue4": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue4}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue4": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+
+            "enumValue1a": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue1a}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue1a": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue1b": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue1b}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue1b": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue2a": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue2a}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue2a": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue2b": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue2b}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue2b": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue3a": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue3a}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue3a": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue3b": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue3b}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue3b": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue4a": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue4a}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue4a": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "enumValue4b": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_S_A?_T?|enumValue4b}}</p>"
+                },
+                "templateRef": {
+                    "S_A?_T?|enumValue4b": "$EFM_selectedTopic.ontologyKey"
                 }
             }
 

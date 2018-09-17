@@ -5,6 +5,7 @@
 			"A1": {
 				"withinarea": "Within the area of physical and chemical changes",
 				"T1": {
+					"features": "FTR_CRYSTAL",
 					"wewillselect": "we will select the topic crystal growth",
 					"belowarevariables": "Below are some variables that might affect the amount of crystal growth on a string in water.",
 					"enumVar1": "Water temperature",
@@ -24,14 +25,26 @@
 					"enumProcess3": "Then we will put a string in the water.",
 					"enumProcess4": "We can measure the weight of the crystal growth after two weeks.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the amount of crystal growth on a string in water. These are the four variables you can test in this experiment",
-					"enumValue1a": "The water temperature which can be cool.",
-					"enumValue1b": "Or hot might make a difference.",
-					"enumValue2a": "The type of crystal which can be salt",
-					"enumValue2b": "Or brown sugar might make a difference.",
-					"enumValue3a": "The initial amount of crystals on the string which can be none",
-					"enumValue3b": "Or some might make a difference.",
-					"enumValue4a": "And the type of string which can be twine.",
-					"enumValue4b": "Or yarn. This might also make a difference.",
+					"enumValue1": "The Water Temperature",
+					"enumValue1a": "Cool (16c)",
+					"enumValue1b": "Hot (50c)",
+					"enumValue2": "The Type of Crystal",
+					"enumValue2a": "Salt",
+					"enumValue2b": "Brown Sugar",
+					"enumValue3": "The initial amount of crystals on the string",
+					"enumValue3a": "None",
+					"enumValue3b": "Some",
+					"enumValue4": "The type of string",
+					"enumValue4a": "Twine",
+					"enumValue4b": "Yarn",
+					"enumValueUtt1a": "The water temperature which can be cool.",
+					"enumValueUtt1b": "Or hot might make a difference.",
+					"enumValueUtt2a": "The type of crystal which can be salt",
+					"enumValueUtt2b": "Or brown sugar might make a difference.",
+					"enumValueUtt3a": "The initial amount of crystals on the string which can be none",
+					"enumValueUtt3b": "Or some might make a difference.",
+					"enumValueUtt4a": "And the type of string which can be twine.",
+					"enumValueUtt4b": "Or yarn. This might also make a difference.",
 					"rqselectedall": " affect the weight of the crystal growth on a string in water after two weeks?",
 					"RQ1": {
 						"rqselected": "Does the water temperature"
@@ -47,6 +60,7 @@
 					}
 				},
 				"T2": {
+					"features": "FTR_SODA",
 					"wewillselect": "we will select the topic soda mint reactions",
 					"belowarevariables": "Below are some variables that might affect the reaction between soda and mints.",
 					"enumVar1": "The type of sweetener in the soda",
@@ -61,14 +75,26 @@
 					"enumProcess2": "Bubbles forming a soda geyser may come out of the bottle.",
 					"enumProcess3": "We can measure the height of the soda geyser.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the reaction between the soda and mint. These are the four variables you can test in this experiment",
-					"enumValue1a": "The type of sweetener which can be sugar",
-					"enumValue1b": "Or aspartame might make a difference",
-					"enumValue2a": "The amount of caffeine in the soda which can be some",
-					"enumValue2b": "Or none might make a difference",
-					"enumValue3a": "The surface texture of the mint, which can be rough",
-					"enumValue3b": "Or smooth might make a difference",
-					"enumValue4a": "And the amount of carbon dioxide in the soda which can be higher",
-					"enumValue4b": "Or lower. This might also make a difference",
+					"enumValue1": "The type of sweetener in the soda",
+					"enumValue1a": "Sugar",
+					"enumValue1b": "Aspartame",
+					"enumValue2": "The amount of caffeine in the soda",
+					"enumValue2a": "Some",
+					"enumValue2b": "None",
+					"enumValue3": "The surface Texture of the mint",
+					"enumValue3a": "Rough",
+					"enumValue3b": "Smooth",
+					"enumValue4": "The amount of carbon dioxide in the soda",
+					"enumValue4a": "Highter",
+					"enumValue4b": "Lower",
+					"enumValueUtt1a": "The type of sweetener which can be sugar",
+					"enumValueUtt1b": "Or aspartame might make a difference",
+					"enumValueUtt2a": "The amount of caffeine in the soda which can be some",
+					"enumValueUtt2b": "Or none might make a difference",
+					"enumValueUtt3a": "The surface texture of the mint, which can be rough",
+					"enumValueUtt3b": "Or smooth might make a difference",
+					"enumValueUtt4a": "And the amount of carbon dioxide in the soda which can be higher",
+					"enumValueUtt4b": "Or lower. This might also make a difference",
 					"rqselectedall": " affect the strength of the reaction between soda and mints?",
 					"RQ1": {
 						"rqselected": "Does the type of sweetener in the soda"
@@ -87,6 +113,7 @@
 			"A2": {
 				"withinarea": "Within the area of, heat and temperature",
 				"T1": {
+					"features": "FTR_ICEMELT",
 					"wewillselect": "we will select the topic ice melting time",
 					"belowarevariables": "Below are some variables that might affect the time it takes for an ice cube to melt in water.",
 					"enumVar1": "The initial temperature of the ice cube",
@@ -103,14 +130,26 @@
 					"enumProcess2": "The ice cube will eventually completely melt.",
 					"enumProcess3": "We can measure the time it takes for the ice cube to melt in water.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time it takes for the ice cube to melt in water. These are the four variables you can test in this experiment",
-					"enumValue1a": "the initial temperature of the ice cube which can be zero degrees Celsius",
-					"enumValue1b": "Or negative twenty degrees Celsius might make a difference",
-					"enumValue2a": "The initial temperature of the water which can be cold",
-					"enumValue2b": "Or hot might make a difference",
-					"enumValue3a": "The pattern on the glass which can be striped",
-					"enumValue3b": "Or plain might make a difference",
-					"enumValue4a": "And the shape of the glass which can be shorter or",
-					"enumValue4b": "Taller. This might also make a difference",
+					"enumValue1": "The initial temperature of the ice cube",
+					"enumValue1a": "0c",
+					"enumValue1b": "-20c",
+					"enumValue2": "The initial temperature of the water",
+					"enumValue2a": "Cold",
+					"enumValue2b": "Hot",
+					"enumValue3": "The pattern on the glass",
+					"enumValue3a": "Striped",
+					"enumValue3b": "Plain",
+					"enumValue4": "The shape of the glass",
+					"enumValue4a": "Shorter",
+					"enumValue4b": "Taller",
+					"enumValueUtt1a": "the initial temperature of the ice cube which can be zero degrees Celsius",
+					"enumValueUtt1b": "Or negative twenty degrees Celsius might make a difference",
+					"enumValueUtt2a": "The initial temperature of the water which can be cold",
+					"enumValueUtt2b": "Or hot might make a difference",
+					"enumValueUtt3a": "The pattern on the glass which can be striped",
+					"enumValueUtt3b": "Or plain might make a difference",
+					"enumValueUtt4a": "And the shape of the glass which can be shorter or",
+					"enumValueUtt4b": "Taller. This might also make a difference",
 					"rqselectedall": " affect the time it takes for an ice cube to melt in water?",
 					"RQ1": {
 						"rqselected": "Does the initial temperature of the ice cube"
@@ -126,6 +165,7 @@
 					}
 				},
 				"T2": {
+					"features": "FTR_BALLOON",
 					"wewillselect": "we will select the topic temperature of a gas",
 					"belowarevariables": "Below are some variables that might affect the temperature of gas in a balloon.",
 					"enumVar1": "The color of the balloon",
@@ -144,14 +184,26 @@
 					"enumProcess3": "The temperature of the outside air is 27 degrees Celsius.",
 					"enumProcess4": "We can measure the temperature of the gas after 30 minutes.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the temperature of gas in the balloon. These are the four variables you can test in this experiment",
-					"enumValue1a": "The color of the balloon, which can be lighter",
-					"enumValue1b": "Or darker might make a difference",
-					"enumValue2a": "The material the balloon is made of which can be foil",
-					"enumValue2b": "Or latex might make a difference",
-					"enumValue3a": "The amount of sunlight exposure the balloon gets, which can be full sun",
-					"enumValue3b": "Or shade might make a difference",
-					"enumValue4a": "And the type of chair the balloon is tied to, which can be a wooden chair",
-					"enumValue4b": "Or a canvas chair. This might also make a difference",
+					"enumValue1": "The color of the balloon",
+					"enumValue1a": "Lighter",
+					"enumValue1b": "Darker",
+					"enumValue2": "The material the balloon is made of",
+					"enumValue2a": "Foil",
+					"enumValue2b": "Latex",
+					"enumValue3": "The amount of sunlight exposure the balloon gets",
+					"enumValue3a": "Full Sun",
+					"enumValue3b": "Shade",
+					"enumValue4": "The type of chair the balloon is tied to",
+					"enumValue4a": "Wooden",
+					"enumValue4b": "Canvas",
+					"enumValueUtt1a": "The color of the balloon, which can be lighter",
+					"enumValueUtt1b": "Or darker might make a difference",
+					"enumValueUtt2a": "The material the balloon is made of which can be foil",
+					"enumValueUtt2b": "Or latex might make a difference",
+					"enumValueUtt3a": "The amount of sunlight exposure the balloon gets, which can be full sun",
+					"enumValueUtt3b": "Or shade might make a difference",
+					"enumValueUtt4a": "And the type of chair the balloon is tied to, which can be a wooden chair",
+					"enumValueUtt4b": "Or a canvas chair. This might also make a difference",
 					"rqselectedall": " affect the gas temperature within the balloon after 30 minutes?",
 					"RQ1": {
 						"rqselected": "Does the color of the balloon"
@@ -170,6 +222,7 @@
 			"A3": {
 				"withinarea": "Within the area of, forces and motion",
 				"T1": {
+					"features": "FTR_RAMPS",
 					"wewillselect": "we will select the topic the speed of balls at the bottom of ramps",
 					"belowarevariables": "Below are some variables that might affect the speed of balls at the bottom of ramps.",
 					"enumVar1": "The Slope of the Ramp",
@@ -184,14 +237,26 @@
 					"enumProcess2": "The ball will roll down the ramp.",
 					"enumProcess3": "We will measure the balls speed at the bottom of the ramp.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the speed of the ball at the bottom of the ramp. These are the four variables you can test in this experiment",
-					"enumValue1a": "The slope of the ramp, which can be steep",
-					"enumValue1b": "Or not steep might make a difference",
-					"enumValue2a": "The color of the ball which can be yellow",
-					"enumValue2b": "Or pink might make a difference",
-					"enumValue3a": "The starting position of the ball, which can be higher",
-					"enumValue3b": "Or lower might make a difference",
-					"enumValue4a": "And the surface texture of the ramp, which can be rough",
-					"enumValue4b": "Or smooth.  This might also make a difference",
+					"enumValue1": "The Slope of the Ramp",
+					"enumValue1a": "Steep",
+					"enumValue1b": "Not Steep",
+					"enumValue2": "The Color of the Ball",
+					"enumValue2a": "Yellow",
+					"enumValue2b": "Pink",
+					"enumValue3": "The Starting Position of the Ball",
+					"enumValue3a": "Higher",
+					"enumValue3b": "Lower",
+					"enumValue4": "The Surface Texture of the Ramp",
+					"enumValue4a": "Rough",
+					"enumValue4b": "Smooth",
+					"enumValueUtt1a": "The slope of the ramp, which can be steep",
+					"enumValueUtt1b": "Or not steep might make a difference",
+					"enumValueUtt2a": "The color of the ball which can be yellow",
+					"enumValueUtt2b": "Or pink might make a difference",
+					"enumValueUtt3a": "The starting position of the ball, which can be higher",
+					"enumValueUtt3b": "Or lower might make a difference",
+					"enumValueUtt4a": "And the surface texture of the ramp, which can be rough",
+					"enumValueUtt4b": "Or smooth.  This might also make a difference",
 					"rqselectedall": " affect the speed of the ball at the bottom of the ramp?",
 					"RQ1": {
 						"rqselected": "Does the slope of the ramp"
@@ -207,6 +272,7 @@
 					}
 				},
 				"T2": {
+					"features": "FTR_SINKING",
 					"wewillselect": "we will select the topic the time for objects to sink",
 					"belowarevariables": "Below are some variables that might affect the time it takes for objects to sink in water.",
 					"enumVar1": "Density of the Water",
@@ -222,14 +288,26 @@
 					"enumProcess2": "It will sink to the bottom.",
 					"enumProcess3": "We can measure the time it takes for the object to sink in water.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time of it takes for objects to sink in water. These are the four variables you can test in this experiment",
-					"enumValue1a": "The density of the water, which can be lower",
-					"enumValue1b": "Or higher might make a difference",
-					"enumValue2a": "The shape of the object which can be a sphere",
-					"enumValue2b": "Or tear-shaped might make a difference",
-					"enumValue3a": "The volume of the object which can be smaller",
-					"enumValue3b": "Or larger might make a difference",
-					"enumValue4a": "And the density of the object which can be higher",
-					"enumValue4b": "Or lower.  This might also make a difference",
+					"enumValue1": "The Density of the Water",
+					"enumValue1a": "Lower",
+					"enumValue1b": "Higher",
+					"enumValue2": "The Shape of the Object",
+					"enumValue2a": "Sphere",
+					"enumValue2b": "Tear-Shaped",
+					"enumValue3": "The Volume of the Object",
+					"enumValue3a": "Smaller",
+					"enumValue3b": "Larger",
+					"enumValue4": "The Density of the Object",
+					"enumValue4a": "Higher",
+					"enumValue4b": "Lower",
+					"enumValueUtt1a": "The density of the water, which can be lower",
+					"enumValueUtt1b": "Or higher might make a difference",
+					"enumValueUtt2a": "The shape of the object which can be a sphere",
+					"enumValueUtt2b": "Or tear-shaped might make a difference",
+					"enumValueUtt3a": "The volume of the object which can be smaller",
+					"enumValueUtt3b": "Or larger might make a difference",
+					"enumValueUtt4a": "And the density of the object which can be higher",
+					"enumValueUtt4b": "Or lower.  This might also make a difference",
 					"rqselectedall": " affect the time it takes for objects to sink in water?",
 					"RQ1": {
 						"rqselected": "Does the density of water"
@@ -248,6 +326,7 @@
 			"A4": {
 				"withinarea": "Within the area of Plant growth",
 				"T1": {
+					"features": "FTR_GRHOUSE",
 					"wewillselect": "we will select the topic flower reproduction",
 					"belowarevariables": "Below are some variables that might affect the number of seeds produced by flowers in a greenhouse.",
 					"enumVar1": "The Number of honey bees in the greenhouse",
@@ -264,14 +343,26 @@
 					"enumProcess2": "The flowers will produce seeds then die by the end of the season.",
 					"enumProcess3": "We can measure the number of seeds produced by the flowers at the end of the season. ",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the number of seeds produced by the flowers at the end of the season. These are the four variables you can test in this experiment",
-					"enumValue1a": "The number of honey bees in the greenhouse, which can be zero",
-					"enumValue1b": "Or a whole hive might make a difference",
-					"enumValue2a": "The amount of sunlight the greenhouse lets in, which can be full sunlight",
-					"enumValue2b": "Or partial sunlight might make a difference",
-					"enumValue3a": "The amount of fertilizer, which can be none",
-					"enumValue3b": "Or some might make a difference",
-					"enumValue4a": "And the type of water, which can be rain water",
-					"enumValue4b": "Or tap water.   This might also make a difference",
+					"enumValue1": "The Number of honey bees in the greenhouse",
+					"enumValue1a": "Zero",
+					"enumValue1b": "Whole Hive",
+					"enumValue2": "The Amount of sunlight the greenhouse lets in",
+					"enumValue2a": "Full Sunlight",
+					"enumValue2b": "Partial Sunlight",
+					"enumValue3": "The Amount of Fertilizer",
+					"enumValue3a": "None",
+					"enumValue3b": "Some",
+					"enumValue4": "The Type of Water",
+					"enumValue4a": "Rain Water",
+					"enumValue4b": "Tap Water",
+					"enumValueUtt1a": "The number of honey bees in the greenhouse, which can be zero",
+					"enumValueUtt1b": "Or a whole hive might make a difference",
+					"enumValueUtt2a": "The amount of sunlight the greenhouse lets in, which can be full sunlight",
+					"enumValueUtt2b": "Or partial sunlight might make a difference",
+					"enumValueUtt3a": "The amount of fertilizer, which can be none",
+					"enumValueUtt3b": "Or some might make a difference",
+					"enumValueUtt4a": "And the type of water, which can be rain water",
+					"enumValueUtt4b": "Or tap water.   This might also make a difference",
 					"rqselectedall": " affect the number of seeds produced by flowers at the end of the season?",
 					"RQ1": {
 						"rqselected": "Does the number of honey bees in the greenhouse"
@@ -287,6 +378,7 @@
 					}
 				},
 				"T2": {
+					"features": "FTR_ALGAE",
 					"wewillselect": "we will select the topic algae growth",
 					"belowarevariables": "Below are some variables that might affect the amount of algae growth in water.",
 					"enumVar1": "The Temperature of the Water",
@@ -305,14 +397,26 @@
 					"enumProcess1": "We will add fifty grams of algae to a fish tank filled with 16 liters of distilled water.",
 					"enumProcess2": "We can measure the weight of the algae growth after one week.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the weight of the algae after one week. These are the four variables you can test in this experiment",
-					"enumValue1a": "The temperature of the water, which can be room temperature",
-					"enumValue1b": "Or a warmer might make a difference",
-					"enumValue2a": "The amount of exposure to music which can be constant music",
-					"enumValue2b": "Or no music might make a difference",
-					"enumValue3a": "The amount of carbon dioxide , which can be a lot",
-					"enumValue3b": "Or none might make a difference",
-					"enumValue4a": "And the amount of direct sunlight exposure, which can be some",
-					"enumValue4b": "Or none.   This might also make a difference",
+					"enumValue1": "The Temperature of the Water",
+					"enumValue1a": "Room Temperature",
+					"enumValue1b": "Warmer",
+					"enumValue2": "The Amount of Exposure to Music",
+					"enumValue2a": "Constant Music",
+					"enumValue2b": "No Music",
+					"enumValue3": "The Amount of Carbon Dioxide in the Water",
+					"enumValue3a": "A Lot",
+					"enumValue3b": "None",
+					"enumValue4": "The Amount of Direct Sunlight Exposure",
+					"enumValue4a": "Some",
+					"enumValue4b": "None",
+					"enumValueUtt1a": "The temperature of the water, which can be room temperature",
+					"enumValueUtt1b": "Or a warmer might make a difference",
+					"enumValueUtt2a": "The amount of exposure to music which can be constant music",
+					"enumValueUtt2b": "Or no music might make a difference",
+					"enumValueUtt3a": "The amount of carbon dioxide , which can be a lot",
+					"enumValueUtt3b": "Or none might make a difference",
+					"enumValueUtt4a": "And the amount of direct sunlight exposure, which can be some",
+					"enumValueUtt4b": "Or none.   This might also make a difference",
 					"rqselectedall": " affect the weight of the algae growth after one week?",
 					"RQ1": {
 						"rqselected": "Does the temperature of the water"
@@ -331,6 +435,7 @@
 		},
 		"EG": {
 			"BOTH": {
+				"S5aT1a": "Here are all of the materials that may be necessary for this experiment",
 				"track1": "In this lesson, we will ask you to set up and evaluate experiments.",
 				"track8": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
 				"track9": "Let's begin by focusing on one area of science"
@@ -368,6 +473,60 @@
 				"track7": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 				"rqselectedall": ""
 			}
+		}
+	},
+	"SScene6a": {
+		"Shand": {
+			"xname": "hand1"
+		},
+		"Sbucket": {
+			"xname": "bucket1"
+		},
+		"Sglass": {
+			"xname": "glass1"
+		},
+		"Sclock": {
+			"xname": "clock1"
+		},
+		"SbackGround": {
+			"xname": "backGround1"
+		}
+	},
+	"SScene6b": {
+		"Shand": {
+			"xname": "hand2"
+		},
+		"Sbucket": {
+			"xname": "bucket1"
+		},
+		"Sglass": {
+			"xname": "glass1"
+		},
+		"Sclock": {
+			"xname": "clock1"
+		},
+		"SbackGround": {
+			"xname": "backGround1"
+		},
+		"SiceCube": {
+			"xname": "iceCube1"
+		}
+	},
+	"SScene6c": {
+		"Shand": {
+			"xname": "hand2"
+		},
+		"Sbucket": {
+			"xname": "bucket1"
+		},
+		"Sglass": {
+			"xname": "glass1"
+		},
+		"Sclock": {
+			"xname": "clock1"
+		},
+		"SbackGround": {
+			"xname": "backGround1"
 		}
 	},
 	"SScene1": {
@@ -480,6 +639,62 @@
 			"fontSize": 40
 		}
 	},
-	"SScene5": {},
-	"SScene6": {}
+	"SScene5": {
+		"Shand": {
+			"xname": "hand1"
+		},
+		"Sbucket": {
+			"xname": "bucket1"
+		},
+		"Sglass": {
+			"xname": "glass1"
+		},
+		"Sclock": {
+			"xname": "clock1"
+		},
+		"SbackGround": {
+			"xname": "backGround1"
+		}
+	},
+	"SScene5a": {
+		"Svar1": {},
+		"Svar2": {},
+		"Svar3": {},
+		"Svar4": {},
+		"Svar5": {},
+		"Svar6": {},
+		"Svar7": {},
+		"Svar8": {}
+	},
+	"SScene7": {
+		"Splay": {},
+		"Smovie": {}
+	},
+	"SScene8": {
+		"Stitle": {
+			"layoutsource": "$EFL_eftext.S8Title"
+		},
+		"SsubTitle1": {
+			"layoutsource": "$EFL_eftext.S8subTitle1"
+		},
+		"SsubTitle2": {
+			"layoutsource": "$EFL_eftext.S8subTitle2"
+		},
+		"Svar1a": {},
+		"Svar2a": {},
+		"Svar3a": {},
+		"Svar4a": {},
+		"Svar5a": {},
+		"Svar6a": {},
+		"Svar7a": {},
+		"Svar8a": {},
+		"Svar1b": {},
+		"Svar2b": {},
+		"Svar3b": {},
+		"Svar4b": {},
+		"Svar5b": {},
+		"Svar6b": {},
+		"Svar7b": {},
+		"Svar8b": {}
+	}
 }

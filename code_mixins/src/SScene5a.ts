@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_RQSelect {
 
-    export class SScene1 {
+    export class SScene5a {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -21,14 +21,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         }
         
         public $preEnterScene() {
-
-            // Development only - define experimental group assignment
-            // 
-            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
-            this.addFeature("FTR_CHOICE");
-            
-            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-            this.Ssample.hidden = true;
+            this.$("Sarrow.").hide();
         }
 
         public $preExitScene() {
@@ -72,6 +65,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             let result:boolean = false;
 
+            switch(constrainId) {
+            }
+
             return result;
         }
 
@@ -81,141 +77,125 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             switch(trackID) {
 
+                case "track1a":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            this.$("Sarrow.").hide();
+                        break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;
+
                 case "track1":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.FLATSTATE);
-                            this.Sintro2.gotoState(CONST.FLATSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
+                            this.$("Sarrow.").hide();
+                            this.$("Sarrow1").show();
                             break;
 
                         case "$end":
-                            console.log("executing CuePoint END");
-                            break;
-
-                        case "a":
-                            this.Sintro4.gotoState(CONST.SELECTEDnoARROW);
                             break;
                     }
                     break;
-
+                    
                 case "track2":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.SELECTEDSTATE);
-                            this.Sintro2.gotoState(CONST.FLATSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
+                            this.$("Sarrow.").hide();
+                            this.$("Sarrow2").show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
-                    
+
                 case "track3":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.SELECTEDwBUBBLE);
-                            this.Sintro2.gotoState(CONST.FLATSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-                            break;                            
+                            this.$("Sarrow.").hide();
+                            this.$("Sarrow3").show();
+                            break;
+
                         case "$end":
                             break;
                     }
                     break;
-                    
+
                 case "track4":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.SELECTEDSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
+                            this.$("Sarrow.").hide();
+                            this.$("Sarrow4").show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
-                    
+
                 case "track5":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.SELECTEDwBUBBLE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
+                            this.$("Sarrow.").hide();
+                            this.$("Sarrow5").show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
-                    
+
                 case "track6":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro3.gotoState(CONST.SELECTEDSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-                            this.Ssample.hidden = true;
+                            this.$("Sarrow.").hide();
+                            this.$("Sarrow6").show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
-                    
+
                 case "track7":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro3.gotoState(CONST.SELECTEDwBUBBLE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-                            this.Ssample.hidden = false;
+                            this.$("Sarrow.").hide();
+                            this.$("Sarrow7").show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
-                    
+
                 case "track8":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro3.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro4.gotoState(CONST.SELECTEDnoARROW);
+                            this.$("Sarrow.").hide();
+                            this.$("Sarrow8").show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
-                    
-                case "track9":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.Sintro1.gotoState(CONST.SELECTEDSTATE);
-                            this.Sintro2.gotoState(CONST.FLATSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-                            break;
-                        case "$end":
-                            break;
-                    }
-                    break;
-                    
             }
+        }
+
+        public $onAction(target:string, evt:string) {
         }
 
         public $timedEvents(id:string) {

@@ -146,7 +146,277 @@
 					},
 					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
 				}
-			}
+			},
+			"S8Title": [
+				{
+					"id": "A",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue1",
+					"htmlData": {
+						"style": {
+							"[s8title].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8title] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "B",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue2",
+					"htmlData": {
+						"style": {
+							"[s8title].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8title] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "C",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue3",
+					"htmlData": {
+						"style": {
+							"[s8title].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8title] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "D",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue4",
+					"htmlData": {
+						"style": {
+							"[s8title].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8title] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				}
+			],
+			"S8subTitle1": [
+				{
+					"id": "A",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue1a",
+					"htmlData": {
+						"style": {
+							"[s8subtitle1].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8subtitle1] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "B",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue2a",
+					"htmlData": {
+						"style": {
+							"[s8subtitle1].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8subtitle1] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "C",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue3a",
+					"htmlData": {
+						"style": {
+							"[s8subtitle1].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8subtitle1] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "D",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue4a",
+					"htmlData": {
+						"style": {
+							"[s8subtitle1].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8subtitle1] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				}
+			],
+			"S8subTitle2": [
+				{
+					"id": "A",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue1b",
+					"htmlData": {
+						"style": {
+							"[s8subtitle2].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8subtitle2] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "B",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue2b",
+					"htmlData": {
+						"style": {
+							"[s8subtitle2].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8subtitle2] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "C",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue3b",
+					"htmlData": {
+						"style": {
+							"[s8subtitle2].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8subtitle2] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				},
+				{
+					"id": "D",
+					"src": "$$EFX.html_text",
+					"datasource": "$EFL_efdata.enumValue4b",
+					"htmlData": {
+						"style": {
+							"[s8subtitle2].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "white",
+								"font-family": "'pangolin'",
+								"font-size": "47px",
+								"height": "112px",
+								"width": "506px"
+							},
+							"[s8subtitle2] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>test</p>\n    "
+					}
+				}
+			]
 		},
 		"efinput": {},
 		"eftable": {},
@@ -192,7 +462,7 @@
 					"html": "<p>{{$EFO_S_A?_T?|enumVar2}}</p>"
 				},
 				"templateRef": {
-					"S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+					"S_A?_T?|enumVar2": "$EFM_selectedTopic.ontologyKey"
 				}
 			},
 			"S4Svar3": {
@@ -200,7 +470,7 @@
 					"html": "<p>{{$EFO_S_A?_T?|enumVar3}}</p>"
 				},
 				"templateRef": {
-					"S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+					"S_A?_T?|enumVar3": "$EFM_selectedTopic.ontologyKey"
 				}
 			},
 			"S4Svar4": {
@@ -208,7 +478,103 @@
 					"html": "<p>{{$EFO_S_A?_T?|enumVar4}}</p>"
 				},
 				"templateRef": {
-					"S_A?_T?|enumVar1": "$EFM_selectedTopic.ontologyKey"
+					"S_A?_T?|enumVar4": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue1": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue1}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue1": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue2": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue2}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue2": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue3": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue3}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue3": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue4": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue4}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue4": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue1a": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue1a}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue1a": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue1b": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue1b}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue1b": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue2a": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue2a}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue2a": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue2b": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue2b}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue2b": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue3a": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue3a}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue3a": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue3b": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue3b}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue3b": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue4a": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue4a}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue4a": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"enumValue4b": {
+				"htmlData": {
+					"html": "<p>{{$EFO_S_A?_T?|enumValue4b}}</p>"
+				},
+				"templateRef": {
+					"S_A?_T?|enumValue4b": "$EFM_selectedTopic.ontologyKey"
 				}
 			}
 		}

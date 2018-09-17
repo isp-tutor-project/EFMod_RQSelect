@@ -23,6 +23,8 @@ var EFTut_Suppl;
         CONST.NORMALnoARROW = 5;
         CONST.SELECTEDnoARROW = 6;
         CONST.SELECTED2noARROW = 7;
+        CONST.FTRS_ALL = null;
+        CONST.VAR_FTR = "varsel";
         EFMod_RQSelect.CONST = CONST;
     })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -140,7 +142,7 @@ var EFTut_Suppl;
             }
             $preEnterScene() {
                 this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
-                this.assertFeature("FTR_CHOICE");
+                this.addFeature("FTR_CHOICE");
                 this.Sintro4.gotoState(EFMod_RQSelect.CONST.NORMALnoARROW);
                 this.Ssample.hidden = true;
             }
@@ -537,13 +539,16 @@ var EFTut_Suppl;
                 this.$("Sbutton.*").hide();
                 this.setSceneValue("TopicSelected", true);
                 let x = this.getModuleValue("selectedArea.index");
+                this.delFeature(EFMod_RQSelect.CONST.FTRS_ALL, EFMod_RQSelect.CONST.VAR_FTR);
                 switch (target) {
                     case "Sbutton1":
                         this.setModuleValue("selectedTopic", { "ontologyKey": `S_A${x}_T1`, "index": "1" });
+                        this.addFeaturebyQuery(`S_A${x}_T1|features`, EFMod_RQSelect.CONST.VAR_FTR);
                         this.$("Stopic1|Sselected").show();
                         break;
                     case "Sbutton2":
                         this.setModuleValue("selectedTopic", { "ontologyKey": `S_A${x}_T2`, "index": "2" });
+                        this.addFeaturebyQuery(`S_A${x}_T2|features`, EFMod_RQSelect.CONST.VAR_FTR);
                         this.$("Stopic2|Sselected").show();
                         break;
                 }
@@ -761,6 +766,146 @@ var EFTut_Suppl;
 (function (EFTut_Suppl) {
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
+        class SScene5a {
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.$("Sarrow.").hide();
+            }
+            $preExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $nodePreEnter(nodeId) {
+                switch (nodeId) {
+                }
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1a":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                this.$("Sarrow1").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                this.$("Sarrow2").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track3":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                this.$("Sarrow3").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                this.$("Sarrow4").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track5":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                this.$("Sarrow5").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track6":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                this.$("Sarrow6").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track7":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                this.$("Sarrow7").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track8":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sarrow.").hide();
+                                this.$("Sarrow8").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
+            }
+            $onAction(target, evt) {
+            }
+            $timedEvents(id) {
+            }
+        }
+        EFMod_RQSelect.SScene5a = SScene5a;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
         class SScene6 {
             $onCreateScene() {
             }
@@ -856,6 +1001,251 @@ var EFTut_Suppl;
             }
         }
         EFMod_RQSelect.SScene6 = SScene6;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
+        class SScene7 {
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+            }
+            $preExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $nodePreEnter(nodeId) {
+                switch (nodeId) {
+                }
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Splay").show();
+                                this.$("Splay").enable();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
+            }
+            $onAction(target, evt) {
+                switch (target) {
+                    case "Splay":
+                        this.$("Splay.*").disable();
+                        this.$("Splay.*").hide();
+                        this.Smovie.playMC();
+                        break;
+                    case "Smovie":
+                        if (evt === "complete") {
+                            this.nextTrack("$onAction:" + target);
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+        }
+        EFMod_RQSelect.SScene7 = SScene7;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
+        class SScene8 {
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.$("Sicon.|Svar.*").hide();
+                this.$("Sicon1|Svar1a").show();
+            }
+            $preExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $nodePreEnter(nodeId) {
+                switch (nodeId) {
+                }
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track0":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Stitle").hide();
+                                this.$("SsubTitle.*").hide();
+                                this.$("Sicon.|Svar.*").hide();
+                                this.$("Sicon1|Svar1a").show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("SsubTitle.*").hide();
+                                this.$("Sicon.|Svar.*").hide();
+                                this.$("Sicon1|Svar1a").show();
+                                this.Stitle.setContentByIndex(1);
+                                this.Stitle.show();
+                                break;
+                            case "a":
+                                this.SsubTitle1.setContentByIndex(1);
+                                this.SsubTitle1.show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track1a":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sicon2|Svar1b").show();
+                                this.SsubTitle2.setContentByIndex(1);
+                                this.SsubTitle2.show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("SsubTitle.*").hide();
+                                this.$("Sicon.|Svar.*").hide();
+                                this.$("Sicon1|Svar2a").show();
+                                this.Stitle.setContentByIndex(2);
+                                break;
+                            case "a":
+                                this.SsubTitle1.setContentByIndex(2);
+                                this.SsubTitle1.show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2a":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sicon2|Svar2b").show();
+                                this.SsubTitle2.setContentByIndex(2);
+                                this.SsubTitle2.show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track3":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("SsubTitle.*").hide();
+                                this.$("Sicon.|Svar.*").hide();
+                                this.$("Sicon1|Svar3a").show();
+                                this.Stitle.setContentByIndex(3);
+                                break;
+                            case "a":
+                                this.SsubTitle1.setContentByIndex(3);
+                                this.SsubTitle1.show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track3a":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sicon2|Svar3b").show();
+                                this.SsubTitle2.setContentByIndex(3);
+                                this.SsubTitle2.show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("SsubTitle.*").hide();
+                                this.$("Sicon.|Svar.*").hide();
+                                this.$("Sicon1|Svar4a").show();
+                                this.Stitle.setContentByIndex(4);
+                                break;
+                            case "a":
+                                this.SsubTitle1.setContentByIndex(4);
+                                this.SsubTitle1.show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4a":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sicon2|Svar4b").show();
+                                this.SsubTitle2.setContentByIndex(4);
+                                this.SsubTitle2.show();
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
+            }
+            $onAction(target, evt) {
+            }
+            $timedEvents(id) {
+            }
+        }
+        EFMod_RQSelect.SScene8 = SScene8;
     })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 //# sourceMappingURL=mixins.js.map

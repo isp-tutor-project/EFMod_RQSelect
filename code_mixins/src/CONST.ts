@@ -29,6 +29,8 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         static readonly SELECTEDnoARROW         = 6;        // Box Select no Arrow
         static readonly SELECTED2noARROW        = 7;        // Box Select no Arrow        
 
+        static readonly FTRS_ALL:any            = null;        // null to delete all features for an id
+        static readonly VAR_FTR                 = "varsel";    // id for the selected variable feature        
 	}
 
 }

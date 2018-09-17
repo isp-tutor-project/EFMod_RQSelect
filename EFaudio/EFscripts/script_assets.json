@@ -149,7 +149,7 @@
 								"fileid": "0a",
 								"SSML": "After you select the general area, you will then select a specific topic within that area.",
 								"cues": [],
-								"duration": 4856.791666666667,
+								"duration": 4595.791666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -202,7 +202,7 @@
 								"fileid": "0b",
 								"SSML": "For example, within the general area of psychology, we might select the topic attention to color.",
 								"cues": [],
-								"duration": 5159.083333333333,
+								"duration": 5350.583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -239,7 +239,7 @@
 								"fileid": "0a",
 								"SSML": "Within that topic, you will select a research question.",
 								"cues": [],
-								"duration": 2989.7083333333335,
+								"duration": 2626.6666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -363,7 +363,7 @@
 								"fileid": "0a",
 								"SSML": "Let's begin by focusing on one area of science",
 								"cues": [],
-								"duration": 3030.3333333333335,
+								"duration": 2903.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -397,7 +397,7 @@
 								"fileid": "0",
 								"SSML": "Here are some different areas of science.",
 								"cues": [],
-								"duration": 1949.7916666666667,
+								"duration": 2166.9583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -427,7 +427,7 @@
 								"fileid": "0",
 								"SSML": "One area of science is Physical & Chemical Changes.",
 								"cues": [],
-								"duration": 3271.5833333333335,
+								"duration": 3170.4583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -637,7 +637,7 @@
 								"fileid": "0",
 								"SSML": "Within that area, you could study the topics: Flower reproduction or Algae growth.",
 								"cues": [],
-								"duration": 4475.666666666667,
+								"duration": 4876.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -731,7 +731,7 @@
 								"fileid": "0c",
 								"SSML": "Within the area of, forces and motion",
 								"cues": [],
-								"duration": 2200.6666666666665,
+								"duration": 1959.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -876,7 +876,7 @@
 								"fileid": "1g",
 								"SSML": "we will select the topic flower reproduction",
 								"cues": [],
-								"duration": 2322.75,
+								"duration": 2484.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1037,7 +1037,7 @@
 								"fileid": "0h",
 								"SSML": "Below are some variables that might affect the amount of algae growth in water.",
 								"cues": [],
-								"duration": 3889.5,
+								"duration": 3696.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1056,7 +1056,7 @@
 								"fileid": "1b",
 								"SSML": "We can test one of these variables in the experiment.",
 								"cues": [],
-								"duration": 2638.1666666666665,
+								"duration": 2853.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1303,7 +1303,7 @@
 								"fileid": "0c",
 								"SSML": "The pattern on the glass",
 								"cues": [],
-								"duration": 1342.7083333333333,
+								"duration": 1374.6666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1506,6 +1506,631 @@
 			}
 		}
 	},
+	"SScene5a": {
+		"tracks": {
+			"track1a": {
+				"en": {
+					"node": "(root)APPARATUS",
+					"html": "<p>{{$EFO_EG_BOTH|S5aT1a}}</p>",
+					"text": "{{$EFO_EG_BOTH|S5aT1a}}",
+					"templateRef": {
+						"$EFO_EG_BOTH|S5aT1a": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_EG_BOTH|S5aT1a",
+							"EGBOTHS5aT1a": {
+								"fileid": "0a",
+								"SSML": "Here are all of the materials that may be necessary for this experiment",
+								"cues": [],
+								"duration": 3692.2916666666665,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_EG_BOTH|S5aT1a": {
+							"EGBOTHS5aT1a": "Here are all of the materials that may be necessary for this experiment"
+						}
+					}
+				}
+			},
+			"track1": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat1}}",
+					"text": "{{$EFO_S_A?_T?|enumMat1}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat1": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_S_A?_T?|enumMat1",
+							"SA1T1enumMat1": {
+								"fileid": "0a",
+								"SSML": "A glass jar",
+								"cues": [],
+								"duration": 938.625,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2enumMat1": {
+								"fileid": "0b",
+								"SSML": "A mint",
+								"cues": [],
+								"duration": 637.0833333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1enumMat1": {
+								"fileid": "0c",
+								"SSML": "A thermometer",
+								"cues": [],
+								"duration": 925.5416666666666,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2enumMat1": {
+								"fileid": "0d",
+								"SSML": "A balloon",
+								"cues": [],
+								"duration": 678.75,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1enumMat1": {
+								"fileid": "0e",
+								"SSML": "A speedometer",
+								"cues": [],
+								"duration": 937.8333333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2enumMat1": {
+								"fileid": "0f",
+								"SSML": "A stopwatch",
+								"cues": [],
+								"duration": 954.75,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1enumMat1": {
+								"fileid": "0g",
+								"SSML": "A greenhouse",
+								"cues": [],
+								"duration": 959.3333333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2enumMat1": {
+								"fileid": "0h",
+								"SSML": "A radio",
+								"cues": [],
+								"duration": 732.1666666666666,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_S_A?_T?|enumMat1": {
+							"SA1T1enumMat1": "A glass jar",
+							"SA1T2enumMat1": "A mint",
+							"SA2T1enumMat1": "A thermometer",
+							"SA2T2enumMat1": "A balloon",
+							"SA3T1enumMat1": "A speedometer",
+							"SA3T2enumMat1": "A stopwatch",
+							"SA4T1enumMat1": "A greenhouse",
+							"SA4T2enumMat1": "A radio"
+						}
+					}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat2}}",
+					"text": "{{$EFO_S_A?_T?|enumMat2}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat2": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_S_A?_T?|enumMat2",
+							"SA1T1enumMat2": {
+								"fileid": "0a",
+								"SSML": "A calendar",
+								"cues": [],
+								"duration": 805.1666666666666,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2enumMat2": {
+								"fileid": "0b",
+								"SSML": "a bottle of soda",
+								"cues": [],
+								"duration": 1115.0833333333333,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1enumMat2": {
+								"fileid": "0c",
+								"SSML": "Glass cups",
+								"cues": [],
+								"duration": 996.8333333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2enumMat2": {
+								"fileid": "0d",
+								"SSML": "A wireless temperature reader and sensor",
+								"cues": [],
+								"duration": 2363.0833333333335,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1enumMat2": {
+								"fileid": "0e",
+								"SSML": "A ramp",
+								"cues": [],
+								"duration": 662.375,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2enumMat2": {
+								"fileid": "0f",
+								"SSML": "A lead or glass object",
+								"cues": [],
+								"duration": 1572.375,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1enumMat2": {
+								"fileid": "0g",
+								"SSML": "Twelve sunflower plants",
+								"cues": [],
+								"duration": 1755.8333333333333,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2enumMat2": {
+								"fileid": "0h",
+								"SSML": "A calendar",
+								"cues": [],
+								"duration": 777.3333333333334,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_S_A?_T?|enumMat2": {
+							"SA1T1enumMat2": "A calendar",
+							"SA1T2enumMat2": "a bottle of soda",
+							"SA2T1enumMat2": "Glass cups",
+							"SA2T2enumMat2": "A wireless temperature reader and sensor",
+							"SA3T1enumMat2": "A ramp",
+							"SA3T2enumMat2": "A lead or glass object",
+							"SA4T1enumMat2": "Twelve sunflower plants",
+							"SA4T2enumMat2": "A calendar"
+						}
+					}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat3}}",
+					"text": "{{$EFO_S_A?_T?|enumMat3}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat3": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_S_A?_T?|enumMat3",
+							"SA1T1enumMat3": {
+								"fileid": "0a",
+								"SSML": "A pencil",
+								"cues": [],
+								"duration": 722.8333333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2enumMat3": {
+								"fileid": "0b",
+								"SSML": "and a ruler",
+								"cues": [],
+								"duration": 804.625,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1enumMat3": {
+								"fileid": "0c",
+								"SSML": "Ice cubes and ice bucket",
+								"cues": [],
+								"duration": 1629.7916666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2enumMat3": {
+								"fileid": "0d",
+								"SSML": "A chair",
+								"cues": [],
+								"duration": 603.7916666666666,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1enumMat3": {
+								"fileid": "0e",
+								"SSML": "And a ball",
+								"cues": [],
+								"duration": 719.125,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2enumMat3": {
+								"fileid": "0f",
+								"SSML": "A graduated cylinder",
+								"cues": [],
+								"duration": 1494.0416666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1enumMat3": {
+								"fileid": "0g",
+								"SSML": "A beehive with bees",
+								"cues": [],
+								"duration": 1311.2916666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2enumMat3": {
+								"fileid": "0h",
+								"SSML": "A digital scale",
+								"cues": [],
+								"duration": 1085.0416666666667,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_S_A?_T?|enumMat3": {
+							"SA1T1enumMat3": "A pencil",
+							"SA1T2enumMat3": "and a ruler",
+							"SA2T1enumMat3": "Ice cubes and ice bucket",
+							"SA2T2enumMat3": "A chair",
+							"SA3T1enumMat3": "And a ball",
+							"SA3T2enumMat3": "A graduated cylinder",
+							"SA4T1enumMat3": "A beehive with bees",
+							"SA4T2enumMat3": "A digital scale"
+						}
+					}
+				}
+			},
+			"track4": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat4}}",
+					"text": "{{$EFO_S_A?_T?|enumMat4}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat4": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_S_A?_T?|enumMat4",
+							"SA1T1enumMat4": {
+								"fileid": "0a",
+								"SSML": "String",
+								"cues": [],
+								"duration": 631.4166666666666,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1enumMat4": {
+								"fileid": "0b",
+								"SSML": "Water",
+								"cues": [],
+								"duration": 520.8333333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2enumMat4": {
+								"fileid": "0c",
+								"SSML": "A stopwatch",
+								"cues": [],
+								"duration": 954.75,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2enumMat4": {
+								"fileid": "0d",
+								"SSML": "And water",
+								"cues": [],
+								"duration": 651.2083333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1enumMat4": {
+								"fileid": "0e",
+								"SSML": "Fertilizer",
+								"cues": [],
+								"duration": 824.125,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2enumMat4": {
+								"fileid": "0f",
+								"SSML": "A fish tank heater",
+								"cues": [],
+								"duration": 1256.3333333333333,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_S_A?_T?|enumMat4": {
+							"SA1T1enumMat4": "String",
+							"SA2T1enumMat4": "Water",
+							"SA2T2enumMat4": "A stopwatch",
+							"SA3T2enumMat4": "And water",
+							"SA4T1enumMat4": "Fertilizer",
+							"SA4T2enumMat4": "A fish tank heater"
+						}
+					}
+				}
+			},
+			"track5": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat5}}",
+					"text": "{{$EFO_S_A?_T?|enumMat5}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat5": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_S_A?_T?|enumMat5",
+							"SA1T1enumMat5": {
+								"fileid": "0a",
+								"SSML": "Distilled water",
+								"cues": [],
+								"duration": 1045.9583333333333,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1enumMat5": {
+								"fileid": "0b",
+								"SSML": "And a digital clock",
+								"cues": [],
+								"duration": 1262.0833333333333,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2enumMat5": {
+								"fileid": "0c",
+								"SSML": "A helium tank",
+								"cues": [],
+								"duration": 1151.7916666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1enumMat5": {
+								"fileid": "0d",
+								"SSML": "And water",
+								"cues": [],
+								"duration": 651.2083333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2enumMat5": {
+								"fileid": "0e",
+								"SSML": "Fifty grams of algae",
+								"cues": [],
+								"duration": 1427.125,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_S_A?_T?|enumMat5": {
+							"SA1T1enumMat5": "Distilled water",
+							"SA2T1enumMat5": "And a digital clock",
+							"SA2T2enumMat5": "A helium tank",
+							"SA4T1enumMat5": "And water",
+							"SA4T2enumMat5": "Fifty grams of algae"
+						}
+					}
+				}
+			},
+			"track6": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat6}}",
+					"text": "{{$EFO_S_A?_T?|enumMat6}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat6": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_S_A?_T?|enumMat6",
+							"SA1T1enumMat6": {
+								"fileid": "0a",
+								"SSML": "Crystals",
+								"cues": [],
+								"duration": 730.875,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2enumMat6": {
+								"fileid": "0b",
+								"SSML": "And an umbrella",
+								"cues": [],
+								"duration": 947.4166666666666,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2enumMat6": {
+								"fileid": "0c",
+								"SSML": "A fish tank filled with 16 liters of water",
+								"cues": [],
+								"duration": 2697.625,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_S_A?_T?|enumMat6": {
+							"SA1T1enumMat6": "Crystals",
+							"SA2T2enumMat6": "And an umbrella",
+							"SA4T2enumMat6": "A fish tank filled with 16 liters of water"
+						}
+					}
+				}
+			},
+			"track7": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat7}}",
+					"text": "{{$EFO_S_A?_T?|enumMat7}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat7": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_S_A?_T?|enumMat7",
+							"SA1T1enumMat7": {
+								"fileid": "0a",
+								"SSML": "and a digital scale",
+								"cues": [],
+								"duration": 1223.7916666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2enumMat7": {
+								"fileid": "0b",
+								"SSML": "A thermometer",
+								"cues": [],
+								"duration": 925.5416666666666,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_S_A?_T?|enumMat7": {
+							"SA1T1enumMat7": "and a digital scale",
+							"SA4T2enumMat7": "A thermometer"
+						}
+					}
+				}
+			},
+			"track8": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat8}}",
+					"text": "{{$EFO_S_A?_T?|enumMat8}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat8": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [
+						{
+							"templateVar": "$EFO_S_A?_T?|enumMat8",
+							"SA4T2enumMat8": {
+								"fileid": "0a",
+								"SSML": "And a carbon dioxide machine",
+								"cues": [],
+								"duration": 1931.75,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {
+						"$EFO_S_A?_T?|enumMat8": {
+							"SA4T2enumMat8": "And a carbon dioxide machine"
+						}
+					}
+				}
+			}
+		}
+	},
 	"SScene6a": {
 		"tracks": {
 			"track1": {
@@ -1523,7 +2148,7 @@
 								"fileid": "0a",
 								"SSML": "We will mix a crystal salt or sugar in water so it dissolves.",
 								"cues": [],
-								"duration": 3519.75,
+								"duration": 3399.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1547,7 +2172,7 @@
 								"fileid": "0d",
 								"SSML": "We will pump 5 grams of Helium at 15 degrees Celsius into a balloon.",
 								"cues": [],
-								"duration": 4298.625,
+								"duration": 4307.458333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1634,7 +2259,7 @@
 								"fileid": "0b",
 								"SSML": "Bubbles forming a soda geyser may come out of the bottle.",
 								"cues": [],
-								"duration": 2818,
+								"duration": 2814.7916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1674,7 +2299,7 @@
 								"fileid": "0g",
 								"SSML": "The flowers will produce seeds then die by the end of the season.",
 								"cues": [],
-								"duration": 3073.8333333333335,
+								"duration": 3237.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1737,7 +2362,7 @@
 								"fileid": "0b",
 								"SSML": "We can measure the height of the soda geyser.",
 								"cues": [],
-								"duration": 2138.6666666666665,
+								"duration": 2065.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1753,7 +2378,7 @@
 								"fileid": "0d",
 								"SSML": "The temperature of the outside air is 27 degrees Celsius.",
 								"cues": [],
-								"duration": 3599.375,
+								"duration": 3683.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1831,7 +2456,7 @@
 								"fileid": "0b",
 								"SSML": "We can measure the temperature of the gas after 30 minutes.",
 								"cues": [],
-								"duration": 3174,
+								"duration": 2960.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1891,7 +2516,7 @@
 	},
 	"SScene8": {
 		"tracks": {
-			"track1": {
+			"track0": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
 					"html": "{{$EFO_S_A?_T?|fourcanchange}}",
@@ -1954,7 +2579,7 @@
 								"fileid": "0g",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the number of seeds produced by the flowers at the end of the season. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 12180.625,
+								"duration": 12803.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1990,18 +2615,18 @@
 					}
 				}
 			},
-			"track2": {
+			"track1": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue1a}}",
-					"text": "{{$EFO_S_A?_T?|enumValue1a}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt1a}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt1a}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue1a": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt1a": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumValue1a",
-							"SA1T1enumValue1a": {
+							"templateVar": "$EFO_S_A?_T?|enumValueUtt1a",
+							"SA1T1enumValueUtt1a": {
 								"fileid": "0a",
 								"SSML": "The water temperature which can be cool.",
 								"cues": [],
@@ -2009,7 +2634,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA1T2enumValue1a": {
+							"SA1T2enumValueUtt1a": {
 								"fileid": "0b",
 								"SSML": "The type of sweetener which can be sugar",
 								"cues": [],
@@ -2017,15 +2642,15 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T1enumValue1a": {
+							"SA2T1enumValueUtt1a": {
 								"fileid": "0c",
 								"SSML": "the initial temperature of the ice cube which can be zero degrees Celsius",
 								"cues": [],
-								"duration": 3920.7916666666665,
+								"duration": 4129.958333333333,
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T2enumValue1a": {
+							"SA2T2enumValueUtt1a": {
 								"fileid": "0d",
 								"SSML": "The color of the balloon, which can be lighter",
 								"cues": [],
@@ -2033,15 +2658,15 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T1enumValue1a": {
+							"SA3T1enumValueUtt1a": {
 								"fileid": "0e",
 								"SSML": "The slope of the ramp, which can be steep",
 								"cues": [],
-								"duration": 2043.2916666666667,
+								"duration": 2196.5416666666665,
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T2enumValue1a": {
+							"SA3T2enumValueUtt1a": {
 								"fileid": "0f",
 								"SSML": "The density of the water, which can be lower",
 								"cues": [],
@@ -2049,19 +2674,19 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T1enumValue1a": {
+							"SA4T1enumValueUtt1a": {
 								"fileid": "0g",
 								"SSML": "The number of honey bees in the greenhouse, which can be zero",
 								"cues": [],
-								"duration": 3269.875,
+								"duration": 3181.9583333333335,
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T2enumValue1a": {
+							"SA4T2enumValueUtt1a": {
 								"fileid": "0h",
 								"SSML": "The temperature of the water, which can be room temperature",
 								"cues": [],
-								"duration": 3116.4583333333335,
+								"duration": 2951.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2076,31 +2701,31 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumValue1a": {
-							"SA1T1enumValue1a": "The water temperature which can be cool.",
-							"SA1T2enumValue1a": "The type of sweetener which can be sugar",
-							"SA2T1enumValue1a": "the initial temperature of the ice cube which can be zero degrees Celsius",
-							"SA2T2enumValue1a": "The color of the balloon, which can be lighter",
-							"SA3T1enumValue1a": "The slope of the ramp, which can be steep",
-							"SA3T2enumValue1a": "The density of the water, which can be lower",
-							"SA4T1enumValue1a": "The number of honey bees in the greenhouse, which can be zero",
-							"SA4T2enumValue1a": "The temperature of the water, which can be room temperature"
+						"$EFO_S_A?_T?|enumValueUtt1a": {
+							"SA1T1enumValueUtt1a": "The water temperature which can be cool.",
+							"SA1T2enumValueUtt1a": "The type of sweetener which can be sugar",
+							"SA2T1enumValueUtt1a": "the initial temperature of the ice cube which can be zero degrees Celsius",
+							"SA2T2enumValueUtt1a": "The color of the balloon, which can be lighter",
+							"SA3T1enumValueUtt1a": "The slope of the ramp, which can be steep",
+							"SA3T2enumValueUtt1a": "The density of the water, which can be lower",
+							"SA4T1enumValueUtt1a": "The number of honey bees in the greenhouse, which can be zero",
+							"SA4T2enumValueUtt1a": "The temperature of the water, which can be room temperature"
 						}
 					}
 				}
 			},
-			"track2a": {
+			"track1a": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue1b}}",
-					"text": "{{$EFO_S_A?_T?|enumValue1b}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt1b}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt1b}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue1b": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt1b": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumValue1b",
-							"SA1T1enumValue1b": {
+							"templateVar": "$EFO_S_A?_T?|enumValueUtt1b",
+							"SA1T1enumValueUtt1b": {
 								"fileid": "0a",
 								"SSML": "Or hot might make a difference.",
 								"cues": [],
@@ -2108,7 +2733,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA1T2enumValue1b": {
+							"SA1T2enumValueUtt1b": {
 								"fileid": "0b",
 								"SSML": "Or aspartame might make a difference",
 								"cues": [],
@@ -2116,7 +2741,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T1enumValue1b": {
+							"SA2T1enumValueUtt1b": {
 								"fileid": "0c",
 								"SSML": "Or negative twenty degrees Celsius might make a difference",
 								"cues": [],
@@ -2124,7 +2749,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T2enumValue1b": {
+							"SA2T2enumValueUtt1b": {
 								"fileid": "0d",
 								"SSML": "Or darker might make a difference",
 								"cues": [],
@@ -2132,7 +2757,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T1enumValue1b": {
+							"SA3T1enumValueUtt1b": {
 								"fileid": "0e",
 								"SSML": "Or not steep might make a difference",
 								"cues": [],
@@ -2140,7 +2765,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T2enumValue1b": {
+							"SA3T2enumValueUtt1b": {
 								"fileid": "0f",
 								"SSML": "Or higher might make a difference",
 								"cues": [],
@@ -2148,7 +2773,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T1enumValue1b": {
+							"SA4T1enumValueUtt1b": {
 								"fileid": "0g",
 								"SSML": "Or a whole hive might make a difference",
 								"cues": [],
@@ -2156,7 +2781,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T2enumValue1b": {
+							"SA4T2enumValueUtt1b": {
 								"fileid": "0h",
 								"SSML": "Or a warmer might make a difference",
 								"cues": [],
@@ -2175,31 +2800,31 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumValue1b": {
-							"SA1T1enumValue1b": "Or hot might make a difference.",
-							"SA1T2enumValue1b": "Or aspartame might make a difference",
-							"SA2T1enumValue1b": "Or negative twenty degrees Celsius might make a difference",
-							"SA2T2enumValue1b": "Or darker might make a difference",
-							"SA3T1enumValue1b": "Or not steep might make a difference",
-							"SA3T2enumValue1b": "Or higher might make a difference",
-							"SA4T1enumValue1b": "Or a whole hive might make a difference",
-							"SA4T2enumValue1b": "Or a warmer might make a difference"
+						"$EFO_S_A?_T?|enumValueUtt1b": {
+							"SA1T1enumValueUtt1b": "Or hot might make a difference.",
+							"SA1T2enumValueUtt1b": "Or aspartame might make a difference",
+							"SA2T1enumValueUtt1b": "Or negative twenty degrees Celsius might make a difference",
+							"SA2T2enumValueUtt1b": "Or darker might make a difference",
+							"SA3T1enumValueUtt1b": "Or not steep might make a difference",
+							"SA3T2enumValueUtt1b": "Or higher might make a difference",
+							"SA4T1enumValueUtt1b": "Or a whole hive might make a difference",
+							"SA4T2enumValueUtt1b": "Or a warmer might make a difference"
 						}
 					}
 				}
 			},
-			"track3": {
+			"track2": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue2a}}",
-					"text": "{{$EFO_S_A?_T?|enumValue2a}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt2a}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt2a}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue2a": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt2a": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumValue2a",
-							"SA1T1enumValue2a": {
+							"templateVar": "$EFO_S_A?_T?|enumValueUtt2a",
+							"SA1T1enumValueUtt2a": {
 								"fileid": "0a",
 								"SSML": "The type of crystal which can be salt",
 								"cues": [],
@@ -2207,7 +2832,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA1T2enumValue2a": {
+							"SA1T2enumValueUtt2a": {
 								"fileid": "0b",
 								"SSML": "The amount of caffeine in the soda which can be some",
 								"cues": [],
@@ -2215,15 +2840,15 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T1enumValue2a": {
+							"SA2T1enumValueUtt2a": {
 								"fileid": "0c",
 								"SSML": "The initial temperature of the water which can be cold",
 								"cues": [],
-								"duration": 2745.7916666666665,
+								"duration": 2700.4166666666665,
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T2enumValue2a": {
+							"SA2T2enumValueUtt2a": {
 								"fileid": "0d",
 								"SSML": "The material the balloon is made of which can be foil",
 								"cues": [],
@@ -2231,7 +2856,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T1enumValue2a": {
+							"SA3T1enumValueUtt2a": {
 								"fileid": "0e",
 								"SSML": "The color of the ball which can be yellow",
 								"cues": [],
@@ -2239,7 +2864,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T2enumValue2a": {
+							"SA3T2enumValueUtt2a": {
 								"fileid": "0f",
 								"SSML": "The shape of the object which can be a sphere",
 								"cues": [],
@@ -2247,7 +2872,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T1enumValue2a": {
+							"SA4T1enumValueUtt2a": {
 								"fileid": "0g",
 								"SSML": "The amount of sunlight the greenhouse lets in, which can be full sunlight",
 								"cues": [],
@@ -2255,7 +2880,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T2enumValue2a": {
+							"SA4T2enumValueUtt2a": {
 								"fileid": "0h",
 								"SSML": "The amount of exposure to music which can be constant music",
 								"cues": [],
@@ -2274,31 +2899,31 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumValue2a": {
-							"SA1T1enumValue2a": "The type of crystal which can be salt",
-							"SA1T2enumValue2a": "The amount of caffeine in the soda which can be some",
-							"SA2T1enumValue2a": "The initial temperature of the water which can be cold",
-							"SA2T2enumValue2a": "The material the balloon is made of which can be foil",
-							"SA3T1enumValue2a": "The color of the ball which can be yellow",
-							"SA3T2enumValue2a": "The shape of the object which can be a sphere",
-							"SA4T1enumValue2a": "The amount of sunlight the greenhouse lets in, which can be full sunlight",
-							"SA4T2enumValue2a": "The amount of exposure to music which can be constant music"
+						"$EFO_S_A?_T?|enumValueUtt2a": {
+							"SA1T1enumValueUtt2a": "The type of crystal which can be salt",
+							"SA1T2enumValueUtt2a": "The amount of caffeine in the soda which can be some",
+							"SA2T1enumValueUtt2a": "The initial temperature of the water which can be cold",
+							"SA2T2enumValueUtt2a": "The material the balloon is made of which can be foil",
+							"SA3T1enumValueUtt2a": "The color of the ball which can be yellow",
+							"SA3T2enumValueUtt2a": "The shape of the object which can be a sphere",
+							"SA4T1enumValueUtt2a": "The amount of sunlight the greenhouse lets in, which can be full sunlight",
+							"SA4T2enumValueUtt2a": "The amount of exposure to music which can be constant music"
 						}
 					}
 				}
 			},
-			"track3a": {
+			"track2a": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue2b}}",
-					"text": "{{$EFO_S_A?_T?|enumValue2b}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt2b}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt2b}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue2b": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt2b": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumValue2b",
-							"SA1T1enumValue2b": {
+							"templateVar": "$EFO_S_A?_T?|enumValueUtt2b",
+							"SA1T1enumValueUtt2b": {
 								"fileid": "0a",
 								"SSML": "Or brown sugar might make a difference.",
 								"cues": [],
@@ -2306,7 +2931,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA1T2enumValue2b": {
+							"SA1T2enumValueUtt2b": {
 								"fileid": "0b",
 								"SSML": "Or none might make a difference",
 								"cues": [],
@@ -2314,7 +2939,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T1enumValue2b": {
+							"SA2T1enumValueUtt2b": {
 								"fileid": "0c",
 								"SSML": "Or hot might make a difference",
 								"cues": [],
@@ -2322,7 +2947,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T2enumValue2b": {
+							"SA2T2enumValueUtt2b": {
 								"fileid": "0d",
 								"SSML": "Or latex might make a difference",
 								"cues": [],
@@ -2330,7 +2955,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T1enumValue2b": {
+							"SA3T1enumValueUtt2b": {
 								"fileid": "0e",
 								"SSML": "Or pink might make a difference",
 								"cues": [],
@@ -2338,7 +2963,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T2enumValue2b": {
+							"SA3T2enumValueUtt2b": {
 								"fileid": "0f",
 								"SSML": "Or tear-shaped might make a difference",
 								"cues": [],
@@ -2346,7 +2971,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T1enumValue2b": {
+							"SA4T1enumValueUtt2b": {
 								"fileid": "0g",
 								"SSML": "Or partial sunlight might make a difference",
 								"cues": [],
@@ -2354,11 +2979,11 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T2enumValue2b": {
+							"SA4T2enumValueUtt2b": {
 								"fileid": "0h",
 								"SSML": "Or no music might make a difference",
 								"cues": [],
-								"duration": 1984.0416666666667,
+								"duration": 1813.8333333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2373,31 +2998,31 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumValue2b": {
-							"SA1T1enumValue2b": "Or brown sugar might make a difference.",
-							"SA1T2enumValue2b": "Or none might make a difference",
-							"SA2T1enumValue2b": "Or hot might make a difference",
-							"SA2T2enumValue2b": "Or latex might make a difference",
-							"SA3T1enumValue2b": "Or pink might make a difference",
-							"SA3T2enumValue2b": "Or tear-shaped might make a difference",
-							"SA4T1enumValue2b": "Or partial sunlight might make a difference",
-							"SA4T2enumValue2b": "Or no music might make a difference"
+						"$EFO_S_A?_T?|enumValueUtt2b": {
+							"SA1T1enumValueUtt2b": "Or brown sugar might make a difference.",
+							"SA1T2enumValueUtt2b": "Or none might make a difference",
+							"SA2T1enumValueUtt2b": "Or hot might make a difference",
+							"SA2T2enumValueUtt2b": "Or latex might make a difference",
+							"SA3T1enumValueUtt2b": "Or pink might make a difference",
+							"SA3T2enumValueUtt2b": "Or tear-shaped might make a difference",
+							"SA4T1enumValueUtt2b": "Or partial sunlight might make a difference",
+							"SA4T2enumValueUtt2b": "Or no music might make a difference"
 						}
 					}
 				}
 			},
-			"track4": {
+			"track3": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue3a}}",
-					"text": "{{$EFO_S_A?_T?|enumValue3a}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt3a}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt3a}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue3a": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt3a": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumValue3a",
-							"SA1T1enumValue3a": {
+							"templateVar": "$EFO_S_A?_T?|enumValueUtt3a",
+							"SA1T1enumValueUtt3a": {
 								"fileid": "0a",
 								"SSML": "The initial amount of crystals on the string which can be none",
 								"cues": [],
@@ -2405,7 +3030,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA1T2enumValue3a": {
+							"SA1T2enumValueUtt3a": {
 								"fileid": "0b",
 								"SSML": "The surface texture of the mint, which can be rough",
 								"cues": [],
@@ -2413,7 +3038,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T1enumValue3a": {
+							"SA2T1enumValueUtt3a": {
 								"fileid": "0c",
 								"SSML": "The pattern on the glass which can be striped",
 								"cues": [],
@@ -2421,7 +3046,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T2enumValue3a": {
+							"SA2T2enumValueUtt3a": {
 								"fileid": "0d",
 								"SSML": "The amount of sunlight exposure the balloon gets, which can be full sun",
 								"cues": [],
@@ -2429,7 +3054,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T1enumValue3a": {
+							"SA3T1enumValueUtt3a": {
 								"fileid": "0e",
 								"SSML": "The starting position of the ball, which can be higher",
 								"cues": [],
@@ -2437,7 +3062,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T2enumValue3a": {
+							"SA3T2enumValueUtt3a": {
 								"fileid": "0f",
 								"SSML": "The volume of the object which can be smaller",
 								"cues": [],
@@ -2445,15 +3070,15 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T1enumValue3a": {
+							"SA4T1enumValueUtt3a": {
 								"fileid": "0g",
 								"SSML": "The amount of fertilizer, which can be none",
 								"cues": [],
-								"duration": 2434.3333333333335,
+								"duration": 2251.5,
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T2enumValue3a": {
+							"SA4T2enumValueUtt3a": {
 								"fileid": "0h",
 								"SSML": "The amount of carbon dioxide , which can be a lot",
 								"cues": [],
@@ -2472,47 +3097,47 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumValue3a": {
-							"SA1T1enumValue3a": "The initial amount of crystals on the string which can be none",
-							"SA1T2enumValue3a": "The surface texture of the mint, which can be rough",
-							"SA2T1enumValue3a": "The pattern on the glass which can be striped",
-							"SA2T2enumValue3a": "The amount of sunlight exposure the balloon gets, which can be full sun",
-							"SA3T1enumValue3a": "The starting position of the ball, which can be higher",
-							"SA3T2enumValue3a": "The volume of the object which can be smaller",
-							"SA4T1enumValue3a": "The amount of fertilizer, which can be none",
-							"SA4T2enumValue3a": "The amount of carbon dioxide , which can be a lot"
+						"$EFO_S_A?_T?|enumValueUtt3a": {
+							"SA1T1enumValueUtt3a": "The initial amount of crystals on the string which can be none",
+							"SA1T2enumValueUtt3a": "The surface texture of the mint, which can be rough",
+							"SA2T1enumValueUtt3a": "The pattern on the glass which can be striped",
+							"SA2T2enumValueUtt3a": "The amount of sunlight exposure the balloon gets, which can be full sun",
+							"SA3T1enumValueUtt3a": "The starting position of the ball, which can be higher",
+							"SA3T2enumValueUtt3a": "The volume of the object which can be smaller",
+							"SA4T1enumValueUtt3a": "The amount of fertilizer, which can be none",
+							"SA4T2enumValueUtt3a": "The amount of carbon dioxide , which can be a lot"
 						}
 					}
 				}
 			},
-			"track4a": {
+			"track3a": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue3b}}",
-					"text": "{{$EFO_S_A?_T?|enumValue3b}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt3b}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt3b}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue3b": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt3b": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumValue3b",
-							"SA1T1enumValue3b": {
+							"templateVar": "$EFO_S_A?_T?|enumValueUtt3b",
+							"SA1T1enumValueUtt3b": {
 								"fileid": "0a",
 								"SSML": "Or some might make a difference.",
 								"cues": [],
-								"duration": 1450.3333333333333,
+								"duration": 1606.625,
 								"trim": 0,
 								"volume": 1
 							},
-							"SA1T2enumValue3b": {
+							"SA1T2enumValueUtt3b": {
 								"fileid": "0b",
 								"SSML": "Or smooth might make a difference",
 								"cues": [],
-								"duration": 1669.2083333333333,
+								"duration": 1764,
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T1enumValue3b": {
+							"SA2T1enumValueUtt3b": {
 								"fileid": "0c",
 								"SSML": "Or plain might make a difference",
 								"cues": [],
@@ -2520,7 +3145,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T2enumValue3b": {
+							"SA2T2enumValueUtt3b": {
 								"fileid": "0d",
 								"SSML": "Or shade might make a difference",
 								"cues": [],
@@ -2528,7 +3153,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T1enumValue3b": {
+							"SA3T1enumValueUtt3b": {
 								"fileid": "0e",
 								"SSML": "Or lower might make a difference",
 								"cues": [],
@@ -2536,7 +3161,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T2enumValue3b": {
+							"SA3T2enumValueUtt3b": {
 								"fileid": "0f",
 								"SSML": "Or larger might make a difference",
 								"cues": [],
@@ -2544,7 +3169,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T1enumValue3b": {
+							"SA4T1enumValueUtt3b": {
 								"fileid": "0g",
 								"SSML": "Or some might make a difference",
 								"cues": [],
@@ -2552,7 +3177,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T2enumValue3b": {
+							"SA4T2enumValueUtt3b": {
 								"fileid": "0h",
 								"SSML": "Or none might make a difference",
 								"cues": [],
@@ -2571,31 +3196,31 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumValue3b": {
-							"SA1T1enumValue3b": "Or some might make a difference.",
-							"SA1T2enumValue3b": "Or smooth might make a difference",
-							"SA2T1enumValue3b": "Or plain might make a difference",
-							"SA2T2enumValue3b": "Or shade might make a difference",
-							"SA3T1enumValue3b": "Or lower might make a difference",
-							"SA3T2enumValue3b": "Or larger might make a difference",
-							"SA4T1enumValue3b": "Or some might make a difference",
-							"SA4T2enumValue3b": "Or none might make a difference"
+						"$EFO_S_A?_T?|enumValueUtt3b": {
+							"SA1T1enumValueUtt3b": "Or some might make a difference.",
+							"SA1T2enumValueUtt3b": "Or smooth might make a difference",
+							"SA2T1enumValueUtt3b": "Or plain might make a difference",
+							"SA2T2enumValueUtt3b": "Or shade might make a difference",
+							"SA3T1enumValueUtt3b": "Or lower might make a difference",
+							"SA3T2enumValueUtt3b": "Or larger might make a difference",
+							"SA4T1enumValueUtt3b": "Or some might make a difference",
+							"SA4T2enumValueUtt3b": "Or none might make a difference"
 						}
 					}
 				}
 			},
-			"track5": {
+			"track4": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue4a}}",
-					"text": "{{$EFO_S_A?_T?|enumValue4a}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt4a}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt4a}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue4a": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt4a": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumValue4a",
-							"SA1T1enumValue4a": {
+							"templateVar": "$EFO_S_A?_T?|enumValueUtt4a",
+							"SA1T1enumValueUtt4a": {
 								"fileid": "0a",
 								"SSML": "And the type of string which can be twine.",
 								"cues": [],
@@ -2603,7 +3228,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA1T2enumValue4a": {
+							"SA1T2enumValueUtt4a": {
 								"fileid": "0b",
 								"SSML": "And the amount of carbon dioxide in the soda which can be higher",
 								"cues": [],
@@ -2611,7 +3236,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T1enumValue4a": {
+							"SA2T1enumValueUtt4a": {
 								"fileid": "0c",
 								"SSML": "And the shape of the glass which can be shorter or",
 								"cues": [],
@@ -2619,7 +3244,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T2enumValue4a": {
+							"SA2T2enumValueUtt4a": {
 								"fileid": "0d",
 								"SSML": "And the type of chair the balloon is tied to, which can be a wooden chair",
 								"cues": [],
@@ -2627,7 +3252,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T1enumValue4a": {
+							"SA3T1enumValueUtt4a": {
 								"fileid": "0e",
 								"SSML": "And the surface texture of the ramp, which can be rough",
 								"cues": [],
@@ -2635,7 +3260,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T2enumValue4a": {
+							"SA3T2enumValueUtt4a": {
 								"fileid": "0f",
 								"SSML": "And the density of the object which can be higher",
 								"cues": [],
@@ -2643,7 +3268,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T1enumValue4a": {
+							"SA4T1enumValueUtt4a": {
 								"fileid": "0g",
 								"SSML": "And the type of water, which can be rain water",
 								"cues": [],
@@ -2651,7 +3276,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T2enumValue4a": {
+							"SA4T2enumValueUtt4a": {
 								"fileid": "0h",
 								"SSML": "And the amount of direct sunlight exposure, which can be some",
 								"cues": [],
@@ -2670,31 +3295,31 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumValue4a": {
-							"SA1T1enumValue4a": "And the type of string which can be twine.",
-							"SA1T2enumValue4a": "And the amount of carbon dioxide in the soda which can be higher",
-							"SA2T1enumValue4a": "And the shape of the glass which can be shorter or",
-							"SA2T2enumValue4a": "And the type of chair the balloon is tied to, which can be a wooden chair",
-							"SA3T1enumValue4a": "And the surface texture of the ramp, which can be rough",
-							"SA3T2enumValue4a": "And the density of the object which can be higher",
-							"SA4T1enumValue4a": "And the type of water, which can be rain water",
-							"SA4T2enumValue4a": "And the amount of direct sunlight exposure, which can be some"
+						"$EFO_S_A?_T?|enumValueUtt4a": {
+							"SA1T1enumValueUtt4a": "And the type of string which can be twine.",
+							"SA1T2enumValueUtt4a": "And the amount of carbon dioxide in the soda which can be higher",
+							"SA2T1enumValueUtt4a": "And the shape of the glass which can be shorter or",
+							"SA2T2enumValueUtt4a": "And the type of chair the balloon is tied to, which can be a wooden chair",
+							"SA3T1enumValueUtt4a": "And the surface texture of the ramp, which can be rough",
+							"SA3T2enumValueUtt4a": "And the density of the object which can be higher",
+							"SA4T1enumValueUtt4a": "And the type of water, which can be rain water",
+							"SA4T2enumValueUtt4a": "And the amount of direct sunlight exposure, which can be some"
 						}
 					}
 				}
 			},
-			"track5a": {
+			"track4a": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue4b}}",
-					"text": "{{$EFO_S_A?_T?|enumValue4b}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt4b}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt4b}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue4b": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt4b": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumValue4b",
-							"SA1T1enumValue4b": {
+							"templateVar": "$EFO_S_A?_T?|enumValueUtt4b",
+							"SA1T1enumValueUtt4b": {
 								"fileid": "0a",
 								"SSML": "Or yarn. This might also make a difference.",
 								"cues": [],
@@ -2702,7 +3327,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA1T2enumValue4b": {
+							"SA1T2enumValueUtt4b": {
 								"fileid": "0b",
 								"SSML": "Or lower. This might also make a difference",
 								"cues": [],
@@ -2710,7 +3335,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T1enumValue4b": {
+							"SA2T1enumValueUtt4b": {
 								"fileid": "0c",
 								"SSML": "Taller. This might also make a difference",
 								"cues": [],
@@ -2718,7 +3343,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA2T2enumValue4b": {
+							"SA2T2enumValueUtt4b": {
 								"fileid": "0d",
 								"SSML": "Or a canvas chair. This might also make a difference",
 								"cues": [],
@@ -2726,7 +3351,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T1enumValue4b": {
+							"SA3T1enumValueUtt4b": {
 								"fileid": "0e",
 								"SSML": "Or smooth.  This might also make a difference",
 								"cues": [],
@@ -2734,7 +3359,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA3T2enumValue4b": {
+							"SA3T2enumValueUtt4b": {
 								"fileid": "0f",
 								"SSML": "Or lower.  This might also make a difference",
 								"cues": [],
@@ -2742,7 +3367,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T1enumValue4b": {
+							"SA4T1enumValueUtt4b": {
 								"fileid": "0g",
 								"SSML": "Or tap water.   This might also make a difference",
 								"cues": [],
@@ -2750,7 +3375,7 @@
 								"trim": 0,
 								"volume": 1
 							},
-							"SA4T2enumValue4b": {
+							"SA4T2enumValueUtt4b": {
 								"fileid": "0h",
 								"SSML": "Or none.   This might also make a difference",
 								"cues": [],
@@ -2769,15 +3394,15 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumValue4b": {
-							"SA1T1enumValue4b": "Or yarn. This might also make a difference.",
-							"SA1T2enumValue4b": "Or lower. This might also make a difference",
-							"SA2T1enumValue4b": "Taller. This might also make a difference",
-							"SA2T2enumValue4b": "Or a canvas chair. This might also make a difference",
-							"SA3T1enumValue4b": "Or smooth.  This might also make a difference",
-							"SA3T2enumValue4b": "Or lower.  This might also make a difference",
-							"SA4T1enumValue4b": "Or tap water.   This might also make a difference",
-							"SA4T2enumValue4b": "Or none.   This might also make a difference"
+						"$EFO_S_A?_T?|enumValueUtt4b": {
+							"SA1T1enumValueUtt4b": "Or yarn. This might also make a difference.",
+							"SA1T2enumValueUtt4b": "Or lower. This might also make a difference",
+							"SA2T1enumValueUtt4b": "Taller. This might also make a difference",
+							"SA2T2enumValueUtt4b": "Or a canvas chair. This might also make a difference",
+							"SA3T1enumValueUtt4b": "Or smooth.  This might also make a difference",
+							"SA3T2enumValueUtt4b": "Or lower.  This might also make a difference",
+							"SA4T1enumValueUtt4b": "Or tap water.   This might also make a difference",
+							"SA4T2enumValueUtt4b": "Or none.   This might also make a difference"
 						}
 					}
 				}

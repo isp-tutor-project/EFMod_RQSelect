@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_RQSelect {
 
-    export class SScene1 {
+    export class SScene8 {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -21,14 +21,8 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         }
         
         public $preEnterScene() {
-
-            // Development only - define experimental group assignment
-            // 
-            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
-            this.addFeature("FTR_CHOICE");
-            
-            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-            this.Ssample.hidden = true;
+            this.$("Sicon.|Svar.*").hide();
+            this.$("Sicon1|Svar1a").show();
         }
 
         public $preExitScene() {
@@ -72,6 +66,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             let result:boolean = false;
 
+            switch(constrainId) {
+            }
+
             return result;
         }
 
@@ -81,141 +78,172 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             switch(trackID) {
 
+                case "track0":
+                    switch(cueID) {
+                        // There are only four things....
+                        
+                        case "$start":
+                            this.$("Stitle").hide();
+                            this.$("SsubTitle.*").hide();
+                            this.$("Sicon.|Svar.*").hide();
+
+                            // Just show left icon
+                            this.$("Sicon1|Svar1a").show();
+                        break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;
+
                 case "track1":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.FLATSTATE);
-                            this.Sintro2.gotoState(CONST.FLATSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
+                            this.$("SsubTitle.*").hide();
+                            this.$("Sicon.|Svar.*").hide();
+                            this.$("Sicon1|Svar1a").show();
+
+                            this.Stitle.setContentByIndex(1);
+                            this.Stitle.show();
+                        break;
+
+                        case "a":
+                            this.SsubTitle1.setContentByIndex(1);
+                            this.SsubTitle1.show();
                             break;
 
                         case "$end":
-                            console.log("executing CuePoint END");
-                            break;
-
-                        case "a":
-                            this.Sintro4.gotoState(CONST.SELECTEDnoARROW);
                             break;
                     }
                     break;
+                    
+                case "track1a":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            this.$("Sicon2|Svar1b").show();
+
+                            this.SsubTitle2.setContentByIndex(1);
+                            this.SsubTitle2.show();
+                            break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;
+                    
 
                 case "track2":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.SELECTEDSTATE);
-                            this.Sintro2.gotoState(CONST.FLATSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
+                            this.$("SsubTitle.*").hide();
+                            this.$("Sicon.|Svar.*").hide();
+                            this.$("Sicon1|Svar2a").show();
+                            this.Stitle.setContentByIndex(2);
+                        break;
+
+                        case "a":
+                            this.SsubTitle1.setContentByIndex(2);
+                            this.SsubTitle1.show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
                     
+                case "track2a":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            this.$("Sicon2|Svar2b").show();
+
+                            this.SsubTitle2.setContentByIndex(2);
+                            this.SsubTitle2.show();
+                            break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;
+
+
                 case "track3":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.SELECTEDwBUBBLE);
-                            this.Sintro2.gotoState(CONST.FLATSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-                            break;                            
+                            this.$("SsubTitle.*").hide();
+                            this.$("Sicon.|Svar.*").hide();
+                            this.$("Sicon1|Svar3a").show();
+                            this.Stitle.setContentByIndex(3);
+                        break;
+
+                        case "a":
+                            this.SsubTitle1.setContentByIndex(3);
+                            this.SsubTitle1.show();
+                            break;
+
                         case "$end":
                             break;
                     }
                     break;
                     
+                case "track3a":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            this.$("Sicon2|Svar3b").show();
+
+                            this.SsubTitle2.setContentByIndex(3);
+                            this.SsubTitle2.show();
+                            break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;
+
+
                 case "track4":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.SELECTEDSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
+                            this.$("SsubTitle.*").hide();
+                            this.$("Sicon.|Svar.*").hide();
+                            this.$("Sicon1|Svar4a").show();
+                            this.Stitle.setContentByIndex(4);
+                        break;
+
+                        case "a":
+                            this.SsubTitle1.setContentByIndex(4);
+                            this.SsubTitle1.show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
                     
-                case "track5":
+                case "track4a":
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.SELECTEDwBUBBLE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
+                            this.$("Sicon2|Svar4b").show();
+
+                            this.SsubTitle2.setContentByIndex(4);
+                            this.SsubTitle2.show();
                             break;
+
                         case "$end":
                             break;
                     }
                     break;
-                    
-                case "track6":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro3.gotoState(CONST.SELECTEDSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-                            this.Ssample.hidden = true;
-                            break;
-                        case "$end":
-                            break;
-                    }
-                    break;
-                    
-                case "track7":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro3.gotoState(CONST.SELECTEDwBUBBLE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-                            this.Ssample.hidden = false;
-                            break;
-                        case "$end":
-                            break;
-                    }
-                    break;
-                    
-                case "track8":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.Sintro1.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro2.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro3.gotoState(CONST.NORMALwBUBBLE);
-                            this.Sintro4.gotoState(CONST.SELECTEDnoARROW);
-                            break;
-                        case "$end":
-                            break;
-                    }
-                    break;
-                    
-                case "track9":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.Sintro1.gotoState(CONST.SELECTEDSTATE);
-                            this.Sintro2.gotoState(CONST.FLATSTATE);
-                            this.Sintro3.gotoState(CONST.FLATSTATE);
-                            this.Sintro4.gotoState(CONST.NORMALnoARROW);
-                            break;
-                        case "$end":
-                            break;
-                    }
-                    break;
-                    
             }
+        }
+
+        public $onAction(target:string, evt:string) {
         }
 
         public $timedEvents(id:string) {

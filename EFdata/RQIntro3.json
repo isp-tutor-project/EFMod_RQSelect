@@ -1,8 +1,8 @@
 {
     "MODULEDATA":"v1.0.0",
-    "SScene5": {
+    "SScene6b": {
         "Shand": {
-            "xname":"hand1"
+            "xname":"hand2"
         },
         "Sbucket": {
             "xname":"bucket1"
@@ -15,6 +15,9 @@
         },
         "SbackGround": {
             "xname":"backGround1"
-        }        
+        },
+        "SiceCube": {
+            "xname":"iceCube1"
+        }
     }
 }

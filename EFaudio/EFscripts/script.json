@@ -549,6 +549,190 @@
 			}
 		}
 	},
+	"SScene5a": {
+		"tracks": {
+			"track1a": {
+				"en": {
+					"node": "(root)APPARATUS",
+					"html": "<p>{{$EFO_EG_BOTH|S5aT1a}}</p>",
+					"text": "{{$EFO_EG_BOTH|S5aT1a}}",
+					"templateRef": {
+						"$EFO_EG_BOTH|S5aT1a": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track1": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat1}}",
+					"text": "{{$EFO_S_A?_T?|enumMat1}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat1": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat2}}",
+					"text": "{{$EFO_S_A?_T?|enumMat2}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat2": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat3}}",
+					"text": "{{$EFO_S_A?_T?|enumMat3}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat3": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track4": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat4}}",
+					"text": "{{$EFO_S_A?_T?|enumMat4}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat4": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track5": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat5}}",
+					"text": "{{$EFO_S_A?_T?|enumMat5}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat5": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track6": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat6}}",
+					"text": "{{$EFO_S_A?_T?|enumMat6}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat6": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track7": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat7}}",
+					"text": "{{$EFO_S_A?_T?|enumMat7}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat7": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track8": {
+				"en": {
+					"node": "(root)Material Enumeration",
+					"html": "{{$EFO_S_A?_T?|enumMat8}}",
+					"text": "{{$EFO_S_A?_T?|enumMat8}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumMat8": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			}
+		}
+	},
 	"SScene6a": {
 		"tracks": {
 			"track1": {
@@ -669,7 +853,7 @@
 	},
 	"SScene8": {
 		"tracks": {
-			"track1": {
+			"track0": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
 					"html": "{{$EFO_S_A?_T?|fourcanchange}}",
@@ -689,13 +873,53 @@
 					"templates": {}
 				}
 			},
+			"track1": {
+				"en": {
+					"node": "(root)VARIABLES_AND_VALUES",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt1a}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt1a}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumValueUtt1a": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track1a": {
+				"en": {
+					"node": "(root)VARIABLES_AND_VALUES",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt1b}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt1b}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|enumValueUtt1b": "$EFM_selectedTopic.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
 			"track2": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue1a}}",
-					"text": "{{$EFO_S_A?_T?|enumValue1a}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt2a}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt2a}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue1a": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt2a": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -712,10 +936,10 @@
 			"track2a": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue1b}}",
-					"text": "{{$EFO_S_A?_T?|enumValue1b}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt2b}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt2b}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue1b": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt2b": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -732,10 +956,10 @@
 			"track3": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue2a}}",
-					"text": "{{$EFO_S_A?_T?|enumValue2a}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt3a}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt3a}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue2a": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt3a": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -752,10 +976,10 @@
 			"track3a": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue2b}}",
-					"text": "{{$EFO_S_A?_T?|enumValue2b}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt3b}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt3b}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue2b": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt3b": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -772,10 +996,10 @@
 			"track4": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue3a}}",
-					"text": "{{$EFO_S_A?_T?|enumValue3a}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt4a}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt4a}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue3a": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt4a": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -792,50 +1016,10 @@
 			"track4a": {
 				"en": {
 					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue3b}}",
-					"text": "{{$EFO_S_A?_T?|enumValue3b}}",
+					"html": "{{$EFO_S_A?_T?|enumValueUtt4b}}",
+					"text": "{{$EFO_S_A?_T?|enumValueUtt4b}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|enumValue3b": "$EFM_selectedTopic.ontologyKey"
-					},
-					"segments": [],
-					"timedSet": [],
-					"trim": [
-						0
-					],
-					"volume": [
-						1
-					],
-					"cueSet": ".........................................",
-					"templates": {}
-				}
-			},
-			"track5": {
-				"en": {
-					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue4a}}",
-					"text": "{{$EFO_S_A?_T?|enumValue4a}}",
-					"templateRef": {
-						"$EFO_S_A?_T?|enumValue4a": "$EFM_selectedTopic.ontologyKey"
-					},
-					"segments": [],
-					"timedSet": [],
-					"trim": [
-						0
-					],
-					"volume": [
-						1
-					],
-					"cueSet": ".........................................",
-					"templates": {}
-				}
-			},
-			"track5a": {
-				"en": {
-					"node": "(root)VARIABLES_AND_VALUES",
-					"html": "{{$EFO_S_A?_T?|enumValue4b}}",
-					"text": "{{$EFO_S_A?_T?|enumValue4b}}",
-					"templateRef": {
-						"$EFO_S_A?_T?|enumValue4b": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|enumValueUtt4b": "$EFM_selectedTopic.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
