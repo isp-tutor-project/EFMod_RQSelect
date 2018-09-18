@@ -1135,11 +1135,11 @@ var EFTut_Suppl;
                                 this.$("SsubTitle.*").hide();
                                 this.$("Sicon.|Svar.*").hide();
                                 this.$("Sicon1|Svar1a").show();
-                                this.Stitle.setContentByIndex(1);
+                                this.Stitle.setContentByIndex(2);
                                 this.Stitle.show();
                                 break;
                             case "a":
-                                this.SsubTitle1.setContentByIndex(1);
+                                this.SsubTitle1.setContentByIndex(2);
                                 this.SsubTitle1.show();
                                 break;
                             case "$end":
@@ -1150,7 +1150,7 @@ var EFTut_Suppl;
                         switch (cueID) {
                             case "$start":
                                 this.$("Sicon2|Svar1b").show();
-                                this.SsubTitle2.setContentByIndex(1);
+                                this.SsubTitle2.setContentByIndex(2);
                                 this.SsubTitle2.show();
                                 break;
                             case "$end":
@@ -1163,10 +1163,10 @@ var EFTut_Suppl;
                                 this.$("SsubTitle.*").hide();
                                 this.$("Sicon.|Svar.*").hide();
                                 this.$("Sicon1|Svar2a").show();
-                                this.Stitle.setContentByIndex(2);
+                                this.Stitle.setContentByIndex(3);
                                 break;
                             case "a":
-                                this.SsubTitle1.setContentByIndex(2);
+                                this.SsubTitle1.setContentByIndex(3);
                                 this.SsubTitle1.show();
                                 break;
                             case "$end":
@@ -1177,7 +1177,7 @@ var EFTut_Suppl;
                         switch (cueID) {
                             case "$start":
                                 this.$("Sicon2|Svar2b").show();
-                                this.SsubTitle2.setContentByIndex(2);
+                                this.SsubTitle2.setContentByIndex(3);
                                 this.SsubTitle2.show();
                                 break;
                             case "$end":
@@ -1190,10 +1190,10 @@ var EFTut_Suppl;
                                 this.$("SsubTitle.*").hide();
                                 this.$("Sicon.|Svar.*").hide();
                                 this.$("Sicon1|Svar3a").show();
-                                this.Stitle.setContentByIndex(3);
+                                this.Stitle.setContentByIndex(4);
                                 break;
                             case "a":
-                                this.SsubTitle1.setContentByIndex(3);
+                                this.SsubTitle1.setContentByIndex(4);
                                 this.SsubTitle1.show();
                                 break;
                             case "$end":
@@ -1204,7 +1204,7 @@ var EFTut_Suppl;
                         switch (cueID) {
                             case "$start":
                                 this.$("Sicon2|Svar3b").show();
-                                this.SsubTitle2.setContentByIndex(3);
+                                this.SsubTitle2.setContentByIndex(4);
                                 this.SsubTitle2.show();
                                 break;
                             case "$end":
@@ -1217,10 +1217,10 @@ var EFTut_Suppl;
                                 this.$("SsubTitle.*").hide();
                                 this.$("Sicon.|Svar.*").hide();
                                 this.$("Sicon1|Svar4a").show();
-                                this.Stitle.setContentByIndex(4);
+                                this.Stitle.setContentByIndex(5);
                                 break;
                             case "a":
-                                this.SsubTitle1.setContentByIndex(4);
+                                this.SsubTitle1.setContentByIndex(5);
                                 this.SsubTitle1.show();
                                 break;
                             case "$end":
@@ -1231,7 +1231,7 @@ var EFTut_Suppl;
                         switch (cueID) {
                             case "$start":
                                 this.$("Sicon2|Svar4b").show();
-                                this.SsubTitle2.setContentByIndex(4);
+                                this.SsubTitle2.setContentByIndex(5);
                                 this.SsubTitle2.show();
                                 break;
                             case "$end":

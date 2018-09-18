@@ -38,7 +38,7 @@
                     "enumValue4":"The type of string",
                     "enumValue4a":"Twine",
                     "enumValue4b":"Yarn",
-                    
+                                
                     "enumValueUtt1a":"The water temperature which can be cool.",
                     "enumValueUtt1b":"Or hot might make a difference.",
                     "enumValueUtt2a":"The type of crystal which can be salt",
@@ -47,7 +47,7 @@
                     "enumValueUtt3b":"Or some might make a difference.",
                     "enumValueUtt4a":"And the type of string which can be twine.",
                     "enumValueUtt4b":"Or yarn. This might also make a difference.",
-                    "rqselectedall":" affect the weight of the crystal growth on a string in water after two weeks?",
+
                     "RQ1":{
                         "rqselected":"Does the water temperature" 
                     },
@@ -59,7 +59,14 @@
                     },
                     "RQ4":{
                         "rqselected":"Does the type of string"    
-                    }
+                    },
+                    "rqselectedall":" affect the weight of the crystal growth on a string in water after two weeks?",
+
+                    "buttVarName1":"The Water Temperature",
+                    "buttVarName2":"The Type of Crystal",
+                    "buttVarName3":"The initial amount of crystals on the string",
+                    "buttVarName4":"The type of string"
+
                 },
                 "T2":{
                     "features":"FTR_SODA",
@@ -99,7 +106,7 @@
                     "enumValueUtt3b":"Or smooth might make a difference",
                     "enumValueUtt4a":"And the amount of carbon dioxide in the soda which can be higher",
                     "enumValueUtt4b":"Or lower. This might also make a difference",
-                    "rqselectedall":" affect the strength of the reaction between soda and mints?",
+
                     "RQ1":{
                         "rqselected":"Does the type of sweetener in the soda"
                         },
@@ -111,10 +118,16 @@
                         },
                     "RQ4":{
                         "rqselected":"Does the amount of carbon dioxide in the soda"
-                        }
-                }
+                        },
+                    "rqselectedall":" affect the strength of the reaction between soda and mints?",
+
+                    "buttVarName1":"The type of sweetener in the soda",
+                    "buttVarName2":"The amount of caffeine in the soda",
+                    "buttVarName3":"The surface Texture of the mint",
+                    "buttVarName4":"The amount of carbon dioxide in the soda"        
+                }        
             },
-            "A2":{
+            "A2": {
                 "withinarea":"Within the area of, heat and temperature",
                 "T1":{
                     "features":"FTR_ICEMELT",
@@ -156,7 +169,6 @@
                     "enumValueUtt3b":"Or plain might make a difference",
                     "enumValueUtt4a":"And the shape of the glass which can be shorter or",
                     "enumValueUtt4b":"Taller. This might also make a difference",
-                    "rqselectedall":" affect the time it takes for an ice cube to melt in water?",
                     "RQ1":{
                         "rqselected":"Does the initial temperature of the ice cube"
                         },
@@ -168,7 +180,13 @@
                         },
                     "RQ4":{
                         "rqselected":"Does the shape of the glass"
-                        }
+                        },
+                        "rqselectedall":" affect the time it takes for an ice cube to melt in water?",
+
+                        "buttVarName1":"The initial temperature of the ice cube",
+                        "buttVarName2":"The initial temperature of the water",
+                        "buttVarName3":"The pattern on the glass",
+                        "buttVarName4":"The shape of the glass"
                 },
                 "T2":{
                     "features":"FTR_BALLOON",
@@ -212,7 +230,6 @@
                     "enumValueUtt3b":"Or shade might make a difference",
                     "enumValueUtt4a":"And the type of chair the balloon is tied to, which can be a wooden chair",
                     "enumValueUtt4b":"Or a canvas chair. This might also make a difference",
-                    "rqselectedall":" affect the gas temperature within the balloon after 30 minutes?",
                     "RQ1":{
                         "rqselected":"Does the color of the balloon"
                         },
@@ -224,7 +241,13 @@
                         },
                     "RQ4":{
                         "rqselected":"Does the type of chair the balloon is tied to"
-                        }
+                        },
+                        "rqselectedall":" affect the gas temperature within the balloon after 30 minutes?",
+    
+                        "buttVarName1":"The color of the balloon",
+                        "buttVarName2":"The material the balloon is made of",
+                        "buttVarName3":"The amount of sunlight exposure the balloon gets",
+                        "buttVarName4":"The type of chair the balloon is tied to"
                 }
             },
             "A3":{
@@ -267,7 +290,6 @@
                     "enumValueUtt3b":"Or lower might make a difference",
                     "enumValueUtt4a":"And the surface texture of the ramp, which can be rough",
                     "enumValueUtt4b":"Or smooth.  This might also make a difference",
-                    "rqselectedall":" affect the speed of the ball at the bottom of the ramp?",
                     "RQ1":{
                         "rqselected":"Does the slope of the ramp"
                         },
@@ -279,7 +301,13 @@
                         },
                     "RQ4":{
                         "rqselected":"Does the surface texture of the ramp"
-                        }
+                        },
+                        "rqselectedall":" affect the speed of the ball at the bottom of the ramp?",
+    
+                        "buttVarName1":"The Slope of the Ramp",
+                        "buttVarName2":"The Color of the Ball",
+                        "buttVarName3":"The Starting Position of the Ball",
+                        "buttVarName4":"The Surface Texture of the Ramp"
                 },
                 "T2":{
                     "features":"FTR_SINKING",
@@ -320,7 +348,6 @@
                     "enumValueUtt3b":"Or larger might make a difference",
                     "enumValueUtt4a":"And the density of the object which can be higher",
                     "enumValueUtt4b":"Or lower.  This might also make a difference",
-                    "rqselectedall":" affect the time it takes for objects to sink in water?",
                     "RQ1":{
                         "rqselected":"Does the density of water"
                         },
@@ -332,7 +359,13 @@
                         },
                     "RQ4":{
                         "rqselected":"Does the density of the object"
-                        }
+                        },
+                        "rqselectedall":" affect the time it takes for objects to sink in water?",
+    
+                        "buttVarName1":"The Density of the Water",
+                        "buttVarName2":"The Shape of the Object",
+                        "buttVarName3":"The Volume of the Object",
+                        "buttVarName4":"The Density of the Object"
                 }
             },
             "A4":{
@@ -377,7 +410,6 @@
                     "enumValueUtt3b":"Or some might make a difference",
                     "enumValueUtt4a":"And the type of water, which can be rain water",
                     "enumValueUtt4b":"Or tap water.   This might also make a difference",
-                    "rqselectedall":" affect the number of seeds produced by flowers at the end of the season?",
                     "RQ1":{
                         "rqselected":"Does the number of honey bees in the greenhouse"
                         },
@@ -389,7 +421,13 @@
                         },
                     "RQ4":{
                         "rqselected":"Does the amount of fertilizer"
-                        }
+                        },
+                        "rqselectedall":" affect the number of seeds produced by flowers at the end of the season?",
+    
+                        "buttVarName1":"The Number of honey bees in the greenhouse",
+                        "buttVarName2":"The Amount of sunlight the greenhouse lets in",
+                        "buttVarName3":"The Amount of Fertilizer",
+                        "buttVarName4":"The Type of Water"
                 },
                 "T2":{
                     "features":"FTR_ALGAE",
@@ -433,7 +471,7 @@
                     "enumValueUtt3b":"Or none might make a difference",
                     "enumValueUtt4a":"And the amount of direct sunlight exposure, which can be some",
                     "enumValueUtt4b":"Or none.   This might also make a difference",
-                    "rqselectedall":" affect the weight of the algae growth after one week?",
+
                     "RQ1":{
                         "rqselected":"Does the temperature of the water"
                         },
@@ -445,7 +483,13 @@
                         },
                     "RQ4":{
                         "rqselected":"Does the amount of direct sunlight exposure"
-                        }
+                        },
+                    "rqselectedall":" affect the weight of the algae growth after one week?",
+    
+                        "buttVarName1":"The Temperature of the Water",
+                        "buttVarName2":"The Amount of Exposure to Music",
+                        "buttVarName3":"The Amount of Carbon Dioxide in the Water",
+                        "buttVarName4":"The Amount of Direct Sunlight Exposure"
                 }
             }
         },
@@ -454,8 +498,12 @@
                 "S5aT1a":"Here are all of the materials that may be necessary for this experiment",
                 "track1":"In this lesson, we will ask you to set up and evaluate experiments.",
                 "track8":"You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
-                "track9":"Let's begin by focusing on one area of science"
+                "track9":"Let's begin by focusing on one area of science",
 
+                "S10B1":"I'd like to test a different variable for my research question",
+                "S10B2":"I'd like to pick a different topic in this area",
+                "S10B3":"I'd like to picka a whole different area.",
+                "S10B4":"I like this question"
             },
             "A1": {
                 "type": "choice",                
@@ -463,6 +511,7 @@
                 "selecttopic":"please select a topic by clicking on a picture below.",
                 "selecttv":"Select the variable you would like to test. This variable is the independent variable of your experiment.",
                 "rqselected":"The research question you have chosen is",
+                "rqselectedText":"Your research question is",
                 "okselected":"OK! You have chosen as your Research Question",
                 "cantest":"You can test one of these variables in your experiment.",
                 "track2":"But first you will select a general area for the experiment.",
@@ -480,6 +529,7 @@
                 "selecttv":"We will test the following variable:",
                 "selecttv2":", This variable is the independent variable of the experiment. Please click on the highlighted button below",
                 "rqselected":"Our research question is",
+                "rqselectedText":"Our research question is",
                 "okselected":"OK! We have chosen the following Research Question",
                 "cantest":"We can test one of these variables in the experiment.",
                 "track2":"But first we will select a general area for the experiment.",

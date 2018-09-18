@@ -18,7 +18,7 @@
 					"volume": [
 						1
 					],
-					"cueSet": "......................."
+					"cueSet": ".......a..............."
 				}
 			},
 			"track2": {
@@ -889,7 +889,7 @@
 					"volume": [
 						1
 					],
-					"cueSet": ".........................................",
+					"cueSet": ".................a.......................",
 					"templates": {}
 				}
 			},
@@ -909,7 +909,7 @@
 					"volume": [
 						1
 					],
-					"cueSet": ".........................................",
+					"cueSet": "........................................",
 					"templates": {}
 				}
 			},
@@ -929,7 +929,7 @@
 					"volume": [
 						1
 					],
-					"cueSet": ".........................................",
+					"cueSet": "................a........................",
 					"templates": {}
 				}
 			},
@@ -969,7 +969,7 @@
 					"volume": [
 						1
 					],
-					"cueSet": ".........................................",
+					"cueSet": "................a........................",
 					"templates": {}
 				}
 			},
@@ -1009,7 +1009,7 @@
 					"volume": [
 						1
 					],
-					"cueSet": ".........................................",
+					"cueSet": ".................a.......................",
 					"templates": {}
 				}
 			},
@@ -1064,7 +1064,7 @@
 					"text": "{{$EFO_EG_A?|selecttv}}{{$EFO_S_A?_T?|enumValue?}}{{$EFO_EG_A?|selecttv2}}",
 					"templateRef": {
 						"$EFO_EG_A?|selecttv": "$EFT_experimentalGroup.ontologyKey",
-						"$EFO_S_A?_T?|enumValue?": "$EFM_selectedTV.ontologyKey",
+						"$EFO_S_A?_T?|enumValue?": "$EFM_selectedTopic.ontologyKey",
 						"$EFO_EG_A?|selecttv2": "$EFT_experimentalGroup.ontologyKey"
 					},
 					"segments": [],
@@ -1087,35 +1087,9 @@
 	},
 	"SScene10": {
 		"tracks": {
-			"track1CHOICE": {
+			"track1": {
 				"en": {
-					"node": "(root)SELECTRQ",
-					"html": "{{$EFO_EG_A?|rqselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
-					"text": "{{$EFO_EG_A?|rqselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
-					"templateRef": {
-						"$EFO_EG_A?|rqselected": "$EFT_experimentalGroup.ontologyKey",
-						"$EFO_S_A?_T?_RQ?|rqSelected": "$EFM_selectedRQ.ontologyKey",
-						"$EFO_S_A?_T?|rqSelectedall": "$EFM_selectedRQ.ontologyKey"
-					},
-					"segments": [],
-					"timedSet": [],
-					"trim": [
-						0,
-						0,
-						0
-					],
-					"volume": [
-						1,
-						1,
-						1
-					],
-					"cueSet": ".........................................",
-					"templates": {}
-				}
-			},
-			"track1NOCHOICE": {
-				"en": {
-					"node": "(root)SELECTRQ",
+					"node": "(root)VALIDATERQ",
 					"html": "{{$EFO_EG_A?|rqselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
 					"text": "{{$EFO_EG_A?|rqselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
 					"templateRef": {
@@ -1143,35 +1117,9 @@
 	},
 	"SScene11": {
 		"tracks": {
-			"track1CHOICE": {
+			"track1": {
 				"en": {
-					"node": "(root)SELECTRQ",
-					"html": "{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
-					"text": "{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
-					"templateRef": {
-						"$EFO_EG_A?|rqselected": "$EFT_experimentalGroup.ontologyKey",
-						"$EFO_S_A?_T?_RQ?|rqSelected": "$EFM_selectedRQ.ontologyKey",
-						"$EFO_S_A?_T?|rqSelectedall": "$EFM_selectedRQ.ontologyKey"
-					},
-					"segments": [],
-					"timedSet": [],
-					"trim": [
-						0,
-						0,
-						0
-					],
-					"volume": [
-						1,
-						1,
-						1
-					],
-					"cueSet": ".........................................",
-					"templates": {}
-				}
-			},
-			"track1NOCHOICE": {
-				"en": {
-					"node": "(root)SELECTRQ",
+					"node": "(root)RQSELECTCOMPLETE",
 					"html": "{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
 					"text": "{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
 					"templateRef": {

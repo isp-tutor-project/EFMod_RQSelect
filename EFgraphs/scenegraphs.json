@@ -652,7 +652,53 @@
 
 	"SScene9":
 	{	
-		"COMMENT":"Step4...",
+		"COMMENT":"Select the Variable...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Welcome...",
+                "type":"module",
+                "name":"RQSelectIntro",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track1CHOICE"  , "autostep":false, "stepdelay":950,  "features":"FTR_CHOICE"},
+                    {"trackname":"track1NOCHOICE", "autostep":false, "stepdelay":950,  "features":"FTR_NOCHOICE"}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"","edge":"NEXTSCENE" }
+                        ]
+            },					
+                                    
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                "type":"module", 
+                "name":"NEXTSCENE",
+                "reuse":true,
+                "actiontracks":		
+                [
+                ],                                              
+                "edges":
+                        [
+                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                        ]
+            }															
+        },		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+		}		
+	},
+    
+
+	"SScene10":
+	{	
+		"COMMENT":"Verify RQ Selection...",
 		"type":"animation",
 		"version":"0.1.0",
 	
@@ -695,9 +741,9 @@
 	},
     
 
-	"SScene10":
+	"SScene11":
 	{	
-		"COMMENT":"Materials...",
+		"COMMENT":"RQ Selection Complete...",
 		"type":"animation",
 		"version":"0.1.0",
 	
@@ -738,6 +784,7 @@
             "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 		}		
 	}
+
 
 
 }

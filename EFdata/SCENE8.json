@@ -2,32 +2,17 @@
     "MODULEDATA":"v1.0.0",
     "SScene8": {
         "Stitle": {
-            "layoutsource":"$EFL_eftext.S8Title"           
+            "layoutsource":"$EFL_eftext.S8.Stitle"           
         },
         "SsubTitle1": {
-            "layoutsource":"$EFL_eftext.S8subTitle1"
+            "layoutsource":"$EFL_eftext.S8.SsubTitle1"
         },
         "SsubTitle2": {
-            "layoutsource":"$EFL_eftext.S8subTitle2"
+            "layoutsource":"$EFL_eftext.S8.SsubTitle2"
         },        
 
 
-        "Svar1a": {},
-        "Svar2a": {},
-        "Svar3a": {},
-        "Svar4a": {},
-        "Svar5a": {},
-        "Svar6a": {},
-        "Svar7a": {},
-        "Svar8a": {},
-
-        "Svar1b": {},
-        "Svar2b": {},
-        "Svar3b": {},
-        "Svar4b": {},
-        "Svar5b": {},
-        "Svar6b": {},
-        "Svar7b": {},
-        "Svar8b": {}
+        "Sicon1": {},
+        "Sicon2": {}
     }
 }

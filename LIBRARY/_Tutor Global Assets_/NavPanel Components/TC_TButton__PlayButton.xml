@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__PlayButton" itemID="5b9e9aaa-00000b83" symbolType="button" lastModified="1537121112" lastUniqueIdentifier="15">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__PlayButton" itemID="5b9e9aaa-00000b83" symbolType="button" lastModified="1537215494" lastUniqueIdentifier="15">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="TC_TButton__PlayButton" currentFrame="2">
+    <DOMTimeline name="TC_TButton__PlayButton" currentFrame="1">
       <layers>
         <DOMLayer name="SpinButtonUp" color="#808080" autoNamed="false">
           <frames>
@@ -21,7 +21,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="SpinButtonOver" color="#4FFFFF" autoNamed="false">
+        <DOMLayer name="SpinButtonOver" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
@@ -40,7 +40,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="SpinButtonDown" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="SpinButtonDown" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements/>

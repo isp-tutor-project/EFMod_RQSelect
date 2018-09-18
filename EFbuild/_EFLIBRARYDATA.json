@@ -2,7 +2,7 @@
 	"_LIBRARY": {
 		"eflist": {},
 		"eftext": {
-			"STitle": {
+			"Stitle": {
 				"src": "$$EFX.html_text2",
 				"htmlData": {
 					"style": {
@@ -20,7 +20,7 @@
 							"vertical-align": "middle"
 						}
 					},
-					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+					"html": "\n        <p></p>\n    "
 				}
 			},
 			"Svar1": {
@@ -41,7 +41,7 @@
 							"vertical-align": "middle"
 						}
 					},
-					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+					"html": "\n        <p></p>\n    "
 				}
 			},
 			"Svar2": {
@@ -62,7 +62,7 @@
 							"vertical-align": "middle"
 						}
 					},
-					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+					"html": "\n        <p></p>\n    "
 				}
 			},
 			"Svar3": {
@@ -83,7 +83,7 @@
 							"vertical-align": "middle"
 						}
 					},
-					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+					"html": "\n        <p></p>\n    "
 				}
 			},
 			"Svar4": {
@@ -104,11 +104,32 @@
 							"vertical-align": "middle"
 						}
 					},
-					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+					"html": "\n        <p></p>\n    "
+				}
+			},
+			"Stext": {
+				"src": "$$EFX.html_text1",
+				"htmlData": {
+					"style": {
+						"[stext].outerContainer": {
+							"text-align": "center",
+							"user-select": "none",
+							"color": "white",
+							"font-family": "'pangolin'",
+							"font-size": "21px",
+							"height": "158px",
+							"width": "274px"
+						},
+						"[stext] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p></p>\n    "
 				}
 			},
 			"STextBox1": {
 				"src": "$$EFX.html_text",
+				"fontSize": 40,
 				"htmlData": {
 					"style": {
 						"[stextbox1].outerContainer": {
@@ -124,11 +145,12 @@
 							"vertical-align": "middle"
 						}
 					},
-					"html": "\n        <p>test</p>\n    "
+					"html": "\n        <p></p>\n    "
 				}
 			},
 			"STextBox2": {
 				"src": "$$EFX.html_text1",
+				"fontSize": 40,
 				"htmlData": {
 					"style": {
 						"[stextbox2].outerContainer": {
@@ -144,279 +166,306 @@
 							"vertical-align": "middle"
 						}
 					},
-					"html": "\n        <p>Does the color of the <br>T-shirt a person is wearing affect attention?</p>\n    "
+					"html": "\n        <p></p>\n    "
 				}
 			},
-			"S8Title": [
-				{
-					"id": "A",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue1",
+			"S8": {
+				"Stitle": [
+					{
+						"id": "A",
+						"src": "$$EFX.html_text2",
+						"htmlData": {
+							"style": {
+								"[stitle].outerContainer": {
+									"text-align": "center",
+									"user-select": "none",
+									"color": "rgb(0, 0, 0)",
+									"font-weight": "bold",
+									"font-family": "'PT Sans'",
+									"font-size": "41px",
+									"height": "158px",
+									"width": "274px"
+								},
+								"[stitle] .tablecell": {
+									"vertical-align": "middle"
+								}
+							},
+							"html": "\n        <p></p>\n    "
+						},
+						"default": true,
+						"fontSize": 70
+					},
+					{
+						"id": "B",
+						"datasource": "$EFL_efdata.enumValue1",
+						"fontSize": 70
+					},
+					{
+						"id": "C",
+						"datasource": "$EFL_efdata.enumValue2"
+					},
+					{
+						"id": "D",
+						"datasource": "$EFL_efdata.enumValue3"
+					},
+					{
+						"id": "E",
+						"datasource": "$EFL_efdata.enumValue4"
+					}
+				],
+				"SsubTitle1": [
+					{
+						"id": "A",
+						"src": "$$EFX.html_text2",
+						"htmlData": {
+							"style": {
+								"[ssubtitle1].outerContainer": {
+									"text-align": "center",
+									"user-select": "none",
+									"color": "rgb(0, 0, 0)",
+									"font-weight": "bold",
+									"font-family": "'PT Sans'",
+									"font-size": "41px",
+									"height": "158px",
+									"width": "274px"
+								},
+								"[ssubtitle1] .tablecell": {
+									"vertical-align": "middle"
+								}
+							},
+							"html": "\n        <p></p>\n    "
+						},
+						"default": true,
+						"fontSize": 50
+					},
+					{
+						"id": "B",
+						"datasource": "$EFL_efdata.enumValue1a",
+						"fontSize": 50
+					},
+					{
+						"id": "C",
+						"datasource": "$EFL_efdata.enumValue2a"
+					},
+					{
+						"id": "D",
+						"datasource": "$EFL_efdata.enumValue3a"
+					},
+					{
+						"id": "E",
+						"datasource": "$EFL_efdata.enumValue4a"
+					}
+				],
+				"SsubTitle2": [
+					{
+						"id": "A",
+						"src": "$$EFX.html_text2",
+						"htmlData": {
+							"style": {
+								"[ssubtitle2].outerContainer": {
+									"text-align": "center",
+									"user-select": "none",
+									"color": "rgb(0, 0, 0)",
+									"font-weight": "bold",
+									"font-family": "'PT Sans'",
+									"font-size": "41px",
+									"height": "158px",
+									"width": "274px"
+								},
+								"[ssubtitle2] .tablecell": {
+									"vertical-align": "middle"
+								}
+							},
+							"html": "\n        <p></p>\n    "
+						},
+						"default": true,
+						"fontSize": 50
+					},
+					{
+						"id": "B",
+						"datasource": "$EFL_efdata.enumValue1b",
+						"fontSize": 50
+					},
+					{
+						"id": "C",
+						"datasource": "$EFL_efdata.enumValue2b"
+					},
+					{
+						"id": "D",
+						"datasource": "$EFL_efdata.enumValue3b"
+					},
+					{
+						"id": "E",
+						"datasource": "$EFL_efdata.enumValue4b"
+					}
+				]
+			},
+			"S10": {
+				"Stitle": {
+					"src": "$$EFX.html_text2",
 					"htmlData": {
 						"style": {
-							"[s8title].outerContainer": {
+							"[stitle].outerContainer": {
 								"text-align": "center",
 								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
 							},
-							"[s8title] .tablecell": {
+							"[stitle] .tablecell": {
 								"vertical-align": "middle"
 							}
 						},
-						"html": "\n        <p>test</p>\n    "
+						"html": "\n        <p></p>\n    "
+					},
+					"text": "",
+					"templateRef": {
+						"EG_A?|rqselectedText": "$EFT_experimentalGroup.ontologyKey",
+						"S_A?_T?_RQ?|rqSelected": "$EFM_selectedRQ.ontologyKey",
+						"S_A?_T?|rqSelectedall": "$EFM_selectedRQ.ontologyKey"
 					}
 				},
-				{
-					"id": "B",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue2",
-					"htmlData": {
-						"style": {
-							"[s8title].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
+				"Sbutton1": {
+					"buttonHtml": {
+						"src": "$$EFX.html_text2",
+						"htmlData": {
+							"style": {
+								"[buttonhtml].outerContainer": {
+									"text-align": "center",
+									"user-select": "none",
+									"color": "rgb(0, 0, 0)",
+									"font-weight": "bold",
+									"font-family": "'PT Sans'",
+									"font-size": "41px",
+									"height": "158px",
+									"width": "274px"
+								},
+								"[buttonhtml] .tablecell": {
+									"vertical-align": "middle"
+								}
 							},
-							"[s8title] .tablecell": {
-								"vertical-align": "middle"
-							}
+							"html": "\n        <p></p>\n    "
 						},
-						"html": "\n        <p>test</p>\n    "
+						"text": "",
+						"templateRef": {
+							"EG_BOTH|S10B1": "$EFT_experimentalGroup.ontologyKey"
+						}
 					}
 				},
-				{
-					"id": "C",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue3",
-					"htmlData": {
-						"style": {
-							"[s8title].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
+				"Sbutton2": {
+					"buttonHtml": {
+						"src": "$$EFX.html_text2",
+						"htmlData": {
+							"style": {
+								"[buttonhtml].outerContainer": {
+									"text-align": "center",
+									"user-select": "none",
+									"color": "rgb(0, 0, 0)",
+									"font-weight": "bold",
+									"font-family": "'PT Sans'",
+									"font-size": "41px",
+									"height": "158px",
+									"width": "274px"
+								},
+								"[buttonhtml] .tablecell": {
+									"vertical-align": "middle"
+								}
 							},
-							"[s8title] .tablecell": {
-								"vertical-align": "middle"
-							}
+							"html": "\n        <p></p>\n    "
 						},
-						"html": "\n        <p>test</p>\n    "
+						"text": "",
+						"templateRef": {
+							"EG_BOTH|S10B2": "$EFT_experimentalGroup.ontologyKey"
+						}
 					}
 				},
-				{
-					"id": "D",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue4",
-					"htmlData": {
-						"style": {
-							"[s8title].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
+				"Sbutton3": {
+					"buttonHtml": {
+						"src": "$$EFX.html_text2",
+						"htmlData": {
+							"style": {
+								"[buttonhtml].outerContainer": {
+									"text-align": "center",
+									"user-select": "none",
+									"color": "rgb(0, 0, 0)",
+									"font-weight": "bold",
+									"font-family": "'PT Sans'",
+									"font-size": "41px",
+									"height": "158px",
+									"width": "274px"
+								},
+								"[buttonhtml] .tablecell": {
+									"vertical-align": "middle"
+								}
 							},
-							"[s8title] .tablecell": {
-								"vertical-align": "middle"
-							}
+							"html": "\n        <p></p>\n    "
 						},
-						"html": "\n        <p>test</p>\n    "
+						"text": "",
+						"templateRef": {
+							"EG_BOTH|S10B3": "$EFT_experimentalGroup.ontologyKey"
+						}
+					}
+				},
+				"Sbutton4": {
+					"buttonHtml": {
+						"src": "$$EFX.html_text2",
+						"htmlData": {
+							"style": {
+								"[buttonhtml].outerContainer": {
+									"text-align": "center",
+									"user-select": "none",
+									"color": "rgb(0, 0, 0)",
+									"font-weight": "bold",
+									"font-family": "'PT Sans'",
+									"font-size": "41px",
+									"height": "158px",
+									"width": "274px"
+								},
+								"[buttonhtml] .tablecell": {
+									"vertical-align": "middle"
+								}
+							},
+							"html": "\n        <p></p>\n    "
+						},
+						"text": "",
+						"templateRef": {
+							"EG_BOTH|S10B4": "$EFT_experimentalGroup.ontologyKey"
+						}
 					}
 				}
-			],
-			"S8subTitle1": [
-				{
-					"id": "A",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue1a",
+			},
+			"S11": {
+				"Stitle": {
+					"src": "$$EFX.html_text2",
 					"htmlData": {
 						"style": {
-							"[s8subtitle1].outerContainer": {
+							"[stitle].outerContainer": {
 								"text-align": "center",
 								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
 							},
-							"[s8subtitle1] .tablecell": {
+							"[stitle] .tablecell": {
 								"vertical-align": "middle"
 							}
 						},
-						"html": "\n        <p>test</p>\n    "
-					}
-				},
-				{
-					"id": "B",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue2a",
-					"htmlData": {
-						"style": {
-							"[s8subtitle1].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
-							},
-							"[s8subtitle1] .tablecell": {
-								"vertical-align": "middle"
-							}
-						},
-						"html": "\n        <p>test</p>\n    "
-					}
-				},
-				{
-					"id": "C",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue3a",
-					"htmlData": {
-						"style": {
-							"[s8subtitle1].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
-							},
-							"[s8subtitle1] .tablecell": {
-								"vertical-align": "middle"
-							}
-						},
-						"html": "\n        <p>test</p>\n    "
-					}
-				},
-				{
-					"id": "D",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue4a",
-					"htmlData": {
-						"style": {
-							"[s8subtitle1].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
-							},
-							"[s8subtitle1] .tablecell": {
-								"vertical-align": "middle"
-							}
-						},
-						"html": "\n        <p>test</p>\n    "
+						"html": "\n        <p></p>\n    "
+					},
+					"text": "",
+					"templateRef": {
+						"EG_A?|okselected": "$EFT_experimentalGroup.ontologyKey",
+						"S_A?_T?_RQ?|rqSelected": "$EFM_selectedRQ.ontologyKey",
+						"S_A?_T?|rqSelectedall": "$EFM_selectedRQ.ontologyKey"
 					}
 				}
-			],
-			"S8subTitle2": [
-				{
-					"id": "A",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue1b",
-					"htmlData": {
-						"style": {
-							"[s8subtitle2].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
-							},
-							"[s8subtitle2] .tablecell": {
-								"vertical-align": "middle"
-							}
-						},
-						"html": "\n        <p>test</p>\n    "
-					}
-				},
-				{
-					"id": "B",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue2b",
-					"htmlData": {
-						"style": {
-							"[s8subtitle2].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
-							},
-							"[s8subtitle2] .tablecell": {
-								"vertical-align": "middle"
-							}
-						},
-						"html": "\n        <p>test</p>\n    "
-					}
-				},
-				{
-					"id": "C",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue3b",
-					"htmlData": {
-						"style": {
-							"[s8subtitle2].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
-							},
-							"[s8subtitle2] .tablecell": {
-								"vertical-align": "middle"
-							}
-						},
-						"html": "\n        <p>test</p>\n    "
-					}
-				},
-				{
-					"id": "D",
-					"src": "$$EFX.html_text",
-					"datasource": "$EFL_efdata.enumValue4b",
-					"htmlData": {
-						"style": {
-							"[s8subtitle2].outerContainer": {
-								"text-align": "center",
-								"user-select": "none",
-								"color": "white",
-								"font-family": "'pangolin'",
-								"font-size": "47px",
-								"height": "112px",
-								"width": "506px"
-							},
-							"[s8subtitle2] .tablecell": {
-								"vertical-align": "middle"
-							}
-						},
-						"html": "\n        <p>test</p>\n    "
-					}
-				}
-			]
+			}
 		},
 		"efinput": {},
 		"eftable": {},
@@ -575,6 +624,53 @@
 				},
 				"templateRef": {
 					"S_A?_T?|enumValue4b": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"S9": {
+				"Stitle": {
+					"htmlData": {
+						"html": "{{$EFO_EG_A?|selecttv}}"
+					},
+					"text": "",
+					"templateRef": {
+						"EG_A?|selecttv": "$EFT_experimentalGroup.ontologyKey"
+					}
+				},
+				"Sbutton1": {
+					"htmlData": {
+						"html": "{{$EFO_S_A?_T?|buttVarName1}}"
+					},
+					"text": "",
+					"templateRef": {
+						"S_A?_T?|buttVarName1": "$EFM_selectedTopic.ontologyKey"
+					}
+				},
+				"Sbutton2": {
+					"htmlData": {
+						"html": "{{$EFO_S_A?_T?|buttVarName2}}"
+					},
+					"text": "",
+					"templateRef": {
+						"S_A?_T?|buttVarName2": "$EFM_selectedTopic.ontologyKey"
+					}
+				},
+				"Sbutton3": {
+					"htmlData": {
+						"html": "{{$EFO_S_A?_T?|buttVarName3}}"
+					},
+					"text": "",
+					"templateRef": {
+						"S_A?_T?|buttVarName3": "$EFM_selectedTopic.ontologyKey"
+					}
+				},
+				"Sbutton4": {
+					"htmlData": {
+						"html": "{{$EFO_S_A?_T?|buttVarName4}}"
+					},
+					"text": "",
+					"templateRef": {
+						"S_A?_T?|buttVarName4": "$EFM_selectedTopic.ontologyKey"
+					}
 				}
 			}
 		}

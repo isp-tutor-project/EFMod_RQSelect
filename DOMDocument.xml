@@ -1,22 +1,22 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1920" height="1200" currentTimeline="1" xflVersion="2.96" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 18.0 build 115" majorVersion="18" buildNumber="115" bitmapSnap="false" objectsSnapTo="false" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="F2AAB060E6A643B152F88DFFCB60C58D">
      <folders>
           <DOMFolderItem name="____componentassets____" itemID="5ad28523-00000243"/>
-          <DOMFolderItem name="_HTMLControls" itemID="5b6f4063-000003e9"/>
+          <DOMFolderItem name="_HTMLControls" itemID="5b6f4063-000003e9" isExpanded="true"/>
           <DOMFolderItem name="_HTMLControls/TC_THtmlInput__Assets" itemID="5b5cd7d8-000002da"/>
           <DOMFolderItem name="_HTMLControls/TC_THtmlList__Assets" itemID="5b5cea4b-000003ab"/>
           <DOMFolderItem name="_HTMLControls/TC_THtmlTable__Assets" itemID="5b5f40d8-000002e3"/>
           <DOMFolderItem name="_HTMLControls/TC_THtmlText__Assets" itemID="5b5cd7c7-000002d7"/>
           <DOMFolderItem name="_Tutor Global Assets_" itemID="5ad4e635-00000a48" isExpanded="true"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components" itemID="5b6f403c-000003c9" isExpanded="true"/>
-          <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets" itemID="5b68a267-00000548" isExpanded="true"/>
+          <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets" itemID="5b68a267-00000548"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons" itemID="532c6375-000002d1"/>
           <DOMFolderItem name="_Tutor Global Scenes" itemID="5b8db57f-00000793" isExpanded="true"/>
           <DOMFolderItem name="_Tutor Global Scenes/Scene Assets" itemID="5ae24ea6-00000248"/>
           <DOMFolderItem name="_Tutor Global Scenes/Scene Assets/TC_TScene__SignIn" itemID="5ae3761f-00000407"/>
           <DOMFolderItem name="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck" itemID="5ae37625-00000409"/>
           <DOMFolderItem name="_Tutor Global Scenes/Scene Assets/TC_TScene_HeadPhoneCheck" itemID="5ae37622-00000408"/>
-          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e"/>
-          <DOMFolderItem name="Assets/AreaButton Assets" itemID="5b95a1db-00000764"/>
+          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e" isExpanded="true"/>
+          <DOMFolderItem name="Assets/AreaButton Assets" itemID="5b95a1db-00000764" isExpanded="true"/>
           <DOMFolderItem name="Assets/Custom Controls" itemID="5b8dc464-00000811"/>
           <DOMFolderItem name="Assets/Custom Controls/IntroControl Assets" itemID="5b8dc78f-000008fa"/>
           <DOMFolderItem name="Assets/images" itemID="5b900825-000017f5"/>
@@ -31,7 +31,7 @@
           <DOMFolderItem name="Imports/Ramps" itemID="5b983f74-0000096e" isExpanded="true"/>
           <DOMFolderItem name="Imports/Sinking" itemID="5b983f7a-00000972" isExpanded="true"/>
           <DOMFolderItem name="Imports/Soda" itemID="5b983f7e-00000976" isExpanded="true"/>
-          <DOMFolderItem name="Scenes" itemID="5b40f2ba-000002e0"/>
+          <DOMFolderItem name="Scenes" itemID="5b40f2ba-000002e0" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="Assets/images/Arrows.png" itemID="5b90098a-0000192c" sourceLastImported="1316734797" externalFileCRC32="1904341604" externalFileSize="136338" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Assets/images/Arrows.png" bitmapDataHRef="M 16 1536165981.dat" frameRight="8000" frameBottom="8000"/>
@@ -82,14 +82,14 @@
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/playButtonTop.xml" loadImmediate="false" itemID="5b9e99fb-00000b68" lastModified="1537120902"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/playup.xml" loadImmediate="false" itemID="5b9e98ab-00000b30" lastModified="1537120908"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__NextButton.xml" itemIcon="0" loadImmediate="false" itemID="5b68a24f-00000546" lastModified="1537120941"/>
-          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__PlayButton.xml" itemIcon="0" loadImmediate="false" itemID="5b9e9aaa-00000b83" lastModified="1537121112"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__PlayButton.xml" itemIcon="0" loadImmediate="false" itemID="5b9e9aaa-00000b83" lastModified="1537215494"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__PrevButton.xml" itemIcon="0" loadImmediate="false" itemID="5b68a25d-00000547" lastModified="1533586273"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TObject__NavBackground.xml" loadImmediate="false" itemID="5b6f441f-0000043d" lastModified="1534018591"/>
           <Include href="_Tutor Global Assets_/SceneRegion.xml" loadImmediate="false" itemID="5ad4e5af-00000a3e" lastModified="1536529826"/>
           <Include href="_Tutor Global Assets_/TC_TVirtual__SceneRgn.xml" loadImmediate="false" itemID="5b7745af-0000037b" lastModified="1536529831"/>
           <Include href="_Tutor Global Assets_/TutorModule.xml" loadImmediate="false" itemID="5ad39eb8-000002c4" lastModified="1523818168"/>
           <Include href="_Tutor Global Scenes/Scene Assets/TC_TScene__SignIn/IconSignIn.xml" loadImmediate="false" itemID="5ae36986-00000383" lastModified="1524853134"/>
-          <Include href="_Tutor Global Scenes/TC_TNavPanel__Navigator.xml" loadImmediate="false" itemID="5b77452f-00000373" lastModified="1536790083"/>
+          <Include href="_Tutor Global Scenes/TC_TNavPanel__Navigator.xml" itemID="5b77452f-00000373" lastModified="1537219478"/>
           <Include href="_Tutor Global Scenes/TC_TScene__HeadPhoneCheck.xml" loadImmediate="false" itemID="5ae37628-0000040b" lastModified="1524856360"/>
           <Include href="_Tutor Global Scenes/TC_TScene__SignIn.xml" loadImmediate="false" itemID="5ae3762f-0000040c" lastModified="1524856367"/>
           <Include href="_Tutor Global Scenes/TC_TScene__SoundCheck.xml" loadImmediate="false" itemID="5ae37634-0000040d" lastModified="1534016097"/>
@@ -131,6 +131,7 @@
           <Include href="Assets/Static Text Objects/TC_TText__Area4st1.xml" loadImmediate="false" itemID="5b96dda4-00001e06" lastModified="1536613796"/>
           <Include href="Assets/Static Text Objects/TC_TText__Area4st2.xml" loadImmediate="false" itemID="5b96ddaa-00001e0a" lastModified="1536613802"/>
           <Include href="Assets/Static Text Objects/TC_TText__Area4Title.xml" loadImmediate="false" itemID="5b96dd90-00001e00" lastModified="1536613776"/>
+          <Include href="Assets/TC_THtmlButton__VarSelector.xml" itemIcon="0" loadImmediate="false" itemID="5ba00a65-000018cc" lastModified="1537215974"/>
           <Include href="Imports/Algae/TL_Algae__Movie.xml" itemID="5b955a58-00000433" lastModified="1536783292"/>
           <Include href="Imports/Algae/TL_Algae__RQenumVars.xml" itemID="5b9e9f77-00001003" lastModified="1537122177"/>
           <Include href="Imports/Algae/TL_Algae__RQintro1.xml" itemID="5b9569ac-00000484" lastModified="1536783280"/>
@@ -195,14 +196,17 @@
           <Include href="Imports/Soda/TL_Soda__RQintro4.xml" itemID="5b9842bd-00000b69" lastModified="1536783398"/>
           <Include href="Imports/Soda/TL_Soda__RQmovie.xml" itemID="5b984417-00000c59" lastModified="1536783410"/>
           <Include href="Imports/Soda/TL_Soda__Topic.xml" loadImmediate="false" itemID="5b984427-00000c5a" lastModified="1536705575"/>
-          <Include href="Scenes/TC_TScene__Scene1.xml" loadImmediate="false" itemID="5b8db5f5-000007c2" lastModified="1536604334"/>
-          <Include href="Scenes/TC_TScene__Scene2.xml" loadImmediate="false" itemID="5b959925-000006c0" lastModified="1536870150"/>
-          <Include href="Scenes/TC_TScene__Scene3.xml" loadImmediate="false" itemID="5b98347e-000004ac" lastModified="1536870792"/>
-          <Include href="Scenes/TC_TScene__Scene4.xml" loadImmediate="false" itemID="5b983a09-0000054e" lastModified="1536879381"/>
+          <Include href="Scenes/TC_TScene__Scene1.xml" itemID="5b8db5f5-000007c2" lastModified="1537219444"/>
+          <Include href="Scenes/TC_TScene__Scene2.xml" itemID="5b959925-000006c0" lastModified="1537219439"/>
+          <Include href="Scenes/TC_TScene__Scene3.xml" itemID="5b98347e-000004ac" lastModified="1537219437"/>
+          <Include href="Scenes/TC_TScene__Scene4.xml" itemID="5b983a09-0000054e" lastModified="1537219433"/>
+          <Include href="Scenes/TC_TScene__Scene9.xml" itemID="5ba00e0b-000018e6" lastModified="1537219430"/>
+          <Include href="Scenes/TC_TScene__Scene10.xml" itemID="5ba00e15-000018ef" lastModified="1537219425"/>
+          <Include href="Scenes/TC_TScene__Scene11.xml" itemID="5ba00e1d-000018f8" lastModified="1537219422"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1536531026"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="6">
+          <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="Actions" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
@@ -217,49 +221,19 @@
                     <DOMLayer name="Module Content" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="_Tutor Global Scenes/TC_TNavPanel__Navigator">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene1">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="2" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene2">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="3" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene3">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="4" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene4">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="5" keyMode="9728">
                                    <elements/>
@@ -274,16 +248,7 @@
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="9" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Assets/images/ForceSpriteSheet-Kludge">
-                                             <matrix>
-                                                  <Matrix tx="1152.8" ty="485.85"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="-194.5" y="124.5"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>

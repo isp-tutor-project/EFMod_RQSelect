@@ -1,0 +1,19 @@
+{
+    "MODULEDATA":"v1.0.0",
+    "SScene10": {
+        "Stitle": {
+            "layoutsource":"$EFL_eftext.S10.Stitle"           
+        },
+        "Sbutton1": {
+            "layoutsource":"$EFL_eftext.S10.SsubTitle1"
+        },
+        "Sbutton2": {
+            "layoutsource":"$EFL_eftext.S10.SsubTitle1"
+        },
+        "Sbutton3": {
+            "layoutsource":"$EFL_eftext.S10.SsubTitle1"
+        },
+        "Sbutton4": {
+            "layoutsource":"$EFL_eftext.S10.SsubTitle1"
+        }
+    }}
