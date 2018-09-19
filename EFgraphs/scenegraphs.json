@@ -671,6 +671,7 @@
                 ],                        
                 "edges":
                         [
+                            {"constraint":"!SELECTION_COMPLETE","edge":"root" },
                             {"constraint":"","edge":"NEXTSCENE" }
                         ]
             },					
@@ -712,10 +713,11 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track1", "autostep":true, "stepdelay":1250,  "features":""}
+                    {"trackname":"track1", "autostep":false, "stepdelay":1250,  "features":""}
                 ],                        
                 "edges":
                         [
+                            {"constraint":"!SELECTION_COMPLETE","edge":"root" },
                             {"constraint":"","edge":"NEXTSCENE" }
                         ]
             },					

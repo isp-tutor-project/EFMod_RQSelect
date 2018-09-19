@@ -89,7 +89,7 @@
 					"enumValue3a": "Rough",
 					"enumValue3b": "Smooth",
 					"enumValue4": "The amount of carbon dioxide in the soda",
-					"enumValue4a": "Highter",
+					"enumValue4a": "Higher",
 					"enumValue4b": "Lower",
 					"enumValueUtt1a": "The type of sweetener which can be sugar",
 					"enumValueUtt1b": "Or aspartame might make a difference",
@@ -482,7 +482,7 @@
 				"selecttopic": "please select a topic by clicking on a picture below.",
 				"selecttv": "Select the variable you would like to test. This variable is the independent variable of your experiment.",
 				"rqselected": "The research question you have chosen is",
-				"rqselectedText": "Your research question is",
+				"rqselectedText": "Your research question is ",
 				"okselected": "OK! You have chosen as your Research Question",
 				"cantest": "You can test one of these variables in your experiment.",
 				"track2": "But first you will select a general area for the experiment.",
@@ -500,7 +500,7 @@
 				"selecttv": "We will test the following variable:",
 				"selecttv2": ", This variable is the independent variable of the experiment. Please click on the highlighted button below",
 				"rqselected": "Our research question is",
-				"rqselectedText": "Our research question is",
+				"rqselectedText": "Our research question is ",
 				"okselected": "OK! We have chosen the following Research Question",
 				"cantest": "We can test one of these variables in the experiment.",
 				"track2": "But first we will select a general area for the experiment.",
@@ -628,24 +628,45 @@
 	},
 	"SScene10": {
 		"Stitle": {
-			"layoutsource": "$EFL_eftext.S10.Stitle"
+			"layoutsource": "$EFL_eftext.Stitle",
+			"datasource": "$EFL_efdata.S10.Stitle",
+			"fontSize": 60
 		},
 		"Sbutton1": {
-			"layoutsource": "$EFL_eftext.S10.SsubTitle1"
+			"buttonHTML": {
+				"comment": "NOTE we use the name Stext of the controls sub-component that we are styling",
+				"layoutsource": "$EFL_eftext.Stext",
+				"datasource": "$EFL_efdata.S10.Sbutton1",
+				"fontSize": 60
+			}
 		},
 		"Sbutton2": {
-			"layoutsource": "$EFL_eftext.S10.SsubTitle1"
+			"buttonHTML": {
+				"layoutsource": "$EFL_eftext.Stext",
+				"datasource": "$EFL_efdata.S10.Sbutton2",
+				"fontSize": 60
+			}
 		},
 		"Sbutton3": {
-			"layoutsource": "$EFL_eftext.S10.SsubTitle1"
+			"buttonHTML": {
+				"layoutsource": "$EFL_eftext.Stext",
+				"datasource": "$EFL_efdata.S10.Sbutton3",
+				"fontSize": 60
+			}
 		},
 		"Sbutton4": {
-			"layoutsource": "$EFL_eftext.S10.SsubTitle1"
+			"buttonHTML": {
+				"layoutsource": "$EFL_eftext.Stext",
+				"datasource": "$EFL_efdata.S10.Sbutton4",
+				"fontSize": 60
+			}
 		}
 	},
 	"SScene11": {
 		"Stitle": {
-			"layoutsource": "$EFL_eftext.S8.Stitle"
+			"layoutsource": "$EFL_eftext.Stitle",
+			"datasource": "$EFL_efdata.S11.Stitle",
+			"fontSize": 70
 		}
 	},
 	"SScene2": {
@@ -754,28 +775,28 @@
 				"comment": "NOTE we use the name Stext of the controls sub-component that we are styling",
 				"layoutsource": "$EFL_eftext.Stext",
 				"datasource": "$EFL_efdata.S9.Sbutton1",
-				"fontSize": 50
+				"fontSize": 60
 			}
 		},
 		"Sbutton2": {
 			"buttonHTML": {
 				"layoutsource": "$EFL_eftext.Stext",
 				"datasource": "$EFL_efdata.S9.Sbutton2",
-				"fontSize": 50
+				"fontSize": 60
 			}
 		},
 		"Sbutton3": {
 			"buttonHTML": {
 				"layoutsource": "$EFL_eftext.Stext",
 				"datasource": "$EFL_efdata.S9.Sbutton3",
-				"fontSize": 50
+				"fontSize": 60
 			}
 		},
 		"Sbutton4": {
 			"buttonHTML": {
 				"layoutsource": "$EFL_eftext.Stext",
 				"datasource": "$EFL_efdata.S9.Sbutton4",
-				"fontSize": 50
+				"fontSize": 60
 			}
 		}
 	}

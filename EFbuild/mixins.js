@@ -71,9 +71,6 @@ var EFTut_Suppl;
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
         class Globals {
-            constructor() {
-                this.$var1 = "valname2";
-            }
         }
         EFMod_RQSelect.Globals = Globals;
     })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
@@ -293,6 +290,90 @@ var EFTut_Suppl;
             }
         }
         EFMod_RQSelect.SScene1 = SScene1;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
+        class SScene10 {
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setSceneValue("RQconfirmed", false);
+                this.setModuleValue("RQconfirmation", "UNKNOWN");
+            }
+            $preExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $nodePreEnter(nodeId) {
+                switch (nodeId) {
+                }
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                let RQconf = this.getModuleValue("RQconfirmation");
+                switch (constrainId) {
+                    case "!SELECTION_COMPLETE":
+                        result = !this.getSceneValue("RQconfirmed");
+                        break;
+                    case "CHANGE_RQ":
+                        if (RQconf === constrainId)
+                            result = true;
+                        break;
+                    case "CHANGE_TOPIC":
+                        if (RQconf === constrainId)
+                            result = true;
+                        break;
+                    case "CHANGE_AREA":
+                        if (RQconf === constrainId)
+                            result = true;
+                        break;
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                }
+            }
+            $onAction(target, evt) {
+                this.setSceneValue("RQconfirmed", true);
+                switch (target) {
+                    case "Sbutton1":
+                        this.setModuleValue("RQconfirmation", "CHANGE_RQ");
+                        break;
+                    case "Sbutton2":
+                        this.setModuleValue("RQconfirmation", "CHANGE_TOPIC");
+                        break;
+                    case "Sbutton3":
+                        this.setModuleValue("RQconfirmation", "CHANGE_AREA");
+                        break;
+                    case "Sbutton4":
+                        this.setModuleValue("RQconfirmation", "OK");
+                        break;
+                }
+                this.nextTrack("$onAction:" + target);
+            }
+            $timedEvents(id) {
+            }
+        }
+        EFMod_RQSelect.SScene10 = SScene10;
     })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 var EFTut_Suppl;
@@ -1246,6 +1327,77 @@ var EFTut_Suppl;
             }
         }
         EFMod_RQSelect.SScene8 = SScene8;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
+        class SScene9 {
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setSceneValue("RQSelected", false);
+            }
+            $preExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $nodePreEnter(nodeId) {
+                switch (nodeId) {
+                }
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                    case "!SELECTION_COMPLETE":
+                        result = !this.getSceneValue("RQSelected");
+                        break;
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                }
+            }
+            $onAction(target, evt) {
+                this.setSceneValue("RQSelected", true);
+                let tKey = this.getModuleValue("selectedTopic.ontologyKey");
+                switch (target) {
+                    case "Sbutton1":
+                        this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ1`, "index": "1" });
+                        break;
+                    case "Sbutton2":
+                        this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ2`, "index": "2" });
+                        break;
+                    case "Sbutton3":
+                        this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ3`, "index": "3" });
+                        break;
+                    case "Sbutton4":
+                        this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ4`, "index": "4" });
+                        break;
+                }
+                this.nextTrack("$onAction:" + target);
+            }
+            $timedEvents(id) {
+            }
+        }
+        EFMod_RQSelect.SScene9 = SScene9;
     })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 //# sourceMappingURL=mixins.js.map

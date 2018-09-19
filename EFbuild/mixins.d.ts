@@ -51,7 +51,6 @@ declare namespace EFTut_Suppl.EFMod_RQSelect {
 }
 declare namespace EFTut_Suppl.EFMod_RQSelect {
     class Globals {
-        $var1: string;
         [key: string]: any;
     }
 }
@@ -90,6 +89,26 @@ declare namespace EFTut_Suppl.EFMod_RQSelect {
         $nodeAction(actionId: string): void;
         $nodeConstraint(constrainId: string): boolean;
         $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_RQSelect {
+    class SScene10 {
+        [key: string]: any;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): any;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $onAction(target: string, evt: string): void;
         $timedEvents(id: string): void;
     }
 }
@@ -235,6 +254,26 @@ declare namespace EFTut_Suppl.EFMod_RQSelect {
 }
 declare namespace EFTut_Suppl.EFMod_RQSelect {
     class SScene8 {
+        [key: string]: any;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): any;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $onAction(target: string, evt: string): void;
+        $timedEvents(id: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_RQSelect {
+    class SScene9 {
         [key: string]: any;
         $onCreateScene(): void;
         $onEnterScene(): void;

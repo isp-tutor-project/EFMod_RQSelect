@@ -95,7 +95,7 @@
                     "enumValue3a":"Rough",
                     "enumValue3b":"Smooth",
                     "enumValue4":"The amount of carbon dioxide in the soda",
-                    "enumValue4a":"Highter",
+                    "enumValue4a":"Higher",
                     "enumValue4b":"Lower",
                     
                     "enumValueUtt1a":"The type of sweetener which can be sugar",
@@ -511,7 +511,7 @@
                 "selecttopic":"please select a topic by clicking on a picture below.",
                 "selecttv":"Select the variable you would like to test. This variable is the independent variable of your experiment.",
                 "rqselected":"The research question you have chosen is",
-                "rqselectedText":"Your research question is",
+                "rqselectedText":"Your research question is ",
                 "okselected":"OK! You have chosen as your Research Question",
                 "cantest":"You can test one of these variables in your experiment.",
                 "track2":"But first you will select a general area for the experiment.",

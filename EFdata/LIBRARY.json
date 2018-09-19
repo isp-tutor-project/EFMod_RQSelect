@@ -120,88 +120,17 @@
                 ]
             },
 
-            "S10":  {
-                "Stitle":{
-                    "src": "$$EFX.html_text2",
-                    "htmlData":{
-                        "html": "<p>{{$EFO_EG_A?|rqselectedText}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}</p>"
-                    },
-					"text": "",
-					"templateRef": {
-						"EG_A?|rqselectedText": "$EFT_experimentalGroup.ontologyKey",
-						"S_A?_T?_RQ?|rqSelected": "$EFM_selectedRQ.ontologyKey",
-						"S_A?_T?|rqSelectedall": "$EFM_selectedRQ.ontologyKey"
-					}
-                },
-                "Sbutton1": 
-                {
-                    "buttonHtml": {
-                        "src": "$$EFX.html_text2",
-
-                        "htmlData":{
-                            "html": "<p>{{$EFO_EG_BOTH|S10B1}}</p>"
-                        },
-                        "text": "",
-                        "templateRef": {
-                            "EG_BOTH|S10B1": "$EFT_experimentalGroup.ontologyKey"
-                        }
-                    }
-                },
-                "Sbutton2": 
-                {
-                    "buttonHtml": {
-                        "src": "$$EFX.html_text2",
-
-                        "htmlData":{
-                            "html": "<p>{{$EFO_EG_BOTH|S10B1}}</p>"
-                        },
-                        "text": "",
-                        "templateRef": {
-                            "EG_BOTH|S10B2": "$EFT_experimentalGroup.ontologyKey"
-                        }
-                    }
-                },
-                "Sbutton3": 
-                {
-                    "buttonHtml": {
-                        "src": "$$EFX.html_text2",
-
-                        "htmlData":{
-                            "html": "<p>{{$EFO_EG_BOTH|S10B1}}</p>"
-                        },
-                        "text": "",
-                        "templateRef": {
-                            "EG_BOTH|S10B3": "$EFT_experimentalGroup.ontologyKey"
-                        }
-                    }
-                },
-                "Sbutton4": 
-                {
-                    "buttonHtml": {
-                        "src": "$$EFX.html_text2",
-
-                        "htmlData":{
-                            "html": "<p>{{$EFO_EG_BOTH|S10B1}}</p>"
-                        },
-                        "text": "",
-                        "templateRef": {
-                            "EG_BOTH|S10B4": "$EFT_experimentalGroup.ontologyKey"
-                        }
-                    }
-                }
-            },
-
             "S11":  {
                 "Stitle":{
                     "src": "$$EFX.html_text2",
                     "htmlData":{
-                        "html": "<p>{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}</p>"
+                        "html": "<p>{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}</p>"
                     },
 					"text": "",
 					"templateRef": {
 						"EG_A?|okselected": "$EFT_experimentalGroup.ontologyKey",
-						"S_A?_T?_RQ?|rqSelected": "$EFM_selectedRQ.ontologyKey",
-						"S_A?_T?|rqSelectedall": "$EFM_selectedRQ.ontologyKey"
+						"S_A?_T?_RQ?|rqselected": "$EFM_selectedRQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_selectedRQ.ontologyKey"
 					}
                 }
             }        
@@ -423,7 +352,76 @@
                         "S_A?_T?|buttVarName4": "$EFM_selectedTopic.ontologyKey"
                     }
                 }
-            }
+            },
+
+            "S10":  {
+                "Stitle":{
+                    "htmlData":{
+                        "html": "<p>{{$EFO_EG_A?|rqselectedText}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}</p>"
+                    },
+					"text": "",
+					"templateRef": {
+						"EG_A?|rqselectedText": "$EFT_experimentalGroup.ontologyKey",
+						"S_A?_T?_RQ?|rqselected": "$EFM_selectedRQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_selectedRQ.ontologyKey"
+					}
+                },
+                "Sbutton1": 
+                {
+                    "htmlData":{
+                        "html": "<p>{{$EFO_EG_BOTH|S10B1}}</p>"
+                    },
+                    "text": "",
+                    "templateRef": {
+                        "EG_BOTH|S10B1": "$EFT_experimentalGroup.ontologyKey"
+                    }
+                },
+                "Sbutton2": 
+                {
+                    "htmlData":{
+                        "html": "<p>{{$EFO_EG_BOTH|S10B2}}</p>"
+                    },
+                    "text": "",
+                    "templateRef": {
+                        "EG_BOTH|S10B2": "$EFT_experimentalGroup.ontologyKey"
+                    }
+                },
+                "Sbutton3": 
+                {
+                    "htmlData":{
+                        "html": "<p>{{$EFO_EG_BOTH|S10B3}}</p>"
+                    },
+                    "text": "",
+                    "templateRef": {
+                        "EG_BOTH|S10B3": "$EFT_experimentalGroup.ontologyKey"
+                    }
+                },
+                "Sbutton4": 
+                {
+                    "htmlData":{
+                        "html": "<p>{{$EFO_EG_BOTH|S10B4}}</p>"
+                    },
+                    "text": "",
+                    "templateRef": {
+                        "EG_BOTH|S10B4": "$EFT_experimentalGroup.ontologyKey"
+                    }
+                }
+            },
+
+            "S11":  {
+                "Stitle":{
+                    "htmlData":{
+                        "html": "<p>{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}</p>"
+                    },
+					"text": "",
+					"templateRef": {
+						"EG_A?|okselected": "$EFT_experimentalGroup.ontologyKey",
+						"S_A?_T?_RQ?|rqselected": "$EFM_selectedRQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_selectedRQ.ontologyKey"
+					}
+                }
+            }        
+
         }
     }
 }

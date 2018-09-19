@@ -1090,12 +1090,12 @@
 			"track1": {
 				"en": {
 					"node": "(root)VALIDATERQ",
-					"html": "{{$EFO_EG_A?|rqselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
-					"text": "{{$EFO_EG_A?|rqselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
+					"html": "{{$EFO_EG_A?|rqselected}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}",
+					"text": "{{$EFO_EG_A?|rqselected}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}",
 					"templateRef": {
 						"$EFO_EG_A?|rqselected": "$EFT_experimentalGroup.ontologyKey",
-						"$EFO_S_A?_T?_RQ?|rqSelected": "$EFM_selectedRQ.ontologyKey",
-						"$EFO_S_A?_T?|rqSelectedall": "$EFM_selectedRQ.ontologyKey"
+						"$EFO_S_A?_T?_RQ?|rqselected": "$EFM_selectedRQ.ontologyKey",
+						"$EFO_S_A?_T?|rqselectedall": "$EFM_selectedRQ.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -1120,12 +1120,12 @@
 			"track1": {
 				"en": {
 					"node": "(root)RQSELECTCOMPLETE",
-					"html": "{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
-					"text": "{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqSelected}}{{$EFO_S_A?_T?|rqSelectedall}}",
+					"html": "{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}",
+					"text": "{{$EFO_EG_A?|okselected}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}",
 					"templateRef": {
-						"$EFO_EG_A?|rqselected": "$EFT_experimentalGroup.ontologyKey",
-						"$EFO_S_A?_T?_RQ?|rqSelected": "$EFM_selectedRQ.ontologyKey",
-						"$EFO_S_A?_T?|rqSelectedall": "$EFM_selectedRQ.ontologyKey"
+						"$EFO_EG_A?|okselected": "$EFT_experimentalGroup.ontologyKey",
+						"$EFO_S_A?_T?_RQ?|rqselected": "$EFM_selectedRQ.ontologyKey",
+						"$EFO_S_A?_T?|rqselectedall": "$EFM_selectedRQ.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
