@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/images/ForceSpriteSheet-Kludge" itemID="5b900969-00001914" lastModified="1536166256">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/images/ForceSpriteSheet-Kludge" itemID="5b900969-00001914" linkageExportForAS="true" linkageClassName="ForceSpriteSheet-Kludge" lastModified="1537551004">
   <timeline>
     <DOMTimeline name="ForceSpriteSheet-Kludge">
       <layers>

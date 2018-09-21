@@ -19,7 +19,7 @@
           <DOMFolderItem name="Assets/AreaButton Assets" itemID="5b95a1db-00000764" isExpanded="true"/>
           <DOMFolderItem name="Assets/Custom Controls" itemID="5b8dc464-00000811"/>
           <DOMFolderItem name="Assets/Custom Controls/IntroControl Assets" itemID="5b8dc78f-000008fa"/>
-          <DOMFolderItem name="Assets/images" itemID="5b900825-000017f5"/>
+          <DOMFolderItem name="Assets/images" itemID="5b900825-000017f5" isExpanded="true"/>
           <DOMFolderItem name="Assets/Static Text Objects" itemID="5b96ddf4-00001e12"/>
           <DOMFolderItem name="Exports" itemID="5b60aa1c-0000045f" isExpanded="true"/>
           <DOMFolderItem name="Imports" itemID="5b904cc5-0000221b"/>
@@ -113,7 +113,7 @@
           <Include href="Assets/Custom Controls/TC_TIntroControl__RQIntro.xml" loadImmediate="false" itemID="5b8e7c4d-00000f40" lastModified="1536090741"/>
           <Include href="Assets/Custom Controls/TC_TObject__RedShirtGraphic.xml" loadImmediate="false" itemID="5b900aa2-00001989" lastModified="1536166562"/>
           <Include href="Assets/Custom Controls/TC_TObject__TopicSelector.xml" loadImmediate="false" itemID="5b998720-000011a7" lastModified="1536880503"/>
-          <Include href="Assets/images/ForceSpriteSheet-Kludge.xml" loadImmediate="false" itemID="5b900969-00001914" lastModified="1536166256"/>
+          <Include href="Assets/images/ForceSpriteSheet-Kludge.xml" itemID="5b900969-00001914" lastModified="1537551004"/>
           <Include href="Assets/images/TC_TObject__arrow.xml" loadImmediate="false" itemID="5b9aeaf8-00001e66" lastModified="1536879352"/>
           <Include href="Assets/Static Text Objects/TC_TText__Area1Or.xml" loadImmediate="false" itemID="5b96dcb3-00001dd1" lastModified="1536613555"/>
           <Include href="Assets/Static Text Objects/TC_TText__Area1st1.xml" loadImmediate="false" itemID="5b98354c-000004d2" lastModified="1536701772"/>
