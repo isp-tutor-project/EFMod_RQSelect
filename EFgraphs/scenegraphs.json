@@ -388,7 +388,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track1", "autostep":true, "stepdelay":1250,  "features":""}
+                    {"trackname":"track1", "autostep":true, "stepdelay":250,  "features":""}
                 ],                        
                 "edges":
                         [
@@ -433,7 +433,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track1", "autostep":true, "stepdelay":1250,  "features":""}
+                    {"trackname":"track1", "autostep":true, "stepdelay":250,  "features":""}
                 ],                        
                 "edges":
                         [
@@ -478,7 +478,8 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track1", "autostep":true, "stepdelay":1250,  "features":""}
+                    {"actionname":"NULL", "autostep":true, "features":"FTR_CRYSTAL"},
+                    {"trackname":"track1", "autostep":true, "stepdelay":250,  "features":"FTR_SODA|FTR_ICEMELT|FTR_BALLOON|FTR_RAMPS|FTR_SINKING|FTR_GRHOUSE|FTR_ALGAE"}
                 ],                        
                 "edges":
                         [
@@ -523,7 +524,97 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track1", "autostep":true, "stepdelay":1250,  "features":""}
+                    {"trackname":"track1", "autostep":true, "stepdelay":250,  "features":""}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"","edge":"NEXTSCENE" }
+                        ]
+            },					
+                                    
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                "type":"module", 
+                "name":"NEXTSCENE",
+                "reuse":true,
+                "actiontracks":		
+                [
+                ],                                              
+                "edges":
+                        [
+                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                        ]
+            }															
+        },		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+		}		
+	},
+    
+
+	"SScene6e":
+	{	
+		"COMMENT":"Step5...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Welcome...",
+                "type":"module",
+                "name":"RQSelectIntro",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track1", "autostep":true, "stepdelay":250,  "features":""}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"","edge":"NEXTSCENE" }
+                        ]
+            },					
+                                    
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                "type":"module", 
+                "name":"NEXTSCENE",
+                "reuse":true,
+                "actiontracks":		
+                [
+                ],                                              
+                "edges":
+                        [
+                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                        ]
+            }															
+        },		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+		}		
+	},
+    
+
+	"SScene6f":
+	{	
+		"COMMENT":"Step6...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Welcome...",
+                "type":"module",
+                "name":"RQSelectIntro",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track1", "autostep":true, "stepdelay":250,  "features":""}
                 ],                        
                 "edges":
                         [
