@@ -51,18 +51,24 @@
                     "enumValueUtt4b":"Or yarn. This might also make a difference.",
 
                     "RQ1":{
-                        "rqselected":"Does the water temperature" 
+                        "rqselected":"Does the water temperature",
+                        "ExpSelected":"water temperature"
                     },
                     "RQ2":{
-                        "rqselected":"Does the type of crystal"   
+                        "rqselected":"Does the type of crystal",
+                        "ExpSelected":"type of crystal"   
                     },
                     "RQ3":{
-                        "rqselected":"Does the initial amount of crystals on the string"
+                        "rqselected":"Does the initial amount of crystals on the string",
+                        "ExpSelected":"initial amount of crystals on the string"
                     },
                     "RQ4":{
-                        "rqselected":"Does the type of string"    
+                        "rqselected":"Does the type of string",
+                        "ExpSelected":"type of string"
                     },
-                    "rqselectedall":" affect the weight of the crystal growth on a string in water after two weeks?",
+                    "rqselectedall":"affect the weight of the crystal growth on a string in water after two weeks?",
+                    "rqselectedalls":"affects the weight of the crystal growth on a string in water after two weeks?",
+                    "DVs":"The weight of the crystal growth",
 
                     "buttVarName1":"The Water Temperature",
                     "buttVarName2":"The Type of Crystal",
@@ -110,18 +116,24 @@
                     "enumValueUtt4b":"Or lower. This might also make a difference",
 
                     "RQ1":{
-                        "rqselected":"Does the type of sweetener in the soda"
+                        "rqselected":"Does the type of sweetener in the soda",
+                        "ExpSelected":"type of sweetener in the soda"
                         },
                     "RQ2":{
-                        "rqselected":"Does the type of crystal in the soda"
+                        "rqselected":"Does the type of crystal in the soda",
+                        "ExpSelected":"type of crystal in the soda"
                         },
                     "RQ3":{
-                        "rqselected":"Does the surface texture of the mint"
+                        "rqselected":"Does the surface texture of the mint",
+                        "ExpSelected":"surface texture of the mint"
                         },
                     "RQ4":{
-                        "rqselected":"Does the amount of carbon dioxide in the soda"
+                        "rqselected":"Does the amount of carbon dioxide in the soda",
+                        "ExpSelected":"amount of carbon dioxide in the soda"
                         },
-                    "rqselectedall":" affect the strength of the reaction between soda and mints?",
+                    "rqselectedall":"affect the strength of the reaction between soda and mints?",
+                    "rqselectedalls":"affects the strength of the reaction between soda and mints?",
+                    "DVs":"The strength of the reaction",
 
                     "buttVarName1":"The type of sweetener in the soda",
                     "buttVarName2":"The amount of caffeine in the soda",
@@ -172,18 +184,24 @@
                     "enumValueUtt4a":"And the shape of the glass which can be shorter or",
                     "enumValueUtt4b":"Taller. This might also make a difference",
                     "RQ1":{
-                        "rqselected":"Does the initial temperature of the ice cube"
+                        "rqselected":"Does the initial temperature of the ice cube",
+                        "ExpSelected":"initial temperature of the ice cube"
                         },
                     "RQ2":{
-                        "rqselected":"Does the initial temperature of the water"
+                        "rqselected":"Does the initial temperature of the water",
+                        "ExpSelected":"initial temperature of the water"
                         },
                     "RQ3":{
-                        "rqselected":"Does the pattern on the glass"
+                        "rqselected":"Does the pattern on the glass",
+                        "ExpSelected":"pattern on the glass"
                         },
                     "RQ4":{
-                        "rqselected":"Does the shape of the glass"
+                        "rqselected":"Does the shape of the glass",
+                        "ExpSelected":"shape of the glass"
                         },
-                        "rqselectedall":" affect the time it takes for an ice cube to melt in water?",
+                        "rqselectedall":"affect the time it takes for an ice cube to melt in water?",
+                        "rqselectedalls":"affects the time it takes for an ice cube to melt in water?",
+                        "DVs":"The time it takes for an ice cube to melt",
 
                         "buttVarName1":"The initial temperature of the ice cube",
                         "buttVarName2":"The initial temperature of the water",
@@ -234,19 +252,25 @@
                     "enumValueUtt4a":"And the type of chair the balloon is tied to, which can be a wooden chair",
                     "enumValueUtt4b":"Or a canvas chair. This might also make a difference",
                     "RQ1":{
-                        "rqselected":"Does the color of the balloon"
+                        "rqselected":"Does the color of the balloon",
+                        "ExpSelected":"color of the balloon"
                         },
                     "RQ2":{
-                        "rqselected":"Does material the balloon is made of"
+                        "rqselected":"Does the material the balloon is made of",
+                        "ExpSelected":"material the balloon is made of"
                         },
                     "RQ3":{
-                        "rqselected":"Does the amount of sunlight exposure the balloon gets"
+                        "rqselected":"Does the amount of sunlight exposure the balloon gets",
+                        "ExpSelected":"amount of sunlight exposure the balloon gets"
                         },
                     "RQ4":{
-                        "rqselected":"Does the type of chair the balloon is tied to"
+                        "rqselected":"Does the type of chair the balloon is tied to",
+                        "ExpSelected":"type of chair the balloon is tied to"
                         },
-                        "rqselectedall":" affect the gas temperature within the balloon after 30 minutes?",
-    
+                        "rqselectedall":"affect the gas temperature within the balloon after 30 minutes?",
+                        "rqselectedalls":"affects the gas temperature within the balloon after 30 minutes?",
+                        "DVs":"The gas temperature within the balloon",
+
                         "buttVarName1":"The color of the balloon",
                         "buttVarName2":"The material the balloon is made of",
                         "buttVarName3":"The amount of sunlight exposure the balloon gets",
@@ -294,19 +318,25 @@
                     "enumValueUtt4a":"And the surface texture of the ramp, which can be rough",
                     "enumValueUtt4b":"Or smooth.  This might also make a difference",
                     "RQ1":{
-                        "rqselected":"Does the slope of the ramp"
+                        "rqselected":"Does the slope of the ramp",
+                        "ExpSelected":"slope of the ramp"
                         },
                     "RQ2":{
-                        "rqselected":"Does the color of the ball"
+                        "rqselected":"Does the color of the ball",
+                        "ExpSelected":"color of the ball"
                         },
                     "RQ3":{
-                        "rqselected":"Does the starting position of the ball"
+                        "rqselected":"Does the starting position of the ball",
+                        "ExpSelected":"starting position of the ball"
                         },
                     "RQ4":{
-                        "rqselected":"Does the surface texture of the ramp"
+                        "rqselected":"Does the surface texture of the ramp",
+                        "ExpSelected":"surface texture of the ramp"
                         },
-                        "rqselectedall":" affect the speed of the ball at the bottom of the ramp?",
-    
+                        "rqselectedall":"affect the speed of the ball at the bottom of the ramp?",
+                        "rqselectedalls":"affects the speed of the ball at the bottom of the ramp?",
+                        "DVs":"The speed of the ball at the bottom of the ramp",
+
                         "buttVarName1":"The Slope of the Ramp",
                         "buttVarName2":"The Color of the Ball",
                         "buttVarName3":"The Starting Position of the Ball",
@@ -354,19 +384,25 @@
                     "enumValueUtt4a":"And the density of the object which can be higher",
                     "enumValueUtt4b":"Or lower.  This might also make a difference",
                     "RQ1":{
-                        "rqselected":"Does the density of water"
+                        "rqselected":"Does the density of water",
+                        "ExpSelected":"density of water"
                         },
                     "RQ2":{
-                        "rqselected":"Does the shape of the object"
+                        "rqselected":"Does the shape of the object",
+                        "ExpSelected":"shape of the object"
                         },
                     "RQ3":{
-                        "rqselected":"Does the volume of the object"
+                        "rqselected":"Does the volume of the object",
+                        "ExpSelected":"volume of the object"
                         },
                     "RQ4":{
-                        "rqselected":"Does the density of the object"
+                        "rqselected":"Does the density of the object",
+                        "ExpSelected":"density of the object"
                         },
-                        "rqselectedall":" affect the time it takes for objects to sink in water?",
-    
+                        "rqselectedall":"affect the time it takes for objects to sink in water?",
+                        "rqselectedalls":"affects the time it takes for objects to sink in water?",
+                        "DVs":"The time it takes for objects to sink",
+
                         "buttVarName1":"The Density of the Water",
                         "buttVarName2":"The Shape of the Object",
                         "buttVarName3":"The Volume of the Object",
@@ -417,19 +453,25 @@
                     "enumValueUtt4a":"And the type of water, which can be rain water",
                     "enumValueUtt4b":"Or tap water.   This might also make a difference",
                     "RQ1":{
-                        "rqselected":"Does the number of honey bees in the greenhouse"
+                        "rqselected":"Does the number of honey bees in the greenhouse",
+                        "ExpSelected":"number of honey bees in the greenhouse"
                         },
                     "RQ2":{
-                        "rqselected":"Does the amount of sunlight the greenhouse lets in"
+                        "rqselected":"Does the amount of sunlight the greenhouse lets in",
+                        "ExpSelected":"amount of sunlight the greenhouse lets in"
                         },
                     "RQ3":{
-                        "rqselected":"Does the type of water"
+                        "rqselected":"Does the type of water",
+                        "ExpSelected":"type of water"
                         },
                     "RQ4":{
-                        "rqselected":"Does the amount of fertilizer"
+                        "rqselected":"Does the amount of fertilizer",
+                        "ExpSelected":"amount of fertilizer"
                         },
-                        "rqselectedall":" affect the number of seeds produced by flowers at the end of the season?",
-    
+                        "rqselectedall":"affect the number of seeds produced by flowers at the end of the season?",
+                        "rqselectedalls":"affects the number of seeds produced by flowers at the end of the season?",
+                        "DVs":"The number of seeds produced by flowers",
+
                         "buttVarName1":"The Number of honey bees in the greenhouse",
                         "buttVarName2":"The Amount of sunlight the greenhouse lets in",
                         "buttVarName3":"The Amount of Fertilizer",
@@ -480,19 +522,25 @@
                     "enumValueUtt4b":"Or none.   This might also make a difference",
 
                     "RQ1":{
-                        "rqselected":"Does the temperature of the water"
+                        "rqselected":"Does the temperature of the water",
+                        "ExpSelected":"temperature of the water"
                         },
                     "RQ2":{
-                        "rqselected":"Does the exposure to music"
+                        "rqselected":"Does the exposure to music",
+                        "ExpSelected":"exposure to music"
                         },
                     "RQ3":{
-                        "rqselected":"Does the amount of carbon dioxide in the water"
+                        "rqselected":"Does the amount of carbon dioxide in the water",
+                        "ExpSelected":"amount of carbon dioxide in the water"
                         },
                     "RQ4":{
-                        "rqselected":"Does the amount of direct sunlight exposure"
+                        "rqselected":"Does the amount of direct sunlight exposure",
+                        "ExpSelected":"amount of direct sunlight exposure"
                         },
-                    "rqselectedall":" affect the weight of the algae growth after one week?",
-    
+                        "rqselectedall":"affect the weight of the algae growth after one week?",
+                        "rqselectedalls":"affects the weight of the algae growth after one week?",
+                        "DVs":"The weight of the algae grown",
+
                         "buttVarName1":"The Temperature of the Water",
                         "buttVarName2":"The Amount of Exposure to Music",
                         "buttVarName3":"The Amount of Carbon Dioxide in the Water",
@@ -510,7 +558,9 @@
                 "S10B1":"I'd like to test a different variable for my research question",
                 "S10B2":"I'd like to pick a different topic in this area",
                 "S10B3":"I'd like to picka a whole different area.",
-                "S10B4":"I like this question"
+                "S10B4":"I like this question",
+
+                "rqis":"In the first experiment, Some students need to find out whether the"
             },
             "A1": {
                 "type": "choice",                

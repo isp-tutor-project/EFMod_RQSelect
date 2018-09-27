@@ -18,6 +18,11 @@ namespace EFTut_Suppl.EFMod_RQSelect {
             this.connectNavButton(CONST.NEXTSCENE, "Snext");
             this.connectNavButton(CONST.PREVSCENE, "Sback");
             this.setNavigationTarget(CONST.NAVSCENE);
+
+            // Development only - define experimental group assignment
+            // 
+            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+            this.addFeature("FTR_CHOICE");
         }
 
         public $onEnterScene() {

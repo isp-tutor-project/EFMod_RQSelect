@@ -15,14 +15,14 @@
           <DOMFolderItem name="_Tutor Global Scenes/Scene Assets/TC_TScene__SignIn" itemID="5ae3761f-00000407"/>
           <DOMFolderItem name="_Tutor Global Scenes/Scene Assets/TC_TScene__SoundCheck" itemID="5ae37625-00000409"/>
           <DOMFolderItem name="_Tutor Global Scenes/Scene Assets/TC_TScene_HeadPhoneCheck" itemID="5ae37622-00000408"/>
-          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e" isExpanded="true"/>
+          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e"/>
           <DOMFolderItem name="Assets/AreaButton Assets" itemID="5b95a1db-00000764" isExpanded="true"/>
           <DOMFolderItem name="Assets/Custom Controls" itemID="5b8dc464-00000811"/>
           <DOMFolderItem name="Assets/Custom Controls/IntroControl Assets" itemID="5b8dc78f-000008fa"/>
           <DOMFolderItem name="Assets/images" itemID="5b900825-000017f5" isExpanded="true"/>
           <DOMFolderItem name="Assets/Static Text Objects" itemID="5b96ddf4-00001e12"/>
           <DOMFolderItem name="Exports" itemID="5b60aa1c-0000045f" isExpanded="true"/>
-          <DOMFolderItem name="Imports" itemID="5b904cc5-0000221b"/>
+          <DOMFolderItem name="Imports" itemID="5b904cc5-0000221b" isExpanded="true"/>
           <DOMFolderItem name="Imports/Algae" itemID="5b983f54-0000095a" isExpanded="true"/>
           <DOMFolderItem name="Imports/Balloon" itemID="5b983f5a-0000095e" isExpanded="true"/>
           <DOMFolderItem name="Imports/Crystal" itemID="5b983f60-00000962" isExpanded="true"/>
@@ -139,6 +139,8 @@
           <Include href="Imports/Algae/TL_Algae__RQintro3.xml" itemID="5b9569df-00000490" lastModified="1536783284"/>
           <Include href="Imports/Algae/TL_Algae__RQintro4.xml" itemID="5b9569e5-00000496" lastModified="1536783286"/>
           <Include href="Imports/Algae/TL_Algae__RQmovie.xml" itemID="5b9843e4-00000c21" lastModified="1536783289"/>
+          <Include href="Imports/Algae/TL_Algae__TEDExpt.xml" itemID="5ba94041-000011be" lastModified="1537818826"/>
+          <Include href="Imports/Algae/TL_Algae__TEDQuest.xml" itemID="5ba9408b-000011fe" lastModified="1537818829"/>
           <Include href="Imports/Algae/TL_Algae__Topic.xml" loadImmediate="false" itemID="5b95954c-00000282" lastModified="1536529740"/>
           <Include href="Imports/Balloon/TL_Balloon__Movie.xml" itemID="5b984079-00000a3d" lastModified="1536783294"/>
           <Include href="Imports/Balloon/TL_Balloon__RQenumVars.xml" itemID="5b9e9f6e-00000ffb" lastModified="1537122249"/>
@@ -147,6 +149,8 @@
           <Include href="Imports/Balloon/TL_Balloon__RQintro3.xml" itemID="5b98408a-00000a41" lastModified="1536783299"/>
           <Include href="Imports/Balloon/TL_Balloon__RQintro4.xml" itemID="5b984086-00000a40" lastModified="1536783301"/>
           <Include href="Imports/Balloon/TL_Balloon__RQmovie.xml" itemID="5b9843ed-00000c29" lastModified="1536783304"/>
+          <Include href="Imports/Balloon/TL_Balloon__TEDExpt.xml" itemID="5ba94048-000011c6" lastModified="1537818831"/>
+          <Include href="Imports/Balloon/TL_Balloon__TEDQuest.xml" itemID="5ba94093-00001206" lastModified="1537818834"/>
           <Include href="Imports/Balloon/TL_Balloon__Topic.xml" loadImmediate="false" itemID="5b956df6-00000afb" lastModified="1536519670"/>
           <Include href="Imports/Crystal/TL_Crystal__Movie.xml" itemID="5b98411b-00000a7a" lastModified="1536783306"/>
           <Include href="Imports/Crystal/TL_Crystal__RQenumVars.xml" itemID="5b9e9f66-00000ff3" lastModified="1537122246"/>
@@ -155,6 +159,8 @@
           <Include href="Imports/Crystal/TL_Crystal__RQintro3.xml" itemID="5b98413c-00000a92" lastModified="1536783314"/>
           <Include href="Imports/Crystal/TL_Crystal__RQintro4.xml" itemID="5b984147-00000a9a" lastModified="1536783317"/>
           <Include href="Imports/Crystal/TL_Crystal__RQmovie.xml" itemID="5b9843f4-00000c31" lastModified="1536783328"/>
+          <Include href="Imports/Crystal/TL_Crystal__TEDExpt.xml" itemID="5ba94052-000011ce" lastModified="1537818836"/>
+          <Include href="Imports/Crystal/TL_Crystal__TEDQuest.xml" itemID="5ba9409b-0000120e" lastModified="1537818838"/>
           <Include href="Imports/Crystal/TL_Crystal__Topic.xml" loadImmediate="false" itemID="5b956ee2-00000b0c" lastModified="1536519906"/>
           <Include href="Imports/GrHouse/TL_GrHouse__Movie.xml" itemID="5b9841c2-00000ac4" lastModified="1536783330"/>
           <Include href="Imports/GrHouse/TL_GrHouse__RQenumVars.xml" itemID="5b9e9f5d-00000feb" lastModified="1537122244"/>
@@ -163,6 +169,8 @@
           <Include href="Imports/GrHouse/TL_GrHouse__RQintro3.xml" itemID="5b9841a7-00000abb" lastModified="1536783336"/>
           <Include href="Imports/GrHouse/TL_GrHouse__RQintro4.xml" itemID="5b9841b1-00000ac3" lastModified="1536783338"/>
           <Include href="Imports/GrHouse/TL_GrHouse__RQmovie.xml" itemID="5b9843fb-00000c39" lastModified="1536783342"/>
+          <Include href="Imports/GrHouse/TL_GrHouse__TEDExpt.xml" itemID="5ba9405a-000011d6" lastModified="1537818840"/>
+          <Include href="Imports/GrHouse/TL_GrHouse__TEDQuest.xml" itemID="5ba940a3-00001216" lastModified="1537818843"/>
           <Include href="Imports/GrHouse/TL_GrHouse__Topic.xml" loadImmediate="false" itemID="5b956f49-00000b1b" lastModified="1536520009"/>
           <Include href="Imports/IceMelt/TL_IceMelt__Movie.xml" itemID="5b9841d3-00000acd" lastModified="1536783344"/>
           <Include href="Imports/IceMelt/TL_IceMelt__RQenumVars.xml" itemID="5b9e9fa2-0000100c" lastModified="1537122239"/>
@@ -171,6 +179,8 @@
           <Include href="Imports/IceMelt/TL_IceMelt__RQintro3.xml" itemID="5b9841f3-00000ae5" lastModified="1536783353"/>
           <Include href="Imports/IceMelt/TL_IceMelt__RQintro4.xml" itemID="5b9841fe-00000aed" lastModified="1536783354"/>
           <Include href="Imports/IceMelt/TL_IceMelt__RQmovie.xml" itemID="5b984402-00000c41" lastModified="1536783357"/>
+          <Include href="Imports/IceMelt/TL_IceMelt__TEDExpt.xml" itemID="5ba94061-000011de" lastModified="1537818845"/>
+          <Include href="Imports/IceMelt/TL_IceMelt__TEDQuest.xml" itemID="5ba940aa-0000121e" lastModified="1537818849"/>
           <Include href="Imports/IceMelt/TL_IceMelt__Topic.xml" loadImmediate="false" itemID="5b956f9b-00000b27" lastModified="1536520091"/>
           <Include href="Imports/Ramps/TL_Ramps__Movie.xml" itemID="5b984217-00000af7" lastModified="1536783359"/>
           <Include href="Imports/Ramps/TL_Ramps__RQenumVars.xml" itemID="5b9e9f4d-00000fdb" lastModified="1537122236"/>
@@ -179,6 +189,8 @@
           <Include href="Imports/Ramps/TL_Ramps__RQintro3.xml" itemID="5b984234-00000b0f" lastModified="1536783367"/>
           <Include href="Imports/Ramps/TL_Ramps__RQintro4.xml" itemID="5b984240-00000b17" lastModified="1536783369"/>
           <Include href="Imports/Ramps/TL_Ramps__RQmovie.xml" itemID="5b984408-00000c49" lastModified="1536783372"/>
+          <Include href="Imports/Ramps/TL_Ramps__TEDExpt.xml" itemID="5ba94069-000011e6" lastModified="1537818851"/>
+          <Include href="Imports/Ramps/TL_Ramps__TEDQuest.xml" itemID="5ba940b2-00001226" lastModified="1537818854"/>
           <Include href="Imports/Ramps/TL_Ramps__Topic.xml" loadImmediate="false" itemID="5b956fe9-00000b34" lastModified="1536520169"/>
           <Include href="Imports/Sinking/TL_Sinking__Movie.xml" itemID="5b984260-00000b20" lastModified="1536783374"/>
           <Include href="Imports/Sinking/TL_Sinking__RQenumVars.xml" itemID="5b9e9f43-00000fd3" lastModified="1537122234"/>
@@ -187,6 +199,8 @@
           <Include href="Imports/Sinking/TL_Sinking__RQintro3.xml" itemID="5b984278-00000b38" lastModified="1536783381"/>
           <Include href="Imports/Sinking/TL_Sinking__RQintro4.xml" itemID="5b984281-00000b40" lastModified="1536783383"/>
           <Include href="Imports/Sinking/TL_Sinking__RQmovie.xml" itemID="5b98440f-00000c51" lastModified="1536783385"/>
+          <Include href="Imports/Sinking/TL_Sinking__TEDExpt.xml" itemID="5ba9406f-000011ee" lastModified="1537818856"/>
+          <Include href="Imports/Sinking/TL_Sinking__TEDQuest.xml" itemID="5ba940bb-0000122e" lastModified="1537818858"/>
           <Include href="Imports/Sinking/TL_Sinking__Topic.xml" loadImmediate="false" itemID="5b957041-00000b44" lastModified="1536520257"/>
           <Include href="Imports/Soda/TL_Soda__Movie.xml" itemID="5b984299-00000b49" lastModified="1536783387"/>
           <Include href="Imports/Soda/TL_Soda__RQenumVars.xml" itemID="5b9e9f25-00000fcb" lastModified="1537122231"/>
@@ -195,6 +209,8 @@
           <Include href="Imports/Soda/TL_Soda__RQintro3.xml" itemID="5b9842b4-00000b61" lastModified="1536783396"/>
           <Include href="Imports/Soda/TL_Soda__RQintro4.xml" itemID="5b9842bd-00000b69" lastModified="1536783398"/>
           <Include href="Imports/Soda/TL_Soda__RQmovie.xml" itemID="5b984417-00000c59" lastModified="1536783410"/>
+          <Include href="Imports/Soda/TL_Soda__TEDExpt.xml" itemID="5ba94076-000011f6" lastModified="1537818861"/>
+          <Include href="Imports/Soda/TL_Soda__TEDQuest.xml" itemID="5ba940c2-00001236" lastModified="1537818864"/>
           <Include href="Imports/Soda/TL_Soda__Topic.xml" loadImmediate="false" itemID="5b984427-00000c5a" lastModified="1536705575"/>
           <Include href="Scenes/TC_TScene__Scene1.xml" itemID="5b8db5f5-000007c2" lastModified="1537219444"/>
           <Include href="Scenes/TC_TScene__Scene2.xml" itemID="5b959925-000006c0" lastModified="1537219439"/>

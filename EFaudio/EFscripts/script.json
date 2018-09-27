@@ -553,7 +553,7 @@
 		"tracks": {
 			"track1a": {
 				"en": {
-					"node": "(root)APPARATUS",
+					"node": "(root)APbPARATUS",
 					"html": "<p>{{$EFO_EG_BOTH|S5aT1a}}</p>",
 					"text": "{{$EFO_EG_BOTH|S5aT1a}}",
 					"templateRef": {
