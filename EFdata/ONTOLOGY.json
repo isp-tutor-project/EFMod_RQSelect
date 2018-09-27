@@ -68,7 +68,10 @@
                     },
                     "rqselectedall":"affect the weight of the crystal growth on a string in water after two weeks?",
                     "rqselectedalls":"affects the weight of the crystal growth on a string in water after two weeks?",
-                    "DVs":"The weight of the crystal growth",
+
+                    "DVg":"amount of crystal growth on a string in water",
+                    "DVs":"The weight of the crystal growth on the string after two weeks.",
+                    "DVabb":"crystal weight",
 
                     "buttVarName1":"The Water Temperature",
                     "buttVarName2":"The Type of Crystal",
@@ -133,7 +136,10 @@
                         },
                     "rqselectedall":"affect the strength of the reaction between soda and mints?",
                     "rqselectedalls":"affects the strength of the reaction between soda and mints?",
-                    "DVs":"The strength of the reaction",
+
+                    "DVg":"Strength of the reaction between soda and mints",
+                    "DVs":"The height of the soda geyser",
+                    "DVabb":"geyser height",
 
                     "buttVarName1":"The type of sweetener in the soda",
                     "buttVarName2":"The amount of caffeine in the soda",
@@ -201,8 +207,11 @@
                         },
                         "rqselectedall":"affect the time it takes for an ice cube to melt in water?",
                         "rqselectedalls":"affects the time it takes for an ice cube to melt in water?",
-                        "DVs":"The time it takes for an ice cube to melt",
 
+                        "DVg":"Time it takes for an ice cube to melt in water",
+                        "DVs":"The time it takes for the ice cube to melt in water",
+                        "DVabb":"time to melt",
+    
                         "buttVarName1":"The initial temperature of the ice cube",
                         "buttVarName2":"The initial temperature of the water",
                         "buttVarName3":"The pattern on the glass",
@@ -269,7 +278,10 @@
                         },
                         "rqselectedall":"affect the gas temperature within the balloon after 30 minutes?",
                         "rqselectedalls":"affects the gas temperature within the balloon after 30 minutes?",
-                        "DVs":"The gas temperature within the balloon",
+
+                        "DVg":"Temperature of gas in a balloon",
+                        "DVs":"The Gas temperature within balloon after 30 minutes",
+                        "DVabb":"Gas temperature",
 
                         "buttVarName1":"The color of the balloon",
                         "buttVarName2":"The material the balloon is made of",
@@ -335,7 +347,10 @@
                         },
                         "rqselectedall":"affect the speed of the ball at the bottom of the ramp?",
                         "rqselectedalls":"affects the speed of the ball at the bottom of the ramp?",
+
+                        "DVg":"Speed of the ball at the bottom of the ramp",
                         "DVs":"The speed of the ball at the bottom of the ramp",
+                        "DVabb":"Speed of the ball at the bottom of the ramp",
 
                         "buttVarName1":"The Slope of the Ramp",
                         "buttVarName2":"The Color of the Ball",
@@ -401,7 +416,10 @@
                         },
                         "rqselectedall":"affect the time it takes for objects to sink in water?",
                         "rqselectedalls":"affects the time it takes for objects to sink in water?",
-                        "DVs":"The time it takes for objects to sink",
+
+                        "DVg":"Time it takes for objects to sink in water",
+                        "DVs":"The time it takes for objects to sink in water",
+                        "DVabb":"time to sink",
 
                         "buttVarName1":"The Density of the Water",
                         "buttVarName2":"The Shape of the Object",
@@ -470,7 +488,10 @@
                         },
                         "rqselectedall":"affect the number of seeds produced by flowers at the end of the season?",
                         "rqselectedalls":"affects the number of seeds produced by flowers at the end of the season?",
-                        "DVs":"The number of seeds produced by flowers",
+
+                        "DVg":"Number of seeds produced by flowers in a greenhouse",
+                        "DVs":"The number of seeds produced by the flowers at the end of the season",
+                        "DVabb":"number of seeds",
 
                         "buttVarName1":"The Number of honey bees in the greenhouse",
                         "buttVarName2":"The Amount of sunlight the greenhouse lets in",
@@ -539,10 +560,13 @@
                         },
                         "rqselectedall":"affect the weight of the algae growth after one week?",
                         "rqselectedalls":"affects the weight of the algae growth after one week?",
-                        "DVs":"The weight of the algae grown",
+
+                        "DVg":"Amount of algae growth in water",
+                        "DVs":"The weight of the algae growth after one week",
+                        "DVabb":"algae weight",
 
                         "buttVarName1":"The Temperature of the Water",
-                        "buttVarName2":"The Amount of Exposure to Music",
+                        "buttVarName2":"The Amount of Exposure to Music", 
                         "buttVarName3":"The Amount of Carbon Dioxide in the Water",
                         "buttVarName4":"The Amount of Direct Sunlight Exposure"
                 }
@@ -558,9 +582,7 @@
                 "S10B1":"I'd like to test a different variable for my research question",
                 "S10B2":"I'd like to pick a different topic in this area",
                 "S10B3":"I'd like to picka a whole different area.",
-                "S10B4":"I like this question",
-
-                "rqis":"In the first experiment, Some students need to find out whether the"
+                "S10B4":"I like this question"
             },
             "A1": {
                 "type": "choice",                
