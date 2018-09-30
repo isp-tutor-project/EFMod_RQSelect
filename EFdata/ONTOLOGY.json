@@ -70,7 +70,8 @@
                     "rqselectedalls":"affects the weight of the crystal growth on a string in water after two weeks?",
 
                     "DVg":"amount of crystal growth on a string in water",
-                    "DVs":"The weight of the crystal growth on the string after two weeks.",
+                    "DVst":"The weight of the crystal growth on the string after two weeks.",
+					"DVs":"weight of the crystal growth on the string after two weeks.",
                     "DVabb":"crystal weight",
 
                     "buttVarName1":"The Water Temperature",
@@ -134,11 +135,13 @@
                         "rqselected":"Does the amount of carbon dioxide in the soda",
                         "ExpSelected":"amount of carbon dioxide in the soda"
                         },
+
                     "rqselectedall":"affect the strength of the reaction between soda and mints?",
                     "rqselectedalls":"affects the strength of the reaction between soda and mints?",
 
                     "DVg":"Strength of the reaction between soda and mints",
-                    "DVs":"The height of the soda geyser",
+                    "DVst":"The height of the soda geyser",
+					"DVs":"height of the soda geyser",
                     "DVabb":"geyser height",
 
                     "buttVarName1":"The type of sweetener in the soda",
@@ -209,7 +212,8 @@
                         "rqselectedalls":"affects the time it takes for an ice cube to melt in water?",
 
                         "DVg":"Time it takes for an ice cube to melt in water",
-                        "DVs":"The time it takes for the ice cube to melt in water",
+                        "DVst":"The time it takes for the ice cube to melt in water",
+					    "DVs":"time it takes for the ice cube to melt in water",
                         "DVabb":"time to melt",
     
                         "buttVarName1":"The initial temperature of the ice cube",
@@ -280,7 +284,8 @@
                         "rqselectedalls":"affects the gas temperature within the balloon after 30 minutes?",
 
                         "DVg":"Temperature of gas in a balloon",
-                        "DVs":"The Gas temperature within balloon after 30 minutes",
+                        "DVst":"The gas temperature within balloon after 30 minutes",
+					    "DVs":"gas temperature within balloon after 30 minutes",
                         "DVabb":"Gas temperature",
 
                         "buttVarName1":"The color of the balloon",
@@ -349,7 +354,8 @@
                         "rqselectedalls":"affects the speed of the ball at the bottom of the ramp?",
 
                         "DVg":"Speed of the ball at the bottom of the ramp",
-                        "DVs":"The speed of the ball at the bottom of the ramp",
+                        "DVst":"The speed of the ball at the bottom of the ramp",
+					    "DVs":"speed of the ball at the bottom of the ramp",
                         "DVabb":"Speed of the ball at the bottom of the ramp",
 
                         "buttVarName1":"The Slope of the Ramp",
@@ -418,7 +424,8 @@
                         "rqselectedalls":"affects the time it takes for objects to sink in water?",
 
                         "DVg":"Time it takes for objects to sink in water",
-                        "DVs":"The time it takes for objects to sink in water",
+                        "DVst":"The time it takes for objects to sink in water",
+					    "DVs":"time it takes for objects to sink in water",
                         "DVabb":"time to sink",
 
                         "buttVarName1":"The Density of the Water",
@@ -490,7 +497,8 @@
                         "rqselectedalls":"affects the number of seeds produced by flowers at the end of the season?",
 
                         "DVg":"Number of seeds produced by flowers in a greenhouse",
-                        "DVs":"The number of seeds produced by the flowers at the end of the season",
+                        "DVst":"The number of seeds produced by the flowers at the end of the season",
+					    "DVs":"number of seeds produced by the flowers at the end of the season",
                         "DVabb":"number of seeds",
 
                         "buttVarName1":"The Number of honey bees in the greenhouse",
@@ -562,7 +570,8 @@
                         "rqselectedalls":"affects the weight of the algae growth after one week?",
 
                         "DVg":"Amount of algae growth in water",
-                        "DVs":"The weight of the algae growth after one week",
+                        "DVst":"The weight of the algae growth after one week",
+					    "DVs":"weight of the algae growth after one week",
                         "DVabb":"algae weight",
 
                         "buttVarName1":"The Temperature of the Water",
