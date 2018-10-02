@@ -124,8 +124,8 @@
                         "ExpSelected":"type of sweetener in the soda"
                         },
                     "RQ2":{
-                        "rqselected":"Does the type of crystal in the soda",
-                        "ExpSelected":"type of crystal in the soda"
+                        "rqselected":"Does the amount of caffeine in the soda",
+                        "ExpSelected":"amount of caffeine in the soda"
                         },
                     "RQ3":{
                         "rqselected":"Does the surface texture of the mint",
