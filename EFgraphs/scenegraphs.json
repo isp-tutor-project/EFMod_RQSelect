@@ -37,7 +37,37 @@
 		}
 	},
 	
+		
+	"SSceneStart":
+	{	
+		"COMMENT":"Today we're going to...",
+		"type":"animation",
+		"version":"0.1.0",
+		"volatile":true,
 	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+					"type":"module", 
+					"name":"NOOP",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"actionname":"NOOP", "autostep":false, "features":""}
+                    ],                        
+					"edges":
+							[
+							]
+					}
+		},		
+			
+		"CModules":
+		{		
+		}
+    },
+
 
 	"SScene1":
 	{	
@@ -63,7 +93,7 @@
                         {"trackname":"track6", "autostep":true, "stepdelay":750,  "features":""},
                         {"trackname":"track7", "autostep":true, "stepdelay":750,  "features":""},
                         {"trackname":"track8", "autostep":true, "stepdelay":750,  "features":""},
-                        {"trackname":"track9", "autostep":true, "stepdelay":750,  "features":""}
+                        {"trackname":"track9", "autostep":false, "stepdelay":750,  "features":""}
 
                     ],                        
                     "edges":
@@ -78,10 +108,10 @@
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ],                                              
                         "edges":
                                [
-                                   {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                                ]
                        }															
            },		
@@ -117,7 +147,7 @@
                         {"trackname":"track6", "autostep":true, "stepdelay":950,  "features":""},
                         {"trackname":"track7", "autostep":true, "stepdelay":950,  "enqueue":false, "features":""},
                         {"trackname":"track8", "autostep":true, "stepdelay":950,  "features":""},
-                        {"trackname":"track9", "autostep":true, "stepdelay":950,  "enqueue":false, "features":""}
+                        {"trackname":"track9", "autostep":true, "stepdelay":0,    "enqueue":false, "features":""}
                     ],                        
                     "edges":
 							[
@@ -157,18 +187,7 @@
 			
 		"CModules":
 		{		
-			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-            
-            "NEXTSCENE":{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-					{"actionname":"NOOP", "features":""}    
-				]
-			}			
-		
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 		}
 	},
 
@@ -183,9 +202,14 @@
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
 			"root":{"COMMENT":"...",
-                "type":"moduleRef",
-                "subtype":"module", 
-                "name":"TOPICSELECTION",
+                    "type":"module",
+                    "name":"TOPICSELECTION",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1CHOICE"  , "autostep":false, "stepdelay":950,  "features":"FTR_CHOICE"},
+                        {"trackname":"track1NOCHOICE", "autostep":false, "stepdelay":950,  "features":"FTR_NOCHOICE"}
+                    ],
                     "edges":
                         [
                             {"constraint":"NO_SELECTION","edge":"root" },
@@ -199,29 +223,17 @@
                     "reuse":true,
                     "actiontracks":		
                     [
+                        {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                     ],                                              
                     "edges":
                            [
-                               {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                            ]
-                   }															
+                }															
         },		
 			
 		"CModules":
 		{		
-            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-            
-            "TOPICSELECTION":{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-                    {"trackname":"track1CHOICE"  , "autostep":false, "stepdelay":950,  "features":"FTR_CHOICE"},
-                    {"trackname":"track1NOCHOICE", "autostep":false, "stepdelay":950,  "features":"FTR_NOCHOICE"}
-                ]
-			}			
-
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 		}		
 	},
 
@@ -245,7 +257,7 @@
                     {"trackname":"track2", "autostep":true, "stepdelay":750,  "features":""},
                     {"trackname":"track3", "autostep":true, "stepdelay":750,  "features":""},
                     {"trackname":"track4", "autostep":true, "stepdelay":750,  "features":""},
-                    {"trackname":"track5", "autostep":true, "stepdelay":1250,  "features":""}
+                    {"trackname":"track5", "autostep":true, "stepdelay":0,    "features":""}
                 ],                        
                 "edges":
                         [
@@ -259,10 +271,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":false, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -290,7 +302,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track1", "autostep":true, "stepdelay":1750,  "features":""}
+                    {"trackname":"track1", "autostep":true, "stepdelay":0,  "features":""}
                 ],                        
                 "edges":
                         [
@@ -304,10 +316,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":false, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -357,10 +369,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"SETCOMPLETE", "autostep":false, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -402,10 +414,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -447,10 +459,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -493,10 +505,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -538,10 +550,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -583,10 +595,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -628,10 +640,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -673,10 +685,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -712,7 +724,7 @@
                     {"trackname":"track3",  "autostep":true, "stepdelay":750,  "features":""},
                     {"trackname":"track3a", "autostep":true, "stepdelay":750,  "features":""},
                     {"trackname":"track4",  "autostep":true, "stepdelay":750,  "features":""},
-                    {"trackname":"track4a", "autostep":true, "stepdelay":1250,  "features":""}
+                    {"trackname":"track4a", "autostep":true, "stepdelay":0,    "features":""}
                 ],                        
                 "edges":
                         [
@@ -726,10 +738,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":false, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -773,10 +785,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -819,10 +831,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -864,10 +876,10 @@
                 "reuse":true,
                 "actiontracks":		
                 [
+                    {"actionname":"NEXTSCENE", "autostep":false, "features":""}
                 ],                                              
                 "edges":
                         [
-                            {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                         ]
             }															
         },		
@@ -876,8 +888,37 @@
 		{		
             "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 		}		
-	}
+	},
 
+	"SSceneEnd":
+	{	
+		"COMMENT":"Today we're going to...",
+		"type":"animation",
+		"version":"0.1.0",
+		"volatile":true,
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+					"type":"module", 
+					"name":"NOOP",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"actionname":"NOOP", "autostep":false, "features":""}
+                    ],                        
+					"edges":
+							[
+							]
+					}
+		},		
+			
+		"CModules":
+		{		
+		}
+    }
 
 
 }

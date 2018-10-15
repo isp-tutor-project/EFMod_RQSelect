@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene9" itemID="5ba00e0b-000018e6" linkageExportForAS="true" linkageClassName="TC_TScene__Scene9" lastModified="1537219430">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene9" itemID="5ba00e0b-000018e6" linkageExportForAS="true" linkageClassName="TC_TScene__Scene9" lastModified="1539558340">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -9,15 +9,15 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle" selected="true">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle">
                   <matrix>
-                    <Matrix a="15.6493835449219" d="2.4696044921875" tx="181.45" ty="145.4"/>
+                    <Matrix a="14.6008453369141" d="2.30412292480469" tx="287.05" ty="127.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="49.3" y="50.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_THtmlButton__VarSelector" name="Sbutton1" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/TC_THtmlButton__VarSelector" name="Sbutton1" symbolType="button">
                   <matrix>
                     <Matrix a="1.02963256835938" d="0.573883056640625" tx="423.3" ty="434.25"/>
                   </matrix>
@@ -25,7 +25,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_THtmlButton__VarSelector" name="Sbutton2" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/TC_THtmlButton__VarSelector" name="Sbutton2" symbolType="button">
                   <matrix>
                     <Matrix a="1.02963256835938" d="0.573883056640625" tx="423.3" ty="589.35"/>
                   </matrix>
@@ -33,7 +33,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_THtmlButton__VarSelector" name="Sbutton3" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/TC_THtmlButton__VarSelector" name="Sbutton3" symbolType="button">
                   <matrix>
                     <Matrix a="1.02963256835938" d="0.573883056640625" tx="423.3" ty="744.45"/>
                   </matrix>

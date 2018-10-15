@@ -13,10 +13,18 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         //***********************************************
         // Tutor graph methods
         //
+
+        public $preCreateScene() {
+
+            // By default disable all Navigation - Let scenes decide
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+        }
         
         public $onCreateScene() { 
+            this.setSceneValue("complete", false);      
         }
-
+        
         public $onEnterScene() {
         }
         
@@ -91,6 +99,17 @@ namespace EFTut_Suppl.EFMod_RQSelect {
             }
         }
 
+        //***********************************************
+        // Scene State methods
+        //
+
+        public $queryFinished() : boolean {             
+
+            let result:boolean = this.getSceneValue("complete"); 
+
+            return  result; 
+        }
+
         public $onAction(target:string, evt:string) {
 
             switch(target) {
@@ -104,15 +123,24 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
                 case "Smovie":
                     if(evt === "complete") {
-                        this.nextTrack("$onAction:" + target);
+                        this.setSceneValue("complete", true); 
                     }
                     break;
             }
-
-
         }
 
-        public $timedEvents(id:string) {
+
+        public $onSelect(target:string) {            
+
+            switch(target) {
+            }
         }
-    }
+
+
+        public $onClick(target:string) {            
+
+            switch(target) {
+            }
+        }        
+   }
 }

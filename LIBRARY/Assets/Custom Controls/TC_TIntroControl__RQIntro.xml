@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/TC_TIntroControl__RQIntro" itemID="5b8e7c4d-00000f40" lastModified="1536090741">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/TC_TIntroControl__RQIntro" itemID="5b8e7c4d-00000f40" lastModified="1539558515">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -21,23 +21,23 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Bubble Text" color="#9933CC" autoNamed="false" visible="false">
+        <DOMLayer name="Bubble Text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox2">
                   <matrix>
-                    <Matrix a="2.739990234375" d="1.58000183105469" tx="494.95" ty="-98"/>
+                    <Matrix a="2.46470642089844" d="1.4212646484375" tx="522.6" ty="-100"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50.15" y="49.9"/>
+                    <Point x="50.15" y="49.85"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="BubbleSelect" color="#00FFFF" autoNamed="false" visible="false">
+        <DOMLayer name="BubbleSelect" color="#00FFFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -53,7 +53,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="BubbleNormal" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="BubbleNormal" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -88,16 +88,16 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Box Text" color="#FF4FFF" autoNamed="false" visible="false">
+        <DOMLayer name="Box Text" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
                   <matrix>
-                    <Matrix a="5.05999755859375" d="1.1199951171875" tx="12.55" ty="12.2"/>
+                    <Matrix a="4.63966369628906" d="1.02694702148438" tx="54.8" ty="2.5"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50.1" y="50.05"/>
+                    <Point x="50.1" y="50.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

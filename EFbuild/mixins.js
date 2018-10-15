@@ -5,6 +5,10 @@ var EFTut_Suppl;
         class CONST {
         }
         CONST.TUTORCONTAINER = "STutorContainer";
+        CONST.NAVNONE = 0;
+        CONST.NAVBACK = 1;
+        CONST.NAVNEXT = 2;
+        CONST.NAVBOTH = 3;
         CONST.NEXTSCENE = "nextbutton";
         CONST.PREVSCENE = "prevbutton";
         CONST.NAVSCENE = "SCENE";
@@ -25,6 +29,8 @@ var EFTut_Suppl;
         CONST.SELECTED2noARROW = 7;
         CONST.FTRS_ALL = null;
         CONST.VAR_FTR = "varsel";
+        CONST.FTR_PRE = "FTR_PRE";
+        CONST.FTR_DEV = "FTR_DEV";
         EFMod_RQSelect.CONST = CONST;
     })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -56,11 +62,23 @@ var EFTut_Suppl;
             $cuePoints(id) { }
             $timedEvents(id) { }
             $onAction(target, evt) { }
+            $queryFinished() {
+                let stateComplete = false;
+                return stateComplete;
+            }
+            $canGoBack() {
+                let stateComplete = true;
+                return stateComplete;
+            }
             $updateNav() {
-                if (!this.sceneState.sceneComplete)
-                    this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);
+                if (!this.$queryFinished())
+                    this.enableNext(false);
                 else
-                    this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);
+                    this.enableNext(true);
+                if (!this.$canGoBack())
+                    this.enableBack(false);
+                else
+                    this.enableBack(true);
             }
         }
         EFMod_RQSelect.$Common = $Common;
@@ -81,9 +99,10 @@ var EFTut_Suppl;
     (function (EFMod_RQSelect) {
         class SNavigator {
             $preCreateScene() {
-                this.connectNavButton(EFMod_RQSelect.CONST.NEXTSCENE, "Snext");
-                this.connectNavButton(EFMod_RQSelect.CONST.PREVSCENE, "Sback");
-                this.setNavigationTarget(EFMod_RQSelect.CONST.NAVSCENE);
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
+                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+                this.addFeature("FTR_CHOICE");
+                this.addFeature(EFMod_RQSelect.CONST.FTR_DEV);
             }
             $onEnterScene() {
             }
@@ -134,12 +153,14 @@ var EFTut_Suppl;
     (function (EFMod_RQSelect) {
         class SScene1 {
             $onCreateScene() {
+                this.setSceneValue("complete", false);
             }
             $onEnterScene() {
             }
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
+            }
             $preEnterScene() {
-                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
-                this.addFeature("FTR_CHOICE");
                 this.Sintro4.gotoState(EFMod_RQSelect.CONST.NORMALnoARROW);
                 this.Ssample.hidden = true;
             }
@@ -173,6 +194,7 @@ var EFTut_Suppl;
                     case "track1":
                         switch (cueID) {
                             case "$start":
+                                this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
                                 this.Sintro1.gotoState(EFMod_RQSelect.CONST.FLATSTATE);
                                 this.Sintro2.gotoState(EFMod_RQSelect.CONST.FLATSTATE);
                                 this.Sintro3.gotoState(EFMod_RQSelect.CONST.FLATSTATE);
@@ -189,6 +211,7 @@ var EFTut_Suppl;
                     case "track2":
                         switch (cueID) {
                             case "$start":
+                                this.setNavMode(EFMod_RQSelect.CONST.NAVBOTH, EFMod_RQSelect.CONST.NAVSCENE);
                                 this.Sintro1.gotoState(EFMod_RQSelect.CONST.SELECTEDSTATE);
                                 this.Sintro2.gotoState(EFMod_RQSelect.CONST.FLATSTATE);
                                 this.Sintro3.gotoState(EFMod_RQSelect.CONST.FLATSTATE);
@@ -281,12 +304,27 @@ var EFTut_Suppl;
                                 this.Sintro4.gotoState(EFMod_RQSelect.CONST.NORMALnoARROW);
                                 break;
                             case "$end":
+                                this.setSceneValue("complete", true);
                                 break;
                         }
                         break;
                 }
             }
-            $timedEvents(id) {
+            $queryFinished() {
+                let result = this.getSceneValue("complete");
+                return result;
+            }
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
             }
         }
         EFMod_RQSelect.SScene1 = SScene1;
@@ -297,6 +335,9 @@ var EFTut_Suppl;
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
         class SScene10 {
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
+            }
             $onCreateScene() {
             }
             $onEnterScene() {
@@ -380,8 +421,85 @@ var EFTut_Suppl;
 (function (EFTut_Suppl) {
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
+        class SScene11 {
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setSceneValue("RQconfirmed", false);
+                this.setModuleValue("RQconfirmation", "UNKNOWN");
+            }
+            $preExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
+                        }
+                        break;
+                }
+            }
+            $nodePreEnter(nodeId) {
+                switch (nodeId) {
+                }
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                return result;
+            }
+            $queryFinished() {
+                let result = this.getSceneValue("complete");
+                return result;
+            }
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_RQSelect.SScene11 = SScene11;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
         class SScene2 {
             $onCreateScene() {
+            }
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
             }
             $onEnterScene() {
             }
@@ -549,8 +667,6 @@ var EFTut_Suppl;
                 }
                 this.nextTrack("$onAction:" + target);
             }
-            $timedEvents(id) {
-            }
         }
         EFMod_RQSelect.SScene2 = SScene2;
     })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
@@ -561,6 +677,9 @@ var EFTut_Suppl;
     (function (EFMod_RQSelect) {
         class SScene3 {
             $onCreateScene() {
+            }
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
             }
             $onEnterScene() {
             }
@@ -646,7 +765,11 @@ var EFTut_Suppl;
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
         class SScene4 {
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
+            }
             $onCreateScene() {
+                this.setSceneValue("complete", false);
             }
             $onEnterScene() {
             }
@@ -729,14 +852,27 @@ var EFTut_Suppl;
                                 break;
                             case "$end":
                                 this.$("Sarrow.").hide();
+                                this.setSceneValue("complete", true);
                                 break;
                         }
                         break;
                 }
             }
-            $onAction(target, evt) {
+            $queryFinished() {
+                let result = this.getSceneValue("complete");
+                return result;
             }
-            $timedEvents(id) {
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
             }
         }
         EFMod_RQSelect.SScene4 = SScene4;
@@ -748,11 +884,11 @@ var EFTut_Suppl;
     (function (EFMod_RQSelect) {
         class SScene5 {
             $onCreateScene() {
+                this.setSceneValue("complete", false);
             }
             $onEnterScene() {
             }
             $preEnterScene() {
-                this.$("Sarrow.*").hide();
             }
             $preExitScene() {
             }
@@ -786,58 +922,29 @@ var EFTut_Suppl;
                     case "track1":
                         switch (cueID) {
                             case "$start":
-                                this.$("Sarrow.").hide();
                                 break;
                             case "$end":
-                                break;
-                        }
-                        break;
-                    case "track2":
-                        switch (cueID) {
-                            case "$start":
-                                this.$("Sarrow.").hide();
-                                this.$("Sarrow1").show();
-                                break;
-                            case "$end":
-                                break;
-                        }
-                        break;
-                    case "track3":
-                        switch (cueID) {
-                            case "$start":
-                                this.$("Sarrow.").hide();
-                                this.$("Sarrow2").show();
-                                break;
-                            case "$end":
-                                break;
-                        }
-                        break;
-                    case "track4":
-                        switch (cueID) {
-                            case "$start":
-                                this.$("Sarrow.").hide();
-                                this.$("Sarrow3").show();
-                                break;
-                            case "$end":
-                                break;
-                        }
-                        break;
-                    case "track5":
-                        switch (cueID) {
-                            case "$start":
-                                this.$("Sarrow.").hide();
-                                this.$("Sarrow4").show();
-                                break;
-                            case "$end":
-                                this.$("Sarrow.").hide();
+                                this.setSceneValue("complete", true);
                                 break;
                         }
                         break;
                 }
             }
-            $onAction(target, evt) {
+            $queryFinished() {
+                let result = this.getSceneValue("complete");
+                return result;
             }
-            $timedEvents(id) {
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
             }
         }
         EFMod_RQSelect.SScene5 = SScene5;
@@ -849,6 +956,7 @@ var EFTut_Suppl;
     (function (EFMod_RQSelect) {
         class SScene5a {
             $onCreateScene() {
+                this.setSceneValue("complete", false);
             }
             $onEnterScene() {
             }
@@ -874,6 +982,9 @@ var EFTut_Suppl;
             }
             $nodeAction(actionId) {
                 switch (actionId) {
+                    case "SETCOMPLETE":
+                        this.setSceneValue("complete", true);
+                        break;
                 }
             }
             $nodeConstraint(constrainId) {
@@ -975,9 +1086,21 @@ var EFTut_Suppl;
                         break;
                 }
             }
-            $onAction(target, evt) {
+            $queryFinished() {
+                let result = this.getSceneValue("complete");
+                return result;
             }
-            $timedEvents(id) {
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
             }
         }
         EFMod_RQSelect.SScene5a = SScene5a;
@@ -1089,7 +1212,11 @@ var EFTut_Suppl;
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
         class SScene7 {
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
+            }
             $onCreateScene() {
+                this.setSceneValue("complete", false);
             }
             $onEnterScene() {
             }
@@ -1136,6 +1263,10 @@ var EFTut_Suppl;
                         break;
                 }
             }
+            $queryFinished() {
+                let result = this.getSceneValue("complete");
+                return result;
+            }
             $onAction(target, evt) {
                 switch (target) {
                     case "Splay":
@@ -1145,12 +1276,18 @@ var EFTut_Suppl;
                         break;
                     case "Smovie":
                         if (evt === "complete") {
-                            this.nextTrack("$onAction:" + target);
+                            this.setSceneValue("complete", true);
                         }
                         break;
                 }
             }
-            $timedEvents(id) {
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
             }
         }
         EFMod_RQSelect.SScene7 = SScene7;
@@ -1161,7 +1298,11 @@ var EFTut_Suppl;
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
         class SScene8 {
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
+            }
             $onCreateScene() {
+                this.setSceneValue("complete", false);
             }
             $onEnterScene() {
             }
@@ -1316,14 +1457,27 @@ var EFTut_Suppl;
                                 this.SsubTitle2.show();
                                 break;
                             case "$end":
+                                this.setSceneValue("complete", true);
                                 break;
                         }
                         break;
                 }
             }
-            $onAction(target, evt) {
+            $queryFinished() {
+                let result = this.getSceneValue("complete");
+                return result;
             }
-            $timedEvents(id) {
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
             }
         }
         EFMod_RQSelect.SScene8 = SScene8;
@@ -1334,6 +1488,9 @@ var EFTut_Suppl;
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
         class SScene9 {
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
+            }
             $onCreateScene() {
             }
             $onEnterScene() {
@@ -1398,6 +1555,153 @@ var EFTut_Suppl;
             }
         }
         EFMod_RQSelect.SScene9 = SScene9;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
+        class SSceneEnd {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+                this.setSceneValue("complete", false);
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $onExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let result = false;
+                return result;
+            }
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_RQSelect.SSceneEnd = SSceneEnd;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
+        class SSceneStart {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+                this.setSceneValue("complete", false);
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $onExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let result = false;
+                return result;
+            }
+            $onAction(target) {
+                switch (target) {
+                    case "Sstart":
+                        this.nextTrack("$onAction:" + this.graphState);
+                        break;
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_RQSelect.SSceneStart = SSceneStart;
     })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 //# sourceMappingURL=mixins.js.map

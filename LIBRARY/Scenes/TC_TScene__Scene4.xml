@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene4" itemID="5b983a09-0000054e" linkageExportForAS="true" linkageClassName="TC_TScene__Scene4" lastModified="1537219433">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene4" itemID="5b983a09-0000054e" linkageExportForAS="true" linkageClassName="TC_TScene__Scene4" lastModified="1539559129">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -11,23 +11,23 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle">
                   <matrix>
-                    <Matrix a="15.6449890136719" d="3.35833740234375" tx="177.75" ty="143.4"/>
+                    <Matrix a="14.4895629882813" d="3.11030578613281" tx="293.5" ty="125.7"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50" y="50.05"/>
+                    <Point x="50" y="50.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Svar4">
                   <matrix>
-                    <Matrix a="9.402587890625" d="0.477325439453125" tx="603.4" ty="841.95"/>
+                    <Matrix a="10.7424468994141" d="0.45263671875" tx="668.4" ty="828.35"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50" y="50.05"/>
+                    <Point x="50" y="50.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Assets/images/TC_TObject__arrow" name="Sarrow4">
                   <matrix>
-                    <Matrix tx="467.25" ty="835.35"/>
+                    <Matrix tx="430.25" ty="835.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="52.5" y="30.45"/>
@@ -35,15 +35,15 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Svar3">
                   <matrix>
-                    <Matrix a="9.402587890625" d="0.477325439453125" tx="603.4" ty="753.7"/>
+                    <Matrix a="10.7424468994141" d="0.45263671875" tx="668.4" ty="744.65"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50" y="50.05"/>
+                    <Point x="50" y="50.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Assets/images/TC_TObject__arrow" name="Sarrow3">
                   <matrix>
-                    <Matrix tx="467.25" ty="747.1"/>
+                    <Matrix tx="430.25" ty="747.1"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="52.5" y="30.45"/>
@@ -51,15 +51,15 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Svar2">
                   <matrix>
-                    <Matrix a="9.402587890625" d="0.477325439453125" tx="603.4" ty="665.5"/>
+                    <Matrix a="10.7424468994141" d="0.45263671875" tx="668.4" ty="661"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50" y="50.05"/>
+                    <Point x="50" y="50.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Assets/images/TC_TObject__arrow" name="Sarrow2">
                   <matrix>
-                    <Matrix tx="467.25" ty="658.9"/>
+                    <Matrix tx="430.25" ty="658.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="52.5" y="30.45"/>
@@ -67,15 +67,15 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Svar1">
                   <matrix>
-                    <Matrix a="9.402587890625" d="0.477325439453125" tx="603.4" ty="577.3"/>
+                    <Matrix a="10.7424468994141" d="0.45263671875" tx="668.4" ty="577.35"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50" y="50.05"/>
+                    <Point x="50" y="50.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Assets/images/TC_TObject__arrow" name="Sarrow1">
                   <matrix>
-                    <Matrix tx="467.25" ty="570.7"/>
+                    <Matrix tx="430.25" ty="570.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="52.5" y="30.45"/>

@@ -15,6 +15,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         //
         
         public $onCreateScene() { 
+            this.setSceneValue("complete", false);      
         }
 
         public $onEnterScene() {
@@ -58,6 +59,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         public $nodeAction(actionId:string) : void {
             
             switch(actionId) {
+                case "SETCOMPLETE": 
+                this.setSceneValue("complete", true);   
+                break;
             }
         }
         
@@ -188,17 +192,43 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                             this.$("Sarrow8").show();
                             break;
 
-                        case "$end":
+                        case "$end":                            
                             break;
                     }
                     break;
             }
         }
 
-        public $onAction(target:string, evt:string) {
+       //***********************************************
+        // Scene State methods
+        //
+
+        public $queryFinished() : boolean {             
+
+            let result:boolean = this.getSceneValue("complete"); 
+
+            return  result; 
         }
 
-        public $timedEvents(id:string) {
+
+        public $onAction(target:string) {         
+            
+            switch(target) {
+            }
         }
+
+
+        public $onSelect(target:string) {            
+
+            switch(target) {
+            }
+        }
+
+
+        public $onClick(target:string) {            
+
+            switch(target) {
+            }
+        }        
     }
 }

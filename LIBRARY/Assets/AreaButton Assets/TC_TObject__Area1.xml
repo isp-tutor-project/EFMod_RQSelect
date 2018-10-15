@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/AreaButton Assets/TC_TObject__Area1" itemID="5b95a03a-0000072f" lastModified="1536701955">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/AreaButton Assets/TC_TObject__Area1" itemID="5b95a03a-0000072f" lastModified="1539624152">
   <timeline>
     <DOMTimeline name="TC_TObject__Area1">
       <layers>
@@ -70,7 +70,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Soda/TL_Soda__Topic" name="Svar2" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Soda/TL_Soda__Topic" name="Svar2">
                   <matrix>
                     <Matrix a="0.252304077148438" d="0.252349853515625" tx="468.7" ty="83"/>
                   </matrix>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene10" itemID="5ba00e15-000018ef" linkageExportForAS="true" linkageClassName="TC_TScene__Scene10" lastModified="1537219425">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene10" itemID="5ba00e15-000018ef" linkageExportForAS="true" linkageClassName="TC_TScene__Scene10" lastModified="1539619647">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -11,10 +11,10 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle">
                   <matrix>
-                    <Matrix a="15.6493835449219" d="2.4696044921875" tx="181.45" ty="145.4"/>
+                    <Matrix a="14.5289764404297" d="2.29278564453125" tx="294.1" ty="127.5"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="49.3" y="50.15"/>
+                    <Point x="49.35" y="50.2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Assets/TC_THtmlButton__VarSelector" name="Sbutton1" symbolType="button">

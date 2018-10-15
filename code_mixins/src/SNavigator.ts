@@ -16,14 +16,15 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         
         public $preCreateScene() {
 
-            // Next button only - navigate scene tracks
+            // By default disable all Navigation - Let scenes decide
             // 
-            this.setNavMode(CONST.NAVBOTH, CONST.NAVSCENE);
+            this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
 
-            // Development only - define experimental group assignment
+            // Development only!!!!!! - define experimental group assignment
             // 
             this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
             this.addFeature("FTR_CHOICE");
+            this.addFeature(CONST.FTR_DEV);
         }
 
         public $onEnterScene() {

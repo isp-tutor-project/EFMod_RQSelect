@@ -15,11 +15,19 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         //
         
         public $onCreateScene() { 
+            this.setSceneValue("complete", false);      
         }
 
         public $onEnterScene() {
         }
         
+        public $preCreateScene() {
+
+            // By default disable all Navigation - Let scenes decide
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+        }
+
         public $preEnterScene() {
             
             this.Sintro4.gotoState(CONST.NORMALnoARROW);
@@ -80,6 +88,8 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     switch(cueID) {
                         
                         case "$start":
+                            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
                             this.Sintro1.gotoState(CONST.FLATSTATE);
                             this.Sintro2.gotoState(CONST.FLATSTATE);
                             this.Sintro3.gotoState(CONST.FLATSTATE);
@@ -100,6 +110,8 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     switch(cueID) {
                         
                         case "$start":
+                            this.setNavMode(CONST.NAVBOTH, CONST.NAVSCENE);
+
                             this.Sintro1.gotoState(CONST.SELECTEDSTATE);
                             this.Sintro2.gotoState(CONST.FLATSTATE);
                             this.Sintro3.gotoState(CONST.FLATSTATE);
@@ -206,6 +218,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                             this.Sintro4.gotoState(CONST.NORMALnoARROW);
                             break;
                         case "$end":
+                            this.setSceneValue("complete", true);   
                             break;
                     }
                     break;
@@ -213,7 +226,36 @@ namespace EFTut_Suppl.EFMod_RQSelect {
             }
         }
 
-        public $timedEvents(id:string) {
+        //***********************************************
+        // Scene State methods
+        //
+
+        public $queryFinished() : boolean {             
+
+            let result:boolean = this.getSceneValue("complete"); 
+
+            return  result; 
+        }
+
+
+        public $onAction(target:string) {         
+            
+            switch(target) {
+            }
+        }
+
+
+        public $onSelect(target:string) {            
+
+            switch(target) {
+            }
+        }
+
+
+        public $onClick(target:string) {            
+
+            switch(target) {
+            }
         }
     }
 }

@@ -24,10 +24,10 @@
 									{
 										"name": "a",
 										"offset": 0.3181818181818182,
-										"relTime": 1288.3314393939393
+										"relTime": 1262.969696969697
 									}
 								],
-								"duration": 4049.0416666666665,
+								"duration": 3969.3333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -65,7 +65,7 @@
 								"fileid": "0a",
 								"SSML": "But first you will select a general area for the experiment.",
 								"cues": [],
-								"duration": 3154.4583333333335,
+								"duration": 3129.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -73,7 +73,7 @@
 								"fileid": "0b",
 								"SSML": "But first we will select a general area for the experiment.",
 								"cues": [],
-								"duration": 3016.5416666666665,
+								"duration": 2995.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -110,7 +110,7 @@
 								"fileid": "0a",
 								"SSML": "For example, you might select the general area of psychology.",
 								"cues": [],
-								"duration": 3494.4166666666665,
+								"duration": 3523.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -118,7 +118,7 @@
 								"fileid": "0b",
 								"SSML": "For example, we might select the general area of psychology.",
 								"cues": [],
-								"duration": 3372.3333333333335,
+								"duration": 3364.4583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -155,7 +155,7 @@
 								"fileid": "0a",
 								"SSML": "After you select the general area, you will then select a specific topic within that area.",
 								"cues": [],
-								"duration": 4856.791666666667,
+								"duration": 4880.583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -163,7 +163,7 @@
 								"fileid": "0b",
 								"SSML": "After we select the general area, we will then select a specific topic within that area.",
 								"cues": [],
-								"duration": 4853.041666666667,
+								"duration": 4639.208333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -200,7 +200,7 @@
 								"fileid": "0a",
 								"SSML": "For example, within the general area of psychology, you might select the topic attention to color.",
 								"cues": [],
-								"duration": 5360.958333333333,
+								"duration": 5398.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -208,7 +208,7 @@
 								"fileid": "0b",
 								"SSML": "For example, within the general area of psychology, we might select the topic attention to color.",
 								"cues": [],
-								"duration": 5159.083333333333,
+								"duration": 5364.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -245,7 +245,7 @@
 								"fileid": "0a",
 								"SSML": "Within that topic, you will select a research question.",
 								"cues": [],
-								"duration": 2989.7083333333335,
+								"duration": 2679,
 								"trim": 0,
 								"volume": 1
 							},
@@ -253,7 +253,7 @@
 								"fileid": "0b",
 								"SSML": "Within that topic, we will select a research question.",
 								"cues": [],
-								"duration": 2641.4166666666665,
+								"duration": 2956.4166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -290,7 +290,7 @@
 								"fileid": "0a",
 								"SSML": "For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 								"cues": [],
-								"duration": 8163.458333333333,
+								"duration": 7848.166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -298,7 +298,7 @@
 								"fileid": "0b",
 								"SSML": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 								"cues": [],
-								"duration": 8168.958333333333,
+								"duration": 7857.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -333,7 +333,7 @@
 								"fileid": "0a",
 								"SSML": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
 								"cues": [],
-								"duration": 5736.916666666667,
+								"duration": 5715.833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -369,7 +369,7 @@
 								"fileid": "0a",
 								"SSML": "Let's begin by focusing on one area of science",
 								"cues": [],
-								"duration": 2903.25,
+								"duration": 2926.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -403,7 +403,7 @@
 								"fileid": "0",
 								"SSML": "Here are some different areas of science.",
 								"cues": [],
-								"duration": 2166.9583333333335,
+								"duration": 1989.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -433,7 +433,7 @@
 								"fileid": "0",
 								"SSML": "One area of science is Physical & Chemical Changes.",
 								"cues": [],
-								"duration": 3271.5833333333335,
+								"duration": 3258.6666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -463,7 +463,7 @@
 								"fileid": "0",
 								"SSML": "Within that area, you could study the topic: Crystal growth or Soda/mint reactions.",
 								"cues": [],
-								"duration": 4953.166666666667,
+								"duration": 4987,
 								"trim": 0,
 								"volume": 1
 							}
@@ -493,7 +493,7 @@
 								"fileid": "0",
 								"SSML": "Another area of science is Heat & Temperature.",
 								"cues": [],
-								"duration": 2781.625,
+								"duration": 2629.5416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -523,7 +523,7 @@
 								"fileid": "0",
 								"SSML": "Within that area, you could study the topics Ice melting time or temperature of a gas.",
 								"cues": [],
-								"duration": 4892.833333333333,
+								"duration": 4885.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -553,7 +553,7 @@
 								"fileid": "0",
 								"SSML": "Another area of science is Forces & Motion.",
 								"cues": [],
-								"duration": 2759.875,
+								"duration": 2742.2083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -583,7 +583,7 @@
 								"fileid": "0",
 								"SSML": "Within that area, you could study the topics: Speed of balls at the bottom of ramps or Time for objects to sink.",
 								"cues": [],
-								"duration": 6055.541666666667,
+								"duration": 6078.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -613,7 +613,7 @@
 								"fileid": "0",
 								"SSML": "Another area of science is Plant Growth.",
 								"cues": [],
-								"duration": 2435.5833333333335,
+								"duration": 2398.9583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -643,7 +643,7 @@
 								"fileid": "0",
 								"SSML": "Within that area, you could study the topics: Flower reproduction or Algae growth.",
 								"cues": [],
-								"duration": 4876.75,
+								"duration": 4863.416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -673,7 +673,7 @@
 								"fileid": "0",
 								"SSML": "Please tap on the area you wish to use for your experiment design.",
 								"cues": [],
-								"duration": 3328.4166666666665,
+								"duration": 3317.4166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -721,7 +721,7 @@
 								"fileid": "0a",
 								"SSML": "Within the area of physical and chemical changes",
 								"cues": [],
-								"duration": 2823.625,
+								"duration": 2661.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -729,7 +729,7 @@
 								"fileid": "0b",
 								"SSML": "Within the area of, heat and temperature",
 								"cues": [],
-								"duration": 2270.8333333333335,
+								"duration": 2252.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -737,7 +737,7 @@
 								"fileid": "0c",
 								"SSML": "Within the area of, forces and motion",
 								"cues": [],
-								"duration": 2200.6666666666665,
+								"duration": 2194.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -745,7 +745,7 @@
 								"fileid": "0d",
 								"SSML": "Within the area of Plant growth",
 								"cues": [],
-								"duration": 1839.6666666666667,
+								"duration": 1839.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -756,7 +756,7 @@
 								"fileid": "1a",
 								"SSML": "please select a topic by clicking on a picture below.",
 								"cues": [],
-								"duration": 2784.5833333333335,
+								"duration": 2818.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -764,7 +764,7 @@
 								"fileid": "1b",
 								"SSML": "Please click the highlighted picture below.",
 								"cues": [],
-								"duration": 2104.9166666666665,
+								"duration": 2090.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -834,7 +834,7 @@
 								"fileid": "1a",
 								"SSML": "we will select the topic crystal growth",
 								"cues": [],
-								"duration": 2175.4166666666665,
+								"duration": 2153.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -842,7 +842,7 @@
 								"fileid": "1b",
 								"SSML": "we will select the topic soda mint reactions",
 								"cues": [],
-								"duration": 2658.5416666666665,
+								"duration": 2670.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -850,7 +850,7 @@
 								"fileid": "1c",
 								"SSML": "we will select the topic ice melting time",
 								"cues": [],
-								"duration": 2353.25,
+								"duration": 2332.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -858,7 +858,7 @@
 								"fileid": "1d",
 								"SSML": "we will select the topic temperature of a gas",
 								"cues": [],
-								"duration": 2570.25,
+								"duration": 2571.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -866,7 +866,7 @@
 								"fileid": "1e",
 								"SSML": "we will select the topic the speed of balls at the bottom of ramps",
 								"cues": [],
-								"duration": 3399.375,
+								"duration": 3426.4583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -874,7 +874,7 @@
 								"fileid": "1f",
 								"SSML": "we will select the topic the time for objects to sink",
 								"cues": [],
-								"duration": 2870.625,
+								"duration": 2886.3333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -882,7 +882,7 @@
 								"fileid": "1g",
 								"SSML": "we will select the topic flower reproduction",
 								"cues": [],
-								"duration": 2484.75,
+								"duration": 2493,
 								"trim": 0,
 								"volume": 1
 							},
@@ -890,7 +890,7 @@
 								"fileid": "1h",
 								"SSML": "we will select the topic algae growth",
 								"cues": [],
-								"duration": 2193.6666666666665,
+								"duration": 2179.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -987,7 +987,7 @@
 								"fileid": "0a",
 								"SSML": "Below are some variables that might affect the amount of crystal growth on a string in water.",
 								"cues": [],
-								"duration": 4483.666666666667,
+								"duration": 4484.166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -995,7 +995,7 @@
 								"fileid": "0b",
 								"SSML": "Below are some variables that might affect the reaction between soda and mints.",
 								"cues": [],
-								"duration": 4235.958333333333,
+								"duration": 4220.083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1003,7 +1003,7 @@
 								"fileid": "0c",
 								"SSML": "Below are some variables that might affect the time it takes for an ice cube to melt in water.",
 								"cues": [],
-								"duration": 4609.5,
+								"duration": 4637.458333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1011,7 +1011,7 @@
 								"fileid": "0d",
 								"SSML": "Below are some variables that might affect the temperature of gas in a balloon.",
 								"cues": [],
-								"duration": 3806.9166666666665,
+								"duration": 3825.4166666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1019,7 +1019,7 @@
 								"fileid": "0e",
 								"SSML": "Below are some variables that might affect the speed of balls at the bottom of ramps.",
 								"cues": [],
-								"duration": 4070.6666666666665,
+								"duration": 4110.958333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1027,7 +1027,7 @@
 								"fileid": "0f",
 								"SSML": "Below are some variables that might affect the time it takes for objects to sink in water.",
 								"cues": [],
-								"duration": 4471.333333333333,
+								"duration": 4470.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1035,7 +1035,7 @@
 								"fileid": "0g",
 								"SSML": "Below are some variables that might affect the number of seeds produced by flowers in a greenhouse.",
 								"cues": [],
-								"duration": 4815.958333333333,
+								"duration": 4955.958333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1043,7 +1043,7 @@
 								"fileid": "0h",
 								"SSML": "Below are some variables that might affect the amount of algae growth in water.",
 								"cues": [],
-								"duration": 3889.5,
+								"duration": 3906.0833333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1054,7 +1054,7 @@
 								"fileid": "1a",
 								"SSML": "You can test one of these variables in your experiment.",
 								"cues": [],
-								"duration": 2922.375,
+								"duration": 2921.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1062,7 +1062,7 @@
 								"fileid": "1b",
 								"SSML": "We can test one of these variables in the experiment.",
 								"cues": [],
-								"duration": 2853.9166666666665,
+								"duration": 2858.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1095,7 +1095,7 @@
 								"fileid": "0a",
 								"SSML": "Water temperature",
 								"cues": [],
-								"duration": 1164.75,
+								"duration": 1128.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1103,7 +1103,7 @@
 								"fileid": "0b",
 								"SSML": "The type of sweetener in the soda",
 								"cues": [],
-								"duration": 1786.7916666666667,
+								"duration": 1788.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1111,7 +1111,7 @@
 								"fileid": "0c",
 								"SSML": "The initial temperature of the ice cube",
 								"cues": [],
-								"duration": 2141.2916666666665,
+								"duration": 2119.9583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1119,7 +1119,7 @@
 								"fileid": "0d",
 								"SSML": "The color of the balloon",
 								"cues": [],
-								"duration": 1212.0833333333333,
+								"duration": 1188.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1127,7 +1127,7 @@
 								"fileid": "0e",
 								"SSML": "The Slope of the Ramp",
 								"cues": [],
-								"duration": 1135.625,
+								"duration": 1140.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1135,7 +1135,7 @@
 								"fileid": "0f",
 								"SSML": "Density of the Water",
 								"cues": [],
-								"duration": 1166.0416666666667,
+								"duration": 1173.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1143,7 +1143,7 @@
 								"fileid": "0g",
 								"SSML": "The Number of honey bees in the greenhouse",
 								"cues": [],
-								"duration": 2176.3333333333335,
+								"duration": 2200.2916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1151,7 +1151,7 @@
 								"fileid": "0h",
 								"SSML": "The Temperature of the Water",
 								"cues": [],
-								"duration": 1442.9166666666667,
+								"duration": 1444.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1194,7 +1194,7 @@
 								"fileid": "0a",
 								"SSML": "The type of crystals",
 								"cues": [],
-								"duration": 1271.5833333333333,
+								"duration": 1209.2083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1202,7 +1202,7 @@
 								"fileid": "0b",
 								"SSML": "The amount of caffeine in the soda",
 								"cues": [],
-								"duration": 1809.25,
+								"duration": 1827.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1210,7 +1210,7 @@
 								"fileid": "0c",
 								"SSML": "The initial temperature of the water",
 								"cues": [],
-								"duration": 1876.2083333333333,
+								"duration": 1863.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1218,7 +1218,7 @@
 								"fileid": "0d",
 								"SSML": "The material the balloon is made of",
 								"cues": [],
-								"duration": 1900.6666666666667,
+								"duration": 1902.8333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1226,7 +1226,7 @@
 								"fileid": "0e",
 								"SSML": "The Color of the Ball",
 								"cues": [],
-								"duration": 1108,
+								"duration": 1112.9583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1234,7 +1234,7 @@
 								"fileid": "0f",
 								"SSML": "Shape of the Object",
 								"cues": [],
-								"duration": 1277.0833333333333,
+								"duration": 1336.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1242,7 +1242,7 @@
 								"fileid": "0g",
 								"SSML": "The Amount of sunlight the greenhouse lets in",
 								"cues": [],
-								"duration": 2478.0833333333335,
+								"duration": 2519.7916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1250,7 +1250,7 @@
 								"fileid": "0h",
 								"SSML": "The Amount of Exposure to Music",
 								"cues": [],
-								"duration": 1938.2916666666667,
+								"duration": 1939.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1293,7 +1293,7 @@
 								"fileid": "0a",
 								"SSML": "The initial amount of crystals on the string",
 								"cues": [],
-								"duration": 2249.5833333333335,
+								"duration": 2259.3333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1301,7 +1301,7 @@
 								"fileid": "0b",
 								"SSML": "The surface area of the mint",
 								"cues": [],
-								"duration": 1686.125,
+								"duration": 1670.0416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1309,7 +1309,7 @@
 								"fileid": "0c",
 								"SSML": "The pattern on the glass",
 								"cues": [],
-								"duration": 1374.6666666666667,
+								"duration": 1364.9583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1317,7 +1317,7 @@
 								"fileid": "0d",
 								"SSML": "The amount of sunlight exposure the balloon gets",
 								"cues": [],
-								"duration": 2820.5,
+								"duration": 2791.8333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1325,7 +1325,7 @@
 								"fileid": "0e",
 								"SSML": "The Starting Position of the Ball",
 								"cues": [],
-								"duration": 1690.4166666666667,
+								"duration": 1681.8333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1333,7 +1333,7 @@
 								"fileid": "0f",
 								"SSML": "Volume of the Object",
 								"cues": [],
-								"duration": 1346.2916666666667,
+								"duration": 1338.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1341,7 +1341,7 @@
 								"fileid": "0g",
 								"SSML": "The Amount of Fertilizer",
 								"cues": [],
-								"duration": 1415.7083333333333,
+								"duration": 1416.9583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1349,7 +1349,7 @@
 								"fileid": "0h",
 								"SSML": "The Amount of Carbon Dioxide in the Water",
 								"cues": [],
-								"duration": 2365.2916666666665,
+								"duration": 2375.1666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1392,7 +1392,7 @@
 								"fileid": "0a",
 								"SSML": "And the type of string",
 								"cues": [],
-								"duration": 1150.8333333333333,
+								"duration": 1076,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1400,7 +1400,7 @@
 								"fileid": "0b",
 								"SSML": "And the amount of carbon dioxide in the soda",
 								"cues": [],
-								"duration": 2462.7916666666665,
+								"duration": 2452.9166666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1408,7 +1408,7 @@
 								"fileid": "0c",
 								"SSML": "And the shape of the glass",
 								"cues": [],
-								"duration": 1322.625,
+								"duration": 1352.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1416,7 +1416,7 @@
 								"fileid": "0d",
 								"SSML": "And the type of chair the balloon is tied to",
 								"cues": [],
-								"duration": 2296.25,
+								"duration": 2301.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1424,7 +1424,7 @@
 								"fileid": "0e",
 								"SSML": "And the Surface Texture of the Ramp",
 								"cues": [],
-								"duration": 1799.875,
+								"duration": 1794.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1432,7 +1432,7 @@
 								"fileid": "0f",
 								"SSML": "And the density of the Object",
 								"cues": [],
-								"duration": 1632.2916666666667,
+								"duration": 1512.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1440,7 +1440,7 @@
 								"fileid": "0g",
 								"SSML": "And the Type of Water",
 								"cues": [],
-								"duration": 1149.375,
+								"duration": 1167.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1448,7 +1448,7 @@
 								"fileid": "0h",
 								"SSML": "And the Amount of Direct Sunlight Exposure",
 								"cues": [],
-								"duration": 2336.5833333333335,
+								"duration": 2396.3333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1493,7 +1493,7 @@
 								"fileid": "0",
 								"SSML": "Let's see how this experiment works",
 								"cues": [],
-								"duration": 2272.6666666666665,
+								"duration": 2300.1666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1516,7 +1516,7 @@
 		"tracks": {
 			"track1a": {
 				"en": {
-					"node": "(root)APPARATUS",
+					"node": "(root)APbPARATUS",
 					"html": "<p>{{$EFO_EG_BOTH|S5aT1a}}</p>",
 					"text": "{{$EFO_EG_BOTH|S5aT1a}}",
 					"templateRef": {
@@ -1529,7 +1529,7 @@
 								"fileid": "0a",
 								"SSML": "Here are all of the materials that may be necessary for this experiment",
 								"cues": [],
-								"duration": 3692.2916666666665,
+								"duration": 3672.5416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1565,7 +1565,7 @@
 								"fileid": "0a",
 								"SSML": "A glass jar",
 								"cues": [],
-								"duration": 938.625,
+								"duration": 947.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1573,7 +1573,7 @@
 								"fileid": "0b",
 								"SSML": "A mint",
 								"cues": [],
-								"duration": 637.0833333333334,
+								"duration": 638.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1581,7 +1581,7 @@
 								"fileid": "0c",
 								"SSML": "A thermometer",
 								"cues": [],
-								"duration": 925.5416666666666,
+								"duration": 916.9166666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1589,7 +1589,7 @@
 								"fileid": "0d",
 								"SSML": "A balloon",
 								"cues": [],
-								"duration": 678.75,
+								"duration": 673.7083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1597,7 +1597,7 @@
 								"fileid": "0e",
 								"SSML": "A speedometer",
 								"cues": [],
-								"duration": 937.8333333333334,
+								"duration": 942.6666666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1605,7 +1605,7 @@
 								"fileid": "0f",
 								"SSML": "A stopwatch",
 								"cues": [],
-								"duration": 954.75,
+								"duration": 963.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1613,7 +1613,7 @@
 								"fileid": "0g",
 								"SSML": "A greenhouse",
 								"cues": [],
-								"duration": 959.3333333333334,
+								"duration": 977.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1621,7 +1621,7 @@
 								"fileid": "0h",
 								"SSML": "A radio",
 								"cues": [],
-								"duration": 732.1666666666666,
+								"duration": 711.3333333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1664,7 +1664,7 @@
 								"fileid": "0a",
 								"SSML": "A calendar",
 								"cues": [],
-								"duration": 805.1666666666666,
+								"duration": 806.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1672,7 +1672,7 @@
 								"fileid": "0b",
 								"SSML": "a bottle of soda",
 								"cues": [],
-								"duration": 1115.0833333333333,
+								"duration": 1135.2083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1680,7 +1680,7 @@
 								"fileid": "0c",
 								"SSML": "Glass cups",
 								"cues": [],
-								"duration": 996.8333333333334,
+								"duration": 956.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1688,7 +1688,7 @@
 								"fileid": "0d",
 								"SSML": "A wireless temperature reader and sensor",
 								"cues": [],
-								"duration": 2363.0833333333335,
+								"duration": 2346.2916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1696,7 +1696,7 @@
 								"fileid": "0e",
 								"SSML": "A ramp",
 								"cues": [],
-								"duration": 662.375,
+								"duration": 617.4166666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1704,7 +1704,7 @@
 								"fileid": "0f",
 								"SSML": "A lead or glass object",
 								"cues": [],
-								"duration": 1572.375,
+								"duration": 1581.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1712,7 +1712,7 @@
 								"fileid": "0g",
 								"SSML": "Twelve sunflower plants",
 								"cues": [],
-								"duration": 1755.8333333333333,
+								"duration": 1719.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1720,7 +1720,7 @@
 								"fileid": "0h",
 								"SSML": "A calendar",
 								"cues": [],
-								"duration": 805.1666666666666,
+								"duration": 806.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1763,7 +1763,7 @@
 								"fileid": "0a",
 								"SSML": "A pencil",
 								"cues": [],
-								"duration": 722.8333333333334,
+								"duration": 723.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1771,7 +1771,7 @@
 								"fileid": "0b",
 								"SSML": "and a ruler",
 								"cues": [],
-								"duration": 804.625,
+								"duration": 809.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1779,7 +1779,7 @@
 								"fileid": "0c",
 								"SSML": "Ice cubes and ice bucket",
 								"cues": [],
-								"duration": 1629.7916666666667,
+								"duration": 1652.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1787,7 +1787,7 @@
 								"fileid": "0d",
 								"SSML": "A chair",
 								"cues": [],
-								"duration": 603.7916666666666,
+								"duration": 603.6666666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1795,7 +1795,7 @@
 								"fileid": "0e",
 								"SSML": "And a ball",
 								"cues": [],
-								"duration": 719.125,
+								"duration": 710.1666666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1803,7 +1803,7 @@
 								"fileid": "0f",
 								"SSML": "A graduated cylinder",
 								"cues": [],
-								"duration": 1494.0416666666667,
+								"duration": 1487.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1811,7 +1811,7 @@
 								"fileid": "0g",
 								"SSML": "A beehive with bees",
 								"cues": [],
-								"duration": 1311.2916666666667,
+								"duration": 1319.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1819,7 +1819,7 @@
 								"fileid": "0h",
 								"SSML": "A digital scale",
 								"cues": [],
-								"duration": 1085.0416666666667,
+								"duration": 1082.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1862,7 +1862,7 @@
 								"fileid": "0a",
 								"SSML": "String",
 								"cues": [],
-								"duration": 631.4166666666666,
+								"duration": 660.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1870,7 +1870,7 @@
 								"fileid": "0b",
 								"SSML": "Water",
 								"cues": [],
-								"duration": 520.8333333333334,
+								"duration": 535,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1878,7 +1878,7 @@
 								"fileid": "0c",
 								"SSML": "A stopwatch",
 								"cues": [],
-								"duration": 954.75,
+								"duration": 963.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1886,7 +1886,7 @@
 								"fileid": "0d",
 								"SSML": "And water",
 								"cues": [],
-								"duration": 651.2083333333334,
+								"duration": 660,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1894,7 +1894,7 @@
 								"fileid": "0e",
 								"SSML": "Fertilizer",
 								"cues": [],
-								"duration": 824.125,
+								"duration": 827.7083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1902,7 +1902,7 @@
 								"fileid": "0f",
 								"SSML": "A fish tank heater",
 								"cues": [],
-								"duration": 1256.3333333333333,
+								"duration": 1291.8333333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1943,7 +1943,7 @@
 								"fileid": "0a",
 								"SSML": "Distilled water",
 								"cues": [],
-								"duration": 1045.9583333333333,
+								"duration": 1044.7083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1951,7 +1951,7 @@
 								"fileid": "0b",
 								"SSML": "And a digital clock",
 								"cues": [],
-								"duration": 1262.0833333333333,
+								"duration": 1265.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1959,7 +1959,7 @@
 								"fileid": "0c",
 								"SSML": "A helium tank",
 								"cues": [],
-								"duration": 1151.7916666666667,
+								"duration": 1159.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1967,7 +1967,7 @@
 								"fileid": "0d",
 								"SSML": "And water",
 								"cues": [],
-								"duration": 651.2083333333334,
+								"duration": 660,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1975,7 +1975,7 @@
 								"fileid": "0e",
 								"SSML": "Fifty grams of algae",
 								"cues": [],
-								"duration": 1427.125,
+								"duration": 1445.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2015,7 +2015,7 @@
 								"fileid": "0a",
 								"SSML": "Crystals",
 								"cues": [],
-								"duration": 730.875,
+								"duration": 747.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2023,7 +2023,7 @@
 								"fileid": "0b",
 								"SSML": "And an umbrella",
 								"cues": [],
-								"duration": 947.4166666666666,
+								"duration": 953.0833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2031,7 +2031,7 @@
 								"fileid": "0c",
 								"SSML": "A fish tank filled with 16 liters of water",
 								"cues": [],
-								"duration": 2697.625,
+								"duration": 2711.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2069,7 +2069,7 @@
 								"fileid": "0a",
 								"SSML": "and a digital scale",
 								"cues": [],
-								"duration": 1223.7916666666667,
+								"duration": 1245.1666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2077,7 +2077,7 @@
 								"fileid": "0b",
 								"SSML": "A thermometer",
 								"cues": [],
-								"duration": 925.5416666666666,
+								"duration": 916.9166666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2114,7 +2114,7 @@
 								"fileid": "0a",
 								"SSML": "And a carbon dioxide machine",
 								"cues": [],
-								"duration": 1931.75,
+								"duration": 1830.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2154,7 +2154,7 @@
 								"fileid": "0a",
 								"SSML": "We will mix a crystal salt or sugar in water so it dissolves.",
 								"cues": [],
-								"duration": 3519.75,
+								"duration": 3532.6666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2162,7 +2162,7 @@
 								"fileid": "0b",
 								"SSML": "We will put a single mint into a bottle of soda.",
 								"cues": [],
-								"duration": 2623.4583333333335,
+								"duration": 2623.5416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2170,7 +2170,7 @@
 								"fileid": "0c",
 								"SSML": "We will place an ice cube in a glass filled with 237 milliliters of water.",
 								"cues": [],
-								"duration": 4810.791666666667,
+								"duration": 4835.958333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2178,7 +2178,7 @@
 								"fileid": "0d",
 								"SSML": "We will pump 5 grams of Helium at 15 degrees Celsius into a balloon.",
 								"cues": [],
-								"duration": 4298.625,
+								"duration": 4307.833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2186,7 +2186,7 @@
 								"fileid": "0e",
 								"SSML": "We will place a ball on the ramp.",
 								"cues": [],
-								"duration": 1616.8333333333333,
+								"duration": 1629.7083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2194,7 +2194,7 @@
 								"fileid": "0f",
 								"SSML": "We will place an object into a graduated cylinder filled with water.",
 								"cues": [],
-								"duration": 3655.6666666666665,
+								"duration": 3674.0833333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2202,7 +2202,7 @@
 								"fileid": "0g",
 								"SSML": "We will plant twelve sunflowers in the ground in a greenhouse at the beginning of Spring.",
 								"cues": [],
-								"duration": 4359.416666666667,
+								"duration": 4328.166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2210,7 +2210,7 @@
 								"fileid": "0h",
 								"SSML": "We will add fifty grams of algae to a fish tank filled with 16 liters of distilled water.",
 								"cues": [],
-								"duration": 5070.916666666667,
+								"duration": 5099.666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2257,7 +2257,7 @@
 								"fileid": "0a",
 								"SSML": "We will continue to add the crystals and mix until no more crystals can be dissolved in the water. This is the saturation point.",
 								"cues": [],
-								"duration": 7185.708333333333,
+								"duration": 7185.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2265,7 +2265,7 @@
 								"fileid": "0b",
 								"SSML": "Bubbles forming a soda geyser may come out of the bottle.",
 								"cues": [],
-								"duration": 2818,
+								"duration": 2826.8333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2273,47 +2273,15 @@
 								"fileid": "0c",
 								"SSML": "The ice cube will eventually completely melt.",
 								"cues": [],
-								"duration": 2612.6666666666665,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2enumProcess2": {
-								"fileid": "0d",
-								"SSML": "Then we will place the balloon outside for 30 minutes.",
-								"cues": [],
-								"duration": 2900.875,
+								"duration": 2564.4583333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T1enumProcess2": {
-								"fileid": "0e",
+								"fileid": "0d",
 								"SSML": "The ball will roll down the ramp.",
 								"cues": [],
-								"duration": 1599.375,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2enumProcess2": {
-								"fileid": "0f",
-								"SSML": "It will sink to the bottom.",
-								"cues": [],
-								"duration": 1296.5833333333333,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1enumProcess2": {
-								"fileid": "0g",
-								"SSML": "The flowers will produce seeds then die by the end of the season.",
-								"cues": [],
-								"duration": 3237.75,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2enumProcess2": {
-								"fileid": "0h",
-								"SSML": "We can measure the weight of the algae growth after one week.",
-								"cues": [],
-								"duration": 2995.4583333333335,
+								"duration": 1477.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2332,11 +2300,7 @@
 							"SA1T1enumProcess2": "We will continue to add the crystals and mix until no more crystals can be dissolved in the water. This is the saturation point.",
 							"SA1T2enumProcess2": "Bubbles forming a soda geyser may come out of the bottle.",
 							"SA2T1enumProcess2": "The ice cube will eventually completely melt.",
-							"SA2T2enumProcess2": "Then we will place the balloon outside for 30 minutes.",
-							"SA3T1enumProcess2": "The ball will roll down the ramp.",
-							"SA3T2enumProcess2": "It will sink to the bottom.",
-							"SA4T1enumProcess2": "The flowers will produce seeds then die by the end of the season.",
-							"SA4T2enumProcess2": "We can measure the weight of the algae growth after one week."
+							"SA3T1enumProcess2": "The ball will roll down the ramp."
 						}
 					}
 				}
@@ -2360,7 +2324,7 @@
 								"fileid": "0a",
 								"SSML": "We can measure the height of the soda geyser.",
 								"cues": [],
-								"duration": 2138.6666666666665,
+								"duration": 2094.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2368,15 +2332,15 @@
 								"fileid": "0b",
 								"SSML": "We can measure the time it takes for the ice cube to melt in water.",
 								"cues": [],
-								"duration": 3332.5833333333335,
+								"duration": 3369.0833333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2enumProcess3": {
 								"fileid": "0c",
-								"SSML": "The temperature of the outside air is 27 degrees Celsius.",
+								"SSML": "Then we will place the balloon outside for 30 minutes.",
 								"cues": [],
-								"duration": 3683.125,
+								"duration": 2927.4166666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2384,23 +2348,31 @@
 								"fileid": "0d",
 								"SSML": "We will measure the balls speed at the bottom of the ramp.",
 								"cues": [],
-								"duration": 2594.5,
+								"duration": 2569.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T2enumProcess3": {
 								"fileid": "0e",
-								"SSML": "We can measure the time it takes for the object to sink in water.",
+								"SSML": "It will sink to the bottom.",
 								"cues": [],
-								"duration": 3255.9166666666665,
+								"duration": 1273.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA4T1enumProcess3": {
 								"fileid": "0f",
-								"SSML": "We can measure the number of seeds produced by the flowers at the end of the season. ",
+								"SSML": "The flowers will produce seeds then die by the end of the season.",
 								"cues": [],
-								"duration": 3809.625,
+								"duration": 3211.8333333333335,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2enumProcess3": {
+								"fileid": "0g",
+								"SSML": "We can measure the weight of the algae growth after one week.",
+								"cues": [],
+								"duration": 2794.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2418,10 +2390,11 @@
 						"$EFO_S_A?_T?|enumProcess3": {
 							"SA1T2enumProcess3": "We can measure the height of the soda geyser.",
 							"SA2T1enumProcess3": "We can measure the time it takes for the ice cube to melt in water.",
-							"SA2T2enumProcess3": "The temperature of the outside air is 27 degrees Celsius.",
+							"SA2T2enumProcess3": "Then we will place the balloon outside for 30 minutes.",
 							"SA3T1enumProcess3": "We will measure the balls speed at the bottom of the ramp.",
-							"SA3T2enumProcess3": "We can measure the time it takes for the object to sink in water.",
-							"SA4T1enumProcess3": "We can measure the number of seeds produced by the flowers at the end of the season. "
+							"SA3T2enumProcess3": "It will sink to the bottom.",
+							"SA4T1enumProcess3": "The flowers will produce seeds then die by the end of the season.",
+							"SA4T2enumProcess3": "We can measure the weight of the algae growth after one week."
 						}
 					}
 				}
@@ -2445,15 +2418,23 @@
 								"fileid": "0a",
 								"SSML": "Then we will put a string in the water.",
 								"cues": [],
-								"duration": 1839.2083333333333,
+								"duration": 1898.625,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2enumProcess4": {
 								"fileid": "0b",
-								"SSML": "We can measure the temperature of the gas after 30 minutes.",
+								"SSML": "The temperature of the outside air is 27 degrees Celsius.",
 								"cues": [],
-								"duration": 3174,
+								"duration": 3573.25,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1enumProcess4": {
+								"fileid": "0c",
+								"SSML": "We can measure the number of seeds produced by the flowers at the end of the season. ",
+								"cues": [],
+								"duration": 3918.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2470,7 +2451,8 @@
 					"templates": {
 						"$EFO_S_A?_T?|enumProcess4": {
 							"SA1T1enumProcess4": "Then we will put a string in the water.",
-							"SA2T2enumProcess4": "We can measure the temperature of the gas after 30 minutes."
+							"SA2T2enumProcess4": "The temperature of the outside air is 27 degrees Celsius.",
+							"SA4T1enumProcess4": "We can measure the number of seeds produced by the flowers at the end of the season. "
 						}
 					}
 				}
@@ -2489,7 +2471,23 @@
 					},
 					"segments": [
 						{
-							"templateVar": "$EFO_S_A?_T?|enumProcess5"
+							"templateVar": "$EFO_S_A?_T?|enumProcess5",
+							"SA2T2enumProcess5": {
+								"fileid": "0a",
+								"SSML": "We can measure the temperature of the gas after 30 minutes.",
+								"cues": [],
+								"duration": 3181.875,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2enumProcess5": {
+								"fileid": "0b",
+								"SSML": "We can measure the time it takes for the object to sink in water.",
+								"cues": [],
+								"duration": 3284.2083333333335,
+								"trim": 0,
+								"volume": 1
+							}
 						}
 					],
 					"timedSet": [],
@@ -2501,7 +2499,10 @@
 					],
 					"cueSet": ".........................................",
 					"templates": {
-						"$EFO_S_A?_T?|enumProcess5": {}
+						"$EFO_S_A?_T?|enumProcess5": {
+							"SA2T2enumProcess5": "We can measure the temperature of the gas after 30 minutes.",
+							"SA3T2enumProcess5": "We can measure the time it takes for the object to sink in water."
+						}
 					}
 				}
 			}
@@ -2524,7 +2525,7 @@
 								"fileid": "0a",
 								"SSML": "We can measure the weight of the crystal growth after two weeks.",
 								"cues": [],
-								"duration": 3152.8333333333335,
+								"duration": 3143.5416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2562,7 +2563,7 @@
 								"fileid": "0",
 								"SSML": "Push the button in the middle of the screen to see how this experiment works.",
 								"cues": [],
-								"duration": 3822,
+								"duration": 3643.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2598,7 +2599,7 @@
 								"fileid": "0a",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the amount of crystal growth on a string in water. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 11402.125,
+								"duration": 11964.083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2606,7 +2607,7 @@
 								"fileid": "0b",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the reaction between the soda and mint. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 11724.666666666666,
+								"duration": 11619.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2614,7 +2615,7 @@
 								"fileid": "0c",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the time it takes for the ice cube to melt in water. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 11513.666666666666,
+								"duration": 12167.541666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2622,7 +2623,7 @@
 								"fileid": "0d",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the temperature of gas in the balloon. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 10808.875,
+								"duration": 11292.083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2630,7 +2631,7 @@
 								"fileid": "0e",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the speed of the ball at the bottom of the ramp. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 11623.791666666666,
+								"duration": 11517.041666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2638,7 +2639,7 @@
 								"fileid": "0f",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the time of it takes for objects to sink in water. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 12196.041666666666,
+								"duration": 12117.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2646,7 +2647,7 @@
 								"fileid": "0g",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the number of seeds produced by the flowers at the end of the season. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 12180.625,
+								"duration": 12733.458333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2654,7 +2655,7 @@
 								"fileid": "0h",
 								"SSML": "In this experiment, there are only four things we can change. Any of these might make a difference in the weight of the algae after one week. These are the four variables you can test in this experiment",
 								"cues": [],
-								"duration": 11503.708333333334,
+								"duration": 11390.208333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2700,10 +2701,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1151.8444444444444
+										"relTime": 1169.3875
 									}
 								],
-								"duration": 2032.6666666666667,
+								"duration": 2063.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2714,10 +2715,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1222.8666666666666
+										"relTime": 1217.436111111111
 									}
 								],
-								"duration": 2158,
+								"duration": 2148.4166666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2728,52 +2729,52 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 2340.309722222222
+										"relTime": 2232.7374999999997
 									}
 								],
-								"duration": 4129.958333333333,
+								"duration": 3940.125,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2enumValueUtt1a": {
 								"fileid": "0d",
-								"SSML": "The color of the balloon, which can be lighter",
+								"SSML": "The color of the balloon, which can be light",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1319.4597222222224
+										"relTime": 1194.1555555555556
 									}
 								],
-								"duration": 2328.4583333333335,
+								"duration": 2107.3333333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T1enumValueUtt1a": {
 								"fileid": "0e",
-								"SSML": "The slope of the ramp, which can be steep",
+								"SSML": "The slope of the ramp, which can be not steep",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1244.7069444444444
+										"relTime": 1272.5444444444443
 									}
 								],
-								"duration": 2196.5416666666665,
+								"duration": 2245.6666666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T2enumValueUtt1a": {
 								"fileid": "0f",
-								"SSML": "The density of the water, which can be lower",
+								"SSML": "The density of the water, which can be low",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1353.4597222222224
+										"relTime": 1318.9875
 									}
 								],
-								"duration": 2388.4583333333335,
+								"duration": 2327.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2784,10 +2785,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1852.9291666666666
+										"relTime": 1859.5402777777776
 									}
 								],
-								"duration": 3269.875,
+								"duration": 3281.5416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2798,10 +2799,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1765.9930555555557
+										"relTime": 1788.5180555555555
 									}
 								],
-								"duration": 3116.4583333333335,
+								"duration": 3156.2083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2820,9 +2821,9 @@
 							"SA1T1enumValueUtt1a": "The water temperature which can be cool.",
 							"SA1T2enumValueUtt1a": "The type of sweetener which can be sugar",
 							"SA2T1enumValueUtt1a": "the initial temperature of the ice cube which can be zero degrees Celsius",
-							"SA2T2enumValueUtt1a": "The color of the balloon, which can be lighter",
-							"SA3T1enumValueUtt1a": "The slope of the ramp, which can be steep",
-							"SA3T2enumValueUtt1a": "The density of the water, which can be lower",
+							"SA2T2enumValueUtt1a": "The color of the balloon, which can be light",
+							"SA3T1enumValueUtt1a": "The slope of the ramp, which can be not steep",
+							"SA3T2enumValueUtt1a": "The density of the water, which can be low",
 							"SA4T1enumValueUtt1a": "The number of honey bees in the greenhouse, which can be zero",
 							"SA4T2enumValueUtt1a": "The temperature of the water, which can be room temperature"
 						}
@@ -2844,7 +2845,7 @@
 								"fileid": "0a",
 								"SSML": "Or hot might make a difference.",
 								"cues": [],
-								"duration": 1702.25,
+								"duration": 1722.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2852,7 +2853,7 @@
 								"fileid": "0b",
 								"SSML": "Or aspartame might make a difference",
 								"cues": [],
-								"duration": 2002.7916666666667,
+								"duration": 2025.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2860,31 +2861,31 @@
 								"fileid": "0c",
 								"SSML": "Or negative twenty degrees Celsius might make a difference",
 								"cues": [],
-								"duration": 3178.2083333333335,
+								"duration": 3172.75,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2enumValueUtt1b": {
 								"fileid": "0d",
-								"SSML": "Or darker might make a difference",
+								"SSML": "Or dark might make a difference",
 								"cues": [],
-								"duration": 1814.5,
+								"duration": 1738.6666666666667,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T1enumValueUtt1b": {
 								"fileid": "0e",
-								"SSML": "Or not steep might make a difference",
+								"SSML": "Or steep might make a difference",
 								"cues": [],
-								"duration": 1872.5833333333333,
+								"duration": 1757.8333333333333,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T2enumValueUtt1b": {
 								"fileid": "0f",
-								"SSML": "Or higher might make a difference",
+								"SSML": "Or high might make a difference",
 								"cues": [],
-								"duration": 1742.2083333333333,
+								"duration": 1657.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2892,15 +2893,15 @@
 								"fileid": "0g",
 								"SSML": "Or a whole hive might make a difference",
 								"cues": [],
-								"duration": 2068.5416666666665,
+								"duration": 2084.2916666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA4T2enumValueUtt1b": {
 								"fileid": "0h",
-								"SSML": "Or a warmer might make a difference",
+								"SSML": "Or a warm might make a difference",
 								"cues": [],
-								"duration": 1857.9583333333333,
+								"duration": 1819.4166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2919,11 +2920,11 @@
 							"SA1T1enumValueUtt1b": "Or hot might make a difference.",
 							"SA1T2enumValueUtt1b": "Or aspartame might make a difference",
 							"SA2T1enumValueUtt1b": "Or negative twenty degrees Celsius might make a difference",
-							"SA2T2enumValueUtt1b": "Or darker might make a difference",
-							"SA3T1enumValueUtt1b": "Or not steep might make a difference",
-							"SA3T2enumValueUtt1b": "Or higher might make a difference",
+							"SA2T2enumValueUtt1b": "Or dark might make a difference",
+							"SA3T1enumValueUtt1b": "Or steep might make a difference",
+							"SA3T2enumValueUtt1b": "Or high might make a difference",
 							"SA4T1enumValueUtt1b": "Or a whole hive might make a difference",
-							"SA4T2enumValueUtt1b": "Or a warmer might make a difference"
+							"SA4T2enumValueUtt1b": "Or a warm might make a difference"
 						}
 					}
 				}
@@ -2946,10 +2947,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1090.888888888889
+										"relTime": 1104.9333333333334
 									}
 								],
-								"duration": 2045.4166666666667,
+								"duration": 2071.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2960,10 +2961,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1416.622222222222
+										"relTime": 1431.8
 									}
 								],
-								"duration": 2656.1666666666665,
+								"duration": 2684.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2974,24 +2975,24 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1464.4222222222222
+										"relTime": 1475.622222222222
 									}
 								],
-								"duration": 2745.7916666666665,
+								"duration": 2766.7916666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2enumValueUtt2a": {
 								"fileid": "0d",
-								"SSML": "The material the balloon is made of which can be foil",
+								"SSML": "The amount of sunlight exposure the balloon gets, which can be full sun",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1502.3777777777777
+										"relTime": 2111.6666666666665
 									}
 								],
-								"duration": 2816.9583333333335,
+								"duration": 3959.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3002,10 +3003,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1055.711111111111
+										"relTime": 1081.9555555555555
 									}
 								],
-								"duration": 1979.4583333333333,
+								"duration": 2028.6666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3016,10 +3017,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1206.9555555555555
+										"relTime": 1213
 									}
 								],
-								"duration": 2263.0416666666665,
+								"duration": 2274.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3030,10 +3031,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 2100.3777777777777
+										"relTime": 2115.511111111111
 									}
 								],
-								"duration": 3938.2083333333335,
+								"duration": 3966.5833333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3044,10 +3045,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1805.3555555555554
+										"relTime": 1818.3111111111111
 									}
 								],
-								"duration": 3385.0416666666665,
+								"duration": 3409.3333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3066,7 +3067,7 @@
 							"SA1T1enumValueUtt2a": "The type of crystal which can be salt",
 							"SA1T2enumValueUtt2a": "The amount of caffeine in the soda which can be some",
 							"SA2T1enumValueUtt2a": "The initial temperature of the water which can be cold",
-							"SA2T2enumValueUtt2a": "The material the balloon is made of which can be foil",
+							"SA2T2enumValueUtt2a": "The amount of sunlight exposure the balloon gets, which can be full sun",
 							"SA3T1enumValueUtt2a": "The color of the ball which can be yellow",
 							"SA3T2enumValueUtt2a": "The shape of the object which can be a sphere",
 							"SA4T1enumValueUtt2a": "The amount of sunlight the greenhouse lets in, which can be full sunlight",
@@ -3090,7 +3091,7 @@
 								"fileid": "0a",
 								"SSML": "Or brown sugar might make a difference.",
 								"cues": [],
-								"duration": 2120.2083333333335,
+								"duration": 2132.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3098,7 +3099,7 @@
 								"fileid": "0b",
 								"SSML": "Or none might make a difference",
 								"cues": [],
-								"duration": 1647.1666666666667,
+								"duration": 1540.8333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3106,15 +3107,15 @@
 								"fileid": "0c",
 								"SSML": "Or hot might make a difference",
 								"cues": [],
-								"duration": 1702.25,
+								"duration": 1722.5,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2enumValueUtt2b": {
 								"fileid": "0d",
-								"SSML": "Or latex might make a difference",
+								"SSML": "Or shade might make a difference",
 								"cues": [],
-								"duration": 1905.5416666666667,
+								"duration": 1757.2083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3122,7 +3123,7 @@
 								"fileid": "0e",
 								"SSML": "Or pink might make a difference",
 								"cues": [],
-								"duration": 1727.125,
+								"duration": 1733.7083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3130,7 +3131,7 @@
 								"fileid": "0f",
 								"SSML": "Or tear-shaped might make a difference",
 								"cues": [],
-								"duration": 2075.4583333333335,
+								"duration": 1926.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3138,7 +3139,7 @@
 								"fileid": "0g",
 								"SSML": "Or partial sunlight might make a difference",
 								"cues": [],
-								"duration": 2350.625,
+								"duration": 2372.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3146,7 +3147,7 @@
 								"fileid": "0h",
 								"SSML": "Or no music might make a difference",
 								"cues": [],
-								"duration": 1984.0416666666667,
+								"duration": 2029.9583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3165,7 +3166,7 @@
 							"SA1T1enumValueUtt2b": "Or brown sugar might make a difference.",
 							"SA1T2enumValueUtt2b": "Or none might make a difference",
 							"SA2T1enumValueUtt2b": "Or hot might make a difference",
-							"SA2T2enumValueUtt2b": "Or latex might make a difference",
+							"SA2T2enumValueUtt2b": "Or shade might make a difference",
 							"SA3T1enumValueUtt2b": "Or pink might make a difference",
 							"SA3T2enumValueUtt2b": "Or tear-shaped might make a difference",
 							"SA4T1enumValueUtt2b": "Or partial sunlight might make a difference",
@@ -3187,29 +3188,29 @@
 							"templateVar": "$EFO_S_A?_T?|enumValueUtt3a",
 							"SA1T1enumValueUtt3a": {
 								"fileid": "0a",
-								"SSML": "The initial amount of crystals on the string which can be none",
+								"SSML": "The initial amount of crystals on the string which can be some",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1610
+										"relTime": 1648.3111111111111
 									}
 								],
-								"duration": 3018.75,
+								"duration": 3090.5833333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA1T2enumValueUtt3a": {
 								"fileid": "0b",
-								"SSML": "The surface texture of the mint, which can be rough",
+								"SSML": "The surface texture of the mint, which can be smooth",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1425.4222222222222
+										"relTime": 1471.0444444444445
 									}
 								],
-								"duration": 2672.6666666666665,
+								"duration": 2758.2083333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3220,52 +3221,52 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1198.7777777777778
+										"relTime": 1218.7111111111112
 									}
 								],
-								"duration": 2247.7083333333335,
+								"duration": 2285.0833333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2enumValueUtt3a": {
 								"fileid": "0d",
-								"SSML": "The amount of sunlight exposure the balloon gets, which can be full sun",
+								"SSML": "The material the balloon is made of which can be latex",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 2119.8444444444444
+										"relTime": 1557.8666666666666
 									}
 								],
-								"duration": 3974.7083333333335,
+								"duration": 2921,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T1enumValueUtt3a": {
 								"fileid": "0e",
-								"SSML": "The starting position of the ball, which can be higher",
+								"SSML": "The starting position of the ball, which can be lower",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1475.8
+										"relTime": 1457.2
 									}
 								],
-								"duration": 2767.125,
+								"duration": 2732.25,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T2enumValueUtt3a": {
 								"fileid": "0f",
-								"SSML": "The volume of the object which can be smaller",
+								"SSML": "The volume of the object which can be small",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1258.0666666666666
+										"relTime": 1216.6888888888889
 									}
 								],
-								"duration": 2358.875,
+								"duration": 2281.2916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3276,10 +3277,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1298.3111111111111
+										"relTime": 1304.2444444444445
 									}
 								],
-								"duration": 2434.3333333333335,
+								"duration": 2445.4583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3290,10 +3291,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1525
+										"relTime": 1537.8
 									}
 								],
-								"duration": 2859.375,
+								"duration": 2883.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3309,12 +3310,12 @@
 					"cueSet": "................a........................",
 					"templates": {
 						"$EFO_S_A?_T?|enumValueUtt3a": {
-							"SA1T1enumValueUtt3a": "The initial amount of crystals on the string which can be none",
-							"SA1T2enumValueUtt3a": "The surface texture of the mint, which can be rough",
+							"SA1T1enumValueUtt3a": "The initial amount of crystals on the string which can be some",
+							"SA1T2enumValueUtt3a": "The surface texture of the mint, which can be smooth",
 							"SA2T1enumValueUtt3a": "The pattern on the glass which can be striped",
-							"SA2T2enumValueUtt3a": "The amount of sunlight exposure the balloon gets, which can be full sun",
-							"SA3T1enumValueUtt3a": "The starting position of the ball, which can be higher",
-							"SA3T2enumValueUtt3a": "The volume of the object which can be smaller",
+							"SA2T2enumValueUtt3a": "The material the balloon is made of which can be latex",
+							"SA3T1enumValueUtt3a": "The starting position of the ball, which can be lower",
+							"SA3T2enumValueUtt3a": "The volume of the object which can be small",
 							"SA4T1enumValueUtt3a": "The amount of fertilizer, which can be none",
 							"SA4T2enumValueUtt3a": "The amount of carbon dioxide , which can be a lot"
 						}
@@ -3334,17 +3335,17 @@
 							"templateVar": "$EFO_S_A?_T?|enumValueUtt3b",
 							"SA1T1enumValueUtt3b": {
 								"fileid": "0a",
-								"SSML": "Or some might make a difference.",
+								"SSML": "Or none might make a difference.",
 								"cues": [],
-								"duration": 1606.625,
+								"duration": 1540.8333333333333,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA1T2enumValueUtt3b": {
 								"fileid": "0b",
-								"SSML": "Or smooth might make a difference",
+								"SSML": "Or rough might make a difference",
 								"cues": [],
-								"duration": 1764,
+								"duration": 1652.6666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3352,31 +3353,31 @@
 								"fileid": "0c",
 								"SSML": "Or plain might make a difference",
 								"cues": [],
-								"duration": 1714.0416666666667,
+								"duration": 1714.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2enumValueUtt3b": {
 								"fileid": "0d",
-								"SSML": "Or shade might make a difference",
+								"SSML": "Or foil might make a difference",
 								"cues": [],
-								"duration": 1740.4583333333333,
+								"duration": 1786.625,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T1enumValueUtt3b": {
 								"fileid": "0e",
-								"SSML": "Or lower might make a difference",
+								"SSML": "Or higher might make a difference",
 								"cues": [],
-								"duration": 1765.625,
+								"duration": 1752.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T2enumValueUtt3b": {
 								"fileid": "0f",
-								"SSML": "Or larger might make a difference",
+								"SSML": "Or large might make a difference",
 								"cues": [],
-								"duration": 1812,
+								"duration": 1763.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3384,7 +3385,7 @@
 								"fileid": "0g",
 								"SSML": "Or some might make a difference",
 								"cues": [],
-								"duration": 1606.625,
+								"duration": 1600.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3392,7 +3393,7 @@
 								"fileid": "0h",
 								"SSML": "Or none might make a difference",
 								"cues": [],
-								"duration": 1647.1666666666667,
+								"duration": 1652.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3408,12 +3409,12 @@
 					"cueSet": ".........................................",
 					"templates": {
 						"$EFO_S_A?_T?|enumValueUtt3b": {
-							"SA1T1enumValueUtt3b": "Or some might make a difference.",
-							"SA1T2enumValueUtt3b": "Or smooth might make a difference",
+							"SA1T1enumValueUtt3b": "Or none might make a difference.",
+							"SA1T2enumValueUtt3b": "Or rough might make a difference",
 							"SA2T1enumValueUtt3b": "Or plain might make a difference",
-							"SA2T2enumValueUtt3b": "Or shade might make a difference",
-							"SA3T1enumValueUtt3b": "Or lower might make a difference",
-							"SA3T2enumValueUtt3b": "Or larger might make a difference",
+							"SA2T2enumValueUtt3b": "Or foil might make a difference",
+							"SA3T1enumValueUtt3b": "Or higher might make a difference",
+							"SA3T2enumValueUtt3b": "Or large might make a difference",
 							"SA4T1enumValueUtt3b": "Or some might make a difference",
 							"SA4T2enumValueUtt3b": "Or none might make a difference"
 						}
@@ -3438,38 +3439,38 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1149.7194444444444
+										"relTime": 1173.3069444444443
 									}
 								],
-								"duration": 2028.9166666666667,
+								"duration": 2070.5416666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA1T2enumValueUtt4a": {
 								"fileid": "0b",
-								"SSML": "And the amount of carbon dioxide in the soda which can be higher",
+								"SSML": "And the amount of carbon dioxide in the soda which can be high",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1924.7777777777776
+										"relTime": 1873.3999999999999
 									}
 								],
-								"duration": 3396.6666666666665,
+								"duration": 3306,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T1enumValueUtt4a": {
 								"fileid": "0c",
-								"SSML": "And the shape of the glass which can be shorter or",
+								"SSML": "And the shape of the glass which can be short or",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1411.7555555555557
+										"relTime": 1412.3458333333333
 									}
 								],
-								"duration": 2491.3333333333335,
+								"duration": 2492.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3480,10 +3481,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 2092.6055555555554
+										"relTime": 2099.5944444444444
 									}
 								],
-								"duration": 3692.8333333333335,
+								"duration": 3705.1666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3494,24 +3495,24 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1588.461111111111
+										"relTime": 1501.0055555555557
 									}
 								],
-								"duration": 2803.1666666666665,
+								"duration": 2648.8333333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T2enumValueUtt4a": {
 								"fileid": "0f",
-								"SSML": "And the density of the object which can be higher",
+								"SSML": "And the density of the object which can be high",
 								"cues": [
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1392.0166666666667
+										"relTime": 1344.2277777777776
 									}
 								],
-								"duration": 2456.5,
+								"duration": 2372.1666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3522,10 +3523,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1412.2513888888889
+										"relTime": 1435.0597222222223
 									}
 								],
-								"duration": 2492.2083333333335,
+								"duration": 2532.4583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3536,10 +3537,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1817.0166666666667
+										"relTime": 1902.3708333333334
 									}
 								],
-								"duration": 3206.5,
+								"duration": 3357.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3556,11 +3557,11 @@
 					"templates": {
 						"$EFO_S_A?_T?|enumValueUtt4a": {
 							"SA1T1enumValueUtt4a": "And the type of string which can be twine.",
-							"SA1T2enumValueUtt4a": "And the amount of carbon dioxide in the soda which can be higher",
-							"SA2T1enumValueUtt4a": "And the shape of the glass which can be shorter or",
+							"SA1T2enumValueUtt4a": "And the amount of carbon dioxide in the soda which can be high",
+							"SA2T1enumValueUtt4a": "And the shape of the glass which can be short or",
 							"SA2T2enumValueUtt4a": "And the type of chair the balloon is tied to, which can be a wooden chair",
 							"SA3T1enumValueUtt4a": "And the surface texture of the ramp, which can be rough",
-							"SA3T2enumValueUtt4a": "And the density of the object which can be higher",
+							"SA3T2enumValueUtt4a": "And the density of the object which can be high",
 							"SA4T1enumValueUtt4a": "And the type of water, which can be rain water",
 							"SA4T2enumValueUtt4a": "And the amount of direct sunlight exposure, which can be some"
 						}
@@ -3582,23 +3583,23 @@
 								"fileid": "0a",
 								"SSML": "Or yarn. This might also make a difference.",
 								"cues": [],
-								"duration": 2756.25,
+								"duration": 2791.2083333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA1T2enumValueUtt4b": {
 								"fileid": "0b",
-								"SSML": "Or lower. This might also make a difference",
+								"SSML": "Or low. This might also make a difference",
 								"cues": [],
-								"duration": 2716.2083333333335,
+								"duration": 2671.25,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T1enumValueUtt4b": {
 								"fileid": "0c",
-								"SSML": "Taller. This might also make a difference",
+								"SSML": "Tall. This might also make a difference",
 								"cues": [],
-								"duration": 2537.8333333333335,
+								"duration": 2536,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3606,7 +3607,7 @@
 								"fileid": "0d",
 								"SSML": "Or a canvas chair. This might also make a difference",
 								"cues": [],
-								"duration": 3169.5833333333335,
+								"duration": 3207.9583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3614,15 +3615,15 @@
 								"fileid": "0e",
 								"SSML": "Or smooth.  This might also make a difference",
 								"cues": [],
-								"duration": 2792.75,
+								"duration": 2858.7916666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T2enumValueUtt4b": {
 								"fileid": "0f",
-								"SSML": "Or lower.  This might also make a difference",
+								"SSML": "Or low.  This might also make a difference",
 								"cues": [],
-								"duration": 2716.2083333333335,
+								"duration": 2671.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3630,7 +3631,7 @@
 								"fileid": "0g",
 								"SSML": "Or tap water.   This might also make a difference",
 								"cues": [],
-								"duration": 3011.875,
+								"duration": 3049.4583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3638,7 +3639,7 @@
 								"fileid": "0h",
 								"SSML": "Or none.   This might also make a difference",
 								"cues": [],
-								"duration": 2654.0416666666665,
+								"duration": 2695.5416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3655,11 +3656,11 @@
 					"templates": {
 						"$EFO_S_A?_T?|enumValueUtt4b": {
 							"SA1T1enumValueUtt4b": "Or yarn. This might also make a difference.",
-							"SA1T2enumValueUtt4b": "Or lower. This might also make a difference",
-							"SA2T1enumValueUtt4b": "Taller. This might also make a difference",
+							"SA1T2enumValueUtt4b": "Or low. This might also make a difference",
+							"SA2T1enumValueUtt4b": "Tall. This might also make a difference",
 							"SA2T2enumValueUtt4b": "Or a canvas chair. This might also make a difference",
 							"SA3T1enumValueUtt4b": "Or smooth.  This might also make a difference",
-							"SA3T2enumValueUtt4b": "Or lower.  This might also make a difference",
+							"SA3T2enumValueUtt4b": "Or low.  This might also make a difference",
 							"SA4T1enumValueUtt4b": "Or tap water.   This might also make a difference",
 							"SA4T2enumValueUtt4b": "Or none.   This might also make a difference"
 						}
@@ -3685,7 +3686,7 @@
 								"fileid": "0a",
 								"SSML": "Select the variable you would like to test. This variable is the independent variable of your experiment.",
 								"cues": [],
-								"duration": 6037.375,
+								"duration": 6043.083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3693,7 +3694,7 @@
 								"fileid": "0b",
 								"SSML": "We will test the following variable:",
 								"cues": [],
-								"duration": 1919.25,
+								"duration": 1917.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3754,7 +3755,7 @@
 								"fileid": "2a",
 								"SSML": ", This variable is the independent variable of the experiment. Please click on the highlighted button below",
 								"cues": [],
-								"duration": 5928.791666666667,
+								"duration": 5837.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3805,7 +3806,7 @@
 								"fileid": "0a",
 								"SSML": "The research question you have chosen is",
 								"cues": [],
-								"duration": 2188.0416666666665,
+								"duration": 2206.4166666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3813,7 +3814,7 @@
 								"fileid": "0b",
 								"SSML": "Our research question is",
 								"cues": [],
-								"duration": 1473.5833333333333,
+								"duration": 1570.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3824,7 +3825,7 @@
 								"fileid": "1a",
 								"SSML": "Does the water temperature",
 								"cues": [],
-								"duration": 1406.1666666666667,
+								"duration": 1416,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3832,7 +3833,7 @@
 								"fileid": "1b",
 								"SSML": "Does the type of crystal",
 								"cues": [],
-								"duration": 1279.375,
+								"duration": 1307,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3840,7 +3841,7 @@
 								"fileid": "1c",
 								"SSML": "Does the initial amount of crystals on the string",
 								"cues": [],
-								"duration": 2402.9166666666665,
+								"duration": 2418.4583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3848,7 +3849,7 @@
 								"fileid": "1d",
 								"SSML": "Does the type of string",
 								"cues": [],
-								"duration": 1224.9166666666667,
+								"duration": 1230.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3856,15 +3857,15 @@
 								"fileid": "1e",
 								"SSML": "Does the type of sweetener in the soda",
 								"cues": [],
-								"duration": 1879.7916666666667,
+								"duration": 1951.125,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA1T2RQ2rqselected": {
 								"fileid": "1f",
-								"SSML": "Does the type of crystal in the soda",
+								"SSML": "Does the amount of caffeine in the soda",
 								"cues": [],
-								"duration": 1855.1666666666667,
+								"duration": 1963.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3872,7 +3873,7 @@
 								"fileid": "1g",
 								"SSML": "Does the surface texture of the mint",
 								"cues": [],
-								"duration": 1844.6666666666667,
+								"duration": 1855.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3880,7 +3881,7 @@
 								"fileid": "1h",
 								"SSML": "Does the amount of carbon dioxide in the soda",
 								"cues": [],
-								"duration": 2526.9166666666665,
+								"duration": 2541.0833333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3888,7 +3889,7 @@
 								"fileid": "1i",
 								"SSML": "Does the initial temperature of the ice cube",
 								"cues": [],
-								"duration": 2249.0416666666665,
+								"duration": 2283.3333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3896,7 +3897,7 @@
 								"fileid": "1j",
 								"SSML": "Does the initial temperature of the water",
 								"cues": [],
-								"duration": 2003.4583333333333,
+								"duration": 2025.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3904,7 +3905,7 @@
 								"fileid": "1k",
 								"SSML": "Does the pattern on the glass",
 								"cues": [],
-								"duration": 1520.9583333333333,
+								"duration": 1515.9166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3912,7 +3913,7 @@
 								"fileid": "1l",
 								"SSML": "Does the shape of the glass",
 								"cues": [],
-								"duration": 1344.75,
+								"duration": 1393.8333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3920,15 +3921,15 @@
 								"fileid": "1m",
 								"SSML": "Does the color of the balloon",
 								"cues": [],
-								"duration": 1347.5416666666667,
+								"duration": 1365.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2RQ2rqselected": {
 								"fileid": "1n",
-								"SSML": "Does material the balloon is made of",
+								"SSML": "Does the material the balloon is made of",
 								"cues": [],
-								"duration": 1926.8333333333333,
+								"duration": 2076,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3936,7 +3937,7 @@
 								"fileid": "1o",
 								"SSML": "Does the amount of sunlight exposure the balloon gets",
 								"cues": [],
-								"duration": 2929.9583333333335,
+								"duration": 2946.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3944,7 +3945,7 @@
 								"fileid": "1p",
 								"SSML": "Does the type of chair the balloon is tied to",
 								"cues": [],
-								"duration": 2349.125,
+								"duration": 2377.3333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3952,7 +3953,7 @@
 								"fileid": "1q",
 								"SSML": "Does the slope of the ramp",
 								"cues": [],
-								"duration": 1302.375,
+								"duration": 1291.9166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3960,7 +3961,7 @@
 								"fileid": "1r",
 								"SSML": "Does the color of the ball",
 								"cues": [],
-								"duration": 1238.6666666666667,
+								"duration": 1253.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3968,7 +3969,7 @@
 								"fileid": "1s",
 								"SSML": "Does the starting position of the ball",
 								"cues": [],
-								"duration": 1779.125,
+								"duration": 1810.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3976,7 +3977,7 @@
 								"fileid": "1t",
 								"SSML": "Does the surface texture of the ramp",
 								"cues": [],
-								"duration": 1865.5833333333333,
+								"duration": 1871.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3984,7 +3985,7 @@
 								"fileid": "1u",
 								"SSML": "Does the density of water",
 								"cues": [],
-								"duration": 1396.5416666666667,
+								"duration": 1389.2083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3992,7 +3993,7 @@
 								"fileid": "1v",
 								"SSML": "Does the shape of the object",
 								"cues": [],
-								"duration": 1518.5,
+								"duration": 1519.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4000,7 +4001,7 @@
 								"fileid": "1w",
 								"SSML": "Does the volume of the object",
 								"cues": [],
-								"duration": 1630.0416666666667,
+								"duration": 1644.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4008,7 +4009,7 @@
 								"fileid": "1x",
 								"SSML": "Does the density of the object",
 								"cues": [],
-								"duration": 1696.9166666666667,
+								"duration": 1673.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4016,7 +4017,7 @@
 								"fileid": "1y",
 								"SSML": "Does the number of honey bees in the greenhouse",
 								"cues": [],
-								"duration": 2315.625,
+								"duration": 2338.4166666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4024,7 +4025,7 @@
 								"fileid": "1z",
 								"SSML": "Does the amount of sunlight the greenhouse lets in",
 								"cues": [],
-								"duration": 2627.625,
+								"duration": 2661.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4032,7 +4033,7 @@
 								"fileid": "1Ba",
 								"SSML": "Does the type of water",
 								"cues": [],
-								"duration": 1214.7916666666667,
+								"duration": 1217.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4040,7 +4041,7 @@
 								"fileid": "1Bb",
 								"SSML": "Does the amount of fertilizer",
 								"cues": [],
-								"duration": 1475.625,
+								"duration": 1569.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4048,7 +4049,7 @@
 								"fileid": "1Bc",
 								"SSML": "Does the temperature of the water",
 								"cues": [],
-								"duration": 1566.4583333333333,
+								"duration": 1562.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4056,7 +4057,7 @@
 								"fileid": "1Bd",
 								"SSML": "Does the exposure to music",
 								"cues": [],
-								"duration": 1651.7083333333333,
+								"duration": 1634.6666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4064,7 +4065,7 @@
 								"fileid": "1Be",
 								"SSML": "Does the amount of carbon dioxide in the water",
 								"cues": [],
-								"duration": 2531.2916666666665,
+								"duration": 2538.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4072,7 +4073,7 @@
 								"fileid": "1Bf",
 								"SSML": "Does the amount of direct sunlight exposure",
 								"cues": [],
-								"duration": 2415.5416666666665,
+								"duration": 2426.0833333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4081,65 +4082,65 @@
 							"templateVar": "$EFO_S_A?_T?|rqselectedall",
 							"SA1T1rqselectedall": {
 								"fileid": "2a",
-								"SSML": " affect the weight of the crystal growth on a string in water after two weeks?",
+								"SSML": "affect the weight of the crystal growth on a string in water after two weeks?",
 								"cues": [],
-								"duration": 3825.875,
+								"duration": 3821.5,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA1T2rqselectedall": {
 								"fileid": "2b",
-								"SSML": " affect the strength of the reaction between soda and mints?",
+								"SSML": "affect the strength of the reaction between soda and mints?",
 								"cues": [],
-								"duration": 3134.8333333333335,
+								"duration": 3138.5416666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T1rqselectedall": {
 								"fileid": "2c",
-								"SSML": " affect the time it takes for an ice cube to melt in water?",
+								"SSML": "affect the time it takes for an ice cube to melt in water?",
 								"cues": [],
-								"duration": 2970.4166666666665,
+								"duration": 2987.2083333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2rqselectedall": {
 								"fileid": "2d",
-								"SSML": " affect the gas temperature within the balloon after 30 minutes?",
+								"SSML": "affect the gas temperature within the balloon after 30 minutes?",
 								"cues": [],
-								"duration": 3271.9583333333335,
+								"duration": 3252.8333333333335,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T1rqselectedall": {
 								"fileid": "2e",
-								"SSML": " affect the speed of the ball at the bottom of the ramp?",
+								"SSML": "affect the speed of the ball at the bottom of the ramp?",
 								"cues": [],
-								"duration": 2430.25,
+								"duration": 2410.2916666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA3T2rqselectedall": {
 								"fileid": "2f",
-								"SSML": " affect the time it takes for objects to sink in water?",
+								"SSML": "affect the time it takes for objects to sink in water?",
 								"cues": [],
-								"duration": 2817.875,
+								"duration": 2794.7916666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA4T1rqselectedall": {
 								"fileid": "2g",
-								"SSML": " affect the number of seeds produced by flowers at the end of the season?",
+								"SSML": "affect the number of seeds produced by flowers at the end of the season?",
 								"cues": [],
-								"duration": 3454.5,
+								"duration": 3441.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA4T2rqselectedall": {
 								"fileid": "2h",
-								"SSML": " affect the weight of the algae growth after one week?",
+								"SSML": "affect the weight of the algae growth after one week?",
 								"cues": [],
-								"duration": 2614.9166666666665,
+								"duration": 2596.6666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4168,7 +4169,7 @@
 							"SA1T1RQ3rqselected": "Does the initial amount of crystals on the string",
 							"SA1T1RQ4rqselected": "Does the type of string",
 							"SA1T2RQ1rqselected": "Does the type of sweetener in the soda",
-							"SA1T2RQ2rqselected": "Does the type of crystal in the soda",
+							"SA1T2RQ2rqselected": "Does the amount of caffeine in the soda",
 							"SA1T2RQ3rqselected": "Does the surface texture of the mint",
 							"SA1T2RQ4rqselected": "Does the amount of carbon dioxide in the soda",
 							"SA2T1RQ1rqselected": "Does the initial temperature of the ice cube",
@@ -4176,7 +4177,7 @@
 							"SA2T1RQ3rqselected": "Does the pattern on the glass",
 							"SA2T1RQ4rqselected": "Does the shape of the glass",
 							"SA2T2RQ1rqselected": "Does the color of the balloon",
-							"SA2T2RQ2rqselected": "Does material the balloon is made of",
+							"SA2T2RQ2rqselected": "Does the material the balloon is made of",
 							"SA2T2RQ3rqselected": "Does the amount of sunlight exposure the balloon gets",
 							"SA2T2RQ4rqselected": "Does the type of chair the balloon is tied to",
 							"SA3T1RQ1rqselected": "Does the slope of the ramp",
@@ -4197,14 +4198,14 @@
 							"SA4T2RQ4rqselected": "Does the amount of direct sunlight exposure"
 						},
 						"$EFO_S_A?_T?|rqselectedall": {
-							"SA1T1rqselectedall": " affect the weight of the crystal growth on a string in water after two weeks?",
-							"SA1T2rqselectedall": " affect the strength of the reaction between soda and mints?",
-							"SA2T1rqselectedall": " affect the time it takes for an ice cube to melt in water?",
-							"SA2T2rqselectedall": " affect the gas temperature within the balloon after 30 minutes?",
-							"SA3T1rqselectedall": " affect the speed of the ball at the bottom of the ramp?",
-							"SA3T2rqselectedall": " affect the time it takes for objects to sink in water?",
-							"SA4T1rqselectedall": " affect the number of seeds produced by flowers at the end of the season?",
-							"SA4T2rqselectedall": " affect the weight of the algae growth after one week?"
+							"SA1T1rqselectedall": "affect the weight of the crystal growth on a string in water after two weeks?",
+							"SA1T2rqselectedall": "affect the strength of the reaction between soda and mints?",
+							"SA2T1rqselectedall": "affect the time it takes for an ice cube to melt in water?",
+							"SA2T2rqselectedall": "affect the gas temperature within the balloon after 30 minutes?",
+							"SA3T1rqselectedall": "affect the speed of the ball at the bottom of the ramp?",
+							"SA3T2rqselectedall": "affect the time it takes for objects to sink in water?",
+							"SA4T1rqselectedall": "affect the number of seeds produced by flowers at the end of the season?",
+							"SA4T2rqselectedall": "affect the weight of the algae growth after one week?"
 						}
 					}
 				}
@@ -4230,7 +4231,7 @@
 								"fileid": "0a",
 								"SSML": "OK! You have chosen as your Research Question",
 								"cues": [],
-								"duration": 2978.5416666666665,
+								"duration": 2961.5416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -4238,7 +4239,7 @@
 								"fileid": "0b",
 								"SSML": "OK! We have chosen the following Research Question",
 								"cues": [],
-								"duration": 3260.6666666666665,
+								"duration": 3270.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4287,7 +4288,7 @@
 							},
 							"SA1T2RQ2rqselected": {
 								"fileid": "1f",
-								"SSML": "Does the type of crystal in the soda",
+								"SSML": "Does the amount of caffeine in the soda",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4351,7 +4352,7 @@
 							},
 							"SA2T2RQ2rqselected": {
 								"fileid": "1n",
-								"SSML": "Does material the balloon is made of",
+								"SSML": "Does the material the balloon is made of",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4506,7 +4507,7 @@
 							"templateVar": "$EFO_S_A?_T?|rqselectedall",
 							"SA1T1rqselectedall": {
 								"fileid": "2a",
-								"SSML": " affect the weight of the crystal growth on a string in water after two weeks?",
+								"SSML": "affect the weight of the crystal growth on a string in water after two weeks?",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4514,7 +4515,7 @@
 							},
 							"SA1T2rqselectedall": {
 								"fileid": "2b",
-								"SSML": " affect the strength of the reaction between soda and mints?",
+								"SSML": "affect the strength of the reaction between soda and mints?",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4522,7 +4523,7 @@
 							},
 							"SA2T1rqselectedall": {
 								"fileid": "2c",
-								"SSML": " affect the time it takes for an ice cube to melt in water?",
+								"SSML": "affect the time it takes for an ice cube to melt in water?",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4530,7 +4531,7 @@
 							},
 							"SA2T2rqselectedall": {
 								"fileid": "2d",
-								"SSML": " affect the gas temperature within the balloon after 30 minutes?",
+								"SSML": "affect the gas temperature within the balloon after 30 minutes?",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4538,7 +4539,7 @@
 							},
 							"SA3T1rqselectedall": {
 								"fileid": "2e",
-								"SSML": " affect the speed of the ball at the bottom of the ramp?",
+								"SSML": "affect the speed of the ball at the bottom of the ramp?",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4546,7 +4547,7 @@
 							},
 							"SA3T2rqselectedall": {
 								"fileid": "2f",
-								"SSML": " affect the time it takes for objects to sink in water?",
+								"SSML": "affect the time it takes for objects to sink in water?",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4554,7 +4555,7 @@
 							},
 							"SA4T1rqselectedall": {
 								"fileid": "2g",
-								"SSML": " affect the number of seeds produced by flowers at the end of the season?",
+								"SSML": "affect the number of seeds produced by flowers at the end of the season?",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4562,7 +4563,7 @@
 							},
 							"SA4T2rqselectedall": {
 								"fileid": "2h",
-								"SSML": " affect the weight of the algae growth after one week?",
+								"SSML": "affect the weight of the algae growth after one week?",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4593,7 +4594,7 @@
 							"SA1T1RQ3rqselected": "Does the initial amount of crystals on the string",
 							"SA1T1RQ4rqselected": "Does the type of string",
 							"SA1T2RQ1rqselected": "Does the type of sweetener in the soda",
-							"SA1T2RQ2rqselected": "Does the type of crystal in the soda",
+							"SA1T2RQ2rqselected": "Does the amount of caffeine in the soda",
 							"SA1T2RQ3rqselected": "Does the surface texture of the mint",
 							"SA1T2RQ4rqselected": "Does the amount of carbon dioxide in the soda",
 							"SA2T1RQ1rqselected": "Does the initial temperature of the ice cube",
@@ -4601,7 +4602,7 @@
 							"SA2T1RQ3rqselected": "Does the pattern on the glass",
 							"SA2T1RQ4rqselected": "Does the shape of the glass",
 							"SA2T2RQ1rqselected": "Does the color of the balloon",
-							"SA2T2RQ2rqselected": "Does material the balloon is made of",
+							"SA2T2RQ2rqselected": "Does the material the balloon is made of",
 							"SA2T2RQ3rqselected": "Does the amount of sunlight exposure the balloon gets",
 							"SA2T2RQ4rqselected": "Does the type of chair the balloon is tied to",
 							"SA3T1RQ1rqselected": "Does the slope of the ramp",
@@ -4622,14 +4623,14 @@
 							"SA4T2RQ4rqselected": "Does the amount of direct sunlight exposure"
 						},
 						"$EFO_S_A?_T?|rqselectedall": {
-							"SA1T1rqselectedall": " affect the weight of the crystal growth on a string in water after two weeks?",
-							"SA1T2rqselectedall": " affect the strength of the reaction between soda and mints?",
-							"SA2T1rqselectedall": " affect the time it takes for an ice cube to melt in water?",
-							"SA2T2rqselectedall": " affect the gas temperature within the balloon after 30 minutes?",
-							"SA3T1rqselectedall": " affect the speed of the ball at the bottom of the ramp?",
-							"SA3T2rqselectedall": " affect the time it takes for objects to sink in water?",
-							"SA4T1rqselectedall": " affect the number of seeds produced by flowers at the end of the season?",
-							"SA4T2rqselectedall": " affect the weight of the algae growth after one week?"
+							"SA1T1rqselectedall": "affect the weight of the crystal growth on a string in water after two weeks?",
+							"SA1T2rqselectedall": "affect the strength of the reaction between soda and mints?",
+							"SA2T1rqselectedall": "affect the time it takes for an ice cube to melt in water?",
+							"SA2T2rqselectedall": "affect the gas temperature within the balloon after 30 minutes?",
+							"SA3T1rqselectedall": "affect the speed of the ball at the bottom of the ramp?",
+							"SA3T2rqselectedall": "affect the time it takes for objects to sink in water?",
+							"SA4T1rqselectedall": "affect the number of seeds produced by flowers at the end of the season?",
+							"SA4T2rqselectedall": "affect the weight of the algae growth after one week?"
 						}
 					}
 				}

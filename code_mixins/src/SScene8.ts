@@ -14,7 +14,15 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         // Tutor graph methods
         //
         
+        public $preCreateScene() {
+
+            // By default disable all Navigation - Let scenes decide
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+        }
+        
         public $onCreateScene() { 
+            this.setSceneValue("complete", false);      
         }
 
         public $onEnterScene() {
@@ -237,16 +245,43 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                             break;
 
                         case "$end":
+                            this.setSceneValue("complete", true);   
                             break;
                     }
                     break;
             }
         }
 
-        public $onAction(target:string, evt:string) {
+      //***********************************************
+        // Scene State methods
+        //
+
+        public $queryFinished() : boolean {             
+
+            let result:boolean = this.getSceneValue("complete"); 
+
+            return  result; 
         }
 
-        public $timedEvents(id:string) {
+
+        public $onAction(target:string) {         
+            
+            switch(target) {
+            }
         }
+
+
+        public $onSelect(target:string) {            
+
+            switch(target) {
+            }
+        }
+
+
+        public $onClick(target:string) {            
+
+            switch(target) {
+            }
+        }        
     }
 }

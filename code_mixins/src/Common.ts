@@ -73,14 +73,33 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
         public $onAction(target:string, evt:string) {}
 
+        public $queryFinished() : boolean {             
+
+            let stateComplete:boolean = false;
+            return  stateComplete; 
+        }
+
+        public $canGoBack() : boolean {             
+
+            let stateComplete:boolean = true;
+            return  stateComplete; 
+        }
+
 		public $updateNav() : void {
 
 			// Update the Navigation
-			//
-			if(!this.sceneState.sceneComplete)
-				this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);		
-			else	
-                this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);		
+            //
+            if(!this.$queryFinished())
+                this.enableNext(false);		
+            else	
+                this.enableNext(true);		
+
+            if(!this.$canGoBack())
+                this.enableBack(false);		
+            else	
+                this.enableBack(true);		
+
 		}
+
     }   
 }

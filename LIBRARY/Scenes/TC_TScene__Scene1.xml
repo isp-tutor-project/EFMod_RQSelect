@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5b8db5f5-000007c2" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1" lastModified="1537219444">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5b8db5f5-000007c2" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1" lastModified="1539615426">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -69,11 +69,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Sample" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="Sample" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Custom Controls/TC_TObject__RedShirtGraphic" name="Ssample" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Assets/Custom Controls/TC_TObject__RedShirtGraphic" name="Ssample">
                   <matrix>
                     <Matrix a="1.06475830078125" d="1.06475830078125" tx="131" ty="578.4"/>
                   </matrix>
@@ -85,7 +85,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>

@@ -36,6 +36,11 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
         static readonly FTRS_ALL:any            = null;        // null to delete all features for an id
         static readonly VAR_FTR                 = "varsel";    // id for the selected variable feature        
+
+        static readonly FTR_PRE:any            = "FTR_PRE";             // null to delete all features for an id
+        static readonly FTR_DEV:any            = "FTR_DEV";             // null to delete all features for an id
+        
+
 	}
 
 }

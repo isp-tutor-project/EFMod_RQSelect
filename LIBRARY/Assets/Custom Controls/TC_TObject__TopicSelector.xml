@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/TC_TObject__TopicSelector" itemID="5b998720-000011a7" lastModified="1536880503">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/TC_TObject__TopicSelector" itemID="5b998720-000011a7" lastModified="1539624746">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TObject__TopicSelector">
       <layers>
-        <DOMLayer name="Sarea1topic2" color="#FF800A" autoNamed="false">
+        <DOMLayer name="Sarea1topic2" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Soda/TL_Soda__Topic" name="Sarea1topic2" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Soda/TL_Soda__Topic" name="Sarea1topic2">
                   <matrix>
                     <Matrix a="0.252304077148438" d="0.252349853515625" tx="253" ty="148.95"/>
                   </matrix>
@@ -89,7 +89,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Crystal/TL_Crystal__Topic" name="Sarea1topic1" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Crystal/TL_Crystal__Topic" name="Sarea1topic1">
                   <matrix>
                     <Matrix a="0.577102661132813" d="0.577102661132813" tx="179.55" ty="148.95"/>
                   </matrix>
@@ -105,7 +105,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Balloon/TL_Balloon__Topic" name="Sarea2topic2" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Balloon/TL_Balloon__Topic" name="Sarea2topic2">
                   <matrix>
                     <Matrix a="0.456878662109375" d="0.456878662109375" tx="166.6" ty="148.95"/>
                   </matrix>
@@ -121,7 +121,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/IceMelt/TL_IceMelt__Topic" name="Sarea2topic1" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/IceMelt/TL_IceMelt__Topic" name="Sarea2topic1">
                   <matrix>
                     <Matrix a="0.502334594726563" d="0.502151489257813" tx="146.6" ty="188.7"/>
                   </matrix>
@@ -137,7 +137,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Sinking/TL_Sinking__Topic" name="Sarea3topic2" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Sinking/TL_Sinking__Topic" name="Sarea3topic2">
                   <matrix>
                     <Matrix a="0.272567749023438" d="0.272674560546875" tx="244.7" ty="160"/>
                   </matrix>
@@ -153,7 +153,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Ramps/TL_Ramps__Topic" name="Sarea3topic1" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Ramps/TL_Ramps__Topic" name="Sarea3topic1">
                   <matrix>
                     <Matrix a="0.5985107421875" d="0.598587036132813" tx="137.45" ty="160"/>
                   </matrix>
@@ -169,7 +169,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Algae/TL_Algae__Topic" name="Sarea4topic2" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Algae/TL_Algae__Topic" name="Sarea4topic2">
                   <matrix>
                     <Matrix a="0.844314575195313" d="0.844436645507813" tx="159.35" ty="152.7"/>
                   </matrix>
@@ -185,7 +185,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/GrHouse/TL_GrHouse__Topic" name="Sarea4topic1" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/GrHouse/TL_GrHouse__Topic" name="Sarea4topic1">
                   <matrix>
                     <Matrix a="0.311248779296875" d="0.311248779296875" tx="121.45" ty="152.7"/>
                   </matrix>
@@ -197,7 +197,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="TC_TObject__AreaSelected" color="#FF800A" autoNamed="false">
+        <DOMLayer name="TC_TObject__AreaSelected" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -213,11 +213,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="TC_TObject__AreaNormal" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="TC_TObject__AreaNormal" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/AreaButton Assets/TC_TObject__AreaNormal" name="Snormal" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/AreaButton Assets/TC_TObject__AreaNormal" name="Snormal">
                   <matrix>
                     <Matrix a="0.836227416992188" d="1.08670043945313"/>
                   </matrix>

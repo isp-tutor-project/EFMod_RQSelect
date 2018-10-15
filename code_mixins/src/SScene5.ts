@@ -15,13 +15,13 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         //
         
         public $onCreateScene() { 
+            this.setSceneValue("complete", false);      
         }
 
         public $onEnterScene() {
         }
         
         public $preEnterScene() {
-            this.$("Sarrow.*").hide();
         }
 
         public $preExitScene() {
@@ -81,74 +81,46 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     switch(cueID) {
                         
                         case "$start":
-                            this.$("Sarrow.").hide();
                             break;
 
                         case "$end":
+                            this.setSceneValue("complete", true);   
                             break;
                     }
                     break;
-
-                case "track2":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.$("Sarrow.").hide();
-                            this.$("Sarrow1").show();
-                            break;
-
-                        case "$end":
-                            break;
-                    }
-                    break;
-                    
-                case "track3":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.$("Sarrow.").hide();
-                            this.$("Sarrow2").show();
-                            break;
-
-                        case "$end":
-                            break;
-                    }
-                    break;
-
-                case "track4":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.$("Sarrow.").hide();
-                            this.$("Sarrow3").show();
-                            break;
-
-                        case "$end":
-                            break;
-                    }
-                    break;
-
-                case "track5":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.$("Sarrow.").hide();
-                            this.$("Sarrow4").show();
-                            break;
-
-                        case "$end":
-                            this.$("Sarrow.").hide();
-                            break;
-                    }
-                    break;
-
             }
         }
 
-        public $onAction(target:string, evt:string) {
+       //***********************************************
+        // Scene State methods
+        //
+
+        public $queryFinished() : boolean {             
+
+            let result:boolean = this.getSceneValue("complete"); 
+
+            return  result; 
         }
 
-        public $timedEvents(id:string) {
+
+        public $onAction(target:string) {         
+            
+            switch(target) {
+            }
         }
+
+
+        public $onSelect(target:string) {            
+
+            switch(target) {
+            }
+        }
+
+
+        public $onClick(target:string) {            
+
+            switch(target) {
+            }
+        }        
     }
 }

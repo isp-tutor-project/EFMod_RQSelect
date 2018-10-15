@@ -17,6 +17,13 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         public $onCreateScene() { 
         }
 
+        public $preCreateScene() {
+
+            // By default disable all Navigation - Let scenes decide
+            // 
+            this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
+        }
+
         public $onEnterScene() {
         }
         
