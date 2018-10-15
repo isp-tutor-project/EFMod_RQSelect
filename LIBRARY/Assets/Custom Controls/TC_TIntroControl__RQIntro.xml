@@ -1,11 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/TC_TIntroControl__RQIntro" itemID="5b8e7c4d-00000f40" lastModified="1539558515">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/TC_TIntroControl__RQIntro" itemID="5b8e7c4d-00000f40" lastModified="1539635469">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TIntroControl__RQIntro">
       <layers>
-        <DOMLayer name="Arrow" color="#00FFFF" autoNamed="false" visible="false">
+        <DOMLayer name="Arrow" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -21,7 +21,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Bubble Text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Bubble Text" color="#9933CC" locked="true" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -69,7 +69,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="BubbleShadow" color="#FF800A" autoNamed="false">
+        <DOMLayer name="BubbleShadow" color="#FF800A" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -88,7 +88,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Box Text" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="Box Text" color="#FF4FFF" locked="true" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -117,7 +117,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="BoxNormal" color="#009999" autoNamed="false" visible="false">
+        <DOMLayer name="BoxNormal" color="#009999" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -130,7 +130,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Box1Float" color="#FF0000" autoNamed="false">
+        <DOMLayer name="Box1Float" color="#FF0000" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

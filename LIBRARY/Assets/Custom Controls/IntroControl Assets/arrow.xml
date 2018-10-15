@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/IntroControl Assets/arrow" itemID="5b8dbdcf-000007dd" lastModified="1536015952">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/IntroControl Assets/arrow" itemID="5b8dbdcf-000007dd" lastModified="1539635379">
   <timeline>
     <DOMTimeline name="arrow">
       <layers>
@@ -9,7 +9,14 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#CCCCCC"/>
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.0584716796875" d="0.05999755859375" tx="47.9" ty="42.85"/>
+                        </matrix>
+                        <GradientEntry ratio="0"/>
+                        <GradientEntry color="#363636" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="1"/>
+                      </LinearGradient>
                     </FillStyle>
                   </fills>
                   <strokes>

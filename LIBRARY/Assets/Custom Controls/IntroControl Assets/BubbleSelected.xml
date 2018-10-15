@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/IntroControl Assets/BubbleSelected" itemID="5b8dc448-0000080d" lastModified="1536017480">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/IntroControl Assets/BubbleSelected" itemID="5b8dc448-0000080d" lastModified="1539634784">
   <timeline>
     <DOMTimeline name="BubbleSelected">
       <layers>
@@ -6,17 +6,17 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMOvalObject objectWidth="301.95" objectHeight="195" x="775" y="96.95" selected="true" endAngle="0">
+                <DOMOvalObject objectWidth="301.95" objectHeight="195" x="775" y="96.95" endAngle="0">
                   <matrix>
                     <Matrix tx="-775" ty="-96.95"/>
                   </matrix>
                   <fill>
-                    <SolidColor color="#005EFF"/>
+                    <SolidColor color="#707F88"/>
                   </fill>
                   <stroke>
                     <SolidStroke scaleMode="normal" weight="10.1">
                       <fill>
-                        <SolidColor color="#00CCFF"/>
+                        <SolidColor color="#FFFF99"/>
                       </fill>
                     </SolidStroke>
                   </stroke>

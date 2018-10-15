@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/IntroControl Assets/BubbleNormal" itemID="5b8dc4ab-0000081a" lastModified="1536024543">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/IntroControl Assets/BubbleNormal" itemID="5b8dc4ab-0000081a" lastModified="1539635316">
   <timeline>
     <DOMTimeline name="BubbleNormal">
       <layers>
@@ -11,7 +11,7 @@
                     <Matrix tx="-775" ty="-96.95"/>
                   </matrix>
                   <fill>
-                    <SolidColor color="#666666"/>
+                    <SolidColor color="#4273F8"/>
                   </fill>
                   <stroke>
                     <SolidStroke scaleMode="normal" weight="10.1">

@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/TC_TButton__AreaButton" itemID="5b998d2b-00001283" symbolType="button" lastModified="1536852796" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/TC_TButton__AreaButton" itemID="5b998d2b-00001283" symbolType="button" lastModified="1539632967" lastUniqueIdentifier="2">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="TC_TButton__AreaButton" currentFrame="1">
+    <DOMTimeline name="TC_TButton__AreaButton">
       <layers>
         <DOMLayer name="Layer_4" color="#FF4FFF">
           <frames>

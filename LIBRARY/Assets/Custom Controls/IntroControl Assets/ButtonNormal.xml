@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/IntroControl Assets/ButtonNormal" itemID="5b8dc00e-000007ee" lastModified="1536017597">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Custom Controls/IntroControl Assets/ButtonNormal" itemID="5b8dc00e-000007ee" lastModified="1539635251">
   <timeline>
     <DOMTimeline name="ButtonNormal">
       <layers>
@@ -11,7 +11,7 @@
                     <Matrix a="0.88946533203125" d="0.675140380859375" tx="-156.55" ty="-95.85"/>
                   </matrix>
                   <fill>
-                    <SolidColor color="#666666"/>
+                    <SolidColor color="#4273F8"/>
                   </fill>
                   <stroke>
                     <SolidStroke scaleMode="normal" weight="9">
