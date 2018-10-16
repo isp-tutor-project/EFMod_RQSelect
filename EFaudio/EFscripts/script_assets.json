@@ -73,7 +73,7 @@
 								"fileid": "0b",
 								"SSML": "But first we will select a general area for the experiment.",
 								"cues": [],
-								"duration": 2995.2916666666665,
+								"duration": 3177.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -118,7 +118,7 @@
 								"fileid": "0b",
 								"SSML": "For example, we might select the general area of psychology.",
 								"cues": [],
-								"duration": 3364.4583333333335,
+								"duration": 3515.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -163,7 +163,7 @@
 								"fileid": "0b",
 								"SSML": "After we select the general area, we will then select a specific topic within that area.",
 								"cues": [],
-								"duration": 4639.208333333333,
+								"duration": 4898.166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -208,7 +208,7 @@
 								"fileid": "0b",
 								"SSML": "For example, within the general area of psychology, we might select the topic attention to color.",
 								"cues": [],
-								"duration": 5364.75,
+								"duration": 5161.541666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -245,7 +245,7 @@
 								"fileid": "0a",
 								"SSML": "Within that topic, you will select a research question.",
 								"cues": [],
-								"duration": 2679,
+								"duration": 2969.4166666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -290,7 +290,7 @@
 								"fileid": "0a",
 								"SSML": "For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 								"cues": [],
-								"duration": 7848.166666666667,
+								"duration": 8147.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -298,7 +298,7 @@
 								"fileid": "0b",
 								"SSML": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 								"cues": [],
-								"duration": 7857.125,
+								"duration": 8152.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -369,7 +369,7 @@
 								"fileid": "0a",
 								"SSML": "Let's begin by focusing on one area of science",
 								"cues": [],
-								"duration": 2926.8333333333335,
+								"duration": 3049.3333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -403,7 +403,7 @@
 								"fileid": "0",
 								"SSML": "Here are some different areas of science.",
 								"cues": [],
-								"duration": 1989.375,
+								"duration": 2164.5416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -493,7 +493,7 @@
 								"fileid": "0",
 								"SSML": "Another area of science is Heat & Temperature.",
 								"cues": [],
-								"duration": 2629.5416666666665,
+								"duration": 2774.9583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -643,7 +643,7 @@
 								"fileid": "0",
 								"SSML": "Within that area, you could study the topics: Flower reproduction or Algae growth.",
 								"cues": [],
-								"duration": 4863.416666666667,
+								"duration": 4523.166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -721,7 +721,7 @@
 								"fileid": "0a",
 								"SSML": "Within the area of physical and chemical changes",
 								"cues": [],
-								"duration": 2661.625,
+								"duration": 2806.8333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1095,7 +1095,7 @@
 								"fileid": "0a",
 								"SSML": "Water temperature",
 								"cues": [],
-								"duration": 1128.875,
+								"duration": 1153.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1119,7 +1119,7 @@
 								"fileid": "0d",
 								"SSML": "The color of the balloon",
 								"cues": [],
-								"duration": 1188.5833333333333,
+								"duration": 1223.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1194,7 +1194,7 @@
 								"fileid": "0a",
 								"SSML": "The type of crystals",
 								"cues": [],
-								"duration": 1209.2083333333333,
+								"duration": 1305.9166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1309,7 +1309,7 @@
 								"fileid": "0c",
 								"SSML": "The pattern on the glass",
 								"cues": [],
-								"duration": 1364.9583333333333,
+								"duration": 1370.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1392,7 +1392,7 @@
 								"fileid": "0a",
 								"SSML": "And the type of string",
 								"cues": [],
-								"duration": 1076,
+								"duration": 1175.6666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1416,7 +1416,7 @@
 								"fileid": "0d",
 								"SSML": "And the type of chair the balloon is tied to",
 								"cues": [],
-								"duration": 2301.75,
+								"duration": 2249.3333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1432,7 +1432,7 @@
 								"fileid": "0f",
 								"SSML": "And the density of the Object",
 								"cues": [],
-								"duration": 1512.625,
+								"duration": 1636.1666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1573,7 +1573,7 @@
 								"fileid": "0b",
 								"SSML": "A mint",
 								"cues": [],
-								"duration": 638.5833333333334,
+								"duration": 537,
 								"trim": 0,
 								"volume": 1
 							},
@@ -1795,7 +1795,7 @@
 								"fileid": "0e",
 								"SSML": "And a ball",
 								"cues": [],
-								"duration": 710.1666666666666,
+								"duration": 727.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2031,7 +2031,7 @@
 								"fileid": "0c",
 								"SSML": "A fish tank filled with 16 liters of water",
 								"cues": [],
-								"duration": 2711.125,
+								"duration": 2691.0416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2114,7 +2114,7 @@
 								"fileid": "0a",
 								"SSML": "And a carbon dioxide machine",
 								"cues": [],
-								"duration": 1830.5,
+								"duration": 1906.7083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2186,7 +2186,7 @@
 								"fileid": "0e",
 								"SSML": "We will place a ball on the ramp.",
 								"cues": [],
-								"duration": 1629.7083333333333,
+								"duration": 1700.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2202,7 +2202,7 @@
 								"fileid": "0g",
 								"SSML": "We will plant twelve sunflowers in the ground in a greenhouse at the beginning of Spring.",
 								"cues": [],
-								"duration": 4328.166666666667,
+								"duration": 4246,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2281,7 +2281,7 @@
 								"fileid": "0d",
 								"SSML": "The ball will roll down the ramp.",
 								"cues": [],
-								"duration": 1477.2916666666667,
+								"duration": 1580.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2324,7 +2324,7 @@
 								"fileid": "0a",
 								"SSML": "We can measure the height of the soda geyser.",
 								"cues": [],
-								"duration": 2094.125,
+								"duration": 2147.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2348,7 +2348,7 @@
 								"fileid": "0d",
 								"SSML": "We will measure the balls speed at the bottom of the ramp.",
 								"cues": [],
-								"duration": 2569.0416666666665,
+								"duration": 2582,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2356,7 +2356,7 @@
 								"fileid": "0e",
 								"SSML": "It will sink to the bottom.",
 								"cues": [],
-								"duration": 1273.5833333333333,
+								"duration": 1136.7083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2372,7 +2372,7 @@
 								"fileid": "0g",
 								"SSML": "We can measure the weight of the algae growth after one week.",
 								"cues": [],
-								"duration": 2794.125,
+								"duration": 2966.0416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2426,7 +2426,7 @@
 								"fileid": "0b",
 								"SSML": "The temperature of the outside air is 27 degrees Celsius.",
 								"cues": [],
-								"duration": 3573.25,
+								"duration": 3720.6666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2563,7 +2563,7 @@
 								"fileid": "0",
 								"SSML": "Push the button in the middle of the screen to see how this experiment works.",
 								"cues": [],
-								"duration": 3643.75,
+								"duration": 3812.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2701,10 +2701,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1169.3875
+										"relTime": 1191.676388888889
 									}
 								],
-								"duration": 2063.625,
+								"duration": 2102.9583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2729,10 +2729,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 2232.7374999999997
+										"relTime": 2340.498611111111
 									}
 								],
-								"duration": 3940.125,
+								"duration": 4130.291666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2743,10 +2743,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1194.1555555555556
+										"relTime": 1312.163888888889
 									}
 								],
-								"duration": 2107.3333333333335,
+								"duration": 2315.5833333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2757,10 +2757,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1272.5444444444443
+										"relTime": 1416.713888888889
 									}
 								],
-								"duration": 2245.6666666666665,
+								"duration": 2500.0833333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -2961,10 +2961,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1431.8
+										"relTime": 1351.5111111111112
 									}
 								],
-								"duration": 2684.625,
+								"duration": 2534.0833333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3099,7 +3099,7 @@
 								"fileid": "0b",
 								"SSML": "Or none might make a difference",
 								"cues": [],
-								"duration": 1540.8333333333333,
+								"duration": 1652.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3115,7 +3115,7 @@
 								"fileid": "0d",
 								"SSML": "Or shade might make a difference",
 								"cues": [],
-								"duration": 1757.2083333333333,
+								"duration": 1618.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3131,7 +3131,7 @@
 								"fileid": "0f",
 								"SSML": "Or tear-shaped might make a difference",
 								"cues": [],
-								"duration": 1926.5833333333333,
+								"duration": 2075.7916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3221,10 +3221,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1218.7111111111112
+										"relTime": 1178.1333333333332
 									}
 								],
-								"duration": 2285.0833333333335,
+								"duration": 2209,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3235,10 +3235,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1557.8666666666666
+										"relTime": 1625.4888888888888
 									}
 								],
-								"duration": 2921,
+								"duration": 3047.7916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3249,10 +3249,10 @@
 									{
 										"name": "a",
 										"offset": 0.5333333333333333,
-										"relTime": 1457.2
+										"relTime": 1462.177777777778
 									}
 								],
-								"duration": 2732.25,
+								"duration": 2741.5833333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3337,7 +3337,7 @@
 								"fileid": "0a",
 								"SSML": "Or none might make a difference.",
 								"cues": [],
-								"duration": 1540.8333333333333,
+								"duration": 1652.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3495,10 +3495,10 @@
 									{
 										"name": "a",
 										"offset": 0.5666666666666667,
-										"relTime": 1501.0055555555557
+										"relTime": 1600.8333333333333
 									}
 								],
-								"duration": 2648.8333333333335,
+								"duration": 2825,
 								"trim": 0,
 								"volume": 1
 							},
@@ -3814,7 +3814,7 @@
 								"fileid": "0b",
 								"SSML": "Our research question is",
 								"cues": [],
-								"duration": 1570.9166666666667,
+								"duration": 1485.1666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4231,7 +4231,7 @@
 								"fileid": "0a",
 								"SSML": "OK! You have chosen as your Research Question",
 								"cues": [],
-								"duration": 2961.5416666666665,
+								"duration": 2885.2083333333335,
 								"trim": 0,
 								"volume": 1
 							},
