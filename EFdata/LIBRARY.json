@@ -351,7 +351,7 @@
             "S10":  {
                 "Stitle":{
                     "htmlData":{
-                        "html": "<p>{{$EFO_EG_A?|rqselectedText}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}</p>"
+                        "html": "<p>{{$EFO_EG_A?|rqselectedText}}<br>{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}</p>"
                     },
 					"text": "",
 					"templateRef": {
@@ -405,11 +405,11 @@
             "S11":  {
                 "Stitle":{
                     "htmlData":{
-                        "html": "<p>{{$EFO_EG_A?|okselected}}<br><br>{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}</p>"
+                        "html": "<p>{{$EFO_EG_A?|okselectedText}}<br><br>{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}</p>"
                     },
 					"text": "",
 					"templateRef": {
-						"EG_A?|okselected": "$EFT_experimentalGroup.ontologyKey",
+						"EG_A?|okselectedText": "$EFT_experimentalGroup.ontologyKey",
 						"S_A?_T?_RQ?|rqselected": "$EFM_selectedRQ.ontologyKey",
 						"S_A?_T?|rqselectedall": "$EFM_selectedRQ.ontologyKey"
 					}
