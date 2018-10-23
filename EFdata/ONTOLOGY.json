@@ -3,7 +3,7 @@
     "_ONTOLOGY": {    
         "S": {
             "A1":{
-                "withinarea":"Within the area of physical and chemical changes",
+                "withinarea":"Within the area of Physical and Chemical Changes,",
                 "T1":{
                     "features":"FTR_CRYSTAL",
                     "wewillselect":"we will select the topic crystal growth",
@@ -151,7 +151,7 @@
                 }        
             },
             "A2": {
-                "withinarea":"Within the area of, heat and temperature",
+                "withinarea":"Within the area of Heat and Temperature,",
                 "T1":{
                     "features":"FTR_ICEMELT",
                     "wewillselect":"we will select the topic ice melting time",
@@ -296,7 +296,7 @@
                 }
             },
             "A3":{
-                "withinarea":"Within the area of, forces and motion",
+                "withinarea":"Within the area of Forces and Motion,",
                 "T1":{
                     "features":"FTR_RAMPS",
                     "wewillselect":"we will select the topic the speed of balls at the bottom of ramps",
@@ -436,7 +436,7 @@
                 }
             },
             "A4":{
-                "withinarea":"Within the area of Plant growth",
+                "withinarea":"Within the area of Plant Reproduction,",
                 "T1":{
                     "features":"FTR_GRHOUSE",
                     "wewillselect":"we will select the topic flower reproduction",
