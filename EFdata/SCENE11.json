@@ -2,9 +2,9 @@
     "_MODULEDATA":"v1.0.0",
     "SScene11": {
         "Stitle": {
-            "layoutsource":"$EFL_eftext.Stitle",
+            "layoutsource":"$EFL_eftext.S11.Stitle",
             "datasource": "$EFL_efdata.S11.Stitle",
-            "fontSize":70
+            "fontSize":55
         }
     }
 }

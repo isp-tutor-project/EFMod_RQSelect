@@ -363,7 +363,7 @@
 					"enumProcess3": "It will sink to the bottom.",
 					"enumProcess4": "",
 					"enumProcess5": "We can measure the time it takes for the object to sink in water.",
-					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time of it takes for objects to sink in water. These are the four variables you can test in this experiment",
+					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time it takes for objects to sink in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The Density of the Water",
 					"enumValue1a": "Low",
 					"enumValue1b": "High",
@@ -749,9 +749,9 @@
 	},
 	"SScene11": {
 		"Stitle": {
-			"layoutsource": "$EFL_eftext.Stitle",
+			"layoutsource": "$EFL_eftext.S11.Stitle",
 			"datasource": "$EFL_efdata.S11.Stitle",
-			"fontSize": 70
+			"fontSize": 55
 		}
 	},
 	"SScene2": {
