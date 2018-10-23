@@ -50,11 +50,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Svar2" color="#009999" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Svar2" color="#009999" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Sinking/TL_Sinking__Topic" name="Svar2" selected="true" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Sinking/TL_Sinking__Topic" name="Svar2" cacheAsBitmap="true">
                   <matrix>
                     <Matrix a="0.272567749023438" d="0.272674560546875" tx="498.95" ty="86.7"/>
                   </matrix>
@@ -70,7 +70,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Imports/Ramps/TL_Ramps__Topic" name="Svar1" selected="true" cacheAsBitmap="true">
+                <DOMSymbolInstance libraryItemName="Imports/Ramps/TL_Ramps__Topic" name="Svar1" cacheAsBitmap="true">
                   <matrix>
                     <Matrix a="0.5985107421875" d="0.598587036132813" tx="65.1" ty="86.7"/>
                   </matrix>
@@ -82,7 +82,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Stitle" color="#669900" autoNamed="false">
+        <DOMLayer name="Stitle" color="#669900" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

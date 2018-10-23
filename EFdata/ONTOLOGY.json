@@ -510,8 +510,8 @@
                 },
                 "T2":{
                     "features":"FTR_ALGAE",
-                    "wewillselect":"we will select the topic algae growth",
-                    "belowarevariables":"Below are some variables that might affect the amount of algae growth in water.",
+                    "wewillselect":"we will select the topic algae reproduction",
+                    "belowarevariables":"Below are some variables that might affect the amount of algae reproduction in water.",
                     "enumVar1":"The Temperature of the Water",
                     "enumVar2":"The Amount of Exposure to Music",
                     "enumVar3":"The Amount of Carbon Dioxide in the Water",
@@ -527,7 +527,7 @@
                     "enumMat8":"And a carbon dioxide machine",
                     "enumProcess1":"We will add fifty grams of algae to a fish tank filled with 16 liters of distilled water.",
                     "enumProcess2":"",
-                    "enumProcess3":"We can measure the weight of the algae growth after one week.",
+                    "enumProcess3":"We can measure the weight of the algae reproduction after one week.",
                     "fourcanchange":"In this experiment, there are only four things we can change. Any of these might make a difference in the weight of the algae after one week. These are the four variables you can test in this experiment",
 
                     "enumValue1":"The Temperature of the Water",
@@ -569,12 +569,12 @@
                         "ExpSelected":"amount of direct sunlight exposure"
                         },
 
-                    "rqselectedall":"affect the weight of the algae growth after one week?",
-                    "rqselectedalls":"affects the weight of the algae growth after one week?",
+                    "rqselectedall":"affect the weight of the algae produced after one week?",
+                    "rqselectedalls":"affects the weight of the algae produced after one week?",
 
-                    "DVg":"Amount of algae growth in water",
-                    "DVst":"The weight of the algae growth after one week",
-                    "DVs":"weight of the algae growth after one week",
+                    "DVg":"Amount of algae produced in water",
+                    "DVst":"The weight of the algae produced after one week",
+                    "DVs":"weight of the algae produced after one week",
                     "DVabb":"algae weight",
 
                     "buttVarName1":"The Temperature of the Water",
@@ -591,10 +591,10 @@
                 "track8":"You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
                 "track9":"Let's begin by focusing on one area of science",
 
-                "S10B1":"I'd like to test a different variable for my research question",
-                "S10B2":"I'd like to pick a different topic in this area",
+                "S10B1":"I'd like to test a different variable for my research question.",
+                "S10B2":"I'd like to pick a different topic in this area.",
                 "S10B3":"I'd like to pick a whole different area.",
-                "S10B4":"I like this question"
+                "S10B4":"I like this question."
             },
             "A1": {
                 "type": "choice",                

@@ -5,7 +5,7 @@
   <timeline>
     <DOMTimeline name="TC_TObject__Area4">
       <layers>
-        <DOMLayer name="SsubTitle2" color="#9933CC" autoNamed="false">
+        <DOMLayer name="SsubTitle2" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -21,11 +21,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="SsubTitle1" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="SsubTitle1" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Static Text Objects/TC_TText__Area4st1" name="SsubTitle1" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/Static Text Objects/TC_TText__Area4st1" name="SsubTitle1">
                   <matrix>
                     <Matrix tx="86.35" ty="314.6"/>
                   </matrix>

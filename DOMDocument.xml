@@ -142,11 +142,11 @@
           <Include href="Assets/Static Text Objects/TC_TText__Area3Or.xml" loadImmediate="false" itemID="5b96dd51-00001df1" lastModified="1536613713"/>
           <Include href="Assets/Static Text Objects/TC_TText__Area3st1.xml" loadImmediate="false" itemID="5b96dd58-00001df5" lastModified="1536613720"/>
           <Include href="Assets/Static Text Objects/TC_TText__Area3st2.xml" loadImmediate="false" itemID="5b96dd5e-00001df9" lastModified="1536613726"/>
-          <Include href="Assets/Static Text Objects/TC_TText__Area3Title.xml" loadImmediate="false" itemID="5b96dd4b-00001ded" lastModified="1536613707"/>
+          <Include href="Assets/Static Text Objects/TC_TText__Area3Title.xml" loadImmediate="false" itemID="5b96dd4b-00001ded" lastModified="1540318552"/>
           <Include href="Assets/Static Text Objects/TC_TText__Area4Or.xml" loadImmediate="false" itemID="5b96dd98-00001e02" lastModified="1536613784"/>
           <Include href="Assets/Static Text Objects/TC_TText__Area4st1.xml" loadImmediate="false" itemID="5b96dda4-00001e06" lastModified="1539624302"/>
-          <Include href="Assets/Static Text Objects/TC_TText__Area4st2.xml" loadImmediate="false" itemID="5b96ddaa-00001e0a" lastModified="1536613802"/>
-          <Include href="Assets/Static Text Objects/TC_TText__Area4Title.xml" loadImmediate="false" itemID="5b96dd90-00001e00" lastModified="1536613776"/>
+          <Include href="Assets/Static Text Objects/TC_TText__Area4st2.xml" loadImmediate="false" itemID="5b96ddaa-00001e0a" lastModified="1540318521"/>
+          <Include href="Assets/Static Text Objects/TC_TText__Area4Title.xml" loadImmediate="false" itemID="5b96dd90-00001e00" lastModified="1540318504"/>
           <Include href="Assets/TC_TButton__StartButton.xml" itemIcon="0" loadImmediate="false" itemID="5bc27384-00002ac8" lastModified="1539470231"/>
           <Include href="Assets/TC_THtmlButton__VarSelector.xml" itemIcon="0" loadImmediate="false" itemID="5ba00a65-000018cc" lastModified="1539558330"/>
           <Include href="Imports/Algae/TL_Algae__Movie.xml" itemID="5b955a58-00000433" lastModified="1536783292"/>
@@ -235,7 +235,7 @@
           <Include href="Scenes/TC_TScene__Scene4.xml" itemID="5b983a09-0000054e" lastModified="1539559129"/>
           <Include href="Scenes/TC_TScene__Scene9.xml" itemID="5ba00e0b-000018e6" lastModified="1539558340"/>
           <Include href="Scenes/TC_TScene__Scene10.xml" itemID="5ba00e15-000018ef" lastModified="1539619647"/>
-          <Include href="Scenes/TC_TScene__Scene11.xml" itemID="5ba00e1d-000018f8" lastModified="1540314032"/>
+          <Include href="Scenes/TC_TScene__Scene11.xml" itemID="5ba00e1d-000018f8" lastModified="1540318485"/>
           <Include href="Scenes/TC_TScene__SceneEnd.xml" itemID="5bc3b57f-000010c6" lastModified="1539563141"/>
           <Include href="Scenes/TC_TScene__SceneStart.xml" itemID="5bc3b5d8-000010c7" lastModified="1539552732"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1536531026"/>

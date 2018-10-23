@@ -90,11 +90,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Sarea4" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Sarea4" color="#FF4F4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/AreaButton Assets/TC_TObject__Area4" name="Sarea4" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/AreaButton Assets/TC_TObject__Area4" name="Sarea4">
                   <matrix>
                     <Matrix tx="981.75" ty="626.95"/>
                   </matrix>
@@ -106,11 +106,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Sarea3" color="#00FFFF" autoNamed="false">
+        <DOMLayer name="Sarea3" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/AreaButton Assets/TC_TObject__Area3" name="Sarea3">
+                <DOMSymbolInstance libraryItemName="Assets/AreaButton Assets/TC_TObject__Area3" name="Sarea3" selected="true">
                   <matrix>
                     <Matrix tx="251.8" ty="626.95"/>
                   </matrix>

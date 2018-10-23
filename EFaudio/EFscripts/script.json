@@ -314,8 +314,8 @@
 			"track8": {
 				"en": {
 					"node": "(root)INTRO",
-					"html": "<p>Another area of science is Plant Growth.</p>",
-					"text": "Another area of science is Plant Growth.",
+					"html": "<p>Another area of science is Plant Reproduction.</p>",
+					"text": "Another area of science is Plant Reproduction.",
 					"templateRef": {},
 					"templates": {},
 					"segments": [],
@@ -332,8 +332,8 @@
 			"track9": {
 				"en": {
 					"node": "(root)INTRO",
-					"html": "<p>Within that area, you could study the topics: Flower reproduction or Algae growth.</p>",
-					"text": "Within that area, you could study the topics: Flower reproduction or Algae growth.",
+					"html": "<p>Within that area, you could study the topics: Flower reproduction or Algae reproduction.</p>",
+					"text": "Within that area, you could study the topics: Flower reproduction or Algae reproduction.",
 					"templateRef": {},
 					"templates": {},
 					"segments": [],
