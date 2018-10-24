@@ -67,7 +67,7 @@
                         "ExpSelected":"type of string"
                     },
                     "rqselectedall":"affect the weight of the crystal growth on a string in water after two weeks?",
-                    "rqselectedalls":"affects the weight of the crystal growth on a string in water after two weeks?",
+                    "rqselectedalls":"affects the weight of the crystal growth on a string after two weeks?",
 
                     "DVg":"amount of crystal growth on a string in water",
                     "DVst":"The weight of the crystal growth on the string after two weeks.",
@@ -137,7 +137,7 @@
                         },
 
                     "rqselectedall":"affect the strength of the reaction between soda and mints?",
-                    "rqselectedalls":"affects the strength of the reaction between soda and mints?",
+                    "rqselectedalls":"affects the height of the soda geyser?",
 
                     "DVg":"Strength of the reaction between soda and mints",
                     "DVst":"The height of the soda geyser",
@@ -209,7 +209,7 @@
                         "ExpSelected":"shape of the glass"
                         },
                         "rqselectedall":"affect the time it takes for an ice cube to melt in water?",
-                        "rqselectedalls":"affects the time it takes for an ice cube to melt in water?",
+                        "rqselectedalls":"affects the time it takes for the ice cube to melt in water?",
 
                         "DVg":"Time it takes for an ice cube to melt in water",
                         "DVst":"The time it takes for the ice cube to melt in water",
@@ -282,7 +282,7 @@
                         },
 
                     "rqselectedall":"affect the gas temperature within the balloon after 30 minutes?",
-                    "rqselectedalls":"affects the gas temperature within the balloon after 30 minutes?",
+                    "rqselectedalls":"affects the gas temperature within balloon after 30 minutes?",
 
                     "DVg":"Temperature of gas in a balloon",
                     "DVst":"The gas temperature within balloon after 30 minutes",

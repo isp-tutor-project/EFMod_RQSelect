@@ -9,7 +9,7 @@
 	"_ONTOLOGY": {
 		"S": {
 			"A1": {
-				"withinarea": "Within the area of physical and chemical changes",
+				"withinarea": "Within the area of Physical and Chemical Changes,",
 				"T1": {
 					"features": "FTR_CRYSTAL",
 					"wewillselect": "we will select the topic crystal growth",
@@ -145,7 +145,7 @@
 				}
 			},
 			"A2": {
-				"withinarea": "Within the area of, heat and temperature",
+				"withinarea": "Within the area of Heat and Temperature,",
 				"T1": {
 					"features": "FTR_ICEMELT",
 					"wewillselect": "we will select the topic ice melting time",
@@ -281,7 +281,7 @@
 				}
 			},
 			"A3": {
-				"withinarea": "Within the area of, forces and motion",
+				"withinarea": "Within the area of Forces and Motion,",
 				"T1": {
 					"features": "FTR_RAMPS",
 					"wewillselect": "we will select the topic the speed of balls at the bottom of ramps",
@@ -413,10 +413,10 @@
 				}
 			},
 			"A4": {
-				"withinarea": "Within the area of Plant growth",
+				"withinarea": "Within the area of Plant Reproduction,",
 				"T1": {
 					"features": "FTR_GRHOUSE",
-					"wewillselect": "we will select the topic flower reproduction",
+					"wewillselect": "we will select the topic Flower Reproduction",
 					"belowarevariables": "Below are some variables that might affect the number of seeds produced by flowers in a greenhouse.",
 					"enumVar1": "The Number of honey bees in the greenhouse",
 					"enumVar2": "The Amount of sunlight the greenhouse lets in",
@@ -482,8 +482,8 @@
 				},
 				"T2": {
 					"features": "FTR_ALGAE",
-					"wewillselect": "we will select the topic algae growth",
-					"belowarevariables": "Below are some variables that might affect the amount of algae growth in water.",
+					"wewillselect": "we will select the topic Algae Reproduction",
+					"belowarevariables": "Below are some variables that might affect the amount of algae produced in water.",
 					"enumVar1": "The Temperature of the Water",
 					"enumVar2": "The Amount of Exposure to Music",
 					"enumVar3": "The Amount of Carbon Dioxide in the Water",
@@ -499,7 +499,7 @@
 					"enumMat8": "And a carbon dioxide machine",
 					"enumProcess1": "We will add fifty grams of algae to a fish tank filled with 16 liters of distilled water.",
 					"enumProcess2": "",
-					"enumProcess3": "We can measure the weight of the algae growth after one week.",
+					"enumProcess3": "We can measure the weight of the algae production after one week.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the weight of the algae after one week. These are the four variables you can test in this experiment",
 					"enumValue1": "The Temperature of the Water",
 					"enumValue1a": "Room Temperature",
@@ -537,11 +537,11 @@
 						"rqselected": "Does the amount of direct sunlight exposure",
 						"ExpSelected": "amount of direct sunlight exposure"
 					},
-					"rqselectedall": "affect the weight of the algae growth after one week?",
-					"rqselectedalls": "affects the weight of the algae growth after one week?",
-					"DVg": "Amount of algae growth in water",
-					"DVst": "The weight of the algae growth after one week",
-					"DVs": "weight of the algae growth after one week",
+					"rqselectedall": "affect the weight of the algae produced after one week?",
+					"rqselectedalls": "affects the weight of the algae produced after one week?",
+					"DVg": "Amount of algae produced in water",
+					"DVst": "The weight of the algae produced after one week",
+					"DVs": "weight of the algae produced after one week",
 					"DVabb": "algae weight",
 					"buttVarName1": "The Temperature of the Water",
 					"buttVarName2": "The Amount of Exposure to Music",
@@ -556,10 +556,10 @@
 				"track1": "In this lesson, we will ask you to set up and evaluate experiments.",
 				"track8": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
 				"track9": "Let's begin by focusing on one area of science",
-				"S10B1": "I'd like to test a different variable for my research question",
-				"S10B2": "I'd like to pick a different topic in this area",
-				"S10B3": "I'd like to picka a whole different area.",
-				"S10B4": "I like this question"
+				"S10B1": "I'd like to test a different variable for my research question.",
+				"S10B2": "I'd like to pick a different topic in this area.",
+				"S10B3": "I'd like to pick a whole different area.",
+				"S10B4": "I like this question."
 			},
 			"A1": {
 				"type": "choice",
@@ -567,8 +567,9 @@
 				"selecttopic": "please select a topic by clicking on a picture below.",
 				"selecttv": "Select the variable you would like to test. This variable is the independent variable of your experiment.",
 				"rqselected": "The research question you have chosen is",
-				"rqselectedText": "Your research question is ",
+				"rqselectedText": "Your research question is:",
 				"okselected": "OK! You have chosen as your Research Question",
+				"okselectedText": "OK! You have chosen as your Research Question:",
 				"cantest": "You can test one of these variables in your experiment.",
 				"track2": "But first you will select a general area for the experiment.",
 				"track3": "For example, you might select the general area of psychology.",
@@ -585,8 +586,9 @@
 				"selecttv": "We will test the following variable:",
 				"selecttv2": ", This variable is the independent variable of the experiment. Please click on the highlighted button below",
 				"rqselected": "Our research question is",
-				"rqselectedText": "Our research question is",
+				"rqselectedText": "Our research question is:",
 				"okselected": "OK! We have chosen the following Research Question",
+				"okselectedText": "OK! We have chosen the following Research Question:",
 				"cantest": "We can test one of these variables in the experiment.",
 				"track2": "But first we will select a general area for the experiment.",
 				"track3": "For example, we might select the general area of psychology.",
