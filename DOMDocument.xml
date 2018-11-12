@@ -233,12 +233,14 @@
           <Include href="Scenes/TC_TScene__Scene2.xml" itemID="5b959925-000006c0" lastModified="1539619742"/>
           <Include href="Scenes/TC_TScene__Scene3.xml" itemID="5b98347e-000004ac" lastModified="1539624715"/>
           <Include href="Scenes/TC_TScene__Scene4.xml" itemID="5b983a09-0000054e" lastModified="1539559129"/>
-          <Include href="Scenes/TC_TScene__Scene9.xml" itemID="5ba00e0b-000018e6" lastModified="1539558340"/>
-          <Include href="Scenes/TC_TScene__Scene10.xml" itemID="5ba00e15-000018ef" lastModified="1539619647"/>
+          <Include href="Scenes/TC_TScene__Scene9.xml" itemID="5ba00e0b-000018e6" lastModified="1541995255"/>
+          <Include href="Scenes/TC_TScene__Scene10.xml" itemID="5ba00e15-000018ef" lastModified="1541974247"/>
           <Include href="Scenes/TC_TScene__Scene11.xml" itemID="5ba00e1d-000018f8" lastModified="1540318485"/>
           <Include href="Scenes/TC_TScene__SceneEnd.xml" itemID="5bc3b57f-000010c6" lastModified="1539563141"/>
           <Include href="Scenes/TC_TScene__SceneStart.xml" itemID="5bc3b5d8-000010c7" lastModified="1539552732"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1536531026"/>
+          <Include href="TC_TClickMask__3butMask.xml" loadImmediate="false" itemID="5be8faea-000004f8" lastModified="1541995242"/>
+          <Include href="TC_TObject__ButtonHL.xml" loadImmediate="false" itemID="5be8f982-00000405" lastModified="1541994882"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">

@@ -22,8 +22,16 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             // Development only!!!!!! - define experimental group assignment
             // 
-            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
-            this.addFeature("FTR_CHOICE");
+            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A2");
+            this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+            this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
+            this.setModuleValue("selectedRQ.ontologyKey", "S_A4_T1_RQ1");
+            
+            this.addFeature("FTR_GRHOUSE");
+            this.addFeature("FTR_NOCHOICE");
+            this.addFeature("FTR_PASS1");
+            this.addFeature("FTR_SHOW_SCENE1");
+
             this.addFeature(CONST.FTR_DEV);
         }
 

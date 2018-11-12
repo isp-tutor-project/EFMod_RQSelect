@@ -557,7 +557,7 @@
 				"track8": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
 				"track9": "Let's begin by focusing on one area of science",
 				"S10B1": "I'd like to test a different variable for my research question.",
-				"S10B2": "I'd like to pick a different topic in this area.",
+				"S10B2": "I'd like to pick a different area or topic.",
 				"S10B3": "I'd like to pick a whole different area.",
 				"S10B4": "I like this question."
 			},
@@ -577,6 +577,7 @@
 				"track5": "For example, within the general area of psychology, you might select the topic attention to color.",
 				"track6": "Within that topic, you will select a research question.",
 				"track7": "For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+				"track10": "Please tap on the area you wish to use for your experiment design.",
 				"rqselectedall": ""
 			},
 			"A2": {
@@ -596,6 +597,7 @@
 				"track5": "For example, within the general area of psychology, we might select the topic attention to color.",
 				"track6": "Within that topic, we will select a research question.",
 				"track7": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+				"track10": "we will select the topic, Plant Reproduction. Please click the highlighted picture below.",
 				"rqselectedall": ""
 			}
 		}
@@ -757,6 +759,12 @@
 		}
 	},
 	"SScene2": {
+		"Sbutton1": {},
+		"Sbutton2": {},
+		"Sbutton3": {},
+		"Sbutton4": {}
+	},
+	"SScene2a": {
 		"Sbutton1": {},
 		"Sbutton2": {},
 		"Sbutton3": {},

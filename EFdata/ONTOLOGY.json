@@ -480,7 +480,8 @@
                     "enumValueUtt4b":"Or tap water.   This might also make a difference",
                     "RQ1":{
                         "rqselected":"Does the number of honey bees in the greenhouse",
-                        "ExpSelected":"number of honey bees in the greenhouse"
+                        "ExpSelected":"number of honey bees in the greenhouse",
+                        "ExpSelected2":"The number of honey bees in the greenhouse"
                         },
                     "RQ2":{
                         "rqselected":"Does the amount of sunlight the greenhouse lets in",
@@ -592,7 +593,7 @@
                 "track9":"Let's begin by focusing on one area of science",
 
                 "S10B1":"I'd like to test a different variable for my research question.",
-                "S10B2":"I'd like to pick a different topic in this area.",
+                "S10B2":"I'd like to pick a different area or topic.",
                 "S10B3":"I'd like to pick a whole different area.",
                 "S10B4":"I like this question."
             },
@@ -612,6 +613,7 @@
                 "track5":"For example, within the general area of psychology, you might select the topic attention to color.",
                 "track6":"Within that topic, you will select a research question.",
                 "track7":"For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+                "track10":"Please tap on the area you wish to use for your experiment design.",
                 "rqselectedall":""
             },
             "A2": {
@@ -631,6 +633,7 @@
                 "track5":"For example, within the general area of psychology, we might select the topic attention to color.",
                 "track6":"Within that topic, we will select a research question.",
                 "track7":"For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+                "track10":"we will select the topic, Plant Reproduction. Please click the highlighted picture below.",
                 "rqselectedall":""
             }
 

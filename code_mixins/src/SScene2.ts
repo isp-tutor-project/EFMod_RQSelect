@@ -207,7 +207,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     }
                     break;
 
-                case "track10":
+                case "track10CHOICE":
                     switch(cueID) {
                         
                         case "$start":
@@ -221,6 +221,20 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     }
                     break;
 
+                case "track10NOCHOICE":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            this.$("Sarea?|Sselected").hide();
+                            this.$("Sarea4|Sselected").show();
+                            this.$("Sbutton4").show();
+                            this.$("Sbutton4").enable();
+                            break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;
             }
         }
 
@@ -234,22 +248,37 @@ namespace EFTut_Suppl.EFMod_RQSelect {
             switch(target) {
                 case "Sbutton1":
                     this.setModuleValue("selectedArea", {"ontologyKey":"S_A1","index":"1"});       
-                    this.$("Sarea1|Sselected").show();                   
+                    this.$("Sarea1|Sselected").show();  
+
+                    this.setSceneValue("Area Name:" + "physical and chemical changes");
+                    this.setSceneValue("Area Index:" + 1);
                     break;
+
                 case "Sbutton2":
                     this.setModuleValue("selectedArea", {"ontologyKey":"S_A2","index":"2"});       
                     // this.setModuleValue("selectedArea.ontologyKey", "S_A2");       
                     this.$("Sarea2|Sselected").show();
+
+                    this.setSceneValue("Area Name:" + "heat and temperature");
+                    this.setSceneValue("Area Index:" + 2);
                     break;
+
                 case "Sbutton3":
                     this.setModuleValue("selectedArea", {"ontologyKey":"S_A3","index":"3"});       
                     // this.setModuleValue("selectedArea.ontologyKey", "S_A3");       
                     this.$("Sarea3|Sselected").show();
+
+                    this.setSceneValue("Area Name:" + "forces and motion");
+                    this.setSceneValue("Area Index:" + 3);
                     break;
+
                 case "Sbutton4":
                     this.setModuleValue("selectedArea", {"ontologyKey":"S_A4","index":"4"});       
                     // this.setModuleValue("selectedArea.ontologyKey", "S_A4");       
                     this.$("Sarea4|Sselected").show();
+                    
+                    this.setSceneValue("Area Name:" + "plant reproduction");
+                    this.setSceneValue("Area Index:" + 4);
                     break;
             }
 

@@ -28,7 +28,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         }
         
         public $preEnterScene() {
-            this.setSceneValue("RQSelected", false);       
+            this.setSceneValue("RQSelected", false);     
+            this.$("SbuttonHL").hide();  
+            this.$("SclickMask").hide();  
         }
 
         public $preExitScene() {
@@ -87,6 +89,31 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         public $cuePoints(trackID:string, cueID:string) {
 
             switch(trackID) {
+
+                case "track1CHOICE":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;
+
+                case "track1NOCHOICE":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            this.$("SbuttonHL").show();  
+                            this.$("SclickMask").show();  
+                            
+                            break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;
             }
         }
 
@@ -99,16 +126,20 @@ namespace EFTut_Suppl.EFMod_RQSelect {
             switch(target) {
 
                 case "Sbutton1":
-                    this.setModuleValue("selectedRQ", {"ontologyKey":`${tKey}_RQ1`,"index":"1"});       
+                    this.setModuleValue("selectedRQ", {"ontologyKey":`${tKey}_RQ1`,"index":"1"});  
+                    this.setSceneValue("Variable Index:" + 1);
                     break;
                 case "Sbutton2":
                     this.setModuleValue("selectedRQ", {"ontologyKey":`${tKey}_RQ2`,"index":"2"});       
+                    this.setSceneValue("Variable Index:" + 2);
                     break;
                 case "Sbutton3":
                     this.setModuleValue("selectedRQ", {"ontologyKey":`${tKey}_RQ3`,"index":"3"});       
+                    this.setSceneValue("Variable Index:" + 3);
                     break;
                 case "Sbutton4":
                     this.setModuleValue("selectedRQ", {"ontologyKey":`${tKey}_RQ4`,"index":"4"});       
+                    this.setSceneValue("Variable Index:" + 4);
                     break;
             }
 

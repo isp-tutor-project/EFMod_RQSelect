@@ -161,7 +161,67 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track10", "autostep":false, "features":""}
+                    {"trackname":"track10CHOICE", "autostep":false, "features":"FTR_CHOICE"},
+                    {"trackname":"track10NOCHOICE", "autostep":false, "features":"FTR_NOCHOICE"}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"NO_SELECTION","edge":"WAITUSERSELECTION" },
+                            {"constraint":"","edge":"NEXTSCENE" }
+                        ]
+                },	                
+
+
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                "type":"module",
+                "name":"NEXTSCENE",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"actionname":"NOOP", "autostep":true, "stepdelay":250, "features":""}    
+                ],                        
+                "edges":
+                        [
+                        ]
+                }															
+		},		
+			
+		"CModules":
+		{		
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+		}
+	},
+
+	"SScene2a":
+	{	
+		"COMMENT":"Areas of Science...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Welcome...",
+                    "type":"module",
+                    "name":"RQAreasOfScience",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                    ],                        
+                    "edges":
+							[
+								{"constraint":"","edge":"WAITUSERSELECTION" }
+							]
+					},					
+                                
+            "WAITUSERSELECTION":{"COMMENT":"Welcome...",
+                "type":"module",
+                "name":"RQAreasOfScience",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track1", "autostep":false, "features":""}
                 ],                        
                 "edges":
                         [

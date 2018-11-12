@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_RQSelect {
 
-    export class SScene3 {
+    export class SScene2a {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -29,18 +29,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         
         public $preEnterScene() {
             this.$("Sbutton.*").hide();
+            this.$("Sarea.*|Sselected,SsubTitle1,SsubTitle2,Sor").show();
 
-            this.$("Stopic.|Sarea.topic.,Sarea.title.,Sselected").hide();
-
-            let x = this.getModuleValue("selectedArea.index");     
-
-            this.$(`Stopic1|Sarea${x}topic1,Sarea${x}title1`).show();
-            this.$(`Stopic2|Sarea${x}topic2,Sarea${x}title2`).show();
-
-            this.setSceneValue("TopicSelected", false);       
-
-            this.delFeature("FTR_PASS1");
-            this.addFeature("FTR_PASS2");
+            this.setSceneValue("AreaSelected", false);       
         }
 
         public $preExitScene() {
@@ -86,7 +77,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             switch(constrainId) {
                 case "NO_SELECTION":
-                    result = !this.getSceneValue("TopicSelected");           
+                    result = !this.getSceneValue("AreaSelected");           
                     break;
             }
 
@@ -99,10 +90,11 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             switch(trackID) {
 
-                case "track1CHOICE":
+                case "track1":
                     switch(cueID) {
                         
                         case "$start":
+                            this.$("Sarea?|Sselected").hide();
                             this.$("Sbutton.*").show();
                             this.$("Sbutton.*").enable();
                             break;
@@ -112,59 +104,55 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     }
                     break;
 
-                case "track1NOCHOICE":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.$("Sbutton1").show();
-                            this.$("Sbutton1").enable();
-
-                            this.$("Stopic1|Sselected").show();
-                            break;
-
-                        case "$end":
-                            break;
-                    }
-                    break;
             }
         }
-
 
         public $onAction(target:string, evt:string) {
 
             this.$("Sbutton.*").disable();
             this.$("Sbutton.*").hide();
 
-            this.setSceneValue("TopicSelected", true);       
-
-            let x = this.getModuleValue("selectedArea.index");     
-
-            this.delFeature(CONST.FTRS_ALL, CONST.VAR_FTR);
+            this.setSceneValue("AreaSelected", true);       
 
             switch(target) {
-
                 case "Sbutton1":
-                    this.setModuleValue("selectedTopic", {"ontologyKey":`S_A${x}_T1`,"index":"1"});      
-                    this.addFeaturebyQuery(`S_A${x}_T1|features`, CONST.VAR_FTR);
-                    this.$("Stopic1|Sselected").show();                   
+                    this.setModuleValue("selectedArea", {"ontologyKey":"S_A1","index":"1"});       
+                    this.$("Sarea1|Sselected").show();  
 
-                    this.setSceneValue("Topic Index:" + 1);
+                    this.setSceneValue("Area Name:" + "physical and chemical changes");
+                    this.setSceneValue("Area Index:" + 1);
                     break;
 
                 case "Sbutton2":
-                    this.setModuleValue("selectedTopic", {"ontologyKey":`S_A${x}_T2`,"index":"2"});       
-                    this.addFeaturebyQuery(`S_A${x}_T2|features`, CONST.VAR_FTR);
-                    this.$("Stopic2|Sselected").show();
+                    this.setModuleValue("selectedArea", {"ontologyKey":"S_A2","index":"2"});       
+                    // this.setModuleValue("selectedArea.ontologyKey", "S_A2");       
+                    this.$("Sarea2|Sselected").show();
 
-                    this.setSceneValue("Topic Index:" + 2);
+                    this.setSceneValue("Area Name:" + "heat and temperature");
+                    this.setSceneValue("Area Index:" + 2);
+                    break;
+
+                case "Sbutton3":
+                    this.setModuleValue("selectedArea", {"ontologyKey":"S_A3","index":"3"});       
+                    // this.setModuleValue("selectedArea.ontologyKey", "S_A3");       
+                    this.$("Sarea3|Sselected").show();
+
+                    this.setSceneValue("Area Name:" + "forces and motion");
+                    this.setSceneValue("Area Index:" + 3);
+                    break;
+
+                case "Sbutton4":
+                    this.setModuleValue("selectedArea", {"ontologyKey":"S_A4","index":"4"});       
+                    // this.setModuleValue("selectedArea.ontologyKey", "S_A4");       
+                    this.$("Sarea4|Sselected").show();
+                    
+                    this.setSceneValue("Area Name:" + "plant reproduction");
+                    this.setSceneValue("Area Index:" + 4);
                     break;
             }
 
             this.nextTrack("$onAction:" + target);
         }
 
-
-        public $timedEvents(id:string) {
-        }
     }
 }

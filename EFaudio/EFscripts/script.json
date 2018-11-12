@@ -347,11 +347,51 @@
 					"cueSet": ".................................................................................."
 				}
 			},
-			"track10": {
+			"track10CHOICE": {
 				"en": {
 					"node": "(root)INTRO",
-					"html": "<p>Please tap on the area you wish to use for your experiment design.</p>",
-					"text": "Please tap on the area you wish to use for your experiment design.",
+					"html": "<p>{{$EFO_EG_A1|track10}}</p>",
+					"text": "{{$EFO_EG_A1|track10}}",
+					"templateRef": {},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": "........................................................."
+				}
+			},
+			"track10NOCHOICE": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_A2|track10}}</p>",
+					"text": "{{$EFO_EG_A2|track10}}",
+					"templateRef": {},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": "........................................................."
+				}
+			}
+		}
+	},
+	"SScene2a": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "(root)INTRO",
+					"html": "<p>{{$EFO_EG_A1|track10}}</p>",
+					"text": "{{$EFO_EG_A1|track10}}",
 					"templateRef": {},
 					"templates": {},
 					"segments": [],
@@ -532,7 +572,7 @@
 			"track1": {
 				"en": {
 					"node": "(root)APPARATUS",
-					"html": "Let's see how this experiment works",
+					"html": "Let's see the procedure for one practice trial for this experiment.",
 					"text": "Let's see how this experiment works",
 					"templateRef": {},
 					"segments": [],
@@ -882,7 +922,7 @@
 			"track1": {
 				"en": {
 					"node": "(root)DEMO",
-					"html": "Push the button in the middle of the screen to see how this experiment works.",
+					"html": "Push the button in the middle of the screen to see the procedure for one practice trial for this experiment.",
 					"text": "Push the button in the middle of the screen to see how this experiment works.",
 					"templateRef": {},
 					"segments": [],
@@ -1108,11 +1148,11 @@
 			"track1NOCHOICE": {
 				"en": {
 					"node": "(root)SELECTTV",
-					"html": "{{$EFO_EG_A?|selecttv}}{{$EFO_S_A?_T?|enumValue?}}{{$EFO_EG_A?|selecttv2}}",
-					"text": "{{$EFO_EG_A?|selecttv}}{{$EFO_S_A?_T?|enumValue?}}{{$EFO_EG_A?|selecttv2}}",
+					"html": "{{$EFO_EG_A?|selecttv}}{{$EFO_S_A?_T?_RQ?|ExpSelected2}}{{$EFO_EG_A?|selecttv2}}",
+					"text": "{{$EFO_EG_A?|selecttv}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_EG_A?|selecttv2}}",
 					"templateRef": {
 						"$EFO_EG_A?|selecttv": "$EFT_experimentalGroup.ontologyKey",
-						"$EFO_S_A?_T?|enumValue?": "$EFM_selectedTopic.ontologyKey",
+						"$EFO_S_A?_T?_RQ?|ExpSelected2": "$EFM_selectedRQ.ontologyKey",
 						"$EFO_EG_A?|selecttv2": "$EFT_experimentalGroup.ontologyKey"
 					},
 					"segments": [],
