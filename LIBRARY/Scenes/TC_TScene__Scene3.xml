@@ -1,22 +1,22 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene3" itemID="5b98347e-000004ac" linkageExportForAS="true" linkageClassName="TC_TScene__Scene3" lastModified="1539624715" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene3" itemID="5b98347e-000004ac" linkageExportForAS="true" linkageClassName="TC_TScene__Scene3" lastModified="1542057836" lastUniqueIdentifier="1">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TScene__Scene3">
       <layers>
-        <DOMLayer name="Layer_3" color="#FF800A" visible="false">
+        <DOMLayer name="Layer_3" color="#FF800A">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_2" color="#9933CC" visible="false">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Custom Controls/TC_TButton__AreaButton" name="Sbutton1" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/Custom Controls/TC_TButton__AreaButton" name="Sbutton1" symbolType="button">
                   <matrix>
                     <Matrix a="0.836196899414063" d="1.08673095703125" tx="318.5" ty="498.6"/>
                   </matrix>
@@ -36,7 +36,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Stopic2" color="#FF800A" autoNamed="false" visible="false">
+        <DOMLayer name="Stopic2" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -52,11 +52,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Stopic1" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Stopic1" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Custom Controls/TC_TObject__TopicSelector" name="Stopic1" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/Custom Controls/TC_TObject__TopicSelector" name="Stopic1">
                   <matrix>
                     <Matrix tx="318.5" ty="498.6"/>
                   </matrix>
@@ -68,11 +68,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Stitle" color="#009999" autoNamed="false" visible="false">
+        <DOMLayer name="Stitle" color="#009999" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle" selected="true">
                   <matrix>
                     <Matrix a="14.5375366210938" d="2.40605163574219" tx="288.8" ty="125.5"/>
                   </matrix>
@@ -84,7 +84,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="TC_TVirtual__SceneRgn" color="#FF0000" locked="true" autoNamed="false" visible="false">
+        <DOMLayer name="TC_TVirtual__SceneRgn" color="#FF0000" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

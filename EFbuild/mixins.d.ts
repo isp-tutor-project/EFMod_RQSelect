@@ -364,6 +364,29 @@ declare namespace EFTut_Suppl.EFMod_RQSelect {
     }
 }
 declare namespace EFTut_Suppl.EFMod_RQSelect {
+    class SSceneBL {
+        [key: string]: any;
+        $preCreateScene(): void;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): any;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $queryFinished(): boolean;
+        $onAction(target: string): void;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_RQSelect {
     class SSceneEnd {
         [key: string]: any;
         $preCreateScene(): void;

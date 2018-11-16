@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_RQSelect {
 
-    export class SNavigator {
+    export class SSceneBL {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -18,11 +18,14 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             // By default disable all Navigation - Let scenes decide
             // 
-            this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+        }
+
+        public $onCreateScene() { 
+            this.setSceneValue("complete", false);      
         }
 
         public $onEnterScene() {
-
         }
         
         public $preEnterScene() {
@@ -49,7 +52,11 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         //***********************************************
         // Scene graph methods
         //
-        public $nodePreEnter(nodeId:string) {
+        public $nodePreEnter(nodeId:string) {            
+
+            switch(nodeId) {
+            }
+
         }
 
         public $nodePreExit(nodeId:string) {
@@ -65,6 +72,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             let result:boolean = false;
 
+            switch(constrainId) {
+            }
+
             return result;
         }
 
@@ -72,18 +82,52 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         // 
         public $cuePoints(trackID:string, cueID:string) {
 
-            switch(cueID) {
-                
-                case "$start":
-                    console.log("executing CuePoint START");
-                    break;
-                case "$end":
-                    console.log("executing CuePoint END");
+            switch(trackID) {
+
+                case "track1":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            break;
+
+                        case "$end":
+                            this.setSceneValue("complete", true);   
+                            break;
+                    }
                     break;
             }
         }
 
-        public $timedEvents(id:string) {
+       //***********************************************
+        // Scene State methods
+        //
+
+        public $queryFinished() : boolean {             
+
+            let result:boolean = this.getSceneValue("complete"); 
+
+            return  result; 
         }
+
+
+        public $onAction(target:string) {         
+            
+            switch(target) {
+            }
+        }
+
+
+        public $onSelect(target:string) {            
+
+            switch(target) {
+            }
+        }
+
+
+        public $onClick(target:string) {            
+
+            switch(target) {
+            }
+        }        
     }
 }

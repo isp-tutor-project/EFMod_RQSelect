@@ -21,12 +21,52 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         }
 
         public $onEnterScene() {
+
         }
         
         public $preEnterScene() {
             // Next button only - navigate scene tracks
             // 
             this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
+
+            // DEV ONLY
+            // TODO : Add a uniform way to initialize tutor variables.
+            // 
+            this.addFeature("FTR_PASS1");
+
+            // Development only!!!!!! - define experimental group assignment
+            // 
+            if(this.testFeatures("FTR_BASELINE")) {
+
+                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A3");
+
+                this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+                this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
+                this.setModuleValue("selectedVariable.ontologyKey", "STBL_A4_T1_V1|name");                
+                this.setModuleValue("selectedRQ.ontologyKey", "S_A4_T1_RQ1");
+
+                this.setModuleValue("selectedArea.index", 4);
+                this.setModuleValue("selectedTopic.index", 1);
+                this.setModuleValue("selectedVariable.index", 1);
+                
+                this.addFeature("FTR_GRHOUSE");
+
+            }
+            if(this.testFeatures("FTR_NOCHOICE")) {
+
+                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A2");
+
+                this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+                this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
+                this.setModuleValue("selectedVariable.ontologyKey", "STBL_A4_T1_V1|name");                
+                this.setModuleValue("selectedRQ.ontologyKey", "S_A4_T1_RQ1");
+                
+                this.setModuleValue("selectedArea.index", 4);
+                this.setModuleValue("selectedTopic.index", 1);
+                this.setModuleValue("selectedVariable.index", 1);
+                
+                this.addFeature("FTR_GRHOUSE");
+            }
         }
 
         public $preShowScene() {                   

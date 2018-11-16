@@ -100,15 +100,6 @@ var EFTut_Suppl;
         class SNavigator {
             $preCreateScene() {
                 this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
-                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A2");
-                this.setModuleValue("selectedArea.ontologyKey", "S_A4");
-                this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
-                this.setModuleValue("selectedRQ.ontologyKey", "S_A4_T1_RQ1");
-                this.addFeature("FTR_GRHOUSE");
-                this.addFeature("FTR_NOCHOICE");
-                this.addFeature("FTR_PASS1");
-                this.addFeature("FTR_SHOW_SCENE1");
-                this.addFeature(EFMod_RQSelect.CONST.FTR_DEV);
             }
             $onEnterScene() {
             }
@@ -1725,6 +1716,81 @@ var EFTut_Suppl;
 (function (EFTut_Suppl) {
     var EFMod_RQSelect;
     (function (EFMod_RQSelect) {
+        class SSceneBL {
+            $preCreateScene() {
+                this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
+            }
+            $onCreateScene() {
+                this.setSceneValue("complete", false);
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+            }
+            $preExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $nodePreEnter(nodeId) {
+                switch (nodeId) {
+                }
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
+                        }
+                        break;
+                }
+            }
+            $queryFinished() {
+                let result = this.getSceneValue("complete");
+                return result;
+            }
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_RQSelect.SSceneBL = SSceneBL;
+    })(EFMod_RQSelect = EFTut_Suppl.EFMod_RQSelect || (EFTut_Suppl.EFMod_RQSelect = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_RQSelect;
+    (function (EFMod_RQSelect) {
         class SSceneEnd {
             $preCreateScene() {
             }
@@ -1807,6 +1873,29 @@ var EFTut_Suppl;
             }
             $preEnterScene() {
                 this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
+                this.addFeature("FTR_PASS1");
+                if (this.testFeatures("FTR_BASELINE")) {
+                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A3");
+                    this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+                    this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
+                    this.setModuleValue("selectedVariable.ontologyKey", "STBL_A4_T1_V1|name");
+                    this.setModuleValue("selectedRQ.ontologyKey", "S_A4_T1_RQ1");
+                    this.setModuleValue("selectedArea.index", 4);
+                    this.setModuleValue("selectedTopic.index", 1);
+                    this.setModuleValue("selectedVariable.index", 1);
+                    this.addFeature("FTR_GRHOUSE");
+                }
+                if (this.testFeatures("FTR_NOCHOICE")) {
+                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A2");
+                    this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+                    this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
+                    this.setModuleValue("selectedVariable.ontologyKey", "STBL_A4_T1_V1|name");
+                    this.setModuleValue("selectedRQ.ontologyKey", "S_A4_T1_RQ1");
+                    this.setModuleValue("selectedArea.index", 4);
+                    this.setModuleValue("selectedTopic.index", 1);
+                    this.setModuleValue("selectedVariable.index", 1);
+                    this.addFeature("FTR_GRHOUSE");
+                }
             }
             $preShowScene() {
             }

@@ -44,6 +44,27 @@
 					"html": "\n        <p></p>\n    "
 				}
 			},
+			"StitleBL": {
+				"src": "$$EFX.html_text2",
+				"htmlData": {
+					"style": {
+						"[stitlebl].outerContainer": {
+							"text-align": "center",
+							"user-select": "none",
+							"color": "rgb(0, 0, 0)",
+							"font-weight": "bold",
+							"font-family": "'PT Sans'",
+							"font-size": "41px",
+							"height": "158px",
+							"width": "274px"
+						},
+						"[stitlebl] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p></p>\n    "
+				}
+			},
 			"Svar1": {
 				"src": "$$EFX.html_text3",
 				"htmlData": {
@@ -348,6 +369,12 @@
 		"efinput": {},
 		"eftable": {},
 		"efdata": {
+			"SBLStitle": {
+				"htmlData": {
+					"html": "<p>{{$EFO_EG_A3|introtitle}}</p>"
+				},
+				"templateRef": {}
+			},
 			"S3StitleC": {
 				"htmlData": {
 					"html": "<p>{{$EFO_S_A?|withinarea}}{{$EFO_EG_A?|selecttopic}}</p>"

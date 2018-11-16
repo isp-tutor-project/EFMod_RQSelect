@@ -69,6 +69,53 @@
     },
 
 
+	"SSceneBL":
+	{	
+		"COMMENT":"TED BaseLine Introduction sequence...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Welcome...",
+                    "type":"module",
+                    "name":"RQSelectIntro",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1", "autostep":false, "stepdelay":0,  "features":""}
+                    ],                        
+                    "edges":
+							[
+								{"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					
+										
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    "type":"module", 
+                    "name":"NEXTSCENE",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                    ],                                              
+                    "edges":
+                            [
+                            ]
+                    }															
+           },		
+			
+		"CModules":
+		{		
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"	
+		}
+	},
+	
+	
+
+
 	"SScene1":
 	{	
 		"COMMENT":"TED Introduction sequence...",
@@ -102,7 +149,7 @@
 							]
 					},					
 										
-                    "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,

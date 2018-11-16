@@ -1,4 +1,26 @@
 {
+	"SSceneBL": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "(root)BASELINEINTRO",
+					"html": "<p>{{$EFO_EG_A3|introtitle}}</p>",
+					"text": "{{$EFO_EG_A3|introtitle}}",
+					"templateRef": {},
+					"templates": {},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".......a..............."
+				}
+			}
+		}
+	},
 	"SScene1": {
 		"tracks": {
 			"track1": {
@@ -573,7 +595,7 @@
 				"en": {
 					"node": "(root)APPARATUS",
 					"html": "Let's see the procedure for one practice trial for this experiment.",
-					"text": "Let's see how this experiment works",
+					"text": "Let's see the procedure for one practice trial for this experiment.",
 					"templateRef": {},
 					"segments": [],
 					"timedSet": [],
@@ -923,7 +945,7 @@
 				"en": {
 					"node": "(root)DEMO",
 					"html": "Push the button in the middle of the screen to see the procedure for one practice trial for this experiment.",
-					"text": "Push the button in the middle of the screen to see how this experiment works.",
+					"text": "Push the button in the middle of the screen to see the procedure for one practice trial for this experiment.",
 					"templateRef": {},
 					"segments": [],
 					"timedSet": [],
@@ -1149,7 +1171,7 @@
 				"en": {
 					"node": "(root)SELECTTV",
 					"html": "{{$EFO_EG_A?|selecttv}}{{$EFO_S_A?_T?_RQ?|ExpSelected2}}{{$EFO_EG_A?|selecttv2}}",
-					"text": "{{$EFO_EG_A?|selecttv}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_EG_A?|selecttv2}}",
+					"text": "{{$EFO_EG_A?|selecttv}}{{$EFO_S_A?_T?_RQ?|ExpSelected2}}{{$EFO_EG_A?|selecttv2}}",
 					"templateRef": {
 						"$EFO_EG_A?|selecttv": "$EFT_experimentalGroup.ontologyKey",
 						"$EFO_S_A?_T?_RQ?|ExpSelected2": "$EFM_selectedRQ.ontologyKey",

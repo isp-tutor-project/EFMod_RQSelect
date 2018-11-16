@@ -455,7 +455,8 @@
 					"enumValueUtt4b": "Or tap water.   This might also make a difference",
 					"RQ1": {
 						"rqselected": "Does the number of honey bees in the greenhouse",
-						"ExpSelected": "number of honey bees in the greenhouse"
+						"ExpSelected": "number of honey bees in the greenhouse",
+						"ExpSelected2": "The number of honey bees in the greenhouse"
 					},
 					"RQ2": {
 						"rqselected": "Does the amount of sunlight the greenhouse lets in",
@@ -599,6 +600,11 @@
 				"track7": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 				"track10": "we will select the topic, Plant Reproduction. Please click the highlighted picture below.",
 				"rqselectedall": ""
+			},
+			"A3": {
+				"introtitle": "<p>In this lesson, we will ask you to set up and evaluate experiments.</p><p>Here is the procedure for one practice trial for this experiment.</p>",
+				"okselected": "OK! First, design an experiment to answer this research question: Does the",
+				"okselectedText": "OK! First, design an experiment to answer this research question: Does the"
 			}
 		}
 	},
@@ -893,6 +899,13 @@
 				"datasource": "$EFL_efdata.S9.Sbutton4",
 				"fontSize": 60
 			}
+		}
+	},
+	"SSceneBL": {
+		"StitleBL": {
+			"layoutsource": "$EFL_eftext.StitleBL",
+			"datasource": "$EFL_efdata.SBLStitle",
+			"fontSize": 60
 		}
 	},
 	"SSceneStart": {

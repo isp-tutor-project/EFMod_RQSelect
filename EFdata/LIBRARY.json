@@ -8,6 +8,9 @@
             "Stitle": {
                 "src": "$$EFX.html_text2"
             },
+            "StitleBL": {
+                "src": "$$EFX.html_text2"
+            },
             "Svar1": {
                 "src": "$$EFX.html_text3"
             },
@@ -133,6 +136,14 @@
         "efinput": {},
         "eftable": {},
         "efdata": {
+
+            "SBLStitle": {
+                "htmlData":{
+                    "html": "<p>{{$EFO_EG_A3|introtitle}}</p>"
+                },
+                "templateRef": {
+                }
+            },
 
             "S3StitleC": {
                 "htmlData":{
