@@ -658,25 +658,29 @@ var EFTut_Suppl;
                 this.setSceneValue("AreaSelected", true);
                 switch (target) {
                     case "Sbutton1":
-                        this.setModuleValue("selectedArea", { "ontologyKey": "S_A1", "index": "1" });
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A1");
+                        this.setModuleValue("selectedArea.index", 1);
                         this.$("Sarea1|Sselected").show();
                         this.setSceneValue("Area Name:" + "physical and chemical changes");
                         this.setSceneValue("Area Index:" + 1);
                         break;
                     case "Sbutton2":
-                        this.setModuleValue("selectedArea", { "ontologyKey": "S_A2", "index": "2" });
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A2");
+                        this.setModuleValue("selectedArea.index", 2);
                         this.$("Sarea2|Sselected").show();
                         this.setSceneValue("Area Name:" + "heat and temperature");
                         this.setSceneValue("Area Index:" + 2);
                         break;
                     case "Sbutton3":
-                        this.setModuleValue("selectedArea", { "ontologyKey": "S_A3", "index": "3" });
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A3");
+                        this.setModuleValue("selectedArea.index", 3);
                         this.$("Sarea3|Sselected").show();
                         this.setSceneValue("Area Name:" + "forces and motion");
                         this.setSceneValue("Area Index:" + 3);
                         break;
                     case "Sbutton4":
-                        this.setModuleValue("selectedArea", { "ontologyKey": "S_A4", "index": "4" });
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+                        this.setModuleValue("selectedArea.index", 4);
                         this.$("Sarea4|Sselected").show();
                         this.setSceneValue("Area Name:" + "plant reproduction");
                         this.setSceneValue("Area Index:" + 4);
@@ -756,25 +760,29 @@ var EFTut_Suppl;
                 this.setSceneValue("AreaSelected", true);
                 switch (target) {
                     case "Sbutton1":
-                        this.setModuleValue("selectedArea", { "ontologyKey": "S_A1", "index": "1" });
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A1");
+                        this.setModuleValue("selectedArea.index", 1);
                         this.$("Sarea1|Sselected").show();
                         this.setSceneValue("Area Name:" + "physical and chemical changes");
                         this.setSceneValue("Area Index:" + 1);
                         break;
                     case "Sbutton2":
-                        this.setModuleValue("selectedArea", { "ontologyKey": "S_A2", "index": "2" });
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A2");
+                        this.setModuleValue("selectedArea.index", 2);
                         this.$("Sarea2|Sselected").show();
                         this.setSceneValue("Area Name:" + "heat and temperature");
                         this.setSceneValue("Area Index:" + 2);
                         break;
                     case "Sbutton3":
-                        this.setModuleValue("selectedArea", { "ontologyKey": "S_A3", "index": "3" });
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A3");
+                        this.setModuleValue("selectedArea.index", 3);
                         this.$("Sarea3|Sselected").show();
                         this.setSceneValue("Area Name:" + "forces and motion");
                         this.setSceneValue("Area Index:" + 3);
                         break;
                     case "Sbutton4":
-                        this.setModuleValue("selectedArea", { "ontologyKey": "S_A4", "index": "4" });
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+                        this.setModuleValue("selectedArea.index", 4);
                         this.$("Sarea4|Sselected").show();
                         this.setSceneValue("Area Name:" + "plant reproduction");
                         this.setSceneValue("Area Index:" + 4);
@@ -871,13 +879,15 @@ var EFTut_Suppl;
                 this.delFeature(EFMod_RQSelect.CONST.FTRS_ALL, EFMod_RQSelect.CONST.VAR_FTR);
                 switch (target) {
                     case "Sbutton1":
-                        this.setModuleValue("selectedTopic", { "ontologyKey": `S_A${x}_T1`, "index": "1" });
+                        this.setModuleValue("selectedTopic.ontologyKey", `S_A${x}_T1`);
+                        this.setModuleValue("selectedTopic.index", 1);
                         this.addFeaturebyQuery(`S_A${x}_T1|features`, EFMod_RQSelect.CONST.VAR_FTR);
                         this.$("Stopic1|Sselected").show();
                         this.setSceneValue("Topic Index:" + 1);
                         break;
                     case "Sbutton2":
-                        this.setModuleValue("selectedTopic", { "ontologyKey": `S_A${x}_T2`, "index": "2" });
+                        this.setModuleValue("selectedTopic.ontologyKey", `S_A${x}_T2`);
+                        this.setModuleValue("selectedTopic.index", 2);
                         this.addFeaturebyQuery(`S_A${x}_T2|features`, EFMod_RQSelect.CONST.VAR_FTR);
                         this.$("Stopic2|Sselected").show();
                         this.setSceneValue("Topic Index:" + 2);
@@ -1688,18 +1698,26 @@ var EFTut_Suppl;
                 let tKey = this.getModuleValue("selectedTopic.ontologyKey");
                 switch (target) {
                     case "Sbutton1":
+                        this.setModuleValue("selectedVariable.ontologyKey", `${tKey}_V1`);
+                        this.setModuleValue("selectedVariable.index", 1);
                         this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ1`, "index": "1" });
                         this.setSceneValue("Variable Index:" + 1);
                         break;
                     case "Sbutton2":
+                        this.setModuleValue("selectedVariable.ontologyKey", `${tKey}_V2`);
+                        this.setModuleValue("selectedVariable.index", 2);
                         this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ2`, "index": "2" });
                         this.setSceneValue("Variable Index:" + 2);
                         break;
                     case "Sbutton3":
+                        this.setModuleValue("selectedVariable.ontologyKey", `${tKey}_V3`);
+                        this.setModuleValue("selectedVariable.index", 3);
                         this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ3`, "index": "3" });
                         this.setSceneValue("Variable Index:" + 3);
                         break;
                     case "Sbutton4":
+                        this.setModuleValue("selectedVariable.ontologyKey", `${tKey}_V4`);
+                        this.setModuleValue("selectedVariable.index", 4);
                         this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ4`, "index": "4" });
                         this.setSceneValue("Variable Index:" + 4);
                         break;

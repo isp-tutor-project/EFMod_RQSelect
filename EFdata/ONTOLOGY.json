@@ -638,8 +638,9 @@
             },
             "A3": {
                 "introtitle": "<p>In this lesson, we will ask you to set up and evaluate experiments.</p><p>Here is the procedure for one practice trial for this experiment.</p>",
-                "okselected":"OK! First, design an experiment to answer this research question: Does the",
-                "okselectedText":"OK! First, design an experiment to answer this research question: Does the"
+                "okselected":"OK! First, design an experiment to answer this research question: ",
+                "okselectedText":"OK! First, design an experiment to answer this research question: ",
+                "cantest":"We can test one of these variables in the experiment."
             }
         }
     }

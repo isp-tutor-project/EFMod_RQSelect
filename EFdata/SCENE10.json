@@ -4,7 +4,7 @@
         "Stitle": {
             "layoutsource":"$EFL_eftext.Stitle",
             "datasource": "$EFL_efdata.S10.Stitle",
-             "fontSize":60
+             "fontSize":50
         },
         "Sbutton1": {
             "buttonHTML": {

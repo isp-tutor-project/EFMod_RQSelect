@@ -144,16 +144,22 @@ namespace EFTut_Suppl.EFMod_RQSelect {
             switch(target) {
 
                 case "Sbutton1":
-                    this.setModuleValue("selectedTopic", {"ontologyKey":`S_A${x}_T1`,"index":"1"});      
+                    this.setModuleValue("selectedTopic.ontologyKey",`S_A${x}_T1`);
+                    this.setModuleValue("selectedTopic.index",1);       
+
                     this.addFeaturebyQuery(`S_A${x}_T1|features`, CONST.VAR_FTR);
+                    
                     this.$("Stopic1|Sselected").show();                   
 
                     this.setSceneValue("Topic Index:" + 1);
                     break;
 
                 case "Sbutton2":
-                    this.setModuleValue("selectedTopic", {"ontologyKey":`S_A${x}_T2`,"index":"2"});       
+                    this.setModuleValue("selectedTopic.ontologyKey",`S_A${x}_T2`);
+                    this.setModuleValue("selectedTopic.index",2);       
+
                     this.addFeaturebyQuery(`S_A${x}_T2|features`, CONST.VAR_FTR);
+                    
                     this.$("Stopic2|Sselected").show();
 
                     this.setSceneValue("Topic Index:" + 2);

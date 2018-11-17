@@ -1097,7 +1097,8 @@
 						},
 						"$EFO_EG_A?|cantest": {
 							"EGA1cantest": "You can test one of these variables in your experiment.",
-							"EGA2cantest": "We can test one of these variables in the experiment."
+							"EGA2cantest": "We can test one of these variables in the experiment.",
+							"EGA3cantest": "We can test one of these variables in the experiment."
 						}
 					},
 					"segments": [
@@ -1180,6 +1181,14 @@
 							},
 							"EGA2cantest": {
 								"fileid": "1b",
+								"SSML": "We can test one of these variables in the experiment.",
+								"cues": [],
+								"duration": 2906.25,
+								"trim": 0,
+								"volume": 1
+							},
+							"EGA3cantest": {
+								"fileid": "1c",
 								"SSML": "We can test one of these variables in the experiment.",
 								"cues": [],
 								"duration": 2906.25,
@@ -4375,9 +4384,9 @@
 							},
 							"EGA3okselected": {
 								"fileid": "0c",
-								"SSML": "OK! First, design an experiment to answer this research question: Does the",
+								"SSML": "OK! First, design an experiment to answer this research question: ",
 								"cues": [],
-								"duration": 4813.583333333333,
+								"duration": 4340.958333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4725,7 +4734,7 @@
 						"$EFO_EG_A?|okselected": {
 							"EGA1okselected": "OK! You have chosen as your Research Question",
 							"EGA2okselected": "OK! We have chosen the following Research Question",
-							"EGA3okselected": "OK! First, design an experiment to answer this research question: Does the"
+							"EGA3okselected": "OK! First, design an experiment to answer this research question: "
 						},
 						"$EFO_S_A?_T?_RQ?|rqselected": {
 							"SA1T1RQ1rqselected": "Does the water temperature",

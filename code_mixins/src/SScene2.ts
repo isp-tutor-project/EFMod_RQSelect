@@ -247,7 +247,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             switch(target) {
                 case "Sbutton1":
-                    this.setModuleValue("selectedArea", {"ontologyKey":"S_A1","index":"1"});       
+                    this.setModuleValue("selectedArea.ontologyKey","S_A1");
+                    this.setModuleValue("selectedArea.index",1);       
+                    
                     this.$("Sarea1|Sselected").show();  
 
                     this.setSceneValue("Area Name:" + "physical and chemical changes");
@@ -255,8 +257,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     break;
 
                 case "Sbutton2":
-                    this.setModuleValue("selectedArea", {"ontologyKey":"S_A2","index":"2"});       
-                    // this.setModuleValue("selectedArea.ontologyKey", "S_A2");       
+                    this.setModuleValue("selectedArea.ontologyKey","S_A2");
+                    this.setModuleValue("selectedArea.index",2);       
+                    
                     this.$("Sarea2|Sselected").show();
 
                     this.setSceneValue("Area Name:" + "heat and temperature");
@@ -264,8 +267,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     break;
 
                 case "Sbutton3":
-                    this.setModuleValue("selectedArea", {"ontologyKey":"S_A3","index":"3"});       
-                    // this.setModuleValue("selectedArea.ontologyKey", "S_A3");       
+                    this.setModuleValue("selectedArea.ontologyKey","S_A3");
+                    this.setModuleValue("selectedArea.index",3);       
+                    
                     this.$("Sarea3|Sselected").show();
 
                     this.setSceneValue("Area Name:" + "forces and motion");
@@ -273,8 +277,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     break;
 
                 case "Sbutton4":
-                    this.setModuleValue("selectedArea", {"ontologyKey":"S_A4","index":"4"});       
-                    // this.setModuleValue("selectedArea.ontologyKey", "S_A4");       
+                    this.setModuleValue("selectedArea.ontologyKey","S_A4");
+                    this.setModuleValue("selectedArea.index",4);       
+                    
                     this.$("Sarea4|Sselected").show();
                     
                     this.setSceneValue("Area Name:" + "plant reproduction");
