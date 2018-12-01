@@ -116,7 +116,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             switch(target) {
                 case "Sbutton1":
-                    this.setModuleValue("selectedArea.ontologyKey","S_A1");
+                    this.setModuleValue("selectedArea.ontologyKey","S_A1|name");
                     this.setModuleValue("selectedArea.index",1);       
                     
                     this.$("Sarea1|Sselected").show();  
@@ -126,7 +126,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     break;
 
                 case "Sbutton2":
-                    this.setModuleValue("selectedArea.ontologyKey","S_A2");
+                    this.setModuleValue("selectedArea.ontologyKey","S_A2|name");
                     this.setModuleValue("selectedArea.index",2);       
                     
                     this.$("Sarea2|Sselected").show();
@@ -136,7 +136,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     break;
 
                 case "Sbutton3":
-                    this.setModuleValue("selectedArea.ontologyKey","S_A3");
+                    this.setModuleValue("selectedArea.ontologyKey","S_A3|name");
                     this.setModuleValue("selectedArea.index",3);       
                     
                     this.$("Sarea3|Sselected").show();
@@ -146,7 +146,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     break;
 
                 case "Sbutton4":
-                    this.setModuleValue("selectedArea.ontologyKey","S_A4");
+                    this.setModuleValue("selectedArea.ontologyKey","S_A4|name");
                     this.setModuleValue("selectedArea.index",4);       
                     
                     this.$("Sarea4|Sselected").show();

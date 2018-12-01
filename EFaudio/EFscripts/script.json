@@ -390,16 +390,22 @@
 			"track10NOCHOICE": {
 				"en": {
 					"node": "(root)INTRO",
-					"html": "<p>{{$EFO_EG_A2|track10}}</p>",
-					"text": "{{$EFO_EG_A2|track10}}",
-					"templateRef": {},
+					"html": "<p>{{$EFO_EG_A2|track10}}{{$EFO_S_A?|nochoicearea}}{{$EFO_EG_A2|track10b}}</p>",
+					"text": "{{$EFO_EG_A2|track10}}{{$EFO_S_A?|nochoicearea}}{{$EFO_EG_A2|track10b}}",
+					"templateRef": {
+						"$EFO_S_A?|nochoicearea": "$EFM_selectedArea.ontologyKey"
+					},
 					"templates": {},
 					"segments": [],
 					"timedSet": [],
 					"trim": [
+						0,
+						0,
 						0
 					],
 					"volume": [
+						1,
+						1,
 						1
 					],
 					"cueSet": "........................................................."

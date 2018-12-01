@@ -4,6 +4,7 @@
         "S": {
             "A1":{
                 "withinarea":"Within the area of Physical and Chemical Changes,",
+                "nochoicearea":"Physical and Chemical Changes",
                 "T1":{
                     "features":"FTR_CRYSTAL",
                     "wewillselect":"we will select the topic crystal growth",
@@ -133,7 +134,8 @@
                         },
                     "RQ4":{
                         "rqselected":"Does the amount of carbon dioxide in the soda",
-                        "ExpSelected":"amount of carbon dioxide in the soda"
+                        "ExpSelected":"amount of carbon dioxide in the soda",
+                        "ExpSelected2":"The amount of carbon dioxide in the soda"
                         },
 
                     "rqselectedall":"affect the strength of the reaction between soda and mints?",
@@ -152,6 +154,7 @@
             },
             "A2": {
                 "withinarea":"Within the area of Heat and Temperature,",
+                "nochoicearea":"Heat and Temperature",
                 "T1":{
                     "features":"FTR_ICEMELT",
                     "wewillselect":"we will select the topic ice melting time",
@@ -297,6 +300,7 @@
             },
             "A3":{
                 "withinarea":"Within the area of Forces and Motion,",
+                "nochoicearea":"Forces and Motion",
                 "T1":{
                     "features":"FTR_RAMPS",
                     "wewillselect":"we will select the topic the speed of balls at the bottom of ramps",
@@ -437,6 +441,7 @@
             },
             "A4":{
                 "withinarea":"Within the area of Plant Reproduction,",
+                "nochoicearea":"Plant Reproduction",
                 "T1":{
                     "features":"FTR_GRHOUSE",
                     "wewillselect":"we will select the topic Flower Reproduction",
@@ -633,7 +638,8 @@
                 "track5":"For example, within the general area of psychology, we might select the topic attention to color.",
                 "track6":"Within that topic, we will select a research question.",
                 "track7":"For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
-                "track10":"we will select the topic, Plant Reproduction. Please click the highlighted picture below.",
+                "track10" :"we will select the topic",
+                "track10b":"Please click the highlighted picture below.",
                 "rqselectedall":""
             },
             "A3": {

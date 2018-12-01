@@ -100,6 +100,41 @@ var EFTut_Suppl;
         class SNavigator {
             $preCreateScene() {
                 this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
+                if (this.testFeatures("FTR_CHOICE")) {
+                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+                }
+                else if (this.testFeatures("FTR_NOCHOICE")) {
+                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A2");
+                }
+                else if (this.testFeatures("FTR_BASELINE")) {
+                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A3");
+                }
+                if (this.testFeatures("FTR_NCPLANTS")) {
+                    this.setModuleValue("selectedArea", { "ontologyKey": "S_A4|name", "index": 4 });
+                    this.setModuleValue("selectedTopic", { "ontologyKey": "S_A4_T1|name", "index": 1 });
+                    this.setModuleValue("selectedVariable", { "ontologyKey": "S_A4_T1_V1|name", "index": 1 });
+                    this.setModuleValue("selectedRQ", { "ontologyKey": "S_A4_T1_RQ1" });
+                    this.addFeature("FTR_GRHOUSE");
+                    this.setModuleValue("AreaSelectedID", "Sarea4|Sselected");
+                    this.setModuleValue("AreaButtonID", "Sbutton4");
+                    this.setModuleValue("TopicSelectedID", "Stopic1|Sselected");
+                    this.setModuleValue("TopicButtonID", "Sbutton1");
+                    this.setModuleValue("VariableHighlightID", "SbuttonHL1");
+                    this.setModuleValue("VariableClickMaskID", "SclickMask1");
+                }
+                else if (this.testFeatures("FTR_NCSODA")) {
+                    this.setModuleValue("selectedArea", { "ontologyKey": "S_A1|name", "index": 1 });
+                    this.setModuleValue("selectedTopic", { "ontologyKey": "S_A1_T2|name", "index": 2 });
+                    this.setModuleValue("selectedVariable", { "ontologyKey": "S_A1_T2_V4|name", "index": 4 });
+                    this.setModuleValue("selectedRQ", { "ontologyKey": "S_A1_T2_RQ4" });
+                    this.addFeature("FTR_SODA");
+                    this.setModuleValue("AreaSelectedID", "Sarea1|Sselected");
+                    this.setModuleValue("AreaButtonID", "Sbutton1");
+                    this.setModuleValue("TopicSelectedID", "Stopic2|Sselected");
+                    this.setModuleValue("TopicButtonID", "Sbutton2");
+                    this.setModuleValue("VariableHighlightID", "SbuttonHL4");
+                    this.setModuleValue("VariableClickMaskID", "SclickMask4");
+                }
             }
             $onEnterScene() {
             }
@@ -155,6 +190,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preCreateScene() {
+                this.addFeature("FTR_PASS1");
                 this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
             }
             $preEnterScene() {
@@ -642,9 +678,9 @@ var EFTut_Suppl;
                         switch (cueID) {
                             case "$start":
                                 this.$("Sarea?|Sselected").hide();
-                                this.$("Sarea4|Sselected").show();
-                                this.$("Sbutton4").show();
-                                this.$("Sbutton4").enable();
+                                this.$("{{$EFM_AreaSelectedID}}").show();
+                                this.$("{{$EFM_AreaButtonID}}").show();
+                                this.$("{{$EFM_AreaButtonID}}").enable();
                                 break;
                             case "$end":
                                 break;
@@ -658,28 +694,28 @@ var EFTut_Suppl;
                 this.setSceneValue("AreaSelected", true);
                 switch (target) {
                     case "Sbutton1":
-                        this.setModuleValue("selectedArea.ontologyKey", "S_A1");
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A1|name");
                         this.setModuleValue("selectedArea.index", 1);
                         this.$("Sarea1|Sselected").show();
                         this.setSceneValue("Area Name:" + "physical and chemical changes");
                         this.setSceneValue("Area Index:" + 1);
                         break;
                     case "Sbutton2":
-                        this.setModuleValue("selectedArea.ontologyKey", "S_A2");
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A2|name");
                         this.setModuleValue("selectedArea.index", 2);
                         this.$("Sarea2|Sselected").show();
                         this.setSceneValue("Area Name:" + "heat and temperature");
                         this.setSceneValue("Area Index:" + 2);
                         break;
                     case "Sbutton3":
-                        this.setModuleValue("selectedArea.ontologyKey", "S_A3");
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A3|name");
                         this.setModuleValue("selectedArea.index", 3);
                         this.$("Sarea3|Sselected").show();
                         this.setSceneValue("Area Name:" + "forces and motion");
                         this.setSceneValue("Area Index:" + 3);
                         break;
                     case "Sbutton4":
-                        this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A4|name");
                         this.setModuleValue("selectedArea.index", 4);
                         this.$("Sarea4|Sselected").show();
                         this.setSceneValue("Area Name:" + "plant reproduction");
@@ -760,28 +796,28 @@ var EFTut_Suppl;
                 this.setSceneValue("AreaSelected", true);
                 switch (target) {
                     case "Sbutton1":
-                        this.setModuleValue("selectedArea.ontologyKey", "S_A1");
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A1|name");
                         this.setModuleValue("selectedArea.index", 1);
                         this.$("Sarea1|Sselected").show();
                         this.setSceneValue("Area Name:" + "physical and chemical changes");
                         this.setSceneValue("Area Index:" + 1);
                         break;
                     case "Sbutton2":
-                        this.setModuleValue("selectedArea.ontologyKey", "S_A2");
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A2|name");
                         this.setModuleValue("selectedArea.index", 2);
                         this.$("Sarea2|Sselected").show();
                         this.setSceneValue("Area Name:" + "heat and temperature");
                         this.setSceneValue("Area Index:" + 2);
                         break;
                     case "Sbutton3":
-                        this.setModuleValue("selectedArea.ontologyKey", "S_A3");
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A3|name");
                         this.setModuleValue("selectedArea.index", 3);
                         this.$("Sarea3|Sselected").show();
                         this.setSceneValue("Area Name:" + "forces and motion");
                         this.setSceneValue("Area Index:" + 3);
                         break;
                     case "Sbutton4":
-                        this.setModuleValue("selectedArea.ontologyKey", "S_A4");
+                        this.setModuleValue("selectedArea.ontologyKey", "S_A4|name");
                         this.setModuleValue("selectedArea.index", 4);
                         this.$("Sarea4|Sselected").show();
                         this.setSceneValue("Area Name:" + "plant reproduction");
@@ -861,9 +897,9 @@ var EFTut_Suppl;
                     case "track1NOCHOICE":
                         switch (cueID) {
                             case "$start":
-                                this.$("Sbutton1").show();
-                                this.$("Sbutton1").enable();
-                                this.$("Stopic1|Sselected").show();
+                                this.$("{{$EFM_TopicSelectedID}}").show();
+                                this.$("{{$EFM_TopicButtonID}}").show();
+                                this.$("{{$EFM_TopicButtonID}}").enable();
                                 break;
                             case "$end":
                                 break;
@@ -879,14 +915,14 @@ var EFTut_Suppl;
                 this.delFeature(EFMod_RQSelect.CONST.FTRS_ALL, EFMod_RQSelect.CONST.VAR_FTR);
                 switch (target) {
                     case "Sbutton1":
-                        this.setModuleValue("selectedTopic.ontologyKey", `S_A${x}_T1`);
+                        this.setModuleValue("selectedTopic.ontologyKey", `S_A${x}_T1|name`);
                         this.setModuleValue("selectedTopic.index", 1);
                         this.addFeaturebyQuery(`S_A${x}_T1|features`, EFMod_RQSelect.CONST.VAR_FTR);
                         this.$("Stopic1|Sselected").show();
                         this.setSceneValue("Topic Index:" + 1);
                         break;
                     case "Sbutton2":
-                        this.setModuleValue("selectedTopic.ontologyKey", `S_A${x}_T2`);
+                        this.setModuleValue("selectedTopic.ontologyKey", `S_A${x}_T2|name`);
                         this.setModuleValue("selectedTopic.index", 2);
                         this.addFeaturebyQuery(`S_A${x}_T2|features`, EFMod_RQSelect.CONST.VAR_FTR);
                         this.$("Stopic2|Sselected").show();
@@ -1638,8 +1674,10 @@ var EFTut_Suppl;
             }
             $preEnterScene() {
                 this.setSceneValue("RQSelected", false);
-                this.$("SbuttonHL").hide();
-                this.$("SclickMask").hide();
+                this.$("SbuttonHL.*").hide();
+                if (this.testFeatures("FTR_NOCHOICE")) {
+                    this.$("SclickMask.*").show();
+                }
             }
             $preExitScene() {
             }
@@ -1684,8 +1722,8 @@ var EFTut_Suppl;
                     case "track1NOCHOICE":
                         switch (cueID) {
                             case "$start":
-                                this.$("SbuttonHL").show();
-                                this.$("SclickMask").show();
+                                this.$("{{$EFM_VariableHighlightID}}").show();
+                                this.$("{{$EFM_VariableClickMaskID}}").hide();
                                 break;
                             case "$end":
                                 break;
@@ -1695,30 +1733,31 @@ var EFTut_Suppl;
             }
             $onAction(target, evt) {
                 this.setSceneValue("RQSelected", true);
-                let tKey = this.getModuleValue("selectedTopic.ontologyKey");
+                let x = this.getModuleValue("selectedArea.index");
+                let y = this.getModuleValue("selectedTopic.index");
                 switch (target) {
                     case "Sbutton1":
-                        this.setModuleValue("selectedVariable.ontologyKey", `${tKey}_V1`);
+                        this.setModuleValue("selectedVariable.ontologyKey", `S_A${x}_T${y}_V1|name`);
                         this.setModuleValue("selectedVariable.index", 1);
-                        this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ1`, "index": "1" });
+                        this.setModuleValue("selectedRQ", { "ontologyKey": `S_A${x}_T${y}_RQ1`, "index": "1" });
                         this.setSceneValue("Variable Index:" + 1);
                         break;
                     case "Sbutton2":
-                        this.setModuleValue("selectedVariable.ontologyKey", `${tKey}_V2`);
+                        this.setModuleValue("selectedVariable.ontologyKey", `S_A${x}_T${y}_V2|name`);
                         this.setModuleValue("selectedVariable.index", 2);
-                        this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ2`, "index": "2" });
+                        this.setModuleValue("selectedRQ", { "ontologyKey": `S_A${x}_T${y}_RQ2`, "index": "2" });
                         this.setSceneValue("Variable Index:" + 2);
                         break;
                     case "Sbutton3":
-                        this.setModuleValue("selectedVariable.ontologyKey", `${tKey}_V3`);
+                        this.setModuleValue("selectedVariable.ontologyKey", `S_A${x}_T${y}_V3|name`);
                         this.setModuleValue("selectedVariable.index", 3);
-                        this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ3`, "index": "3" });
+                        this.setModuleValue("selectedRQ", { "ontologyKey": `S_A${x}_T${y}_RQ3`, "index": "3" });
                         this.setSceneValue("Variable Index:" + 3);
                         break;
                     case "Sbutton4":
-                        this.setModuleValue("selectedVariable.ontologyKey", `${tKey}_V4`);
+                        this.setModuleValue("selectedVariable.ontologyKey", `S_A${x}_T${y}_V4|name`);
                         this.setModuleValue("selectedVariable.index", 4);
-                        this.setModuleValue("selectedRQ", { "ontologyKey": `${tKey}_RQ4`, "index": "4" });
+                        this.setModuleValue("selectedRQ", { "ontologyKey": `S_A${x}_T${y}_RQ4`, "index": "4" });
                         this.setSceneValue("Variable Index:" + 4);
                         break;
                 }
@@ -1891,29 +1930,6 @@ var EFTut_Suppl;
             }
             $preEnterScene() {
                 this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
-                this.addFeature("FTR_PASS1");
-                if (this.testFeatures("FTR_BASELINE")) {
-                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A3");
-                    this.setModuleValue("selectedArea.ontologyKey", "S_A4");
-                    this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
-                    this.setModuleValue("selectedVariable.ontologyKey", "STBL_A4_T1_V1|name");
-                    this.setModuleValue("selectedRQ.ontologyKey", "S_A4_T1_RQ1");
-                    this.setModuleValue("selectedArea.index", 4);
-                    this.setModuleValue("selectedTopic.index", 1);
-                    this.setModuleValue("selectedVariable.index", 1);
-                    this.addFeature("FTR_GRHOUSE");
-                }
-                if (this.testFeatures("FTR_NOCHOICE")) {
-                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A2");
-                    this.setModuleValue("selectedArea.ontologyKey", "S_A4");
-                    this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
-                    this.setModuleValue("selectedVariable.ontologyKey", "STBL_A4_T1_V1|name");
-                    this.setModuleValue("selectedRQ.ontologyKey", "S_A4_T1_RQ1");
-                    this.setModuleValue("selectedArea.index", 4);
-                    this.setModuleValue("selectedTopic.index", 1);
-                    this.setModuleValue("selectedVariable.index", 1);
-                    this.addFeature("FTR_GRHOUSE");
-                }
             }
             $preShowScene() {
             }

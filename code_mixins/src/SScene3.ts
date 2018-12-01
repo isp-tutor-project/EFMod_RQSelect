@@ -116,10 +116,10 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     switch(cueID) {
                         
                         case "$start":
-                            this.$("Sbutton1").show();
-                            this.$("Sbutton1").enable();
+                            this.$("{{$EFM_TopicSelectedID}}").show();
 
-                            this.$("Stopic1|Sselected").show();
+                            this.$("{{$EFM_TopicButtonID}}").show();
+                            this.$("{{$EFM_TopicButtonID}}").enable();
                             break;
 
                         case "$end":
@@ -144,7 +144,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
             switch(target) {
 
                 case "Sbutton1":
-                    this.setModuleValue("selectedTopic.ontologyKey",`S_A${x}_T1`);
+                    this.setModuleValue("selectedTopic.ontologyKey",`S_A${x}_T1|name`);
                     this.setModuleValue("selectedTopic.index",1);       
 
                     this.addFeaturebyQuery(`S_A${x}_T1|features`, CONST.VAR_FTR);
@@ -155,7 +155,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                     break;
 
                 case "Sbutton2":
-                    this.setModuleValue("selectedTopic.ontologyKey",`S_A${x}_T2`);
+                    this.setModuleValue("selectedTopic.ontologyKey",`S_A${x}_T2|name`);
                     this.setModuleValue("selectedTopic.index",2);       
 
                     this.addFeaturebyQuery(`S_A${x}_T2|features`, CONST.VAR_FTR);
