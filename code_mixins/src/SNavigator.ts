@@ -20,6 +20,10 @@ namespace EFTut_Suppl.EFMod_RQSelect {
             // 
             this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
 
+            // TODO : Add a uniform way to initialize tutor variables.
+            // 
+            this.addFeature("FTR_PASS1");
+
             if(this.testFeatures("FTR_CHOICE")) {
                 this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
             }

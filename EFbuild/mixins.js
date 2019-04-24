@@ -100,6 +100,7 @@ var EFTut_Suppl;
         class SNavigator {
             $preCreateScene() {
                 this.setNavMode(EFMod_RQSelect.CONST.NAVNONE, EFMod_RQSelect.CONST.NAVSCENE);
+                this.addFeature("FTR_PASS1");
                 if (this.testFeatures("FTR_CHOICE")) {
                     this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
                 }
@@ -190,7 +191,6 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preCreateScene() {
-                this.addFeature("FTR_PASS1");
                 this.setNavMode(EFMod_RQSelect.CONST.NAVNEXT, EFMod_RQSelect.CONST.NAVSCENE);
             }
             $preEnterScene() {
@@ -1677,6 +1677,9 @@ var EFTut_Suppl;
                 this.$("SbuttonHL.*").hide();
                 if (this.testFeatures("FTR_NOCHOICE")) {
                     this.$("SclickMask.*").show();
+                }
+                else {
+                    this.$("SclickMask.*").hide();
                 }
             }
             $preExitScene() {

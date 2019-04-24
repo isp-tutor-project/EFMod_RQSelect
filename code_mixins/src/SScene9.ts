@@ -34,6 +34,9 @@ namespace EFTut_Suppl.EFMod_RQSelect {
 
             if(this.testFeatures("FTR_NOCHOICE")) {
                 this.$("SclickMask.*").show();  
+            } 
+            else {
+                this.$("SclickMask.*").hide();  
             }
         }
 

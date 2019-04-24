@@ -29,7 +29,7 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         
         public $preEnterScene() {
             this.setSceneValue("RQconfirmed", false);       
-            this.setModuleValue("RQconfirmation", "UNKNOWN");       
+            this.setModuleValue("RQconfirmation", "UNKNOWN");   
         }
 
         public $preExitScene() {

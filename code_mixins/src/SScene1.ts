@@ -23,10 +23,6 @@ namespace EFTut_Suppl.EFMod_RQSelect {
         
         public $preCreateScene() {
 
-            // TODO : Add a uniform way to initialize tutor variables.
-            // 
-            this.addFeature("FTR_PASS1");
-
             // By default disable all Navigation - Let scenes decide
             // 
             this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
