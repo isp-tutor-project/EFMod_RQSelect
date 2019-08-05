@@ -53,7 +53,8 @@
 
                     "RQ1":{
                         "rqselected":"Does the water temperature",
-                        "ExpSelected":"water temperature"
+                        "ExpSelected":"water temperature",
+                        "ExpSelected2": "The water temperature"
                     },
                     "RQ2":{
                         "rqselected":"Does the type of crystal",

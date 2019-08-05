@@ -71,6 +71,24 @@ namespace EFTut_Suppl.EFMod_RQSelect {
                 this.setModuleValue("VariableClickMaskID", "SclickMask4");      // $EFM_VariableClickMaskID
             }
 
+            else if (this.testFeatures("FTR_NCCRYSTAL")) {
+                this.setModuleValue("selectedArea", { "ontologyKey": "S_A1|name", "index": 1 });
+                this.setModuleValue("selectedTopic", { "ontologyKey": "S_A1_T1|name", "index": 1 });
+                this.setModuleValue("selectedVariable", { "ontologyKey": "S_A1_T1_V1|name", "index": 1 });
+                this.setModuleValue("selectedRQ", { "ontologyKey": "S_A1_T1_RQ1" });
+
+                this.addFeature("FTR_CRYSTAL");
+
+                this.setModuleValue("AreaSelectedID", "Sarea1|Sselected");      // $EFM_AreaSelectedID
+                this.setModuleValue("AreaButtonID", "Sbutton1");              // $EFM_AreaButtonID
+
+                this.setModuleValue("TopicSelectedID", "Stopic1|Sselected");    // $EFM_TopicSelectedID
+                this.setModuleValue("TopicButtonID", "Sbutton1");             // $EFM_TopicButtonID
+
+                this.setModuleValue("VariableHighlightID", "SbuttonHL1");       // $EFM_VariableHighlightID
+                this.setModuleValue("VariableClickMaskID", "SclickMask1");      // $EFM_VariableClickMaskID
+            }
+
 
             // DEV ONLY
             // Development only!!!!!! - define experimental group assignment
