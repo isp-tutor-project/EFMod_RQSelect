@@ -136,6 +136,19 @@ var EFTut_Suppl;
                     this.setModuleValue("VariableHighlightID", "SbuttonHL4");
                     this.setModuleValue("VariableClickMaskID", "SclickMask4");
                 }
+                else if (this.testFeatures("FTR_NCCRYSTAL")) {
+                    this.setModuleValue("selectedArea", { "ontologyKey": "S_A1|name", "index": 1 });
+                    this.setModuleValue("selectedTopic", { "ontologyKey": "S_A1_T1|name", "index": 1 });
+                    this.setModuleValue("selectedVariable", { "ontologyKey": "S_A1_T1_V1|name", "index": 1 });
+                    this.setModuleValue("selectedRQ", { "ontologyKey": "S_A1_T1_RQ1" });
+                    this.addFeature("FTR_CRYSTAL");
+                    this.setModuleValue("AreaSelectedID", "Sarea1|Sselected");
+                    this.setModuleValue("AreaButtonID", "Sbutton1");
+                    this.setModuleValue("TopicSelectedID", "Stopic1|Sselected");
+                    this.setModuleValue("TopicButtonID", "Sbutton1");
+                    this.setModuleValue("VariableHighlightID", "SbuttonHL1");
+                    this.setModuleValue("VariableClickMaskID", "SclickMask1");
+                }
             }
             $onEnterScene() {
             }

@@ -1,30 +1,30 @@
 declare namespace EFTut_Suppl.EFMod_RQSelect {
     class CONST {
-        static readonly TUTORCONTAINER: string;
-        static readonly NAVNONE: number;
-        static readonly NAVBACK: number;
-        static readonly NAVNEXT: number;
-        static readonly NAVBOTH: number;
-        static readonly NEXTSCENE: string;
-        static readonly PREVSCENE: string;
-        static readonly NAVSCENE: string;
-        static readonly NAVTUTOR: string;
+        static readonly TUTORCONTAINER = "STutorContainer";
+        static readonly NAVNONE = 0;
+        static readonly NAVBACK = 1;
+        static readonly NAVNEXT = 2;
+        static readonly NAVBOTH = 3;
+        static readonly NEXTSCENE = "nextbutton";
+        static readonly PREVSCENE = "prevbutton";
+        static readonly NAVSCENE = "SCENE";
+        static readonly NAVTUTOR = "TUTOR";
         static readonly MOUSE_MOVE: string;
         static readonly MOUSE_DOWN: string;
         static readonly MOUSE_UP: string;
         static readonly MOUSE_CLICK: string;
         static readonly DOUBLE_CLICK: string;
         static readonly CLICK: string;
-        static readonly FLATSTATE: number;
-        static readonly NORMALSTATE: number;
-        static readonly NORMALwBUBBLE: number;
-        static readonly SELECTEDSTATE: number;
-        static readonly SELECTEDwBUBBLE: number;
-        static readonly NORMALnoARROW: number;
-        static readonly SELECTEDnoARROW: number;
-        static readonly SELECTED2noARROW: number;
+        static readonly FLATSTATE = 0;
+        static readonly NORMALSTATE = 1;
+        static readonly NORMALwBUBBLE = 2;
+        static readonly SELECTEDSTATE = 3;
+        static readonly SELECTEDwBUBBLE = 4;
+        static readonly NORMALnoARROW = 5;
+        static readonly SELECTEDnoARROW = 6;
+        static readonly SELECTED2noARROW = 7;
         static readonly FTRS_ALL: any;
-        static readonly VAR_FTR: string;
+        static readonly VAR_FTR = "varsel";
         static readonly FTR_PRE: any;
         static readonly FTR_DEV: any;
     }
