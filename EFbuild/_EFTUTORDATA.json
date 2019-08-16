@@ -13,7 +13,7 @@
 				"nochoicearea": "Physical and Chemical Changes",
 				"T1": {
 					"features": "FTR_CRYSTAL",
-					"wewillselect": "we will select the topic crystal growth",
+					"wewillselect": "we will select the topic Crystal Growth.",
 					"belowarevariables": "Below are some variables that might affect the amount of crystal growth on a string in water.",
 					"enumVar1": "Water temperature",
 					"enumVar2": "The type of crystals",
@@ -84,7 +84,7 @@
 				},
 				"T2": {
 					"features": "FTR_SODA",
-					"wewillselect": "we will select the topic soda mint reactions",
+					"wewillselect": "we will select the topic Soda Mint Reactions.",
 					"belowarevariables": "Below are some variables that might affect the reaction between soda and mints.",
 					"enumVar1": "The type of sweetener in the soda",
 					"enumVar2": "The amount of caffeine in the soda",
@@ -104,7 +104,7 @@
 					"enumValue2": "The amount of caffeine in the soda",
 					"enumValue2a": "Some",
 					"enumValue2b": "None",
-					"enumValue3": "The surface Texture of the mint",
+					"enumValue3": "The surface texture of the mint",
 					"enumValue3a": "Smooth",
 					"enumValue3b": "Rough",
 					"enumValue4": "The amount of carbon dioxide in the soda",
@@ -143,7 +143,7 @@
 					"DVabb": "geyser height",
 					"buttVarName1": "The type of sweetener in the soda",
 					"buttVarName2": "The amount of caffeine in the soda",
-					"buttVarName3": "The surface Texture of the mint",
+					"buttVarName3": "The surface texture of the mint",
 					"buttVarName4": "The amount of carbon dioxide in the soda"
 				}
 			},
@@ -152,7 +152,7 @@
 				"nochoicearea": "Heat and Temperature",
 				"T1": {
 					"features": "FTR_ICEMELT",
-					"wewillselect": "we will select the topic ice melting time",
+					"wewillselect": "we will select the topic Ice Melting Time.",
 					"belowarevariables": "Below are some variables that might affect the time it takes for an ice cube to melt in water.",
 					"enumVar1": "The initial temperature of the ice cube",
 					"enumVar2": "The initial temperature of the water",
@@ -217,7 +217,7 @@
 				},
 				"T2": {
 					"features": "FTR_BALLOON",
-					"wewillselect": "we will select the topic temperature of a gas",
+					"wewillselect": "we will select the topic Temperature of a Gas.",
 					"belowarevariables": "Below are some variables that might affect the temperature of gas in a balloon.",
 					"enumVar1": "The color of the balloon",
 					"enumVar2": "The amount of sunlight exposure the balloon gets",
@@ -289,7 +289,7 @@
 				"nochoicearea": "Forces and Motion",
 				"T1": {
 					"features": "FTR_RAMPS",
-					"wewillselect": "we will select the topic the speed of balls at the bottom of ramps",
+					"wewillselect": "we will select the topic the Speed of Balls at the Bottom of Ramps.",
 					"belowarevariables": "Below are some variables that might affect the speed of balls at the bottom of ramps.",
 					"enumVar1": "The Slope of the Ramp",
 					"enumVar2": "The Color of the Ball",
@@ -352,7 +352,7 @@
 				},
 				"T2": {
 					"features": "FTR_SINKING",
-					"wewillselect": "we will select the topic the time for objects to sink",
+					"wewillselect": "we will select the topic the Time for Objects to Sink.",
 					"belowarevariables": "Below are some variables that might affect the time it takes for objects to sink in water.",
 					"enumVar1": "Density of the Water",
 					"enumVar2": "Shape of the Object",
@@ -422,7 +422,7 @@
 				"nochoicearea": "Plant Reproduction",
 				"T1": {
 					"features": "FTR_GRHOUSE",
-					"wewillselect": "we will select the topic Flower Reproduction",
+					"wewillselect": "we will select the topic Flower Reproduction.",
 					"belowarevariables": "Below are some variables that might affect the number of seeds produced by flowers in a greenhouse.",
 					"enumVar1": "The Number of honey bees in the greenhouse",
 					"enumVar2": "The Amount of sunlight the greenhouse lets in",
@@ -489,7 +489,7 @@
 				},
 				"T2": {
 					"features": "FTR_ALGAE",
-					"wewillselect": "we will select the topic Algae Reproduction",
+					"wewillselect": "we will select the topic Algae Reproduction.",
 					"belowarevariables": "Below are some variables that might affect the amount of algae produced in water.",
 					"enumVar1": "The Temperature of the Water",
 					"enumVar2": "The Amount of Exposure to Music",
