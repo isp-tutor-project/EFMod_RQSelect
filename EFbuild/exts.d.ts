@@ -37,10 +37,11 @@ declare module "thermite/TIntroControl" {
         private init3;
         Destructor(): void;
         addHTMLControls(): void;
-        hostScene: TScene;
+        set hostScene(scene: TScene);
         private hideall;
         gotoState(state: number): void;
-        alpha: number;
+        set alpha(value: number);
+        get alpha(): number;
         captureLogState(obj?: any): Object;
         captureXMLState(): any;
         restoreXMLState(stateVal: any): void;
