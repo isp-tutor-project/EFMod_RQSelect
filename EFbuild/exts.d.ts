@@ -34,14 +34,13 @@ declare module "thermite/TIntroControl" {
         constructor();
         TIntroControlInitialize(): void;
         initialize(): void;
-        private init3;
+        private init3();
         Destructor(): void;
         addHTMLControls(): void;
-        set hostScene(scene: TScene);
-        private hideall;
+        hostScene: TScene;
+        private hideall();
         gotoState(state: number): void;
-        set alpha(value: number);
-        get alpha(): number;
+        alpha: number;
         captureLogState(obj?: any): Object;
         captureXMLState(): any;
         restoreXMLState(stateVal: any): void;
@@ -65,7 +64,7 @@ declare module "thermite/TMaterialIcon" {
         constructor();
         TMaterialIconInitialize(): void;
         initialize(): void;
-        private init3;
+        private init3();
         Destructor(): void;
         captureLogState(obj?: any): Object;
         captureXMLState(): any;
@@ -95,18 +94,18 @@ declare module "thermite/TTEDExpt" {
         constructor();
         TTEDExptInitialize(): void;
         initialize(): void;
-        private init3;
+        private init3();
         onCreate(): void;
         Destructor(): void;
         setContext(_hostModule: any, _ownerModule: any, _hostScene: any): void;
-        private setState;
-        private hideAll;
+        private setState(parent, parentName, variants);
+        private hideAll(parent, parentName);
         showHighlight(...target: any[]): void;
         hideHighlight(...target: any[]): void;
         showCallOut(...target: any[]): void;
         hideCallOut(...target: any[]): void;
-        private hideTags;
-        private initFromTagData;
+        private hideTags();
+        private initFromTagData(tagData);
         deSerializeObj(objData: any): void;
     }
 }

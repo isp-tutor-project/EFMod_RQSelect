@@ -9,8 +9,8 @@ System.register("thermite/IExptTypes", [], function (exports_1, context_1) {
 });
 System.register("thermite/TIntroControl", ["core/CEFTimeLine", "thermite/TObject", "util/CUtil"], function (exports_2, context_2) {
     "use strict";
-    var CEFTimeLine_1, TObject_1, CUtil_1, TIntroControl;
     var __moduleName = context_2 && context_2.id;
+    var CEFTimeLine_1, TObject_1, CUtil_1, TIntroControl;
     return {
         setters: [
             function (CEFTimeLine_1_1) {
@@ -178,8 +178,8 @@ System.register("thermite/TIntroControl", ["core/CEFTimeLine", "thermite/TObject
 });
 System.register("thermite/TMaterialIcon", ["core/CEFTimeLine", "thermite/TObject", "util/CUtil"], function (exports_3, context_3) {
     "use strict";
-    var CEFTimeLine_2, TObject_2, CUtil_2, TMaterialIcon;
     var __moduleName = context_3 && context_3.id;
+    var CEFTimeLine_2, TObject_2, CUtil_2, TMaterialIcon;
     return {
         setters: [
             function (CEFTimeLine_2_1) {
@@ -242,8 +242,8 @@ System.register("thermite/TMaterialIcon", ["core/CEFTimeLine", "thermite/TObject
 });
 System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], function (exports_4, context_4) {
     "use strict";
-    var TObject_3, CUtil_3, TTEDExpt;
     var __moduleName = context_4 && context_4.id;
+    var TObject_3, CUtil_3, TTEDExpt;
     return {
         setters: [
             function (TObject_3_1) {
